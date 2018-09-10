@@ -2,9 +2,12 @@ var path = require('path')
 var webpack = require('webpack')
 const ExtractTextPlugin = require("extract-text-webpack-plugin")
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 module.exports = {
   entry: './src/main.js',
+  watch: true,
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
@@ -37,25 +40,42 @@ module.exports = {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]'
+            objectAssign: 'Object.assign'
         }
-      }
+    },
     ]
   },
   resolve: {
+    extensions: ['.js', '.vue'],
     alias: {
-      'vue$': 'vue/dist/vue.esm.js'
+      'vue$': 'vue/dist/vue.esm.js',
     }
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true
+    noInfo: true,
+    inline: true,
+    hot: true
   },
   performance: {
     hints: false
   },
-  plugins: [new ExtractTextPlugin("main.css")],
-  devtool: '#eval-source-map'
+  plugins: [new ExtractTextPlugin("main.css"), 
+  // new BrowserSyncPlugin({
+  //   // browse to http://localhost:3000/ during development,
+  //   // ./public directory is being served
+  //   host: 'localhost',
+  //   port: 3000,
+  //   proxy: 'http://localhost:8080/'
+  // }),
+  new webpack.HotModuleReplacementPlugin(), 
+  new CopyWebpackPlugin([
+    {
+      from: 'src/assets/',
+      to: 'assets/'
+    }
+  ])
+]
 }
 
 if (process.env.NODE_ENV === 'production') {
