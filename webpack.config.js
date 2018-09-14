@@ -42,7 +42,10 @@ module.exports = {
         options: {
             objectAssign: 'Object.assign'
         }
-    },
+    },{
+      test: /\.styl$/,
+      loader: 'css-loader!stylus-loader?paths=node_modules/bootstrap-stylus/stylus/'
+    }
     ]
   },
   resolve: {
