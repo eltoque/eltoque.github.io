@@ -1,16 +1,6 @@
 <template>
     <div class="container-fluid">
         <div class="row">
-            <div class="col text-center">
-                <h2 class="derechos-title">EL NUEVO PROYECTO Y LA ACTUAL CONSTITUCIÓN</h2>
-            </div>
-        </div>
-        <div class="row">
-        <div class="col text-justify">
-                <p class="derechos-exlpain">¿Qué avances o retrocesos contiene la propuesta de nueva Constitución con respecto a la vigente? Un análisis comparativo de ambos textos, permite filtrar de acuerdo a las siguientes cuatro categorías:</p>
-            </div>
-        </div>
-        <div class="row">
             <div class="col">
                 <button type="button" class="btn btn-info" @click="showRights('all')">Todos</button>
                 <button type="button" class="btn btn-info" @click="showRights('old')">Viejo</button>

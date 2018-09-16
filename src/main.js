@@ -12,6 +12,7 @@ import Donut from "./Donut.vue"
 import Const from "./Const.vue"
 import Rights from "./Rights.vue"
 import Navbar from "./Navbar.vue"
+import Topic from "./Topic.vue"
 
 import "./styles.css"
 
@@ -23,7 +24,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   components: {
-    Donut, Const, Rights, Navbar
+    Donut, Const, Rights, Navbar,Topic
 },
   // render: h => h(App)
 })
