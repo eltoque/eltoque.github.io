@@ -6,20 +6,24 @@ import Vuetify from 'vuetify'
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-vue/dist/bootstrap-vue.css"
-import 'vuetify/dist/vuetify.min.css' 
+import 'vuetify/dist/vuetify.min.css'
 
 import Donut from "./Donut.vue"
 import Const from "./Const.vue"
+import Rights from "./Rights.vue"
+import Navbar from "./Navbar.vue"
 
- 
+import "./styles.css"
+
+
 Vue.use(Vuetify)
 Vue.use(BootstrapVue)
-
+Vue.config.productionTip = false
 
 new Vue({
   el: '#app',
   components: {
-    Donut, Const
+    Donut, Const, Rights, Navbar
 },
   // render: h => h(App)
 })
