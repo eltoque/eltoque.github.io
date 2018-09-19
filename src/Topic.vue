@@ -1,22 +1,18 @@
 <template>
-    <div>
+    <v-app>
         <v-autocomplete
                 v-model="selected"
                 :items="items"
                 item-text="label"
                 item-value="key"
-                persistent-hint
-                box
+                append-icon=""
+                deletable-chips
                 chips
-                color="blue-grey lighten-2"
-                label="Select"
+                label="Seleccione "
                 multiple >
-            <v-slide-x-reverse-transition
-                    slot="append-outer"
-                    mode="out-in"    >
-            </v-slide-x-reverse-transition>
+
         </v-autocomplete>
-    </div>
+    </v-app>
 </template>
 
 <script>

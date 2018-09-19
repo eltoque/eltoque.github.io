@@ -1,11 +1,17 @@
 <template>
-    <div class="container-fluid">
+    <div class="container-fluid right-screen">
         <div class="row">
             <div class="col">
-                <button type="button" class="btn btn-info" @click="showRights('all')">Todos</button>
-                <button type="button" class="btn btn-info" @click="showRights('old')">Viejo</button>
-                <button type="button" class="btn btn-info" @click="showRights('new')">Nuevo</button>
-                <br/>
+                <h3>Derechos</h3>
+                <div class="text-left">
+                    <button type="button" v-ripple class="btn btn-info right-btn" @click="showRights('all')">Todos</button>
+                    <button type="button" v-ripple class="btn btn-info right-btn" @click="showRights('old')">Viejo</button>
+                    <button type="button" v-ripple class="btn btn-info right-btn" @click="showRights('new')">Nuevo</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
                 <ul class="box-rigths">
                     <template v-for="(item, index) in items">
                         <li v-ripple :key="index" v-if="visible(index)"  class="item-rights" @click="getArticle(index)">
@@ -15,7 +21,7 @@
                     </template>
                 </ul>
             </div>
-            <div class="col side-rigths">
+            <div class="col col-md-6 side-rigths">
                 <p class="rights">{{right}}</p>
                 <p class="type-rights">{{typo}}</p>
                 <p class="art-rights" ><span >{{article}}</span></p>
@@ -310,7 +316,7 @@
                 this.article = "Artículo "+this.items[index].numero;
                 this.right = this.items[index].derecho;
                 if(this.items[index].subject)
-                    this.typo ="Dirigido a: "+  this.items[index].subject;
+                    this.typo ="Para: "+  this.items[index].subject;
                 else
                     this.typo = ""
                 this.textArticle = this.items[index].texto;
@@ -332,10 +338,30 @@
 </script>
 
 <style scoped>
+    @media (max-width: 764px) {
+        .box-rigths {
+            max-height: 200px !important;
+        }
+    }
+
+    .right-screen {
+        max-width: 800px;
+    }
     .box-rigths {
-        margin-top: 10px;
+        margin-top: 5px;
         max-height: 400px;
-        overflow: scroll;
+        padding-left: 0px;
+        overflow-y: scroll;
+    }
+    h3{
+        font-family: TradeGothicLTStd-Bold;
+        color: #4c768c;
+        margin: 0px auto;
+        margin-top: 20px;
+        font-size: 26px;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 5.2px;
     }
 
     .item-rights {
@@ -343,17 +369,58 @@
         padding: 5px 10px 5px 0px;
         text-align: justify;
         list-style: none;
+        font-family: TradeGothicLTStd;
+        font-size: 14px;
     }
 
     .rights{
-        color: #d77206;
+        color: #4c768c;
+        margin-top: 0px;
+        font-family: TradeGothicLTStd-Bold;
         font-weight: bold;
+        font-size: 19px;
     }
     .side-rigths{
-        padding-top: 50px;
+        /*margin-top: 140px;*/
+        font-size: 16px;
     }
 
     .art-rights{
-        cursor: zoom-in;
+        font-family: TradeGothicLTStd-Bold;
+        font-size: 19.5px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.2px;
+        text-align: left;
+        text-transform: uppercase;
+        color: #4c768c;
     }
+
+    .type-rights {
+        color: #df640b;
+        text-transform: uppercase;
+
+    }
+
+    .right-btn {
+        font-size: 15px;
+        font-family: TradeGothicLTStd-Bold;
+        background-color: #3d6277;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        color: #f2f2f2;
+        text-align: center;
+        vertical-align: middle;
+        /*margin: 5px 5px;*/
+        width: 120px;
+        text-transform: uppercase;
+        user-select: none;
+        border: 0px;
+        height: 30px;
+        border-radius: 0px;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
 </style>
