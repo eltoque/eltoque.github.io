@@ -1,0 +1,1487 @@
+[
+  {
+    "numero": 9,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Obligación de atender al pueblo.",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular.",
+        "Ley No. 89 De la revocación de mandato de los elegidos a los órganos del Poder Popular.",
+        "Ley No. 72 Electoral (Según las disposiciones finales del Proyecto, deberá ser promulgada en los seis meses posteriores a la promulgación de la Constitución)",
+        "Ley de Procedimieno Judicial que deberá emitirse (o modificarse la existente) a los efectos de poder permitir el acceso de los ciudadanos a la justicia para el reclamo de vulneraciones de derechos de cualquier índole."
+      ],
+      "alerts": "Los principios en los que se basen los controles y las formas de interacción entre los funcionarios, empleados y la ciudadanía, deberían estar enunciados de forma general y garantizados con mecanismos de ejercicio de la ciudadanía. El Proyecto enuncia varios de ellos, pero no los sistematiza. Encomienda esa labor a la legislación posterior.  La misma que al no contar con límites constitucionales, podrá definir con total libertad, la forma en la que se ejercitará el control popular sobre el funcionariado y el Estado. Destacan en ese sentido, el sistema de rendición de cuentas, el derecho de queja y la nueva posibilidad de los ciudadanos de acceder en caso de daño por el ejercicio ilegítimo de la labor de los funcionarios o las instituciones, a los Tribunales Populares para exigir el restablecimiento del derecho o la correspondiente indemnización."
+    }
+  },
+  {
+    "numero": 10,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "El pueblo y la soberanía.",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular",
+        "Ley No. 89 De la revocación del mandato de los elegidos a los órganos del Poder Popular."
+      ],
+      "alerts": "No se establecen principios que informen el posterior ejercicio de los mecanismos de participación ciudadana en el ejercicio de la soberanía. Al dejar en manos de la Ley la determinación de la forma en que se ejercerá directamente la soberanía popular, se permite seguir considerando a mecanismos en los que no interviene el voto popular,  como formas de participación directa. La configuración de esos mecanismos en una legislación posterior ha permitido también que la iniciativa legislativa popular solo proceda en concierto con las estructuras estatales y la revocatoria de mandato solo esté limitada a los representantes municipales, pues su uso en el resto de los representantes requiere la intervención de elementos ajenos a los electores, como Comisiones de Ética con capacidad de finalizar el proceso de revocación. La otra remisión que hace el artículo tiene que ver con la normativa que regulará las estructuras del Poder Popular. Las mismas, de acuerdo a lo establecido en el Proyecto, variarán y, por ende, requerirán de una nueva regulación que las complemente."
+    }
+  },
+  {
+    "numero": 11,
+    "incisos": "a",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Límites territoriales del país.",
+      "remisiones": [
+        "Decreto-Ley 158 De la Zona Contigua"
+      ],
+      "alerts": "En este caso, la remisión no tiene que ver con la división política administrativa del país ; sino a la regulación del mar territorial y las aguas interiores que son reflejo de las regulaciones internacionales en la materia. Los principios necesarios para la regulación complementaria no están establecidos en el Proyecto, pero sí en los instrumentos internacionales aceptados por Cuba. Se considera al mar territorial como él área marítima que alcanza hasta las 12 millas marinas medidas a partir de la línea de base."
+    }
+  },
+  {
+    "numero": 11,
+    "incisos": "c",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Zona económica de Cuba",
+      "remisiones": [
+        "Decreto-Ley 2 Zona económica de Cuba",
+        "Decreto-Ley 266 Límite exterior de la zona económica exclusiva de la República de Cuba en el Golfo de México"
+      ],
+      "alerts": "La zona económica exclusiva es un concepto que puede afectar la soberanía de varios Estados y ha sido regulado por las normativas internacionales, especialmente por la Convención Internacional sobre Derecho del Mar. Allí se reconoce que la zona económica exclusiva tiene una extensión de 200 millas náuticas medidas desde la línea de base. El Decreto-Ley No. 2 del año 1977 incorpora el tema en el derecho nacional y desde el año 2009 Cuba había promulgado el Decreto-Ley 266 que regula las coordenadas hasta donde se extiende la zona económica exclusiva cubana en el Golfo de México. No obstante, atendiendo a la superposición de áreas económicas exclusivas, correspondientes a México, Estados Unidos y Cuba en el Golfo común a los tres países, y a la disputa por los posibles recursos petroleros y gasíferos, desde el año 2016 los tres Estados han renegociado ese espacio. La nueva constitución reconocería esos acuerdos."
+    }
+  },
+  {
+    "numero": 14,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": false,
+      "modification": false,
+      "content": "Funcionamiento de las asociaciones.",
+      "remisiones": [
+        "Ley No. 54 de Asociaciones",
+        "Resolución 53 de 1986 del Ministerio de Justicia"
+      ],
+      "alerts": "En Cuba existe una La Ley de Asociaciones y un Reglamento para su Registro. Ambas establecen dos principios básicos: que las asociaciones requieren para su creación la autorización del organismo que controla su actividad y del Ministerio de Justicia, y que no pueden existir dos asociaciones con iguales objetivos.  En el Proyecto se hacen depender los principios de libre asociación y voluntariedad que deben regir la conformación de asociaciones a una  legislación posterior, lo permite que las normas futuras mantengan las limitaciones hasta hoy vigentes. En el nuevo artículo, al reconocerse el desempeño de “otras formas asociativas” se deja la puerta abierta para regular otras variantes asociativas que hoy no tienen respaldo en la legislación vigente. Ejemplo de ello son las Fundaciones y los Colectivos, que pudieran ser reconocidos en una nueva Ley de Asociaciones resultante de esta transformación."
+    }
+  },
+  {
+    "numero": 17,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Integración de Tratados Internacionales al ordenamiento cubano.",
+      "remisiones": [
+        "Decreto-Ley 191/99 Sobre los Tratados Internacionales",
+        "Resolución 462 de 2008",
+        "Resolución 49 de 2009",
+        "Ley No. 59 Código Civil"
+      ],
+      "alerts": "Los Tratados ratificados implican obligaciones para los Estados que deben traducirse al ordenamiento nacional, a partir de mecanismos de recepción. El Proyecto, igual que la Constitución vigente, no define cuáles son esos mecanismos de integración y deja en manos de una Ley posterior la definición e implementación de esos asuntos. Aunque el actual Código Civil reconoce en su artículo 20 que si un acuerdo o un tratado internacional del que Cuba sea parte establece reglas diferentes a las expresadas en el Código o no contenidas en el mismo, deberá aplicarse el acuerdo o tratado. La actual normativa  hace depender su entrada en vigor de la publicación e introduce un mecanismo de limitación adicional: que el Presidente del Consejo de Estado y de Ministros puede ordenar que se publique íntegramente el texto del tratado o solamente una información sobre la ratificación, adhesión, aceptación o aprobación.  Por tanto, deberá esperarse a su publicación y a la declaración de entrada en vigor, para utilizarlo como norma de aplicación directa."
+    }
+  },
+  {
+    "numero": 21,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Formas de propiedad",
+      "remisiones": [
+        "Ley No. 59 Código Civil",
+        "Regulaciones relacionadas con el trabajo por cuenta propia",
+        "Decreto-Ley 356 y sus derivados",
+        "Ley No. 95 de Cooperativas Agropecuarias de producción y servicios",
+        "Decreto-Ley 305, sobre las Cooperativas no Agropecuarias",
+        "La Ley No. 77 de la Inversión Extranjera",
+        "Futura Ley de Empresa, que deberá regular lo relacionado con la propiedad privada y la mixta"
+      ],
+      "alerts": "La remisión ofrece una licencia contradictoria al permitir se legislen con posterioridad \"otras formas de propiedad\", contrario a lo metodología empleada en la redacción, que establece un sistema de numerus clausus (números cerrados) para establecer las diferentes formas de propiedad. Se le confiere a los reguladores posteriores no solo la capacidad de complementar el texto constitucional, sino de regular libremente el reconocimiento de nuevas modalidades de propiedad no reconocidas constitucionalmente."
+    }
+  },
+  {
+    "numero": 22,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": true,
+      "modification": false,
+      "content": "Límites a la propiedad.",
+      "remisiones": [
+        "Ley No. 95 General de la Vivienda",
+        "Decreto-Ley 356 y sus derivados",
+        "Decreto 292 en relación con la Ley 113 del Sistema Tributario",
+        "Futura Ley de Empresa"
+      ],
+      "alerts": "Establece un pronunciamiento constitucional claro. Luego de reconocer como principio que no deberá existir acumulación de riquezas en personas naturales o jurídicas no estatales, otorga facultades a la Ley para regularlo. Se legitima constitucionalmente una práctica del ordenamiento jurídico cubano. Por ejemplo, la Ley General de la Vivienda establece limitaciones con relación al número de viviendas que puede poseer una persona; las regulaciones del trabajo por cuenta propia, establecen límites al número de licencias personales permitidas; y la regulación de la compraventa de vehículos establece una tasa impositiva creciente para quienes adquieran más de un vehículo."
+    }
+  },
+  {
+    "numero": 23,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": true,
+      "modification": false,
+      "content": "Transmisión de bienes que son recursos naturales.",
+      "remisiones": [
+        "Ley No. 118 de Inversión Extranjera",
+        "Decreto 355/2017 Del Sistema Empresarial Estatal Cubano"
+      ],
+      "alerts": "Establece como principio el carácter inalienable, imprescriptible e inembargable de los bienes de propiedad estatal socialista. Sin embargo, reconoce que la legislación posterior puede disponer la transmisión de otros derechos relacionados con estos bienes y derivados de la propiedad como el uso y el disfrute. El artículo reconoce también la posibilidad de que la ley defina otros bienes. Por ejemplo, las empresas y unidades presupuestadas responden a un régimen especial relacionadas con el sistema empresarial cubano."
+    }
+  },
+  {
+    "numero": 24,
+    "leyes": {
+      "clasificacion": "Económico",
+      "correct": true,
+      "modification": false,
+      "content": "Derechos de las instituciones sobre los bienes.",
+      "remisiones": [
+        "Ley No. 29 Orgánica del Sistema Presupuestario del Estado",
+        "Leyes Anuales del Presupuesto"
+      ],
+      "alerts": "Establece como principio la existencia de unidades e instituciones presupuestadas a cargo del patrimonio público o estatal. Las formas de organizar su funcionamiento dependen de lo establecido en el ordenamiento vigente y de los montos y presupuestos que se le asignen cada año en las Leyes Anuales del Presupuesto del Estado."
+    }
+  },
+  {
+    "numero": 25,
+    "leyes": {
+      "clasificacion": "Económico",
+      "correct": false,
+      "modification": true,
+      "content": "Gestión de la propiedad de las empresas estatales.",
+      "remisiones": [
+        "Decreto 355 Del Sistema Empresarial Estatal Cubano",
+        "Futura Ley de Empresa"
+      ],
+      "alerts": "Se producen dos remisiones. La primera: la Ley definirá los límites al patrimonio con el que las empresas responderán a sus obligaciones. Eso permite que en la normativa derivada se establezcan limitaciones no reconocidas en el orden constitucional.  Deja espacio para que se mantenga en la legislación complementaria que las empresas y organizaciones superiores de dirección empresarial solo responden de sus obligaciones con sus recursos financieros y excluye los bienes materiales de las empresas estatales del patrimonio con el que responderán a sus obligaciones; afectando a posibles reclamantes de los incumplimientos de esas empresas La segunda:  permite que la legislación pueda regular otras formas de gestión de la propiedad estatal socialista además de las empresariales y de las unidades presupuestadas. Permite a los reguladores posteriores el reconocimiento de nuevas formas de gestión o administración de la propiedad estatal."
+    }
+  },
+  {
+    "numero": 26,
+    "leyes": {
+      "clasificacion": "Económico",
+      "correct": true,
+      "modification": false,
+      "content": "Principios de la empresa estatal.",
+      "remisiones": [
+        "Decreto 355 Del Sistema Empresarial Estatal Cubano",
+        "Futura Ley de Empresa"
+      ],
+      "alerts": "La remisión es solo para determinar las formas de organización empresarial y su funcionamiento. Dicha labor en la actualidad y se basa en los mismos principios ratificados por el Proyecto."
+    }
+  },
+  {
+    "numero": 28,
+    "leyes": {
+      "clasificacion": "Económico",
+      "correct": true,
+      "modification": false,
+      "content": "Inversión extranjera.",
+      "remisiones": [
+        "Ley No. 118 de la inversión extranjera"
+      ],
+      "alerts": "La remisión a la ley persigue complementar el texto sobre la base de los principios enunciados. El debate con relación a si esos son los principios que deben regir la inversión extranjera en Cuba o incluso si han sido establecidos de forma clara para impedir la discrecionalidad al momento de determinar su evaluación, se deben sostener en un campo diferente. Las regulaciones vigentes en la materia establecen la obligación de las empresas derivadas de la inversión extranjera de contratar toda la fuerza de trabajo a través de agencias empleadoras estatales. La relación laboral del trabajador no será con el inversionista extranjero, sino con la entidad empleadora estatal. Eso permite que puedan reproducirse despidos injustificados, sin posibilidades ni garantías para el trabajador.  Al enunciar que la inversión extranjera se promoverá “sobre la base de la protección y el uso racional de los recursos humanos” valida constitucionalmente este tipo de prácticas."
+    }
+  },
+  {
+    "numero": 29,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": "mixto",
+      "modification": false,
+      "content": "Venta o transmisión de tierras.",
+      "remisiones": [
+        "Decreto-Ley 125, sobre la tenencia, transmisión y herencia de la Tierra"
+      ],
+      "alerts": "La remisión en este caso es mixta. El artículo establece como principio el derecho de adquisición preferente (tanteo) que le corresponde al Estado para adquirir la tierra que su propietario pretenda enajenar. Establece además como principio la existencia de un régimen especial para regular la propiedad sobre la tierra. Sin embargo, al dejar en manos de la Ley la regulación de ese régimen, abre la posibilidad a otras limitaciones no declaradas en el Proyecto. En la legislación vigente esas limitaciones se extienden a la limitación del derecho del propietario a testar sobre la tierra y de sus herederos a disfrutarla, a menos que cumplan con el requisito de permanencia y trabajo de la misma."
+    }
+  },
+  {
+    "numero": 30,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": false,
+      "modification": false,
+      "content": "Expropiación e indemnización",
+      "remisiones": [
+        "Ley No. 7 Ley de Procedimiento, Civil, Administrativo, Laboral y Económico"
+      ],
+      "alerts": "El Proyecto, como la Constitución vigente, no establece los requisitos indispensables para que proceda la expropiación. Encomienda esa tarea a una norma específica: la Ley de Procedimiento Civil Administrativo Laboral y Económico (LPCALE) que no pone límites para determinar las razones de utilidad y necesidad justificativas de la decisión. Ese hecho podría generar una inconstitucionalidad por omisión. Queda a discreción de quienes promueven la expropiación y de los jueces ante los que se presenta, la evaluación de esos elementos."
+    }
+  },
+  {
+    "numero": 33,
+    "incisos": "a",
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": false,
+      "modification": true,
+      "content": "Ciudadanía de cubanos nacidos en el extranjero",
+      "remisiones": [
+        "Futura Ley de Ciudadanía y Reglamento complementario. El Reglamento de Ciudadanía más reciente en Cuba data del año 1944 (Decreto 358)"
+      ],
+      "alerts": "La remisión es contradictoria. Se reconoce como única excepción al principio de adquisición de la ciudadanía por nacimiento, la de los hijos de extranjeros que se encuentren al servicio de su gobierno o de organismos internacionales y luego reconoce las facultades de la Ley para determinar requisitos no reconocidos constitucionalmente, para que los hijos de los extranjeros residentes no permanentes en el país puedan considerarse cubanos por nacimiento. Esa remisión permite que las regulaciones posteriores puedan establecer otros criterios además del nacimiento en suelo cubano, para limitar la adquisición de la ciudadanía por los hijos de los residentes temporales."
+    }
+  },
+  {
+    "numero": 33,
+    "incisos": "c",
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": false,
+      "modification": false,
+      "content": "Ciudadanía de hijos de cubanos residentes en el extranjero",
+      "remisiones": [
+        "Decreto-Ley No. 352 Sobre la Adquisición de la ciudadanía cubana por nacimiento de los nacidos en el extranjero de padre o madre cubanos"
+      ],
+      "alerts": "La normativa complementaria establece limitaciones a un derecho reconocido constitucionalmente. Remite a una norma emitida recientemente que regula la posibilidad de los hijos de cubanos nacidos en el extranjero a adquirir la ciudadanía cubana y establece criterios discrecionales y de análisis previo para el otorgamiento de ese derecho. La norma reconoce que cuando el interesado, el padre o madre cubanos o representantes legales de los menores de edad interesados en adquirir la ciudadanía cubana, “hayan cometido hechos o realizado acciones contra los fundamentos políticos, sociales y económicos del Estado cubano”, se archiva el expediente iniciado y se notifica al solicitante. Se introducen de esta manera criterios restrictivos no reconocidos constitucionalmente para limitar por motivos políticos a menores de edad, derechos reconocidos a todos los ciudadanos."
+    }
+  },
+  {
+    "numero": 33,
+    "incisos": "d",
+    "leyes": {
+      "clasificacion": "Civil",
+      "content": "Ciudadanía de hijos de cubanos residentes en el extranjero",
+      "alerts": "Este artículo es completamente novedoso e implica que la regulación a la que remite, deberá tener en cuenta a los hijos de aquellas personas que hayan renunciado a la ciudadanía cubana o hayan sido privados de ésta de acuerdo a procedimientos inexistentes hoy. No contamos con una Ley de Ciudadanía, por lo que cada uno de los supuestos en que se pueda aspirar a la ciudadanía por Nacimiento, incluido el analizado, deberán ser regulados en una legislación posterior. En la práctica nunca se ha utilizada la privación de ciudadanía como recurso y no se ha regulado . Tampoco es posible su renuncia. Al facultar a la Ley para determinar y establecer las formas en que esas peticiones procederán, se permite el establecimiento posterior de limitaciones no reconocidas constitucionalmente."
+    }
+  },
+  {
+    "numero": 34,
+    "incisos": "a",
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": false,
+      "modification": true,
+      "content": "Ciudadanía cubana para extranjeros",
+      "remisiones": [
+        "Reglamento de Ciudadanía (Decreto 358 de 1944)",
+        "Futura Ley de Ciudadanía y su Reglamento complementario"
+      ],
+      "alerts": "Permite el establecimiento en normas posteriores de principios que debieron haberse enunciado constitucionalmente. El Decreto 358 de 1944, utilizado hasta hoy, reconocen como requisitos para la adquisición de ciudadanía por parte de los extranjeros, entre otros, la renuncia a su ciudadanía de origen. Este elemento entra en contradicción con lo articulado en el Proyecto que reconoce el principio de ciudadanía efectiva. Hoy la adquisición de la condición migratoria de residente permanente equipara en derechos y obligaciones a los extranjeros que la detenten y a los ciudadanos cubanos residentes en la Isla. Esa condición migratoria coloca a los extranjeros en una situación más favorable que la de muchos ciudadanos cubanos, aunque con derechos limitados. Si se valoran otros elementos reconocidos en el propio Proyecto, pudiera parecer poco práctica la adquisición de la ciudadanía cubana por parte de los extranjeros El Proyecto establece una remisión a la ley para que establezca los casos y la forma en que los extranjeros pueden ser expulsados del territorio nacional y las autoridades facultadas para decidirlo. El procedimiento establecido para la expulsión de los extranjeros es expedito (15 días) inapelable y no combatible judicialmente. Todo eso limita que los derechos de los que disfruta un extranjero residente permanente, puedan desvanecerse y convertirse en una ficción al ser sometido a un proceso de expulsión, al que no pueden ser sometidos los ciudadanos."
+    }
+  },
+  {
+    "numero": 35,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": false,
+      "modification": false,
+      "content": "Ciudadanía para cubanos dentro de Cuba",
+      "remisiones": [
+        "Artículo 2 del Decreto-Ley 288, modificativo de la Ley General de la Vivienda “El derecho a una vivienda se ejercerá en la forma y bajo los requisitos que establece la presente Ley. Cuando en esta Ley se hace mención a particulares o personas naturales, se entenderán por tales a las personas naturales cubanas con domicilio en el país y los extranjeros residentes permanentes en el territorio nacional…”"
+      ],
+      "alerts": "El Proyecto establece como principio el de ciudadanía efectiva y por ende obliga a los cubanos a regirse por su condición de nacionales mientras se encuentren en el territorio nacional. Al mismo tiempo, permite que la normativa posterior limite los derechos derivados de la condición de ciudadanos. En la práctica se reconoce la condición de ciudadanos a los efectos de exigir obligaciones, pero se hacen depender los derechos derivados de ser ciudadanos a la condición de residentes en el territorio nacional. La imposibilidad de los cubanos no residentes en la Isla de acceder gratuitamente a servicios públicos, garantizados a todos los ciudadanos y la de adquirir propiedades en el territorio nacional, son solo algunos ejemplos de limitaciones que establece el ordenamiento vigente y que no serán variadas de acuerdo a lo reconocido en el Proyecto."
+    }
+  },
+  {
+    "numero": 37,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": true,
+      "modification": true,
+      "content": "Pérdida y renuncia de la ciudadanía",
+      "remisiones": [
+        "Reglamento de Ciudadanía (Decreto 358 de 1944)",
+        "Futura Ley de Ciudadanía y su Reglamento complementario",
+        "En la práctica el Ministerio del Interior es el órgano competente para manejar las cuestiones migratorias."
+      ],
+      "alerts": "El mandato del Proyecto implica la regulación de un procedimiento, inexistente en la actualidad, para formalizar la pérdida y renuncia de la ciudadanía. No existe una Ley de Ciudadanía ni un Reglamento. Hoy existe un “vacío legislativo” que ha de ser cubierto de acuerdo con lo establecido por el Proyecto. En la práctica nunca se ha utilizado la Privación de la Ciudadanía. La redacción permite que la legislación posterior establezca criterios diferentes a la voluntad del implicado para acceder a la renuncia de la ciudadanía o para privar de su disfrute a quienes las autoridades consideren. Hoy se entiende que se necesita la decisión administrativa de una autoridad competente, vinculada con el Ministerio del Interior, para poder renunciar a la ciudadanía cubana. Esto ha generado una inconstitucionalidad por omisión, pues se ha hecho imposible la materialización de un derecho reconocido constitucionalmente. El Proyecto mantiene indefinido el tipo de procedimiento y las autoridades que lo ejecutarían."
+    }
+  },
+  {
+    "numero": 38,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": false,
+      "modification": true,
+      "content": "Recuperación la ciudadanía",
+      "remisiones": [
+        "Reglamento de Ciudadanía (Decreto 358 de 1944)",
+        "Futura Ley de Ciudadanía y su Reglamento complementario",
+        "En la práctica el Ministerio del Interior es el órgano competente para manejar las cuestiones migratorias, muy probablemente las normas a las que remite el Proyecto, de promulgarse, serán emitidas por las autoridades de dicho órgano."
+      ],
+      "alerts": "Se ha facultado a quien regule posteriormente para establecer los principios que regirán la recuperación de la ciudadanía, así como para determinar la forma y los casos en los que procederá. Se entrega así a las autoridades la posibilidad de definir quiénes pueden ser titulares de un derecho constitucional, otorgando de esta forma a terceros un poder constitucional indirecto."
+    }
+  },
+  {
+    "numero": 49,
+    "leyes": {
+      "clasificacion": "Penal",
+      "content": "Sanciones por ejercer violencia o coacción en el proceso penal",
+      "remisiones": [
+        "Ley No. 62 Código Penal"
+      ],
+      "alerts": "Al igual que la Constitución vigente, el Proyecto consagra la libertad e inviolabilidad de la integridad personal y lo extiende expresamente a la persona detenida o presa. Como consecuencia, proscribe el uso de la violencia o la coacción sobre las personas para forzarlas a declarar, y establece la nulidad de las declaraciones obtenidas mediante violencia o coacción, así comoprevé la posibilidad de sancionar a los responsables, conforme a lo establecido en la Ley. El Código Penal vigente, el Código de Ética de los miembros de la Policía Nacional Revolucionaria y el Reglamento del sistema penitenciario, en perfecta consonancia con el proyecto, prohíben el uso de castigos, coacción, tratos crueles, inhumanos o tortura. Sin embargo, todas esas menciones no implican sanciones específicas para los infractores. La consecuencia legal más clara es la de la nulidad de las pruebas obtenidas con infracción las normas emitidas al respecto. El delito de tortura no está tipificado en la legislación penal, a pesar de que el Estado cubano es parte de la Convención Internacional contra la Tortura desde el año 1995."
+    }
+  },
+  {
+    "numero": 50,
+    "leyes": {
+      "clasificacion": "Procesal",
+      "correct": false,
+      "modification": false,
+      "content": "Habeas Corpus",
+      "remisiones": [
+        "Ley No. 5 de procedimiento penal"
+      ],
+      "alerts": "El Habeas Corpus es la garantía fundamental para garantizar tutela judicial a todos aquellos que consideren que han sido privados ilegítimamente de libertad. Al hacer depender el Habeas Corpus de una legislación posterior y no establecer, al menos, los principios internacionalmente reconocidos como inviolables, no se obliga al legislador posterior a superar las deficiencias de la norma que en la actualidad regula el Habeas Corpus. La Ley de Procedimiento Penal vigente declara improcedente el Habeas Corpus e impide que los Tribunales valoren el fondo de la solicitud, cuando existe un Auto de Prisión Provisional emitido por el Fiscal en contra del acusado. La Ley de Procedimiento Penal vigente reconoce la legalidad de todos los autos de prisión provisional y niega el derecho de los ciudadanos de recurrir judicialmente ese tipo de decisiones. La propuesta hecha por el Proyecto no garantiza que pueda revertirse esa situación."
+    }
+  },
+  {
+    "numero": 52,
+    "leyes": {
+      "clasificacion": "Procesal",
+      "correct": false,
+      "modification": false,
+      "content": "Motivos para penetrar en el domicilio",
+      "remisiones": [
+        "Ley No. 5 de procedimiento penal"
+      ],
+      "alerts": "La protección del domicilio solo puede quebrarse por razones justificadas legalmente, que casi siempre responden a razones penales. Este artículo remite a la Ley de Procedimiento Penal que regula las formas de vulnerar derechos por motivos penales.  Esta Ley establece la posibilidad de ingresar en domicilio privado mediando la autorización del propietario o una resolución fundada del Instructor Penal aprobada por el Fiscal. La legislación vigente no establece la necesidad de que un tercero ajeno al proceso sea quien determine la real necesidad de violar derechos fundamentales del detenido o de terceras personas. El Instructor y el Fiscal son partes del proceso penal y son las partes encargadas de destruir el estado de presunción de inocencia del encausado. Son también las autoridades que pueden determinar cuándo puede ser vulnerada la inviolabilidad domiciliaria. Esa práctica es contraria a las consideraciones internacionales sobre el debido proceso. A escala internacional se reconoce la necesidad de que un tercero ajeno a la investigación y casi siempre vinculado a la administración de justicia, sea quien considere la pertinencia de la violación de derechos fundamentales, incluso en causas penales. El Proyecto deja sin definir la autoridad que debe autorizar la violación del domicilio o los principios básicos para su definición y deja en manos de la Ley, como hasta ahora, ese particular."
+    }
+  },
+  {
+    "numero": 53,
+    "leyes": {
+      "clasificacion": "Procesal",
+      "correct": false,
+      "modification": false,
+      "content": "Escuchas de las comunicaciones privadas",
+      "remisiones": [
+        "Ley No. 5 de procedimiento penal"
+      ],
+      "alerts": "La privacidad de la correspondencia es un derecho fundamental que, de acuerdo a la legislación vigente, puede ser violado, sin necesidad incluso de la participación de la Fiscalía. Aunque es parte encargada de destruir el principio de presunción de inocencia, también es formalmente la encargada de velar por el cumplimiento de la legalidad. La ley de Procedimiento Penal vigente reconoce un amplio catálogo de conductas que puede acometer el Instructor en contra de la privacidad de las comunicaciones, sin necesidad de otras autorizaciones. La autoridad que puede autorizar la vulneración de la privacidad de las comunicaciones o los principios básicos para su definición, no han sido esclarecidos por el nuevo Proyecto constitucional. Por ende, la legislación complementaria a la que se remite podrá seguir facultando al investigador para que en sus pesquisas pueda definir sin mayores autorizaciones o controles cuando invadir la esfera privada de los encausados."
+    }
+  },
+  {
+    "numero": 54,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": false,
+      "modification": false,
+      "content": "Derecho a entrar, permanecer y transitar en el territorio nacional",
+      "remisiones": [
+        "Decreto 271 de 1997,"
+      ],
+      "alerts": "El Proyecto remite a una Ley inexistente hoy y entrega a reguladores posteriores facultades constitucionales. Impone una jerarquía normativa inversa pues más que acomodar la norma posterior a la Constitución, legitima la limitación de movimiento de los ciudadanos cubanos hacia la capital del país introducida a partir del año 1997 por el Decreto 271, del Consejo de Ministros, y expone la protección de los derechos colectivos, como justificación para limitar derechos individuales, cuando en el fondo se trata de decisiones políticas."
+    }
+  },
+  {
+    "numero": 55,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Conocer datos personales.",
+      "remisiones": [
+        "No hay nada regulado hasta el momento"
+      ],
+      "alerts": "Esta es la primera vez que en el ordenamiento cubano se hace mención al Habeas Data (datos presentes). Sin embargo, con la forma en la que se ha redactado se permite a una nueva legislación restringir su alcance. El Habeas Data es una garantía que debe tener una materialización judicial. La doctrina reconoce que su mecanismo de inicio es a partir de acciones que se presenten ante un tribunal. Si ese punto particular no se establece desde la Constitución, la legislación posterior puede reconocer mecanismos administrativos para su ejercicio, lo cual limitaría la esencia misma del derecho. Además, el Proyecto limita el Habeas Data a los registros públicos. La doctrina ha reconocido que el derecho a conocer los datos personales se extiende tanto a los registros públicos como privados. Lo cual comprende no solo los registros controlados por el Estado, sino que extiende la protección a empresas e instituciones que con el avance de las nuevas tecnologías de la información hayan creado bases de datos sobre las personas, incluso con fines comerciales."
+    }
+  },
+  {
+    "numero": 57,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": false,
+      "modification": false,
+      "content": "Uso y disfrute de la propiedad",
+      "remisiones": [
+        "Decreto-Ley 125, Régimen de posesión, propiedad y herencia de la tierra y los bienes agropecuarios"
+      ],
+      "alerts": "Este artículo más que remitir a una Ley en específico, permite el establecimiento por reguladores posteriores de limitaciones al principio universal de la libertad en el ejercicio de los derechos derivados de la propiedad. Al condicionar el ejercicio de esos derechos, se permite el establecimiento de regímenes especiales. De eliminarse la remisión, por ejemplo, se reconocería la libre disposición, uso y disfrute de la propiedad y se impediría el desarrollo de limitaciones como las reconocidas para la disposición de la tierra de los pequeños agricultores, limitada a la venta al Estado."
+    }
+  },
+  {
+    "numero": 58,
+    "leyes": {
+      "clasificacion": "Procesal",
+      "correct": false,
+      "modification": true,
+      "content": "Confiscación de bienes",
+      "remisiones": [
+        "Decreto- Ley No. 99 De las Contravenciones Personales"
+      ],
+      "alerts": "Este artículo no elimina las facultades que confiere al ordenamiento posterior para determinar las autoridades que podrán disponer la confiscación de bienes. Se podrían mantener regulaciones como el Decreto-Ley 149 y el Decreto-Ley 232, que establecen la confiscación de bienes sin requerimientos especiales por autoridades administrativas. Se permite así que autoridades diferentes a las judiciales y mediante procedimientos que carecen de las garantías del debido proceso, puedan limitar el derecho constitucionalmente reconocido de uso y disfrute de la propiedad. Con el Proyecto, se elimina la práctica de limitar el acceso a los tribunales para combatir las decisiones de las autoridades administrativas. El artículo no soluciona el problema fundamental de la confiscación y es la determinación de su naturaleza. Muchos ordenamientos han prohibido la confiscación de bienes o la han reconocido como una sanción de naturaleza exclusivamente penal y que se ejecuta como medida de castigo solo al propietario de los bienes. Al omitirse esos detalles en el texto y facultarse a la legislación posterior para determinar los casos y procedimientos en que se determinará esa medida, se permite el mantenimiento de disposiciones como el artículo 52 del Decreto-Ley 164, “Reglamento de Pesca” que permite, sin esclarecer distinciones, aplicar el decomiso del producto, las artes y avíos de pesca, e incluso de las embarcaciones u otro medio utilizado para cometer la infracción. Se permite de esta forma que, de haberse utilizado un medio, como un vehículo motor, que no es propiedad del sancionado, para trasladar los productos protegidos por el Reglamento de Pesca, también se pueda autorizar su confiscación. Se produce de esta forma una afectación patrimonial a una persona que no tiene responsabilidades directas con la infracción."
+    }
+  },
+  {
+    "numero": 60,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Libertad de prensa y funcionamiento de los medios",
+      "remisiones": [
+        "Ley No. 62 Código Penal",
+        "Política de Comunicación"
+      ],
+      "alerts": "Como se ejerce la libertad de prensa y el estado establece los principios de organización y funcionamiento de los medios. Se hace depender el ejercicio de un derecho que han declarado librea normativas posteriores, sin las cuales el ejercicio libre de la prensa no tiene vida propia y que pueden limitar el ejercicio de ese derecho. Este artículo confiere facultades constitucionales indirectas a quienes regulen con posterioridad sobre el derecho de libertad de prensa. Además, hace depender solamente de la voluntad estatal, sin remitir a la Ley, la determinación de las formas de propiedad y los principios por lo que se regirán los medios de prensa no fundamentales."
+    }
+  },
+  {
+    "numero": 61,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Derecho de reunión, manifestación y asociación",
+      "remisiones": [
+        "Ley No. 54 de Asociaciones",
+        "Ley No. 21 Código Penal en su artículo 208. 1 condena a quienes se asocien o afilien asociaciones no inscriptas en el Registro correspondiente y el 209 sanciona a quien participe en reuniones o manifestaciones celebradas con infracción de las disposiciones que regulan el ejercicio de esos derechos"
+      ],
+      "alerts": "Solo se reconocerá el derecho de reunión, manifestación y asociación si se cumple con los requisitos establecidos por las autoridades. Dicha regulación liquida la esencia misma del derecho de reunión y asociación como armadura del ciudadano y lo convierte en una herramienta del Estado para modelar de acuerdo a sus valoraciones. La falta de regulaciones posteriores sería suficiente para no reconocer el derecho y por ende negar su ejercicio. Así ha acontecido hasta la fecha con los derechos de manifestación y reunión, nunca regulados después de la Constitución de 1976. En el caso del Derecho de Asociación existe una Ley de Asociaciones que se rige no por principios de voluntariedad sino por principios relacionados con autorizaciones previas y originalidad, evaluado todo por organismos de la administración central del Estado."
+    }
+  },
+  {
+    "numero": 64,
+    "leyes": {
+      "clasificacion": "Procesal",
+      "correct": false,
+      "modification": true,
+      "content": "Quejas y peticiones",
+      "remisiones": [
+        "Ley No. 7 de Procedimiento, Civil, Administrativo, Laboral y Económico.",
+        "Decreto Ley 67, De la Organización de la Administración Central del Estado"
+      ],
+      "alerts": "El derecho de queja, desde la Constitución vigente, es entendido como mecanismo de defensa ciudadana. Sin embargo, la materialización del derecho depende de regulaciones posteriores. La queja ha sufrido de la inconstitucionalidad por omisión: muchas son las instituciones que nunca han regulado, o por lo menos no han publicitado, los procedimientos y los mecanismos para hacer efectivo el derecho de queja. La remisión a un ordenamiento posterior genera otro problema. Según el orden constitucional vigente y el regulado en el Proyecto, la Fiscalía es el órgano encargado de velar por la legalidad y las vulneraciones de la misma. Sin embargo, no existe un mecanismo público para controlar el ejercicio de la Fiscalía y mucho menos para exigir la ejecución de las decisiones derivadas de sus investigaciones. El artículo del Proyecto no reconoce al derecho de queja como un mecanismo sustituto de las acciones judiciales. Sin embargo, otros elementos del ordenamiento vigente dificultan el acceso a la justicia y dejan solo el derecho de queja como mecanismo para exigir el restablecimiento de situaciones que vulneran derechos fundamentales. Entre ellos, la inexistencia de un eficiente mecanismo de control constitucional. Las actuaciones de hecho, la inactividad o el silencio de la Administración, son respuestas muy comunes al ejercicio del derecho de queja en Cuba y contra estas conductas, el ciudadano se encuentra totalmente desprotegido. La redacción del Proyecto no impide o garantiza la no repetición de este tipo de situaciones."
+    }
+  },
+  {
+    "numero": 65,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": false,
+      "modification": false,
+      "content": "Creación intelectual",
+      "remisiones": [
+        "Ley No. 14 De Derecho de Autor",
+        "Decreto-Ley 290 De las invenciones, dibujos y modelos industriales"
+      ],
+      "alerts": "La remisión es inexacta, pues permite no solo que los derechos sean configurados por una legislación posterior, que no contará con principios constitucionales que la informe, sino también por políticas públicas que no necesariamente tienen que tener una expresión regulatoria. Los derechos relacionados con la propiedad intelectual, tanto de autor como los de propiedad industrial, han estado mediados en Cuba por el control Estatal. Por ejemplo, las agencias de gestión colectiva (para la gestión de los derechos de autor) son autorizadas previamente por el Estado y reguladas por el organismo de la Administración Central del Estado que controla la actividad. Las formas de remuneración de los derechos derivados del uso de patentes y licencias, no se basan en la independencia de los titulares, sino que se regula y configura a partir de mecanismos definidos por el propio Estado."
+    }
+  },
+  {
+    "numero": 66,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": false,
+      "modification": false,
+      "content": "Sucesiones de la propiedad",
+      "remisiones": [
+        "Ley No. 59 Código Civil",
+        "Decreto-Ley 125, Régimen de posesión, propiedad y herencia de la tierra y los bienes agropecuarios"
+      ],
+      "alerts": "El derecho de sucesiones es un derecho que tiene claramente definido su alcance: la transmisión total del patrimonio del causante (fallecido) una vez que se produzca su deceso. La remisión no condiciona la existencia del derecho, pero permite que la Ley posterior, pueda establecer limitaciones al patrimonio que puede transmitirse voluntariamente. O incluso, el que puede heredarse cumpliendo los principios generales reconocidos en la legislación, cuyas bases provienen del derecho romano. El texto ha sido redactado de esta manera para mantener intacto el régimen especial de herencia de la tierra. En este caso, la normativa vigente impide que los propietarios de la tierra puedan testar libremente sobre esta y reconoce derechos solo a los herederos intestados que hubiesen trabajado la tierra, cinco años antes de la muerte del propietario. Así mismo, el ordenamiento vigente extrae de la jurisdicción civil la solución de los conflictos relacionados con la herencia de la tierra, negándole a los afectados la posibilidad de disfrutar de las garantías que este tipo de procesos confiere."
+    }
+  },
+  {
+    "numero": 68,
+    "leyes": {
+      "clasificacion": "Familia",
+      "correct": true,
+      "modification": true,
+      "content": "Matrimonio",
+      "remisiones": [
+        "Ley No. 1289 Código de Familia",
+        "Ley No. 9 Modificativa al Código de Familia"
+      ],
+      "alerts": "Cuba, desde la década de 19700 se convirtió en uno de los primeros países de América en separar la regulación de la materia legal puramente civil de la de Familia. La regulación del matrimonio y los derechos y obligaciones derivados de ellos, como, por ejemplo, el manejo y liquidación de la comunidad matrimonial de bienes o el sostén y disfrute de los hijos ha sido regulado en un Código de Familia. Al variarse la conceptualización de matrimonio, que ahora se reconoce como la unión de dos personas, se debe promulgar un nuevo Código que regule los cambios que se han producido en la esfera familiar cubana."
+    }
+  },
+  {
+    "numero": 69,
+    "leyes": {
+      "clasificacion": "Familia",
+      "content": "Procedimientos para el reconocimiento de la paternidad."
+    }
+  },
+  {
+    "numero": 77,
+    "leyes": {
+      "clasificacion": "Laboral",
+      "correct": true,
+      "modification": false,
+      "content": "Trabajo de adolescentes de 15 y 16 años",
+      "remisiones": [
+        "Ley No. 118 Código de Trabajo"
+      ],
+      "alerts": "El Proyecto, establece que las niñas y los niños no pueden trabajar y solo los adolescentes mayores de 15 y 16 años, pueden hacerlo en circunstancias excepcionales. Son esas circunstancias, que deberán tener carácter excepcional, pues así lo establece el propio Proyecto, las únicas que definirá el regulador posterior. En ese sentido, el Código de Trabajo, promulgado en el 2013, ya establece las circunstancias excepcionales en las que los adolescentes pueden incorporarse a trabajar."
+    }
+  },
+  {
+    "numero": 78,
+    "leyes": {
+      "clasificacion": "Laboral",
+      "correct": true,
+      "modification": false,
+      "content": "Excepciones a la jornada de ocho horas",
+      "remisiones": [
+        "Ley No. 116 Código del trabajo"
+      ],
+      "alerts": "Los criterios de excepcionalidad en la extensión de la jornada laboral son determinados, según el Código de Trabajo, por el Comité Estatal de Trabajo y Seguridad Social, oído el criterio de la Central de Trabajadores de Cuba y a partir de la solicitud de diferentes autoridades. El Proyecto establece como principio la jornada laboral de 8 horas, por tanto, el resto de las variaciones que puedan darse en menor o mayor extensión, deberán regirse por criterios de excepcionalidad. El Código de Trabajo vigente establece cuáles son esos criterios, con la consecuente preceptiva del derecho al descanso, tal como lo indica también el Proyecto."
+    }
+  },
+  {
+    "numero": 81,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Protección a personas sin recursos ni amparo",
+      "remisiones": [
+        "Ley No. 105 de la Seguridad Social.",
+        "Decreto Ley número 278, que protege a estos trabajadores y sus familiares según las características de la actividad que realizan ante los riesgos de enfermedades, accidentes, invalidez; así como la maternidad de la mujer trabajadora",
+        "Decreto Ley 298, garantiza la protección a los usufructuarios de tierras",
+        "Decreto Ley 306, para proteger a los trabajadores de las Cooperativas no Agropecuarias",
+        "Decreto Ley 312, del año 2013, que protege a los artistas y creadores de ese sector",
+        "Decreto Ley 351, dirigido a la protección de los cooperativistas de unidades básicas de producción cooperativa"
+      ],
+      "alerts": "El Proyecto ofrece principios generales sobre los cuáles deberá regularse esa asistencia y la reconoce como una obligación del Estado. La regulación vigente relacionada con la seguridad social es amplia y cubre no solamente los sectores vinculados al sector estatal de la economía."
+    }
+  },
+  {
+    "numero": 82,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": true,
+      "modification": false,
+      "content": "Derecho a la vivienda",
+      "remisiones": [
+        "Ley No. 81 del Medio Ambiente",
+        "Decreto 272, Contravenciones en materia de ordenamiento territorial y urbanismo",
+        "Ley No. 65 General de la Vivienda",
+        "Multiples normas de la Construcción, de IPF y de la Vivienda, relacionadas con los permisos y las formas de construcción por esfuerzo propio"
+      ],
+      "alerts": "El Proyecto no reconoce como una obligación del Estado garantizar una vivienda digna a los ciudadanos. Se limita a enunciar que el Estado \"trabaja\", a través de programas de construcción de viviendas en los que participan entidades o la población directamente, para favorecer el disfrute de ese derecho. La remisión a las leyes y al ordenamiento territorial, no se hace para generar el mecanismo de cumplimiento o para condicionar una obligación que es inexistente. Se hace con el objetivo de anunciar que las políticas del Estado para favorecer el disfrute de una vivienda digna, se regirán por el ordenamiento territorial y urbano. La Ley No. 81/1997 del Medio Ambiente, reconoce con un fin de protección ambiental que el ordenamiento ambiental interactuará con el territorial, aportándole lineamientos, regulaciones y normas. Son esas normas y las derivadas de ellas a las que remite el texto del Proyecto cuando habla de ordenamiento territorial."
+    }
+  },
+  {
+    "numero": 83,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Servicios de salud pública",
+      "remisiones": [
+        "Futura Ley de Salud Pública",
+        "Futuras normativas de Finanzas y Precios determinando los costos de los servicios de salud"
+      ],
+      "alerts": "Por primera vez en la historia de la Revolución se anuncian limitaciones a la gratuidad universal de la salud. La redacción del artículo solamente reconoce el acceso y la gratuidad a servicios que califica, pero no define si existe algún servicio de salud de otro tipo diferente a los enunciados. Ambas omisiones generan una considerable inseguridad jurídica, pues permite una total discrecionalidad en la calificación y determinación posterior del alcance de los servicios contemplados y de la forma en que se prestarán los no mencionados. La remisión a la Ley en este caso es utilizada como un mecanismo indirecto de constitucionalidad. Se vulnera en primer orden el declarado principio de progresividad de los derechos, declarado por el propio Proyecto. Se abandona el criterio de gratuidad absoluta utilizado por la Constitución vigente y se implementa la posibilidad de que una norma de rango inferior a la Constitución pueda establecer excepciones a los servicios no mencionados en el Proyecto."
+    }
+  },
+  {
+    "numero": 84,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Obligación y acceso al estudio",
+      "remisiones": [
+        "Resolución 357 del 2015 del Ministro de Educación \"Reglamento Escolar\"",
+        "Resolución 133 del 2004 del Ministro de Educación Superior \"Reglamento de la Educación de Posgrado de la República de Cuba\""
+      ],
+      "alerts": "El alcance de la obligatoriedad de estudiar y la preparación general básica que, como mínimo, debe adquirir todo ciudadano. La forma en que las personas adultas acceden a la educación. Por primera vez en la historia de la Revolución se anuncian limitaciones a la gratuidad universal de la educación. El artículo establece como principio la gratuidad limitada, lo que constituye también una vulneración al principio de progresividad de los derechos, reconocido por el propio Proyecto. Faculta a otros organismos para definir el alcance de la obligatoriedad de estudiar, establecido en la actualidad hasta la finalización de la educación secundaria. El artículo establece como obligación del Estado garantizar la educación de posgrado, aunque remite a normas, que serán de nueva promoción y donde podrían incorporarse los mecanismos de cobro por estudiar."
+    }
+  },
+  {
+    "numero": 89,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": true,
+      "modification": false,
+      "content": "Derechos de los consumidores",
+      "remisiones": [
+        "Resolución 54 del 2018 de la Ministra de Comercio Interior."
+      ],
+      "alerts": "El reconocimiento del derecho de los consumidores a disfrutar de bienes y servicios de calidad, a acceder a información adecuada y veraz sobre éstos y a recibir un trato equitativo, constituyen declaraciones de principios que constituyen por si mismas postulados constitucionales de aplicación directa. Sin embargo, hacer depender los derechos de los consumidores de una legislación posterior elimina su rango constitucional. Entre los derechos de los consumidores, se enuncia la posibilidad de contar con compensación, indemnización y reparación por daños y perjuicios causados, pero solo en los casos en los que “corresponda”. Esa correspondencia es establecida según la legislación vigente por los propios proveedores. Al establecer un sistema interno en el que el generador del daño es el que determina la cuantía de resarcimiento por su propia conducta, se impide que el consumidor reciba una compensación por el monto total de la afectación, que puede ser superior al simple valor del bien o del servicio defectuoso. La fórmula ofrecida por el artículo no elimina o impide la no repetición de las situaciones descritas."
+    }
+  },
+  {
+    "numero": 90,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Participación en la vida culural y artística",
+      "remisiones": [
+        "Decreto-Ley 312 “Sobre la Seguridad Social de los creadores, artistas, técnicos y personal de apoyo, así como de la protección especial a los trabajadores asalariados del sector”",
+        "Resolución 70 del 2013 del Ministro de Cultura “Reglamento para el sistema de contratación artística, comercialización y retribución en las manifestaciones de la música y los espectáculos y de las artes escénicas, en el territorio nacional”",
+        "Resolución 44 del 2014 del Ministro de Cultura “Reglamento para el sistema de relaciones de trabajo de los trabajadores pertenecientes a la rama artística”",
+        "Resolución 45 del 2014 del Ministro de Cultura “Reglamente del sistema de evaluación de los trabajadores de la rama artística”",
+        "Resolución 63 del 2014 del Ministro de Cultura “Reglamento del Registro Nacional del Creador de Obras de las Artes Plásticas y Aplicadas”",
+        "Decreto 349 de 2018 “Contravenciones de las regulaciones en materia de política cultural y sobre prestación de servicios artísticos”"
+      ],
+      "alerts": "El Proyecto reconoce como principio el derecho de los ciudadanos a participar en la vida cultural y artística de la nación. Internacionalmente se reconoce que la libertad artística incluye los derechos a gozar de la libertad de expresión y de creación, a participar en la vida cultural y a disfrutar de las artes. El proyecto reconoce solo uno de los derechos que internacionalmente se reconoce que derivan de la libertad artística. La remisión de la ley general a una legislación específica en este caso no tiene que ver directamente con el derecho reconocido, sino con los condicionamientos que regirán la obligación estatal de promover la cultura y las manifestaciones artísticas. La promoción, estrechamente relacionada con la posibilidad de difundir la obra artística, estará regida en primer orden por la “política cultural”. Al reconocer a la “política cultural” como una condicionante para la promoción del arte, se legitima desde la Constitución la posibilidad de limitar por un documento sin carácter de ley una de las facultades derivadas del derecho a la libertad artística. También permite el mantenimiento de la Evaluación Artística como requisito para autorizar a un artista a contratarse con las entidades estatales que pueden representarle y difundir su obra. Al ser imprescindible para la contratación y difusión de la obra de un artista, su evaluación previa por un “Comité Técnico Artístico” y la gestión de una empresa estatal, se reconoce la capacidad de los evaluadores para determinar también, por encima de los derechos de todos, quiénes pueden tener acceso a los públicos y por ende los contenidos y los artistas de los cuales los ciudadanos pueden disfrutar."
+    }
+  },
+  {
+    "numero": 91,
+    "incisos": "c",
+    "leyes": {
+      "clasificacion": "Financiero",
+      "correct": true,
+      "modification": false,
+      "content": "Contribuciones a los gastos públicos",
+      "remisiones": [
+        "Ley No. 113 Sistema Tributario"
+      ],
+      "alerts": "El Proyecto establece la obligación ciudadana de contribuir a los gastos públicos. La forma más eficiente de que los ciudadanos contribuyan a los gastos públicos es a través de los impuestos. Aquí se remite a la regulación posterior el detalle sobre las diferentes formas que pueden tomar los tributos, tasas y contribuciones que realizarán los ciudadanos para mantener al Estado."
+    }
+  },
+  {
+    "numero": 91,
+    "incisos": "e",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Servicio militar",
+      "remisiones": [
+        "Ley No. 75 de la Defensa Nacional",
+        "Ley No. 1254 del Servicio Social"
+      ],
+      "alerts": "El Proyecto continúa considerando el servicio militar como una obligación para los ciudadanos cubanos y remite a otra legislación para que complemente las formas en que se hará cumplir. Al no distinguirse claramente el género de los sujetos que quedarán bajo el efecto de la legislación complementaria, se reconoce al servicio militar no solo como una obligación de los hombres ciudadanos cubanos, tal cual lo establece la legislación vigente al efecto, sino que abre la posibilidad de que la obligación de servir con las armas pueda extenderse a las mujeres, consideradas dentro del concepto general de “ciudadano” manejado por el Proyecto. Este mismo artículo considera al servicio social de los estudiantes graduados en niveles medio superior y superior como una obligación e igualmente remite a la legislación para regular las formas en que se cumplimentará."
+    }
+  },
+  {
+    "numero": 92,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Control del Estado",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular.",
+        "Ley No. 89 De la revocación de los elegidos a los órganos del Poder Popular."
+      ],
+      "alerts": "El Proyecto aumenta el número de sujetos legitimados para convocar referendos (Artículo 222) Incluye una cifra cualificada de ciudadanos que reunida puede solicitarlos. En su glosario define además a la consulta popular como la forma de participación en la que el pueblo emite su opinión sobre determinado asunto, sin que ello tenga efectos vinculantes y permite que las autoridades municipales puedan utilizarla para ventilar asuntos de competencia local. Reconoce la iniciativa legislativa popular a partir de la recopilación de la firma de 10 mil ciudadanos, manteniendo la fórmula de la Constitución vigente. Los más importantes mecanismos de participación directa se hacen depender de leyes posteriores y se permite que se mantengan los principios que hasta hoy rigen las prácticas permitidas de control ciudadano sobre representantes electos o iniciativa legislativa."
+    }
+  },
+  {
+    "numero": 93,
+    "incisos": "c",
+    "leyes": {
+      "clasificacion": "Financiero",
+      "correct": true,
+      "modification": false,
+      "content": "Contribuciones de los extranjeros",
+      "remisiones": [
+        "Ley No. 113 del Sistema Tributario"
+      ],
+      "alerts": "La remisión no se refiere a limitaciones especiales para el caso de los extranjeros residentes permanentes. Su equiparación a la condición de cubanos los dota de los mismos derechos y obligaciones inherentes a la condición de ciudadanos. Las condiciones y limitaciones a las que se refiere en este caso tienen que ver con las propias establecidas en la ley para el ejercicio de los derechos por cualquier ciudadano y no necesariamente por los extranjeros."
+    }
+  },
+  {
+    "numero": 93,
+    "incisos": "e",
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": true,
+      "modification": false,
+      "content": "Derechos y deberes de los extranjeros en Cuba",
+      "remisiones": [
+        "Ley No. 65 General de la Vivienda",
+        "Decreto-Ley 125 Régimen de posesión, propiedad y herencia de la tierra y los bienes agropecuarios"
+      ],
+      "alerts": "La remisión no se refiere a obligaciones tributarias especiales para el caso de los extranjeros residentes permanentes. Su equiparación a la condición de cubanos los dota de todos los derechos y les confiere las mismas obligaciones. Las formas y cuantías de contribución están definidos por la legislación tributaria y se aplican de igual forma para extranjeros residentes permanentes y para cubanos."
+    }
+  },
+  {
+    "numero": 93,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Expulsión de los extranjeros",
+      "remisiones": [
+        "Ley No. 1313 de Extranjería",
+        "Decreto 27/78 Reglamento de la Ley de Extranjería"
+      ],
+      "alerts": "El Proyecto no establece los principios generales que implican la expulsión de los extranjeros del territorio nacional. otorga esas facultades a autoridades sin determinar la competencia de las mismas. Esto puede contradecir dos elementos fundamentales reconocidos en el Proyecto. El primero: la equiparación de derechos de los extranjeros residentes permanentes con los ciudadanos cubanos. De declararse aplicable a los extranjeros residentes permanentes el proceso de expulsión, se estaría generando un mecanismo paralelo para limitar los derechos que en igualdad de condiciones gozan con los ciudadanos y convertiría en una ficción jurídica la equiparación de ambos. La redacción del Proyecto al facultar a la Ley para definir los casos y la forma de expulsión, permite mantener intacto el proceso de expulsión expedito regulado en el Reglamento de la Ley de Extranjería hoy vigente, que culmina con una resolución que no admite apelación alguna ni en lo administrativo ni en lo judicial y cuyo término de ejecución en caso de decretarse la expulsión es de 72 horas. La redacción del Proyecto puede colisionar también con el derecho de asilo reconocido por él mismo, pues de mantenerse la normativa vigente, se impediría que los extranjeros solicitantes de asilo, una vez emitida la orden de expulsión, pudiesen apelar a instancias independientes para demostrar la necesidad y factibilidad de su solicitud."
+    }
+  },
+  {
+    "numero": 94,
+    "leyes": {
+      "clasificacion": "Civil",
+      "correct": true,
+      "modification": true,
+      "content": "Reclamar ante vulneraciones de derechos",
+      "remisiones": [
+        "Ley No. 7 de Procedimiento Civil, Administrativo, Laboral y Económico",
+        "Ley No. 59 Código Civil",
+        "Ley No. 4 de Organización del Sistema Judicial"
+      ],
+      "alerts": "Esta es una remisión novedosa no solo a la Ley de Procedimiento, que debe establecer el proceso para judicializar todas las reclamaciones relacionadas con vulneraciones de Derecho, sino también a otras leyes como el Código Civil que reconoce criterios previos al de los jueces para calificar como ilícito un acto dañoso de una autoridad. Hoy la posibilidad de reclamación de daños por actos de funcionarios estatales depende de que la autoridad estatal superior del funcionario determine que el acto es realmente ilícito. Sin esa determinación, no puede recurrirse a la vía judicial, lo que hace del resarcimiento en este tipo de casos una mera ilusión. No obstante, el artículo solo se refiere al derecho de daños, no cumplimenta el principio de tutela judicial efectiva, que reconoce la posibilidad ciudadana de acceder a los tribunales para discutir la vulneración de cualquiera de sus derechos. El daño implica una diferencia en el patrimonio económicamente valorable de los ciudadanos, por lo que el resto de las vulneraciones de derechos, que no generen afectaciones económicamente valorables, no podrán ser combatidas ante los Tribunales Populares. El Proyecto tampoco obliga a eliminar los obstáculos que la Ley de Procedimiento Civil, Administrativo, Laboral y Económico (LPCALE) establece para el acceso a la justicia.  La norma impide que los Tribunales conozcan de asuntos relacionados con la defensa nacional, la seguridad del Estado, el orden público y las medidas adoptadas en circunstancias excepcionales para salvaguardar los intereses generales, las transacciones en divisas o valores extranjeros y el control de cambios, la planificación de la economía nacional, las materias constitucionales, la actividad educacional y la disciplina escolar y estudiantil, el ejercicio de la potestad discrecional de la administración y los acuerdos del Consejo de Estado y del Consejo de Ministros."
+    }
+  },
+  {
+    "numero": 99,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Cantidad de diputados",
+      "remisiones": [
+        "Ley No. 72 Electoral (Según las disposiciones finales del Proyecto, deberá ser promulgada en los seis meses posteriores a la promulgación de la Constitución)"
+      ],
+      "alerts": "Los sistemas electorales constituyen complementos fundamentales para la materialización de los derechos políticos y del orden constitucional. El Proyecto, establece principios que tendrán que materializarse en la posterior Ley Electoral encargada de determinar las formas de elección de los cargos públicos. Los procedimientos para la proposición de candidatos se dejan en manos de la legislación posterior. Esa legislación puede perpetuar el sistema de Comisiones de Candidaturas que actúan como elementos controladores del acceso a las boletas de elección. En el artículo 202 también permite que una ley posterior establezca criterios, no reconocidos en la Constitución, para limitar la posibilidad de los ciudadanos de ser elegidos."
+    }
+  },
+  {
+    "numero": 101,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Elección de la dirección de la Asamblea Nacional",
+      "remisiones": [
+        "Ley No. 72 Electoral (Según las disposiciones finales del Proyecto, deberá ser promulgada en los seis meses posteriores a la promulgación de la Constitución)",
+        "Reglamento de la Asamblea Nacional del Poder Popular"
+      ],
+      "alerts": "El artículo reconoce el principio de elección indirecta de los cargos principales de la Asamblea Nacional del Poder Popular. Faculta a la Ley Electoral posterior para establecer no solo la forma de elegir mediante el voto de los representantes, sino también la de proponer y revocar algunos de los cargos públicos más importantes del Estado."
+    }
+  },
+  {
+    "numero": 103,
+    "incisos": "b",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Facultad de interpretación legal y constitucional",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular",
+        "Ley No. 4 de Organización del Sistema Judicial"
+      ],
+      "alerts": "Este artículo constituye una nueva facultad concedida a la Asamblea Nacional del Poder Popular: controlar que se cumpla la constitución. Los mecanismos de control constitucional en el mundo recaen por regla general en los Tribunales de justicia. El reconocimiento de que la interpretación de las leyes cubanas es una labor muy propia de los Tribunales, puede encontrarse en el mismo Proyecto, que reconoce en su artículo 145 que el Tribunal Supremo, a través de su Consejo de Gobierno, sobre la base de la experiencia de todos los tribunales, imparte instrucciones de carácter obligatorio para establecer una práctica judicial uniforme en la interpretación y aplicación de la ley. La remisión en este caso es al Reglamento de la propia Asamblea, que será el encargado de regular la materialización de todas las atribuciones constitucionales de ese órgano estatal. El procedimiento será completamente nuevo, pues complementará una función no reconocida a la Asamblea Nacional del Poder Popular en la Constitución vigente."
+    }
+  },
+  {
+    "numero": 103,
+    "incisos": "e",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Control constitucional",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular"
+      ],
+      "alerts": "El problema fundamental de este artículo no se encuentra exclusivamente en la remisión que se hace a una Ley posterior para el establecimiento del procedimiento a través del cual la Asamblea Nacional cumplirá con el control constitucional de las leyes y demás normas jurídicas. El problema es el establecimiento de ese principio como facultad exclusiva de la Asamblea, lo que vulnera el principio de la contrapartida en los poderes. La Asamblea se erige como juez y parte en el control de la constitucionalidad de las mismas leyes que aprueba. La Asamblea Nacional del Poder Popular es, además, un órgano que no sesiona permanentemente, lo que dificulta el control de las normas promulgadas entre sus períodos de sesiones."
+    }
+  },
+  {
+    "numero": 103,
+    "incisos": "o",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "División político administrativa y subordinación",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular"
+      ],
+      "alerts": "En este caso más que producirse una remisión de dependencia, se produce una remisión excesiva. Se supone que cualquier decisión que vaya a tomar la Asamblea, dentro de sus atribuciones, se hará con apego a derecho, pues es el único órgano que tiene facultad legislativa. La remisión en este caso en particular, debe estar relacionada con el procedimiento que el Reglamento de la propia Asamblea establecerá para la toma de decisiones y su manifestación."
+    }
+  },
+  {
+    "numero": 104,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Atribuciones de la Asamblea Nacional",
+      "remisiones": [
+        "Ley No. 89 de Revocación de mandato de los elegidos a los órganos del Poder Popular"
+      ],
+      "alerts": "En este artículo en especial se establece una doble remisión. La primera es a la Constitución que establece en el propio artículo, cuáles son los mecanismos de participación de la ciudadanía en el control del poder. Algunos de ellos, han sido complementados desde el Propio Proyecto de forma diferente a lo establecido en la Constitución vigente. La otra remisión que se hace y que se convierte en un mecanismo de constitucionalidad indirecta es a las Leyes. En ese sentido, la redacción del Proyecto, permite que la nueva Ley Electoral que deberá promulgarse dentro de los seis meses posteriores a la aprobación de la Constitución, defina las formas y mecanismos, para la nominación, elección y revocación de los cargos públicos. Dicha situación pudiera permitir, máxime cuando no se ha establecido en la el Proyecto, la obligación de someter a consulta o a referéndum, la aprobación de esa Ley, que normativas posteriores, desvirtúen como hasta la fecha los mecanismos de participación popular más importantes. Esa misma dinámica se reproduce en la forma en que se regulan los mecanismos de participación popular más importantes. La Constitución actual, solo admite que se promuevan referendos para la reforma de la Constitución y cuando se pretendan reformas totales o referidas a la integración y facultades de la Asamblea Nacional o de su Consejo de Estado, o a derechos y deberes consagrados en la Constitución. Así mismo, reconoce como único órgano facultado para la promoción de referendos a la Asamblea Nacional del Poder Popular. El Proyecto aumenta el número de sujetos legitimados para convocar referendos (Artículo 222), incluyendo una cifra cualificada de ciudadanos. En su glosario define además a la consulta popular como la forma de participación en la que el pueblo emite su opinión sobre determinado asunto, sin que ello tenga efectos vinculantes y permite que las autoridades municipales puedan utilizarla para ventilar asuntos de competencia local. Reconoce la iniciativa legislativa popular a partir de la recopilación de la firma de 10 mil ciudadanos, manteniendo la añeja fórmula de la Constitución vigente. En este sentido, el nuevo constitucionalismo latinoamericano, ha ampliado y facilitado el ámbito de la “iniciativa popular normativa”. Según sus postulados no debe alcanzar solamente a la proposición, sino también a la reforma o derogatoria de normas jurídicas ante el legislativo o cualquier otro órgano con competencia normativa.  Reconoce así mismo que debieran establecerse términos de obligatoriedad para la discusión de las propuestas populares, los cuales de vulnerarse implicarán una aceptación tácita por el órgano receptor y la entrada en vigencia de la propuesta. Ninguno de estos elementos es contemplado por el Proyecto y por demás hace, que los más importantes mecanismos de participación directa, dependan de leyes posteriores y se permite que se mantengan los principios que hasta hoy rigen los mismos. La iniciativa legislativa popular en Cuba es de tipo formulada, y se exige a los solicitantes que acompañen el proyecto de ley con una extensa y exhaustiva fundamentación desagregada en varios aspectos de factibilidad económica, social y legal. Otro requisito obliga a los promoventes a coordinarse con los órganos y organismos que deben cumplir o hacer cumplir las regulaciones propuestas y mostrar en el escrito de solicitud sus resultados, antes de presentar la iniciativa. No se conoce qué ocurriría si los órganos u organismos se opusieran al contenido de esta última, o sea, si tal acción de coordinación es de medio o de resultado. Si fuese lo primero, no sería relevante, de lo contrario, quedaría enclaustrado en los designios o intereses de las estructuras estatales. Por último, llama también la atención que se exija a los solicitantes que acrediten sus firmas y su capacidad para ejercer el sufragio activo y pasivo en documento notarial. Respecto a esto último, lo político-racional sería que el Estado habilitase puntos de recolecta de firmas de fácil acceso para los ciudadanos, en los que agentes electorales para la ocasión garantizaran la fidelidad e idoneidad de las firmas sin costo alguno, en un horario flexible y con la debida publicidad. Otro tanto sucede con la revocación de mandato que solo puede establecerse sin intervenciones de otros agentes diferentes a la ciudadanía en el nivel municipal. La “revocatoria” de los delegados provinciales y diputados de la Asamblea Nacional únicamente ha podido ser sustanciada (solicitada y decidida) por el 25% de los delegados municipales de la Asamblea, correspondiente a la circunscripción electoral por la cual resultó electo el revocable, o por un miembro del órgano al que pertenece. En el caso de los miembros del Consejo de Estado, han podido ser revocados por la Asamblea Nacional que los elige de su seno, o por otro miembro del mismo órgano. Lo curioso es que en todos los casos, una Comisión de Ética analiza la solicitud y puede considerar que no hay motivos para iniciar la mal denominada revocación; incluso cuando se ha tratado de delegados municipales con doble representación, se escucha el parecer de la Comisión, cuyo efecto será paralizador si así lo considera. Estos y otros elementos, debieron haber tenido una consideración en el momento de regular la participación popular en el Proyecto. Sin embargo, no han tenido una formulación mínima en el Proyecto y se ha facultado a la legislación posterior, para configurar, nada lo obstaculiza, sobre la base de los mismos principios que hasta hoy rigen la participación ciudadana en le control y la configuración del Estado."
+    }
+  },
+  {
+    "numero": 107,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Sustitución del presidente",
+      "remisiones": [
+        "Ley No. 72 Electoral (Según las disposiciones finales del Proyecto, deberá ser promulgada en los seis meses posteriores a la promulgación de la Constitución)"
+      ],
+      "alerts": "El Proyecto establece un nuevo principio: La sustitución del Presidente de la Asamblea Nacional del Poder Popular, por el Vicepresidente. La legislación vigente establece que para cubrir cargos vacantes de Presidente, Vicepresidente o Secretario de la Asamblea procede designar una Comisión de Candidaturas. Esa Comisión de Candidatura será la que seleccionará a los candidatos para cubrir los cargos vacantes. La remisión aquí obliga a la redacción de una nueva regulación que reconozca e implemente el principio constitucional renovado."
+    }
+  },
+  {
+    "numero": 108,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Rendición del cuenta de los diputados",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular."
+      ],
+      "alerts": "El Proyecto hace depender la rendición de cuentas, mecanismo de control popular especialmente diseñado para el control de los elegidos, de una legislación posterior. Se remite a una regulación, que pudiera ser, como en la actualidad, el Reglamento de la Asamblea Nacional del Poder Popular. El Reglamento vigente reconoce que los diputados deberán rendir cuenta por lo menos una vez en el período para el que fueron electos ante la Asamblea Municipal del territorio que representan. Así mismo se faculta a las Asambleas Municipales para requerir que estos rindan cuentas en otras ocasiones. El Proyecto permite que la redacción posterior pueda mantener como hasta hoy que los diputados rindan cuenta ante las Asambleas Municipales y no ante quienes los eligieron directamente. Vale destacar que los diputados son elegidos mediante el voto directo de los electores y sin embargo, solamente rinden cuentas ante otros representantes."
+    }
+  },
+  {
+    "numero": 111,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Revocación del mandato de los diputados",
+      "remisiones": [
+        "Ley No. 89 de la Revocación del Mandato de los elegidos a los órganos del Poder Popular"
+      ],
+      "alerts": "La remisión en este caso permite condicionar las formas y las causales de revocación de los diputados. Permite que la legislación posterior, pueda mantener los mismos principios de la vigente y hacer depender la revocación de los diputados de mecanismos que no implican la participación de los ciudadanos que los eligieron directamente."
+    }
+  },
+  {
+    "numero": 113,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Organización de la ANPP",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular"
+      ],
+      "alerts": "El artículo ratifica la conformación de Comisiones Permanentes y Temporales para el ejercicio de las funciones encomendadas por la Constitución a la Asamblea Nacional del Poder Popular. En este caso la remisión es a la norma que reglamentará el funcionamiento de ese órgano estatal."
+    }
+  },
+  {
+    "numero": 114,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Colaboración de las entidades públicas con los diputados",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular"
+      ],
+      "alerts": "El Proyecto en este artículo utiliza un término genérico para definir una de las facultades de los diputados en el ejercicio de sus funciones: solicitar a los órganos y entidades la “colaboración” para el cumplimiento de sus funciones. No se esclarece qué implica este derecho a solicitar “colaboración” y lo hace depender de una legislación posterior, encargada de dar vida y definir el concepto, alcance y forma de materialización de esta facultad de los diputados y la obligación derivada para quienes sean requeridos."
+    }
+  },
+  {
+    "numero": 123,
+    "inciso": "K",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Jerarquía de las Fuerzas Armadas",
+      "remisiones": [
+        "Ley 75 de la Defensa.",
+        "Futuras normas que reglamenten la labor del Presidente de la República."
+      ],
+      "alerts": "El artículo establece como una de las facultades del Presidente la de ascender a los más altos oficiales de las Fuerzas Armadas. Esta es una facultad heredada de la Ley de la Defensa que establece en su artículo 80 que el ascenso, privación o rebaja de los grados de los oficiales superiores, es facultad del Presidente del Consejo de Estado, a propuesta del Ministro de las Fuerzas Armadas Revolucionarias o el del Interior. Así mismo reconoce que el ascenso, privación o rebaja de los demás grados militares se hará de acuerdo con las disposiciones complementarias a la propia Ley. A pesar del sustento que pueda encontrarse en la Ley de la Defensa, la normativa que reglamente la labor del Presidente de la República, deberá considerar el desarrollo de esta facultad presidencial."
+    }
+  },
+  {
+    "numero": 126,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Sustitución del vicepresidente",
+      "remisiones": [
+        "Ley No. 72 Electoral (Según las disposiciones finales del Proyecto, deberá ser promulgada en los seis meses posteriores a la promulgación de la Constitución)"
+      ],
+      "alerts": "En este artículo se establece como principio constitucional la sustitución del Presidente, en caso de enfermedad, ausencia o muerte, por el Vicepresidente de la República. El Proyecto no establece una temporalidad obligatoria con relación a la sustitución, sino que deja en manos de la Asamblea Nacional del Poder Popular su determinación. La fórmula permitiría solucionar el vacío existente en ese sentido en la Ley Electoral vigente al regular el mecanismo para cubrir la vacante del Presidente del Consejo de Estado, cargo que, en el diseño actual, detenta las mayores dignidades estatales. La Ley Electoral reconoce en su artículo 181 que de cesar en sus funciones el Presidente del Consejo de Estado lo sustituye el Primer Vicepresidente, sin hacer mayores alusiones con relación a la temporalidad de la sustitución. Establece además que el resto de los cargos vacantes del Consejo de Estado (excepción del Presidente) deberán ser cubiertos por la Asamblea Nacional. Solamente reconoce la intervención de la Asamblea en la sustitución del Presidente del Consejo de Estado, cuando se haya producido la vacante simultánea del Presidente y el Primer Vicepresidente. En esos casos se dispone la convocatoria a una sesión extraordinaria de la Asamblea con el objeto de cubrir los cargos vacantes. En esa sesión, la Asamblea determina la forma del proceso electoral. El Proyecto actual soluciona el tema de la intemporalidad y deja claro que la cobertura del cargo es temporal y que no rige obligación alguna hasta el término de la legislatura. Así mismo, determina como en la actualidad, la facultad de la Asamblea para sustituir al Vicepresidente en los casos de vacancia. La remisión es a una nueva Ley Electoral, que regulará como la vigente, la forma en que se materializarán esas sustituciones."
+    }
+  },
+  {
+    "numero": 129,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": true,
+      "modification": true,
+      "content": "Estructura del Consejo de Ministros",
+      "remisiones": [
+        "Decreto-Ley 272 Reglamento del Consejo de Ministros"
+      ],
+      "alerts": "La remisión a la Ley en este caso está dirigida a facultar a reguladores posteriores para determinar cargos diferentes a los mencionados en el Proyecto, como miembros del Consejo de Ministros. La norma vigente que regula el funcionamiento del Consejo de Ministros, el Decreto-Ley 272, establece en su artículo 4 que el Consejo de Ministros está compuesto por el Jefe del Estado y de Gobierno, que es su Presidente, el Primer Vicepresidente, quien es a la vez el Primer Vicepresidente del Consejo de Estado, los vicepresidentes, los ministros, el Secretario y aquellas autoridades que a propuesta del Presidente sean designados para desempeñar cargos de miembros del mismo por la Asamblea Nacional del Poder Popular o el Consejo de Estado. La ley a la cual remite el Proyecto, que deberá renovarse al cambiar los nombres de los líderes del Consejo de Ministros y dividirse las funciones estatales, puede utilizar la misma fórmula de la legislación vigente: facultar a la Asamblea o al Consejo de Estado, para que, a propuesta del Primer Ministro en este caso, designen otros miembros como parte del Consejo de Ministros. El Proyecto, establece como principio el derecho del Secretario General de la Central de Trabajadores de Cuba a participar en las reuniones del Consejo de Ministros, aunque no específica los derechos que por este concepto le competen, ni tampoco establece un mandato para que la legislación posterior lo tenga en cuenta."
+    }
+  },
+  {
+    "numero": 140,
+    "incisos": "g",
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": true,
+      "modification": false,
+      "content": "Designaciones del Consejo de Ministros",
+      "remisiones": [
+        "Normas reglamentarias de cada uno de los sectores o actividades propias del Gobierno de la República."
+      ],
+      "alerts": "En este artículo se ratifica una función reconocida a los miembros del Consejo de Ministros también reconocida en la Constitución vigente: designar o sustituir directivos y funcionarios. En el texto de 1976, la remisión a la Ley se produce sólo a los efectos de determinar las formalidades a seguir para nombrar los funcionarios en la esfera de competencia del miembro del Consejo de Ministros. Ahora el Proyecto conserva esa facultad, pero remite a la Ley para que disponga no solo las formalidades a cumplimentar en la designación o sustitución, sino también la esfera de competencia de cada uno de los miembros. Esas esferas de competencia están delimitadas en las normas que reglamentan cada una de las actividades del Gobierno de la República."
+    }
+  },
+  {
+    "numero": 140,
+    "incisos": "h",
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": false,
+      "modification": true,
+      "content": "Designaciones del Consejo de Ministros",
+      "remisiones": [
+        "Decreto-Ley 272 Reglamento del Consejo de Ministros"
+      ],
+      "alerts": "El uso de la fórmula “cualquier otra atribución que les asignen la Constitución y las leyes”, introduce un sistema de numerus apertus, que permite que la legislación posterior pueda atribuirle facultades no contempladas en el texto Constitucional a los miembros del Consejo de Estado. Aunque el propio Proyecto reconoce la posibilidad de que la legislación posterior defina el número de miembros, las atribuciones de estos no pueden rebasar en ningún caso las concebidas de forma general para el Consejo de Estado por la Constitución. Declarar un sistema abierto, que permita a la regulación posterior reconocerle facultades a los miembros de un órgano de gobierno, sin tener como límites las atribuciones constitucionales, permite que pueda generarse una regulación que permanezca ajena al control constitucional."
+    }
+  },
+  {
+    "numero": 141,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": true,
+      "modification": true,
+      "content": "Organismos de la Administración Central del Estado",
+      "alerts": "Atendiendo a que la conformación del gobierno es una facultad del Ejecutivo y puede depender de circunstancias variables, no puede establecerse expresamente la forma en que se arme un equipo de gobierno desde la Constitución. Establecer un sistema de numerus clausus (números cerrados) en el texto constitucional, con relación a los nombres y el número de organismos de la administración central del Estado, impediría, en caso de necesidad, fusionar, extinguir o modificar la estructura de éstos."
+    }
+  },
+  {
+    "numero": 142,
+    "inciso": "k",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Iniciatiativa legislativa ciudadana",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular"
+      ],
+      "alerts": "Desde el punto de vista técnico la redacción del artículo ha reconocido la iniciativa legislativa como un derecho de la ciudadanía, en los mismos términos que lo hace la Constitución vigente. La iniciativa legislativa popular en Cuba es de tipo formulada y se exige a los solicitantes que acompañen el proyecto de ley con una fundamentación desagregada en varios aspectos de factibilidad económica, social y legal. Otro requisito obliga a los promoventes a coordinarse con los órganos y organismos que deben cumplir o hacer cumplir las regulaciones propuestas y mostrar en el escrito de solicitud sus resultados, antes de presentar la iniciativa. Se exige a los solicitantes que acrediten sus firmas y su capacidad para ejercer el sufragio activo y pasivo en documento notarial. Todos estos obstáculos, restan virtualidad jurídica y política a la iniciativa legislativa popular. La redacción del Proyecto no implica cambios a la dinámica que hasta hoy se ha empleado y que ha contado, al menos públicamente, con un único intento de ejercicio, nunca respondido por la Asamblea Nacional del Poder Popular. El Proyecto Varela en el año 2002, derivó en la modificación de la Constitución y la inclusión de una cláusula de intangibilidad que hasta hoy se mantiene."
+    }
+  },
+  {
+    "numero": 143,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Atribuciones de la Asamblea Nacional",
+      "remisiones": [
+        "Decreto 62 del 1980 Normas para la publicación en la Gaceta Oficial"
+      ],
+      "alerts": "El artículo establece los principios para la formulación y publicación de las normas de interés general. Remite a una legislación posterior que establece los procedimientos para la entrada en vigor y publicación de las normas jurídicas. En la actualidad se encuentra vigente el Decreto 62 de 1980, que establece las normas para la publicación en la Gaceta Oficial. Esa propia norma establece además en su apartado segundo que las disposiciones de carácter general entran en vigor a los tres días de publicación en la Gaceta Oficial de la República si en ellas no se dispone otra cosa. Reconoce también que no se considerarán vigentes las normas jurídicas hasta tanto no se produzca su publicación, con independencia del efecto retroactivo que en su caso puede disponerse cuando haya causa para ello."
+    }
+  },
+  {
+    "numero": 144,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Organización de los tribunales",
+      "remisiones": [
+        "Futura Ley de Tribunales Populares"
+      ],
+      "alerts": "El proyecto reconoce que la justicia dimana del pueblo y es ejercida a nombre de este por el Tribunal Supremo Popular y los demás Tribunales. Permite que la legislación posterior regule una extensa variedad de asuntos que van desde la organización de los Tribunales, hasta las formas de elección de los jueces y las causales de revocación. A pesar de no ser declarados en este artículo, hay un grupo de principios contenidos en el Proyecto constitucional que deberán ser tenidos en cuenta en la regulación posterior. Se pueden citar la ampliación de las competencias de los Tribunales para revisar todos los conflictos resueltos administrativamente y la posibilidad de realizar actos judiciales sin la presencia obligada de jueces legos. El Proyecto permite que se retomen los Tribunales unipersonales y deja en manos de la legislación posterior la determinación de asuntos claves para la configuración de un sistema judicial en nombre del pueblo. Todos los cambios obligan a la redacción de una nueva Ley de los Tribunales y así ha quedado dispuesto en la Disposición Transitoria Novena, del Proyecto, donde se conmina al Consejo de Gobierno del Tribunal Supremo Popular a presentar en el término de 18 meses después de aprobada la Constitución, el proyecto de una nueva Ley de los Tribunales Populares."
+    }
+  },
+  {
+    "numero": 151,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "content": "Rendición de cuenta del Tribunal Supremo",
+      "alerts": "El Proyecto reconoce que el órgano ante el que el Tribunal Supremo debe rendir cuentas es la Asamblea Nacional del Poder Popular. Hace depender la forma y periodicidad en que lo hará de una legislación posterior. El Reglamento actual no reconoce una periodicidad que deba cumplirse para que el Tribunal Supremo rinda cuentas. Deja en manos del Presidente de la Asamblea la convocatoria y la determinación de las cuestiones sobre las que deberá rendir cuentas ese órgano de justicia."
+    }
+  },
+  {
+    "numero": 153,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Facultades de la Fiscalía General de la República",
+      "remisiones": [
+        "Ley No. 83 de la Fiscalía General de la República."
+      ],
+      "alerts": "El Proyecto enuncia las funciones generales de la Fiscalía General, dentro de las que destacan las relacionadas con el control de la investigación y el ejercicio de la acción penal. Destaca además su función de control de legalidad, que tiene visos de control constitucional. La legislación vigente reconoce los mecanismos para llevar a vías de hecho la función de control de la legalidad, dentro de las que no solo se encuentran la evaluación del cumplimiento de las leyes y la Constitución, sino también la participación en procesos civiles y de familia, para representar a menores de edad y a personas incapaces o ausentes que carezcan de representante legal o cuando los intereses de éste sean contrapuestos a los del menor, incapaz o ausente."
+    }
+  },
+  {
+    "numero": 156,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Rendición de cuenta de la Fiscalía",
+      "remisiones": [
+        "Ley No. 83 de la Fiscalía General de la República",
+        "Reglamento de la Asamblea Nacional del Poder Popular"
+      ],
+      "alerts": "El Proyecto reconoce que el órgano ante el que la Fiscalía General debe rendir cuentas es la Asamblea Nacional del Poder Popular. Hace depender la forma y periodicidad en que lo hará de una legislación posterior. El Reglamento actual no reconoce una periodicidad que deba cumplirse para que la Fiscalía General rinda cuentas. Deja en manos del Presidente de la Asamblea la convocatoria y la determinación de las cuestiones sobre las que deberá rendir cuentas a la Asamblea."
+    }
+  },
+  {
+    "numero": 157,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Actuación de la Contraloría",
+      "remisiones": [
+        "Ley No. 107 De la Contraloría General de la República de Cuba"
+      ],
+      "alerts": "La Contraloría es un órgano estatal que no encuentra reflejo en la Constitución vigente. Su creación fue dispuesta por una Ley posterior a la última reforma constitucional. En el Proyecto, se le ofrece reconocimiento constitucional y se faculta al ordenamiento complementario para determinar las funciones y aspectos relativos a su actuación. La Ley No. 107 de la Contraloría General de la República de Cuba, es la que regula en la actualidad la actuación y estructura de la Contraloría General. Reconoce su subordinación jerárquica a la Asamblea Nacional del Poder Popular, al igual que al Consejo de Estado y se le reconoce la misión de auxiliar a ambas instituciones en la ejecución de la más alta fiscalización sobre los órganos del Estado y del Gobierno. La legislación vigente deja claro que la Contraloría está ubicada jerárquicamente por encima del gobierno y de todo el aparato ejecutivo administrativo. Sin embargo, reconoce también en su Disposición Especial Octava de la Ley 107, que se excluyen del control de la Contraloría los Ministerios de las Fuerzas Armadas y del Interior. Hasta hoy, ambos Ministerios continúan aplicando sus normas internas de control y solamente tienen la obligación de informar sus acciones de control, al menos una vez al año, al Contralor General. Se reconoce además que el Presidente del Consejo de Estado puede disponer cuando considere que la Contraloría realice acciones de control a estas instituciones. La regulación vigente es contraria a principios declarados en el Proyecto. En primer orden se cambia la subordinación de la Contraloría. Si antes estaba subordinada a la Asamblea Nacional, en la nueva propuesta se encuentra subordinada al Presidente de la República. El Proyecto declara que la misión fundamental de la Contraloría es el control superior sobre la gestión administrativa y velar por la correcta y transparente administración de los fondos públicos. A tenor de ese pronunciamiento, no habría razones tampoco para excluir de su esfera de competencia a los Ministerios de las Fuerzas Armadas y del Interior."
+    }
+  },
+  {
+    "numero": 159,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Rendición de cuentas de la Contraloría",
+      "remisiones": [
+        "Ley No. 107 De la Contraloría General de la República de Cuba"
+      ],
+      "alerts": "El Proyecto reconoce a la Asamblea Nacional del Poder Popular como el órgano ante el que la Contraloría deberá rendir cuentas. Se establece de esta forma una dualidad entre el órgano de subordinación (el Presidente de la República) y el órgano ante el que rinde cuentas (la Asamblea Nacional). La remisión en este caso va dirigida a que la norma posterior regule lo relacionado con la forma y la periodicidad de la rendición de cuentas. En ese sentido, la Ley 107 ya establece que el Contralor General de la República rinde cuenta del trabajo de la Contraloría General de la República ante la Asamblea Nacional del Poder Popular o el Consejo de Estado, al menos una vez en cada legislatura o en las ocasiones en que estos órganos lo soliciten.  Reconoce además que al finalizar cada año natural, el Contralor presenta al Consejo de Estado un balance general del trabajo de la Contraloría General de la República en ese período."
+    }
+  },
+  {
+    "numero": 161,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": true,
+      "modification": false,
+      "content": "División política y Organización de municipios",
+      "remisiones": [
+        "Ley No. 110 de la División Político Administrativa"
+      ],
+      "alerts": "Como parte de una República unitaria, la división política deberá responder a provincias y municipios. El Proyecto faculta a reguladores posteriores para determinar variaciones en la división, la subordinación administrativa y los sistemas de regulación especiales. La delegación en la legislación posterior para la determinación del número y forma en que se divida política y administrativamente la República permite que no sea preciso modificar la Constitución para variar una estructura que solo tiene relevancia a los efectos de gobierno. Ejemplo de lo que ahora se pretende evitar fue La Ley de Reforma Constitucional, de fecha 28 de junio de 1978, acordada por la Asamblea Nacional del Poder Popular, y que dio nueva redacción al inciso a) del Artículo 10 de la Constitución con el fin de variar, en su texto, la denominación de Isla de Pinos por Isla de la Juventud. La normativa vigente más reciente con relación a la política administrativa, fue emitida luego de la extinción de la antigua provincia La Habana y la creación de las provincias de Artemisa y Mayabeque, con los consecuentes movimientos de subordinación de algunos municipios, algunos pertenecientes a Pinar del Río."
+    }
+  },
+  {
+    "numero": 164,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": false,
+      "modification": true,
+      "content": "Autonomía del municipio",
+      "remisiones": [
+        "Futura ley de municipios"
+      ],
+      "alerts": "El Proyecto establece como principio la autonomía municipal reconociendo además el alcance de esa autonomía. Establece como límites al ejercicio de esa autonomía, no solamente los principios constitucionales, algunos de los cuáles pueden entrar en contradicción con las potestades autonómicas, sino también con otros que puedan ser establecidos por la legislación posterior. Uno de los principios constitucionales que pudiesen entrar en contradicción con la autonomía municipal es el reconocimiento del papel dirigente de la sociedad y el Estado del Partido Comunista de Cuba. Esa situación ha provocado que, en la práctica, las mayores autoridades locales no sean los líderes de los órganos del Poder Popular, sino los secretarios del Partido. Esa situación sumada al declarado principio del centralismo democrático, que obliga al acatamiento de las decisiones de los órganos superiores, por los inferiores, hacen presuponer que la regulación posterior, relacionada con la autonomía municipal, pudiese estar limitada en sus efectos. Dicha situación se encuentra matizada además por el reconocimiento del Gobernador, como figura que conecta las decisiones nacionales con el municipio. El centralismo democrático, favorece que las decisiones tomadas por una autoridad no electa, sino designada como el Gobernador, que se encuentra en una posición superior, puedan limitar las facultades de una autoridad electa directamente y declarada “autónoma”. Hasta la fecha no se ha emitido una Ley que rija la actividad de los municipios cubanos. Tampoco el Proyecto ha establecido principios que esclarezcan qué pautas debe seguir la legislación posterior para evitar esos conflictos y garantizar realmente la autonomía."
+    }
+  },
+  {
+    "numero": 166,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": true,
+      "modification": true,
+      "content": "Atribuciones y funciones del gobierno provincial",
+      "remisiones": [
+        "Futuras normas que reglementen la labor de los Gobernadores y las Administraciones Provinciales"
+      ],
+      "alerts": "Este artículo establece algunas funciones genéricas de los Gobiernos Provinciales y remite a una ley posterior que definirá las atribuciones y funciones de los gobiernos provinciales. Al ser estructuras inexistentes en el diseño estatal vigente, se requerirá de una nueva norma que reglamente lo relacionado con los gobiernos provinciales, pues la existente está limitada a reglamentar las ahora extintas Asambleas Provinciales del Poder Popular."
+    }
+  },
+  {
+    "numero": 167,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": true,
+      "modification": true,
+      "content": "Atribuciones y funciones del gobierno provincial",
+      "remisiones": [
+        "Futuro Reglamento del Gobierno provincial"
+      ],
+      "alerts": "Este artículo, establece algunas funciones genéricas de los Gobiernos Provinciales. Pero remite a una ley posterior que definirá casuísticamente las atribuciones y funciones de los gobiernos provinciales. Al ser estructuras inexistentes en el diseño estatal vigente, se requerirá de una nueva norma que reglamente lo relacionado con los gobiernos provinciales, pues la existente está limitada a reglamentar las extintas Asambleas Provinciales del Poder Popular."
+    }
+  },
+  {
+    "numero": 173,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": false,
+      "modification": true,
+      "content": "La Administración Provincial",
+      "remisiones": [
+        "Futura regulación de las Gobernaciones Provinciales"
+      ],
+      "alerts": "El artículo reconoce que el Gobernador organizará y dirigirá la administración provincial, de acuerdo a principios que serán establecidos por el Consejo de Ministros. El Proyecto no establece la forma en que se establecerán esos principios. Así mismo remite a una legislación posterior para regular la estructura y funcionamiento de la Administración Provincial y sus relaciones con los órganos nacionales y municipales del Poder Popular. La legislación a la que remite el artículo será completamente nueva."
+    }
+  },
+  {
+    "numero": 174,
+    "inciso": "g",
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": false,
+      "modification": true,
+      "content": "Funcionarios que deben ser ratificados por el Consejo Provincial",
+      "remisiones": [
+        "Futuras regulaciones que reglamente las Gobernaciones"
+      ],
+      "alerts": "En este artículo se reconoce como principio que los Gobernadores tienen la posibilidad de designar y sustituir a los directivos y funcionarios de la Administración Provincial. No establece excepciones a ese principio, sino que introduce una variable que permite a la legislación posterior determinar cuáles son los casos que deben ser sometidos a la ratificación del Consejo Provincial."
+    }
+  },
+  {
+    "numero": 176,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": true,
+      "modification": true,
+      "content": "Sustitución del Gobernador Provincial",
+      "remisiones": [
+        "Futuras regulaciones que reglamenten las funciones de las Gobernaciones Provinciales"
+      ],
+      "alerts": "El Vicegobernador, según el Proyecto, tendrá las atribuciones que le delegue o asigne el Gobernador, pero además será el que lo sustituirá en caso de ausencia temporal o muerte. Para la determinación del proceso de sustitución, que deberá especificar también su duración en el tiempo, el Proyecto ha remitido a una ley posterior."
+    }
+  },
+  {
+    "numero": 177,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": true,
+      "modification": true,
+      "content": "Funciones del Consejo Provincial",
+      "remisiones": [
+        "Futuras regulaciones que reglamenten las funciones de las Gobernaciones Provinciales"
+      ],
+      "alerts": "El Proyecto esboza las funciones generales que tendrán los Consejos Provinciales. Faculta a las regulaciones que reglamenten la labor de las Administraciones Provinciales para determinar otras funciones, que deberán estar acordes con el cometido general establecido por la futura Constitución. El artículo utiliza la misma fórmula empleada para determinar el número de miembros del Consejo de Ministros. Se definen así los miembros por derecho propio de los Consejos Provinciales, pero se permite que la legislación posterior pueda establecer otros no contemplados en el artículo."
+    }
+  },
+  {
+    "numero": 178,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": true,
+      "modification": true,
+      "content": "Reuniones del Consejo Provincial",
+      "remisiones": [
+        "Futuras regulaciones que reglamenten las funciones de las Administraciones Provinciales"
+      ],
+      "alerts": "En este artículo se hace una remisión a una regulación posterior que es la que deberá definir la periodicidad de las reuniones del Consejo Provincial. Esa regulación debe ser la misma que regule lo relacionado con la estructura y funciones de las Administraciones Provinciales."
+    }
+  },
+  {
+    "numero": 183,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Elección de la dirección de la ANPP",
+      "remisiones": [
+        "Reglamento de las Asambleas Municipales del Poder Popular"
+      ],
+      "alerts": "El Proyecto dedica un apartado en este artículo para reconocer como principio que el Presidente de la Asamblea Municipal del Poder Popular representa al Estado en su municipio. La redacción del artículo responde a la práctica reproducida en los territorios. Nótese que el artículo no refleja que el Presidente de la Asamblea Municipal, sea la máxima autoridad en el municipio, sino que solamente lo reconoce como representante estatal. La propia lógica del Proyecto de reconocer al Partido Comunista como la fuerza dirigente superior del Estado, ha provocado que en la práctica las máximas autoridades territoriales sean los Secretarios del Partido."
+    }
+  },
+  {
+    "numero": 186,
+    "inciso": "n",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Ejecución de las políticas de Estado",
+      "remisiones": [
+        "Reglamento de las Asambleas Municipales del Poder Popular"
+      ],
+      "alerts": "Se condiciona a una norma posterior la forma en la que las Asambleas Municipales deberán coadyuvar a la ejecución de las políticas estatales. Dicha norma podrá estar vinculada a la ejecución de presupuestos centralizados para la ejecución de políticas o incluso a formas de colaboración especial entre las Asambleas Municipales y los organismos de la administración central del Estado. La legislación vigente establece una fórmula muy parecida a la del Proyecto, al reconocer como una de las funciones de las Asambleas Municipales la de “coadyuvar al desarrollo de las actividades y al cumplimiento de los planes de producción y de servicios de las entidades radicadas en su territorio que no le estén subordinadas, para lo cual podrá apoyarse en sus comisiones de trabajo y en su órgano de Administración”."
+    }
+  },
+  {
+    "numero": 188,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Funciones de los delegados",
+      "remisiones": [
+        "Reglamentos de las Asambleas Municipales del Poder Popular"
+      ],
+      "alerts": "El Proyecto ordena la reglamentación en una norma posterior de las funciones relacionadas con los delegados. Sin embargo, al no haber variado la esencia de las funciones de los delegados y de las Asambleas Municipales, perfectamente puede mantenerse la norma vigente, pues el Proyecto no ha establecido directrices o principios contrarios a su formulación."
+    }
+  },
+  {
+    "numero": 189,
+    "inciso": "d",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Rendición de cuenta del delegado a sus electores",
+      "alerts": "Se reconoce al igual que el texto de 1976 que los delegados deben rendir cuenta ante sus electores. Se mantienen así los representantes a los niveles municipales como los únicos que por mandato constitucional han de rendir cuentas ante sus electores. El Proyecto remite a una normativa posterior. El actual Reglamento de las Asambleas Municipales del Poder Popular regula la rendición de cuentas en los artículos 59, 60 y 61. En esos artículos se establece que el delegado, como mínimo, tiene que rendir cuenta dos veces en el año de su gestión personal y está obligado a mantener un vínculo permanente con sus electores."
+    }
+  },
+  {
+    "numero": 191,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Revocación de los delegados",
+      "remisiones": [
+        "Ley No. 89 De la revocación de mandato de los elegidos a los órganos del Poder Popular"
+      ],
+      "alerts": "Se reconoce la revocación en cualquier momento de los delegados. Sin embargo, no se establecen las causas probables de esa revocación, ni las personas que pueden hacerlo. Ambos son postulados imprescindibles para evitar que regulaciones posteriores puedan abstraer de los electores directos la capacidad de revocación sobre sus elegidos y por causales que deberán responder a consensos populares sobre la representación. La legislación vigente reconoce la revocación de los delegados como el único proceso de este tipo que puede ser promovido directamente por los electores. El resto está condicionado a la intervención de los órganos colegiados a los que pertenecen o los eligen."
+    }
+  },
+  {
+    "numero": 194,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Garantías para la participación ciudadana",
+      "remisiones": [
+        "Ley 91 de los Consejos Populares"
+      ],
+      "alerts": "El artículo regula los fines generales del Consejo Popular, enuncia sus funciones y las tareas que desarrollará. Como complemento de la regulación constitucional, deberá emitirse una norma que regule detalladamente las atribuciones y la forma de organización de esa estructura del Poder Popular. En la actualidad se encuentra vigente la Ley 91 que regula entre otros elementos la constitución, organización y supresión de los Consejos Populares. El Proyecto no establece principios diferentes a los que rigen la organización y funcionamiento de los Consejos Populares en la actualidad."
+    }
+  },
+  {
+    "numero": 195,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Participación ciudadana en los órganos municipales",
+      "remisiones": [
+        "Decreto 301 Sobre las funciones estatales y de gobierno que se ejercen y cumplen en las provincias y municipios ojeto del experimento autorizado a realizar en sus respectivos territorios"
+      ],
+      "alerts": "El artículo establece obligaciones que las Asambleas Municipales tendrán que cumplir en pos de garantizar los derechos de petición y de participación ciudadana. Al final del propio artículo establece que será la ley la encargada de establecer la forma y el ejercicio de estas garantías por los ciudadanos. Se regulan obligaciones de las Asambleas y se ordena complementar la forma y el ejercicio de garantías ciudadanas. No se describe el mecanismo para defender y garantizar los derechos."
+    }
+  },
+  {
+    "numero": 196,
+    "leyes": {
+      "clasificacion": "Administrativo",
+      "correct": false,
+      "modification": true,
+      "content": "La Administración Municipal",
+      "alerts": "El Proyecto refrenda a la Administración Municipal como un nuevo órgano. Remite a una legislación posterior para determinar la organización, estructura y funcionamiento de ese aparato administrativo local. Como antecedente para esa nueva legislación puede contarse el Decreto 301, diseñado para regular el experimento iniciado en las provincias de Artemisa y Mayabeque."
+    }
+  },
+  {
+    "numero": 199,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Participación ciudadana en las elecciones",
+      "remisiones": [
+        "Ley No. 72 Electoral (Según las disposiciones finales del Proyecto, deberá ser promulgada en los seis meses posteriores a la promulgación de la Constitución)"
+      ],
+      "alerts": "Los sistemas electorales, constituyen complementos fundamentales para la materialización de los derechos políticos y del orden constitucional. El Proyecto, establece principios que tendrán que materializarse en la posterior Ley Electoral encargada de determinar las formas de elección de los cargos públicos. El Proyecto, se erige como un continuador de la Constitución al reconocer prácticamente los mismos principios que sostienen el sistema electoral vigente. La elección directa en el nivel municipal. Un sistema de ratificación, mediante el voto directo en los niveles colegiados intermediados y una elección indirecta de los cargos fundamentales del Estado. El Proyecto incluye además un sistema de designación de algunos nuevos cargos, generados por la separación de funciones regulada en el Proyecto y la eliminación de órganos colegiados de nivel provincial. Todos esos elementos se establecen en el Proyecto y por ende encontrarán reflejo en la Ley Electoral posterior. Sin embargo, el Proyecto, hace mención al derecho al voto de los ciudadanos, pero no menciona ni en una sola ocasión la protección al sufragio universal, considerado como el derecho general que engloba el derecho a elegir mediante el voto y a ser elegido. Todos los principios constitucionales expresados claramente en el texto del Proyecto, se limitan a calificar el voto. Se reconoce que en el caso de los representantes a las Asambleas Municipales y Nacional del Poder Popular se elegirán mediante un voto, libre, igual, directo y secreto. Sin embargo, en ningún lugar del Proyecto se establecen los principios de como se desarrollará el proceso de propuestas y candidaturas de los representantes, sin el que no puede decirse que el Proyecto garantiza el derecho universal al sufragio. Los procedimientos para la proposición de candidatos se dejan en manos de la legislación posterior. Esa legislación puede perpetuar el sistema de Comisiones de Candidaturas que actúan como elementos controladores del acceso a las boletas de elección. En ese sentido, es muy llamativo y merecedor de atención, el hecho de que el Proyecto en su artículo 202, permita que la Ley establezca criterios posteriores, no reconocidos en la Constitución, que puedan limitar la posibilidad de los ciudadanos de ser elegidos. Destaca el hecho de que el texto del Proyecto, opte por esa fórmula y a su vez reconozca el derecho de los miembros de los cuerpos armados a ser elegidos. Máxime cuando ese sector de la ciudadanía, se le suspende el derecho a ser elegido en la muchos de los ordenamientos constitucionales modernos. Se opta así por reconocer plenamente el derecho al sufragio de un sector excepcionalmente elegible, atendiendo a la doctrina constitucional moderna y se concede a una Ley posterior, la posibilidad de limitar los derechos de la generalidad de la ciudadanía."
+    }
+  },
+  {
+    "numero": 200,
+    "inciso": "c",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Derecho ciudadano al voto",
+      "remisiones": [
+        "Decreto Ley No. 248"
+      ],
+      "alerts": "La redacción del artículo introduce un criterio de exclusión para el ejercicio ciudadano del derecho al voto. Regula la “permanencia” como un criterio prohibitivo y deja en manos de la legislación posterior su esclarecimiento. Al considerar varios requisitos que pueden calificar la “permanencia”, deja la puerta abierta para que un único criterio restrictivo, pueda convertirse en la legislación posterior, en múltiples limitaciones para el ejercicio del derecho al voto. El establecimiento de ese criterio de exclusión y su configuración en una Ley posterior, puede tener influencia en la inscripción en el Registro de Electores, lo cual es un requisito previo para el ejercicio del derecho al voto. En ese sentido, el Proyecto, reconoce que el Registro de Electores es público pero lo conforman todos los ciudadanos con capacidad legal para ejercer el derecho al voto, de conformidad con lo previsto en la ley.La utilización de esos criterios permitiría que así como mismo ha sido la inclusión automática en el registro de electores un principio del sistema electoral cubano, pueda implementarse la exclusión automática."
+    }
+  },
+  {
+    "numero": 201,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Registro de electores",
+      "remisiones": [
+        "Decreto Ley No. 248"
+      ]
+    }
+  },
+  {
+    "numero": 202,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": true,
+      "content": "Requisitos para ser elegido",
+      "remisiones": [
+        "Ley No. 72 Electoral (Según las disposiciones finales del Proyecto, deberá ser promulgada en los seis meses posteriores a la promulgación de la Constitución)"
+      ],
+      "alerts": "El artículo establece una remisión constitucional que implica una posible limitación del derecho al sufragio. La posibilidad de ser elegido no puede limitarse por criterios no definidos constitucionalmente. La fórmula empleada por el Proyecto permite que se mantengan criterios ajenos a la “capacidad” para el ejercicio de derechos políticos, como la residencia, incluidos en la Ley Electoral aprobada después de la modificación constitucional de 1992, como mecanismos de exclusión o limitación al derecho al sufragio."
+    }
+  },
+  {
+    "numero": 204,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Los diputados",
+      "remisiones": [
+        "Ley No. 72 Electoral (Según las disposiciones finales del Proyecto, deberá ser promulgada en los seis meses posteriores a la promulgación de la Constitución)"
+      ],
+      "alerts": "El criterio de proporcionalidad fue el mismo utilizado por la Constitución vigente para determinar la representación en la Asamblea Nacional. El Proyecto continúa con ese criterio y dispone que la legislación posterior tendrá la capacidad de variar y de definir el monto de esa proporción y por ende aumentar, disminuir o mantener el número de 605 diputados del Parlamento Cubano. En el caso de los procedimientos para la elección de los diputados El Proyecto, establece principios que tendrán que materializarse en la posterior Ley Electoral encargada de determinar las formas de elección de los cargos públicos. Los procedimientos para la proposición de candidatos se dejan en manos de la legislación posterior. Esa legislación puede perpetuar el sistema de Comisiones de Candidaturas que actúan como elementos controladores del acceso a las boletas de elección."
+    }
+  },
+  {
+    "numero": 205,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Vacantes de diputados",
+      "remisiones": [
+        "Ley No. 72 Electoral (Según las disposiciones finales del Proyecto, deberá ser promulgada en los seis meses posteriores a la promulgación de la Constitución)"
+      ],
+      "alerts": "Se reconoce que los diputados serán electos por el voto directo, libre y secreto de los electores. Se permite que la Ley establezca las opciones para la solución de las vacantes. La actual Ley Electoral ofrece diferentes variantes para la solución de las vacantes y solo una de ellas implica la participación popular. El artículo 125 establece que de quedar plazas vacantes al Parlamento se concede al Consejo de Estado las facultades de dejar vacante la plaza hasta las próximas elecciones generales; asignar a la Asamblea Municipal del Poder Popular, constituida en Colegio Electoral, la función de elegir al Diputado y por último la de convocar nuevas elecciones."
+    }
+  },
+  {
+    "numero": 206,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Consejo Electoral Nacional",
+      "remisiones": [
+        "Futura Ley Electoral",
+        "Futuras normativas que regulen la organización y funcionamiento del Consejo Nacional Electoral."
+      ],
+      "alerts": "El Proyecto regula la conformación del Consejo Nacional Electoral como un nuevo órgano estatal. Reconoce sus funciones generales y remite a una ley posterior que regulará otras funciones que la legislación o la Constitución le encomienden. Por ser un órgano de nueva incorporación en el diseño constitucional deberá contar con una regulación nueva que lo reglamente. El ordenamiento que se cree al efecto, regulará, según pronunciamientos del Proyecto, la estructura y los miembros del Consejo. El Proyecto establece además como principio, que las autoridades electorales, no podrán ocupar cargos de elección popular y deja abierta la puerta para que la legislación posterior establezca los mecanismos de designación de esas autoridades y reconoce como responsabilidad del Consejo Nacional Electoral, la actualización y confección del Registro Electoral."
+    }
+  },
+  {
+    "numero": 208,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Integración del Consejo Nacional Electoral",
+      "remisiones": [
+        "Ley No. 72 Electoral (Según las disposiciones finales del Proyecto, deberá ser promulgada en los seis meses posteriores a la promulgación de la Constitución)",
+        "Normas del Consejo Nacional Electoral"
+      ],
+      "alerts": "El Proyecto regula la conformación del Consejo Nacional Electoral como un nuevo órgano estatal. Reconoce sus funciones generales y remite a una ley posterior que regulará otras funciones que la legislación o la Constitución le encomienden. Por ser un órgano de nueva incorporación en el diseño constitucional deberá contar con una regulación nueva que lo reglamente y su incorporación en una nueva Ley Electoral. El proyecto establece como principio que las autoridades electorales, no podrán ocupar cargos de elección popular y deja abierta la puerta para que la legislación posterior establezca los mecanismos de designación de éstas. Reconoce como responsabilidad del Consejo Nacional Electoral, la actualización y confección del Registro Electoral."
+    }
+  },
+  {
+    "numero": 209,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "Funcionamiento del Consejo Nacional Electoral",
+      "remisiones": [
+        "Nueva Ley Electoral",
+        "Normas del Consejo Nacional Electoral"
+      ],
+      "alerts": "El Proyecto regula la conformación del Consejo Nacional Electoral como un nuevo órgano estatal. Reconoce sus funciones generales y remite a una ley posterior que regulará otras funciones que la legislación o la Constitución le encomienden. Por ser un órgano de nueva incorporación en el diseño constitucional deberá contar con una regulación nueva que lo reglamente y su incorporación en una nueva Ley Electoral. El ordenamiento que se cree al efecto, regulará además la estructura y los miembros del Consejo de acuerdo a remisiones establecidas en el propio Proyecto. El proyecto establece como principio que las autoridades electorales, no podrán ocupar cargos de elección popular y deja abierta la puerta para que la legislación posterior establezca los mecanismos de designación de éstas.El Proyecto también reconoce como responsabilidad del Consejo Nacional Electoral, la actualización y confección del Registro Electoral. Para la reglamentación de esos particulares remita a una legislación posterior que por los principios declarados en el Proyecto y que establecen criterios limitativospara el ejercicio del derecho al voto, como la \"permanencia\", deberá al igual que ocurre en la legislación vigente, mantenerse en estrecha relación con el Registro de Identificación a cargo del Ministerio del Interior."
+    }
+  },
+  {
+    "numero": 210,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": true,
+      "content": "El Registro Electoral",
+      "alerts": "El Proyecto regula la conformación del Consejo Nacional Electoral como un nuevo órgano estatal. Reconoce sus funciones generales y remite a una ley posterior que regulará otras funciones que la legislación o la Constitución le encomienden. Por ser un órgano de nueva incorporación en el diseño constitucional deberá contar con una regulación nueva que lo reglamente y su incorporación en una nueva Ley Electoral. El ordenamiento que se cree al efecto, regulará además la estructura y los miembros del Consejo de acuerdo a remisiones establecidas en el propio Proyecto. El proyecto establece como principio que las autoridades electorales, no podrán ocupar cargos de elección popular y deja abierta la puerta para que la legislación posterior establezca los mecanismos de designación de éstas.El Proyecto también reconoce como responsabilidad del Consejo Nacional Electoral, la actualización y confección del Registro Electoral. Para la reglamentación de esos particulares remita a una legislación posterior que por los principios declarados en el Proyecto y que establecen criterios limitativospara el ejercicio del derecho al voto, como la \"permanencia\", deberá al igual que ocurre en la legislación vigente, mantenerse en estrecha relación con el Registro de Identificación a cargo del Ministerio del Interior."
+    }
+  },
+  {
+    "numero": 214,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Consejo de Defensa Nacional",
+      "remisiones": [
+        "Acuerdo del Consejo de Estado del 30 de diciembre de 2006 Reglamento del Consejo de Defensa Nacional"
+      ],
+      "alerts": "El Proyecto define los cargos más importantes de uno de los órganos de poder estatal: el Consejo de Defensa Nacional. Establece como principio que el Presidente de la República tiene la capacidad de designar los miembros del Consejo de Defensa Nacional, incluido su vicepresidente. Además, establece una remisión a una norma posterior que regulará el número de miembros del Consejo, así como la organización y funcionamiento. La normativa vigente está contenida en el Reglamento del Consejo de Defensa Nacional, aprobado por Acuerdo del Consejo de Estado del 30 de diciembre de 2006."
+    }
+  },
+  {
+    "numero": 215,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Instituciones armadas y servicio militar",
+      "remisiones": [
+        "Ley No.75 de la Defensa Nacional",
+        "Decreto-Ley No. 67 De Organización de la Administración Central del Estado"
+      ],
+      "alerts": "El ordenamiento regulará el funcionamiento de las Fuerzas Armadas y el Ministerio del Interior. El Proyecto reconoce como las únicas instituciones armadas del Estado a ambos cuerpos, organizados en sendos ministerios. De igual manera reconoce al servicio militar como uno de los mecanismos para nutrir a los cuerpos armadas y remite a una ley que regula no solo la obligación de prestar el servicio militar, sino todo lo relacionado con la defensa."
+    }
+  },
+  {
+    "numero": 217,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Situaciones excepcionales",
+      "remisiones": [
+        "Ley No. 75 de la Defensa Nacional"
+      ],
+      "alerts": "Las situaciones excepcionales fracturan los ordenamientos de los Estados, pues limitan por un período de tiempo los derechos y libertades fundamentales. Por ello es preciso que se establezca desde la Constitución una regulación que permita en estos casos la defensa del orden y el regreso a la normalidad constitucional. Ninguno de esos elementos está garantizado con la redacción del artículo ofrecido por el Proyecto. No se utiliza una fórmula explícita en la que se establezcan los casos en los que procederán los Estados Excepcionales. Se utiliza una fórmula abierta al establecer algunos principios y reconocer además que pueden declararse cuando se produzcan “otras circunstancias” que afecten la defensa o la seguridad nacional. Se faculta de esta forma a una norma posterior para definir no solo los casos en que se puedan declarar los Estados excepcionales, sino también los derechos que pueden limitarse y las formas para su limitación."
+    }
+  },
+  {
+    "numero": 218,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Situaciones de desatres",
+      "remisiones": [
+        "Ley No. 75 de la Defensa Nacional",
+        "Decreto-Ley No. 170 del Sistema de Medidas de la Defensa Civil"
+      ],
+      "alerts": "Las situaciones excepcionales (en este caso por desastres) determinan una fractura en los ordenamientos de los Estados, poniendo en peligro la protección de los derechos y libertades fundamentales. Por ello es preciso que se establezca desde la Constitución una regulación, que permita en estos casos la defensa del orden y el regreso a la normalidad constitucional. Ninguno de esos elementos está garantizado con la redacción del artículo ofrecido por el Proyecto. En primer orden, no utiliza una fórmula explícita en la que se establezcan casuísticamente los casos en los que procederán los Estados Excepcionales reconocidos por el Proyecto. Se utiliza en ese sentido una fórmula abierta, muy peligrosa, al afirmar que pueden declararse cuando se produzcan “otras circunstancias” que afecten la defensa o la seguridad nacional. Se faculta de esta forma a una norma posterior; que ni tan siquiera tiene que tener rango de Ley, de acuerdo a las consideraciones que de ese término se hacen en el Glosario del Proyecto; para definir los casos en que se puedan declarar los Estados excepcionales."
+    }
+  },
+  {
+    "numero": 219,
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": false,
+      "modification": false,
+      "content": "Derechos y deberes de los ciudadanos en situaciones excepcionales",
+      "remisiones": [
+        "Ley No. 75 de la Defensa Nacional",
+        "Decreto-Ley No. 170 del Sistema de Medidas de la Defensa Civil"
+      ],
+      "alerts": "Las situaciones excepcionales determinan una fractura en los ordenamientos de los Estados, poniendo en peligro la protección de los derechos y libertades fundamentales. Por ello es preciso que se establezca desde la Constitución una regulación, que permita en estos casos la defensa del orden y el regreso a la normalidad constitucional. Ninguno de esos elementos está garantizado con la redacción del artículo ofrecido por el Proyecto. En primer orden, no utiliza una fórmula explícita en la que se establezcan casuísticamente los casos en los que procederán los Estados Excepcionales reconocidos por el Proyecto. Se utiliza en ese sentido una fórmula abierta, muy peligrosa, al afirmar que pueden declararse cuando se produzcan “otras circunstancias” que afecten la defensa o la seguridad nacional. Se faculta de esta forma a una norma posterior de acuerdo a las consideraciones que de ese término se hacen en el Glosario del Proyecto; para definir los casos en que se puedan declarar los Estados excepcionales."
+    }
+  },
+  {
+    "numero": 222,
+    "inciso": "e",
+    "leyes": {
+      "clasificacion": "Constitucional",
+      "correct": true,
+      "modification": false,
+      "content": "Reforma Constitucional",
+      "remisiones": [
+        "Reglamento de la Asamblea Nacional del Poder Popular"
+      ],
+      "alerts": "En este artículo en especial se establece una doble remisión. La primera es a la Constitución que establece en el propio artículo, cuáles son los mecanismos de participación de la ciudadanía en el control del poder. Algunos de ellos, han sido complementados desde el Propio Proyecto de forma diferente a lo establecido en la Constitución vigente. La otra remisión que se hace y que se convierte en un mecanismo de constitucionalidad indirecta es a las Leyes. En ese sentido, la redacción del Proyecto, permite que la nueva Ley Electoral que deberá promulgarse dentro de los seis meses posteriores a la aprobación de la Constitución, defina las formas y mecanismos, para la nominación, elección y revocación de los cargos públicos. Esa misma dinámica se reproduce en la forma en que se regulan los mecanismos de participación popular más importantes. La Constitución actual, solo admite que se promuevan referendos para la reforma de la Constitución y cuando se pretendan reformas totales o referidas a la integración y facultades de la Asamblea Nacional o de su Consejo de Estado, o a derechos y deberes consagrados en la Constitución. Así mismo, reconoce como único órgano facultado para la promoción de referendos a la Asamblea Nacional del Poder Popular. El Proyecto aumenta el número de sujetos legitimados para convocar referendos (Artículo 222), incluyendo una cifra cualificada de ciudadanos. En su glosario define además a la consulta popular como la forma de participación en la que el pueblo emite su opinión sobre determinado asunto, sin que ello tenga efectos vinculantes y permite que las autoridades municipales puedan utilizarla para ventilar asuntos de competencia local. Reconoce la iniciativa legislativa popular a partir de la recopilación de la firma de 10 mil ciudadanos, manteniendo la añeja fórmula de la Constitución vigente. En este sentido, el nuevo constitucionalismo latinoamericano, ha ampliado y facilitado el ámbito de la “iniciativa popular normativa”. Según sus postulados no debe alcanzar solamente a la proposición, sino también a la reforma o derogatoria de normas jurídicas ante el legislativo o cualquier otro órgano con competencia normativa.  Reconoce así mismo que debieran establecerse términos de obligatoriedad para la discusión de las propuestas populares, los cuales de vulnerarse implicarán una aceptación tácita por el órgano receptor y la entrada en vigencia de la propuesta. Ninguno de estos elementos es contemplado por el Proyecto y por demás hace, que los más importantes mecanismos de participación directa, dependan de leyes posteriores y se permite que se mantengan los principios que hasta hoy rigen los mismos. La iniciativa legislativa popular en Cuba es de tipo formulada, y se exige a los solicitantes que acompañen el proyecto de ley con una extensa y exhaustiva fundamentación desagregada en varios aspectos de factibilidad económica, social y legal. Otro requisito obliga a los promoventes a coordinarse con los órganos y organismos que deben cumplir o hacer cumplir las regulaciones propuestas y mostrar en el escrito de solicitud sus resultados, antes de presentar la iniciativa. No se conoce qué ocurriría si los órganos u organismos se opusieran al contenido de esta última, o sea, si tal acción de coordinación es de medio o de resultado. Si fuese lo primero, no sería relevante, de lo contrario, quedaría enclaustrado en los designios o intereses de las estructuras estatales. Por último, llama también la atención que se exija a los solicitantes que acrediten sus firmas y su capacidad para ejercer el sufragio activo y pasivo en documento notarial. Respecto a esto último, lo político-racional sería que el Estado habilitase puntos de recolecta de firmas de fácil acceso para los ciudadanos, en los que agentes electorales para la ocasión garantizaran la fidelidad e idoneidad de las firmas sin costo alguno, en un horario flexible y con la debida publicidad. Otro tanto sucede con la revocación de mandato que solo puede establecerse sin intervenciones de otros agentes diferentes a la ciudadanía en el nivel municipal. La “revocatoria” de los delegados provinciales y diputados de la Asamblea Nacional únicamente ha podido ser sustanciada (solicitada y decidida) por el 25% de los delegados municipales de la Asamblea, correspondiente a la circunscripción electoral por la cual resultó electo el revocable, o por un miembro del órgano al que pertenece. En el caso de los miembros del Consejo de Estado, han podido ser revocados por la Asamblea Nacional que los elige de su seno, o por otro miembro del mismo órgano. Lo curioso es que en todos los casos, una Comisión de Ética analiza la solicitud y puede considerar que no hay motivos para iniciar la mal denominada revocación; incluso cuando se ha tratado de delegados municipales con doble representación, se escucha el parecer de la Comisión, cuyo efecto será paralizador si así lo considera. Estos y otros elementos, debieron haber tenido una consideración en el momento de regular la participación popular en el Proyecto. Sin embargo, no han tenido una formulación mínima en el Proyecto y se ha facultado a la legislación posterior, para configurar, nada lo obstaculiza, sobre la base de los mismos principios que hasta hoy rigen la participación ciudadana en le control y la configuración del Estado."
+    }
+  }
+]

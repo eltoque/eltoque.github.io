@@ -1,5 +1,6 @@
 <template>
-    <v-btn
+    <v-fab-transition>
+    <v-btn v-show="active>0"
             :color="color"
             v-model="fab"
             dark
@@ -11,6 +12,8 @@
     >
         <font-awesome-icon icon="comment"  size="2x"></font-awesome-icon>
     </v-btn>
+    </v-fab-transition>
+
 </template>
 
 <script>
@@ -19,17 +22,18 @@
     import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
     library.add(faComment)
     export default {
+        props: ["active"],
         components:{
             FontAwesomeIcon
         },
         data: () => ({
             near: 1,
             fab: false,
-            color: "red"
+            color: "red",
         }),
         methods: {
             gotoNearComment: function () {
-                alert(this.near)
+                this.$scrollTo(`#commentbox${this.active}`)
             }
         }
     }

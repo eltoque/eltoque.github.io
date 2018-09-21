@@ -1,6 +1,6 @@
 <template>
     <section class="box-topics">
-        <div class="row btn-list">
+        <div class="btn-list">
             <template v-for="(item, index) in buttons">
                 <button type="button" :class="item.select" v-ripple :key="index" class="btn topic-btn"
                         @click="findTopic(index)">
@@ -9,7 +9,7 @@
             </template>
         </div>
 
-        <b-autocomplete
+        <b-autocomplete class="find"
                 v-model="name"
                 placeholder="Por ejemplo: Derechos"
                 :keep-first="keepFirst"
@@ -20,6 +20,7 @@
                 @select="option =>{findTopic(-1); selected = option}">
         </b-autocomplete>
         <div v-if="selected">
+            <!--<h3>{{name}}</h3>-->
             <transition-group name="fade">
                 <template v-for="articulo in selected.articulos">
 
@@ -54,7 +55,8 @@
 
             return {
                 data,
-                buttons: [{
+                buttons: [
+                    {
                     "topic": "Socialismo",
                     select: "btn-info",
                     key: "socialism"
@@ -80,14 +82,14 @@
                         key: "president"
                     },
                     {
-                        "topic": "Representantes populares",
-                        select: "btn-info",
-                        key: "representates"
-                    },
-                    {
                         "topic": "Elecciones",
                         select: "btn-info",
                         key: "election"
+                    },
+                    {
+                        "topic": "Representantes populares",
+                        select: "btn-info",
+                        key: "representates"
                     },
                     {
                         "topic": "Derechos",
@@ -103,6 +105,21 @@
                         "topic": "Economía",
                         select: "btn-info",
                         key: "eco"
+                    },
+                    {
+                        topic: "Comunismo",
+                        select: "btn-info",
+                        "key": "comunism"
+                    },
+                    {
+                        "topic": "Matrimonio",
+                        select: "btn-info",
+                        "key": "marriage"
+                    },
+                    {
+                         "topic": "Paz",
+                        select: "btn-info",
+                         "key": "paz"
                     }]
                 ,
                 keepFirst: false,
@@ -148,6 +165,20 @@
         padding-bottom: 20px;
         text-transform: uppercase;
     }
+    .find{
+        width: 500px;
+        margin: 15px auto;
+    }
+
+    h4.articulo {
+        font-family: TradeGothicLTStd-Bold;
+        font-size: 19.5px;
+        text-transform: uppercase;
+        color: #4c768c;
+        padding-left: 0px;
+        margin: 15px 75px;
+    }
+
 
     .fade-enter-active, .fade-leave-active {
         transition: opacity .5s;
@@ -163,7 +194,8 @@
         margin: 20px auto;
     }
 
-    .row .btn-list {
+    .btn-list {
+        margin: 5px auto;
         text-align: center;
     }
 

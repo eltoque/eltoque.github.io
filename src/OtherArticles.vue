@@ -7,7 +7,25 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col text-center">
-                        <div class="box-other"></div>
+                        <div>
+                            <v-carousel class="box-other"
+                                        hide-delimiters
+                                        next-icon="fa fa-chevron-right"
+                                        prev-icon="fa fa-chevron-left"
+                            >
+                                <template v-for="item in items">
+                                    <a :href="item.link">
+                                    <v-carousel-item :src="item.photo">
+                                            <div class="other-in">
+                                                <h5>{{item.title}}</h5>
+
+                                            </div>
+                                    </v-carousel-item>                                        </a>
+
+
+                                </template>
+                            </v-carousel>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -18,37 +36,86 @@
 
 <script>
     import {FluxParallax} from 'vue-flux';
+    import {library} from '@fortawesome/fontawesome-svg-core'
+    import {faChevronLeft, faChevronRight} from '@fortawesome/free-solid-svg-icons'
+    import {dom} from '@fortawesome/fontawesome-svg-core'
+    import axios from 'axios';
 
+    dom.watch()
+    import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
+
+    // import data from './assets/posts.json';
+
+    library.add(faChevronRight, faChevronLeft)
     export default {
-        props:["tag"],
+        props: ["tag"],
+        data() {
+            return {
+                items: []
+            }
+        },
         components: {
-            FluxParallax
+            FluxParallax, FontAwesomeIcon
+        },
+        created() {
+            axios.get(`https://eltoque.com/wp-json/wp/v2/posts/?_embed=1&tags=${this.tag}`)
+                .then(response => {
+                    // JSON responses are automatically parsed.
+                    for (let item of response.data){
+                        this.items.push({
+                            link: item.link,
+                            title: item.title.rendered,
+                            photo:item._embedded["wp:featuredmedia"][0].source_url
+                        })
+                    }
+                })
+                .catch(e => {
+                    // this.errors.push(e)
+                })
         },
         name: "OtherArticles"
     }
 </script>
 
 <style scoped>
+    h5{
+        z-index: 1;
+        text-align: center;
+        font-family: TradeGothicLTStd;
+        color: white;
+        margin: 0px auto;
+        max-width: 300px;
+        padding-top: 60px;
+        text-align: center;
+        font-size: 22px;
+    }
     .back-dark {
         height: 600px;
         width: 100%;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         z-index: 0;
 
+    }
+
+    .other-in {
+        background-color:  rgba(0, 0, 0, 0.7);;
+        margin: 0px auto;
+        height: 280px;
+        width: 400px;
     }
 
     .content-related {
         padding-top: 100px;
     }
 
-
-    .box-other{
-        width: 450px;
+    .box-other {
+        width: 400px;
         height: 280px;
-        background-color: white;
+        text-align: center;
+
+        /*background-color: white;*/
         margin: 10px auto;
     }
-
 
     h2.other-data {
         font-family: TradeGothicLTStd-Bold;

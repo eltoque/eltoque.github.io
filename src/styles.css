@@ -98,6 +98,27 @@ body * {
     color: #ffffff;
 }
 
+.credits {
+    background-image: url("/dist/assets/bg_portada_2.png");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    height: 650px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.dark {
+    height: 650px;
+    width: 100%;
+    background-color: rgba(0,0,100,0.8);
+    z-index: 0;
+}
+
 .section-intro .layer-1 {
     background-color: rgba(0, 0, 0,0.3);
     padding-top: 102px;
@@ -153,8 +174,9 @@ body * {
 }
 
 .title-section {
-    height: 200px;
+    height: 160px;
     background-color: #4c768c;
+    vertical-align: middle;
 }
 .no-regula .title-section{
     background-color: #f89226 !important;
@@ -166,7 +188,10 @@ body * {
     background-color: #f4d366 !important;
 }
 .others h3.text-section-title {
-    color: #f4d366 !important;
+    padding-top:30px;
+}
+.others h2.text-section-title {
+    font-size: 28px;
 }
 
 .topics h3.text-section-title {
@@ -193,6 +218,41 @@ body * {
     letter-spacing: normal;
     max-width: 630px;
 }
+.list-recomended{
+    max-width: 800px;
+    margin: 5px auto;
+}
+.title-credits{
+    font-family: TradeGothicLTStd-Bold;
+    color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.text-credits{
+    font-family: TradeGothicLTStd-Bold;
+    font-size: 18px;
+    margin: 0px auto;
+    max-width: 800px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.box-recomend{
+    font-family: TradeGothicLTStd-Bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    width: 300px;
+    height: 220px;
+    border: 1px solid;
+    margin: 10px;
+    padding: 20px;
+}
 .topics .divider {
     background-color: #33ccb2 !important;
 }
@@ -207,7 +267,7 @@ body * {
     color: #f89226 !important;
 }
 
-h3.text-section-title {
+.no-regula h3.text-section-title {
     color: #f89226 !important;
 }
 .yt-video{
@@ -219,9 +279,9 @@ h2.text-section-title {
     color: white;
     margin: 0px auto;
     max-width: 800px;
-    padding-top: 60px;
+    padding-top: 50px;
     text-align: center;
-    font-size: 34px;
+    font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 8px;
 
@@ -232,7 +292,7 @@ h3.text-section-title {
     margin: 0px auto;
     padding-top: 50px;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px !important;
     text-transform: uppercase;
     letter-spacing: 2px;
     /*text-shadow: #4c768c 0 1px;*/
@@ -245,7 +305,7 @@ div.text-section-title {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: justify;
-    font-size: 19.5px;
+    font-size: 16px;
     letter-spacing: normal;
     max-width: 630px;
 }

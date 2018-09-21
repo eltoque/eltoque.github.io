@@ -1,5 +1,5 @@
 <template>
-    <section class="box-comment">
+    <section class="box-comment" :id="`commentbox${this.category}`">
         <h3>Deja tu comentario, duda o pregunta</h3>
         <div class="list-comments">
             <div v-if="comments.length>0">
@@ -121,7 +121,7 @@
 
 <style scoped>
 
-    @media (max-width: 764px) {
+    @media (max-width: 800px) {
         .box-comment {
             padding: 40px 5% !important;
         }
@@ -181,11 +181,11 @@
     }
 
     h3 {
-        padding: 40px 0px;
+        padding: 10px 0px;
 
         font-family: TradeGothicLTStd-Bold;
         text-transform: uppercase;
-        font-size: 26px;
+        font-size: 24px;
         font-weight: bold;
         font-style: normal;
         font-stretch: normal;

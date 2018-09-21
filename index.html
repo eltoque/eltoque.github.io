@@ -9,7 +9,7 @@
     <meta name="author" content="Abraham Calas <dogcalas@gmail.com>">
 
 
-    <title>Ante-proyecto de Constitución de la República de Cuba</title>
+    <title>La Cuba que viene...</title>
     <link rel="stylesheet" href="/dist/main.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,7 +20,6 @@
     <![endif]-->
 
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/dist/favicons/ms-icon-144x144.png')}}">
     <meta name="theme-color" content="#ffffff">
 
 </head>
@@ -28,247 +27,305 @@
 <body>
 <div id="app">
     <div v-scroll="onScroll">
-    <fixed-bar :sect1="offsetSect1" :sect2="offsetSect2" :sect3="offsetSect3" :sect4="offsetSect4"> </fixed-bar>
-    <section class="section-intro" style="background-image: url('/dist/assets/bg_portada.jpg')">
-        <section class="top-bar">
-            <div class="row">
-                <div class="col-md-4 offset-md-4 text-center">
-                    <a class="navbar-brand" href="https://constitucion.eltoque.com">
-                        <img src="/dist/assets/logo.png" class="logo" width="144">
-                    </a>
+        <fixed-bar :sect1="offsetSect1" :sect2="offsetSect2" :sect3="offsetSect3" :sect4="offsetSect4"
+                   :whoactive.sync="activeSect" v-on:update:whoactive="getValue"></fixed-bar>
+        <section class="section-intro">
+            <section class="top-bar">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4 text-center">
+                        <a class="navbar-brand" href="https://constitucion.eltoque.com">
+                            <img src="/dist/assets/logo.png" class="logo" width="144">
+                        </a>
+                    </div>
+
+
+                    <div class="col-md-4 hidden-sm-and-down text-right">
+                        <navbar></navbar>
+                    </div>
                 </div>
+            </section>
+            <div class="row layer-1">
+                <div class="container-fluid">
+                    <u-animate-container>
+                        <u-animate
+                                name="slideInRight"
+                                delay="0s"
+                                duration="1s"
+                                :iteration="1"
+                                :offset="10"
+                                animate-class="animated"
+                                :begin="false"
+                        >
+                            <div>
+                                <p class="title-toque">La Cuba <br/>que viene...</p>
+                            </div>
+                        </u-animate>
 
+                        <br>
+                        <u-animate
+                                name="slideInLeft"
+                                delay="0s"
+                                duration="1s"
+                                :iteration="1"
+                                :offset="0"
+                                animate-class="animated"
+                                :begin="false"
+                        >
+                            <div>
+                                <p class="sub-title">Claves para comprender <br/>la reforma constitucional</p>
+                            </div>
+                        </u-animate>
 
-                <div class="col-md-4 hidden-sm-and-down text-right">
-                    <navbar></navbar>
+                    </u-animate-container>
+                </div>
+            </div>
+
+            <div class="row layer-2">
+                <div class="container-fluid">
+                    <u-animate-container>
+                        <u-animate
+                                name="fadeInDown"
+                                delay="0s"
+                                duration="1s"
+                                :iteration="1"
+                                :offset="10"
+                                animate-class="animated"
+                                :begin="false"
+                        >
+                            <div class="text-layer-2">
+                                <p class="paragraph">
+                                    Redactar una Constitución, más que crear un documento legal, es un momento social y
+                                    político. Es
+                                    una oportunidad para que los individuos pactemos con el Estado las bases de un nuevo
+                                    contrato
+                                    social que sirva para el presente y el futuro del país.
+                                </p>
+                                <p class="paragraph">
+                                    El proyecto de nueva Constitución para la República de Cuba fue debatido
+                                    públicamente
+                                    por
+                                    primera vez en la Asamblea Nacional el 21 y 22 de julio de 2018. Desde el 15 de
+                                    agosto y
+                                    hasta
+                                    el 15
+                                    de noviembre de este mismo año más de 100 mil asambleas someten a debate popular un
+                                    documento
+                                    que debe —después de revisión— dar forma a otro borrador que será presentado por
+                                    segunda
+                                    vez a
+                                    la Asamblea Nacional del Popular y finalmente sometido a aprobación, mediante
+                                    referéndum, a
+                                    inicios de 2019.
+                                </p>
+                                <p class="paragraph">
+                                    Como ciudadanos cubanos, cada uno de nosotros decide cómo, cuándo y dónde participa.
+                                    Llegado el
+                                    momento expresaremos (o no) nuestra voluntad mediante el voto. Pero creemos,
+                                    deberíamos
+                                    dar cada
+                                    paso con suficiente información.
+                                    En este Especial multimedia ofrece explicaciones, contextos, comparaciones y otros
+                                    recursos que
+                                    faciliten la comprensión del proyecto.
+                                </p>
+
+                            </div>
+                        </u-animate>
+                    </u-animate-container>
                 </div>
             </div>
         </section>
-        <div class="row layer-1">
+        <section id="question1" class="changes">
+            <section class="title-section">
+                <h2 class="text-section-title">
+                    <div class="icon-title">1</div>
+                    ¿Qué cambia en la <br/> constitución?
+
+                </h2>
+            </section>
             <div class="container-fluid">
-                <u-animate-container>
-                    <u-animate
-                            name="slideInRight"
-                            delay="0s"
-                            duration="1s"
-                            :iteration="1"
-                            :offset="10"
-                            animate-class="animated"
-                            :begin="false"
-                    >
-                        <div>
-                            <p class="title-toque">La Cuba <br/>que viene...</p>
-                        </div>
-                    </u-animate>
-
-                    <br>
-                    <u-animate
-                            name="slideInLeft"
-                            delay="0s"
-                            duration="1s"
-                            :iteration="1"
-                            :offset="0"
-                            animate-class="animated"
-                            :begin="false"
-                    >
-                        <div>
-                            <p class="sub-title">Claves para comprender <br/>la reforma constitucional</p>
-                        </div>
-                    </u-animate>
-
-                </u-animate-container>
+                <h3 class="text-section-title">El nuevo proyecto y la actual constitución</h3>
+                <div class="text-section-title">¿Qué avances o retrocesos contiene la propuesta de nueva Constitución
+                    con
+                    respecto a la vigente? Un análisis comparativo del texto de la Constitución vigente y el nuevo
+                    Proyecto
+                    de Constitución, permite filtrar de acuerdo a las siguientes cuatro categorías.
+                </div>
             </div>
-        </div>
-
-        <div class="row layer-2">
+            <const></const>
+            <div class="divider"></div>
             <div class="container-fluid">
-                <u-animate-container>
-                    <u-animate
-                            name="fadeInDown"
-                            delay="0s"
-                            duration="1s"
-                            :iteration="1"
-                            :offset="10"
-                            animate-class="animated"
-                            :begin="false"
-                    >
-                        <div class="text-layer-2">
-                            <p class="paragraph">
-                                Redactar una Constitución, más que crear un documento legal, es un momento social y
-                                político. Es
-                                una oportunidad para que los individuos pactemos con el Estado las bases de un nuevo
-                                contrato
-                                social que sirva para el presente y el futuro del país.
-                            </p>
-                            <p class="paragraph">
-                                El proyecto de nueva Constitución para la República de Cuba fue debatido públicamente
-                                por
-                                primera vez en la Asamblea Nacional el 21 y 22 de julio de 2018. Desde el 15 de agosto y
-                                hasta
-                                el 15
-                                de noviembre de este mismo año más de 100 mil asambleas someten a debate popular un
-                                documento
-                                que debe —después de revisión— dar forma a otro borrador que será presentado por segunda
-                                vez a
-                                la Asamblea Nacional del Popular y finalmente sometido a aprobación, mediante
-                                referéndum, a
-                                inicios de 2019.
-                            </p>
-                            <p class="paragraph">
-                                Como ciudadanos cubanos, cada uno de nosotros decide cómo, cuándo y dónde participa.
-                                Llegado el
-                                momento expresaremos (o no) nuestra voluntad mediante el voto. Pero creemos, deberíamos
-                                dar cada
-                                paso con suficiente información.
-                                En este Especial multimedia ofrece explicaciones, contextos, comparaciones y otros
-                                recursos que
-                                faciliten la comprensión del proyecto.
-                            </p>
+                <h3 class="text-section-title">VIVIR EN UN “ESTADO SOCIALISTA DE DERECHOS”</h3>
+                <div class="text-section-title">El proyecto afirma que Cuba se convertirá en un Estado Socialista de
+                    Derecho. El
+                    término desde lo teórico remite a la supremacía de la ley en la sociedad, pero eso no sería posible
+                    sin
+                    un amplio catálogo de libertades y derechos. El proyecto reconoce 40. Revísalos:
+                </div>
+            </div>
+            <!--<comment category="1"></comment>-->
 
+            <rights></rights>
+            <comment category="1"></comment>
+            <other-articles tag="847"></other-articles>
+        </section>
+
+
+        <section id="question2" class="no-regula">
+            <section class="title-section">
+                <h2 class="text-section-title">
+                    <div class="icon-title">2</div>
+                    ¿Qué no regula la nueva <br/> Constitución?
+                </h2>
+            </section>
+            <div class="container-fluid">
+                <h3 class="text-section-title">“LA LEY REGULARÁ…”</h3>
+                <div class="text-section-title">
+                    <p>La Constitución, como norma suprema, debe establecer principios sobre los que se estructura el
+                        resto
+                        del sistema legal. Las leyes son puramente complementarias de la Constitución no a la inversa.
+                        Por tanto, ninguna ley debería ampliar, transformar o distorsionar lo que establece la carta
+                        magna,
+                        eso desbordaría su competencia. El nuevo proyecto de Constitución es muy remisivo y deja
+                        cuestiones
+                        sustantivas a voluntad de leyes posteriores.
+                    </p>
+                    <p>
+                        En esta sección le ofrecemos todas esas remisiones clasificadas a partir de dos criterios
+                        fundamentales.
+                        El primero atendiendo a su “deformación”, pues hay remisiones que avizoran deformaciones
+                        constitucionales (la mayoría) o remisiones que establecen principios constitucionales para ser
+                        complementados. En cada caso se argumenta. El segundo criterio atiende a la “obligación de
+                        modificar
+                        o no” las leyes actuales y esboza así un mapa primario del sistema legal cubano y su
+                        posible modificación.
+                    </p>
+                </div>
+                <law-cards></law-cards>
+            </div>
+
+            <comment category="2"></comment>
+            <other-articles tag="847"></other-articles>
+
+        </section>
+
+        <section id="question3" class="topics">
+            <section class="title-section">
+                <h2 class="text-section-title">
+                    <div class="icon-title">3</div>
+                    ¿Cuáles son los temas más <br/> polémicos?
+                </h2>
+            </section>
+            <div class="container-fluid">
+                <h3 class="text-section-title">BUSCA EL TEMA DE TU INTERÉS</h3>
+                <div class="text-section-title">En 224 artículos el proyecto de Constitución determina las pautas y
+                    principios que regirán la vida del país y la nuestra. Algunos de los artículos han desatado
+                    polémicas
+                    (como el artículo 68 o el artículo 5) pero no todos los intereses se resumen a esos dos apartados.
+                    Aquí puedes encontrar con más facilidad otros temas que sean de tu interés.
+                </div>
+            </div>
+            <topic></topic>
+            <div class="divider"></div>
+            <div class="container-fluid">
+                <h3 class="text-section-title">EN VIDEO</h3>
+                <div class="text-section-title">Algunos temas dentro del proyecto —sobre todo aquellos de carácter más
+                    popular— han tenido polémicas en distintos espacios. Aquí puedes ver algunos debates con mayor
+                    profundidad.
+                </div>
+                <div class="yt-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wmSJob3Hwi4" frameborder="0"
+                            allow="encrypted-media" allowfullscreen></iframe>
+                </div>
+                <h4 class="text-section-title">Introducción para un debate: lo nunca visto en el parlamento cubano</h4>
+                <div class="video-text-section">
+                    El proyecto de constitución cubano generó opiniones diversas en la Asamblea Nacional del Poder
+                    Popular. Por primera vez, la transmisión en vivo de la televisión cubana reveló un funcionamiento
+                    interno nunca visto.
+                </div>
+            </div>
+            <comment category="3"></comment>
+            <other-articles tag="847"></other-articles>
+        </section>
+
+        <section id="question4" class="others">
+            <section class="title-section">
+                <h2 class="text-section-title">
+                    <div class="icon-title">4</div>
+                    ¿Qué otros elementos podrían incluirse en el proyecto Constitucional?
+                </h2>
+            </section>
+            <div class="divider"></div>
+
+            <div class="container-fluid">
+                <h3 class="text-section-title">TAMBIÉN DE INTERÉS</h3>
+                <div class="text-section-title">
+                    <p>Otros medios también han seguido el tema. Aquí compartimos algunos espacios que han generado
+                        opiniones y debates que pueden ser de tu interés.
+                    </p>
+                </div>
+                <div class="container-fluid list-recomended">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box-recomend">
+
+                                <a href="http://ortro.cc"><h3>Titulo</h3></a>
+                            </div>
                         </div>
-                    </u-animate>
-                </u-animate-container>
+                        <div class="col-md-6">
+                            <div class="box-recomend">
+                                <h3>Titulo</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="box-recomend">
+                                <h3>Titulo</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="box-recomend">
+                                <h3>Titulo</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="question1"   class="changes">
-        <section class="title-section">
-            <h2  class="text-section-title">
-                <div class="icon-title">1</div>
-                ¿Qué cambia en la <br/> constitución?
+            <!--<div class="divider"></div>-->
+            <!--<div class="container-fluid">-->
+                <!--&lt;!&ndash;<h3 class="text-section-title">OTRAS PROPUESTAS</h3>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="text-section-title">Como parte de la cobertura sobre el tema hemos publicado otros textos&ndash;&gt;-->
+                    <!--&lt;!&ndash;que complementan otras aristas del tema. Aquí los ponemos a tu disposición:&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+             <!---->
+            <!--</div>-->
 
-            </h2>
+            <!--<comment category="4"></comment>-->
         </section>
-        <div class="container-fluid">
-            <h3 class="text-section-title">El nuevo proyecto y la actual constitución</h3>
-            <div class="text-section-title">¿Qué avances o retrocesos contiene la propuesta de nueva Constitución con
-                respecto a la vigente? Un análisis comparativo del texto de la Constitución vigente y el nuevo Proyecto
-                de Constitución, permite filtrar de acuerdo a las siguientes cuatro categorías.
+        <section class="credits">
+            <div class="dark">
+
+                        <!--<h3 class="title-credits">Créditos</h3>-->
+                        <!--<p class="text-credits">Coordinación editorial: Jessica Dominguez & José jasan Nieves </p>-->
+                        <!--<p class="text-credits">Diseño: Wendy Valladares</p>-->
+                        <!--<p class="text-credits"> Programación: Abraham calás</p>-->
+
+                        <!--<p class="text-credits"> Autores<br/>-->
+                            <!--Julio Antonio Fernández Estrada<br/>-->
+                            <!--Ariel Dacal Díaz<br/>-->
+                            <!--Eloy Viera Cañive<br/>-->
+                            <!--Jessica Domínguez Delgado</p>-->
+                        <!--<h3 class="title-credits">Colaboración</h3>-->
+                        <!--<p class="text-credits"> Proyecto inventarios </p>-->
+
+
+
             </div>
-        </div>
-        <const></const>
-        <div class="divider"></div>
-        <div class="container-fluid">
-            <h3 class="text-section-title">VIVIR EN UN “ESTADO SOCIALISTA DE DERECHOS”</h3>
-            <div class="text-section-title">El proyecto afirma que Cuba se convertirá en un Estado Socialista de
-                Derecho. El
-                término desde lo teórico remite a la supremacía de la ley en la sociedad, pero eso no sería eso posible
-                sin
-                un amplio catálogo de libertades y derechos. El proyecto reconoce 40. Revísalos:
-            </div>
-        </div>
-        <!--<comment category="1"></comment>-->
 
-        <rights></rights>
-        <comment category="1"></comment>
-        <other-articles></other-articles>
-    </section>
-
-
-    <section id="question2" class="no-regula">
-        <section class="title-section">
-            <h2 class="text-section-title">
-                <div class="icon-title">2</div>
-                ¿Qué no regula la nueva <br/> Constitución?
-            </h2>
         </section>
-        <div class="container-fluid">
-            <h3 class="text-section-title">“LA LEY REGULARÁ…”</h3>
-            <div class="text-section-title">
-                <p>La Constitución, como norma suprema, debe establecer principios sobre los que se estructura el resto
-                    del sistema legal. Las leyes son puramente complementarias de la Constitución no a la inversa.
-                    Por tanto, ninguna ley debería ampliar, transformar o distorsionar lo que establece la carta magna,
-                    eso desbordaría su competencia. El nuevo proyecto de Constitución es muy remisivo y deja cuestiones
-                    sustantivas a voluntad de leyes posteriores.
-                </p>
-                <p>
-                    En esta sección le ofrecemos todas esas remisiones clasificadas a partir de dos criterios
-                    fundamentales.
-                    El primero atendiendo a su “deformación”, pues hay remisiones que avizoran deformaciones
-                    constitucionales (la mayoría) o remisiones que establecen principios constitucionales para ser
-                    complementados. En cada caso se argumenta. El segundo criterio atiende a la “obligación de modificar
-                    o no” las leyes actuales y esboza así un mapa primario del sistema legal cubano y su
-                    posible modificación.
-                </p>
-            </div>
-        </div>
-
-        <comment category="2"></comment>
-
-    </section>
-
-    <section id="question3" class="topics">
-        <section class="title-section">
-            <h2 class="text-section-title">
-                <div class="icon-title">3</div>
-                ¿Cuáles son los temas más <br/> polémicos?
-            </h2>
-        </section>
-        <div class="container-fluid">
-            <h3 class="text-section-title">BUSCA EL TEMA DE TU INTERÉS</h3>
-            <div class="text-section-title">En 224 artículos el proyecto de Constitución determina las pautas y
-                principios que regirán la vida del país y la nuestra. Algunos de los artículos han desatado polémicas
-                (como el artículo 68 o el artículo 5) pero no todos los intereses se resumen a esos dos apartados.
-                Aquí puedes encontrar con más facilidad otros temas que sean de tu interés.
-            </div>
-        </div>
-        <topic></topic>
-        <div class="divider"></div>
-        <div class="container-fluid">
-            <h3 class="text-section-title">EN VIDEO</h3>
-            <div class="text-section-title">Algunos temas dentro del proyecto —sobre todo aquellos de carácter más
-                popular— han tenido polémicas en distintos espacios. Aquí puedes ver algunos debates con mayor
-                profundidad.
-            </div>
-            <div class="yt-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wmSJob3Hwi4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-            </div>
-            <h4 class="text-section-title">Introducción para un debate: lo nunca visto en el parlamento cubano</h4>
-            <div class="video-text-section">
-                El proyecto de constitución cubano generó opiniones diversas en la Asamblea Nacional del Poder Popular. Por primera vez, la transmisión en vivo de la televisión cubana reveló un funcionamiento interno nunca visto.
-            </div>
-        </div>
-        <comment category="3"></comment>
-        <other-articles></other-articles>
-    </section>
-
-    <section id="question4" class="others">
-        <section class="title-section">
-            <h2 class="text-section-title">
-                <div class="icon-title">4</div>
-                ¿Qué otros elementos podrían incluirse en el proyecto <br/> Constitucional?
-            </h2>
-        </section>
-        <div class="container-fluid">
-            <h3 class="text-section-title">TAMBIÉN DE INTERÉS</h3>
-            <div class="text-section-title">
-                <p>Otros medios también han seguido el tema. Aquí compartimos algunos espacios que han generado
-                    opiniones y debates que pueden ser de tu interés.
-                </p>
-            </div>
-        </div>
-        <div class="divider"></div>
-        <div class="container-fluid">
-            <h3 class="text-section-title">OTRAS PROPUESTAS</h3>
-            <div class="text-section-title">Como parte de la cobertura sobre el tema hemos publicado otros textos que complementan otras aristas del tema. Aquí los ponemos a tu disposición:
-            </div>
-        </div>
-
-        <comment category="2"></comment>
-    </section>
-    <comment-button></comment-button>
-</div>
+        <comment-button :active="activeSect"></comment-button>
+    </div>
 </div>
 
 <script src="/dist/build.js"></script>
 </body>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54853009-1"></script>
-<!--<script>-->
-    <!--window.dataLayer = window.dataLayer || [];-->
-    <!--function gtag(){dataLayer.push(arguments);}-->
-    <!--gtag('js', new Date());-->
-
-    <!--gtag('config', 'UA-54853009-1');-->
-<!--</script>-->
 </html>

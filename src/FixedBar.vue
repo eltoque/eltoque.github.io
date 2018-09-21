@@ -3,7 +3,7 @@
         <transition name="fade">
         <div v-show="isFixed" :class="{ 'is-fixed': isFixed }">
                 <div class="top-bar row">
-                    <div class="col-md-3 text-sm-center"><img src="/src/assets/logo.png" class="top-bar-logo"/></div>
+                    <div class="col-md-3 text-sm-center text-xs-center"><img src="/src/assets/logo.png" class="top-bar-logo"/></div>
                     <div class="col-md-6 text-center">
                             <a href="#question1" v-scroll-to="'#question1'" :class="{active: isActive(1)}" class="icon-title">1</a>
                             <a href="#question2" v-scroll-to="'#question2'" :class="{active: isActive(2)}" class="icon-title">2</a>
@@ -11,7 +11,7 @@
                             <a href="#question4" v-scroll-to="'#question4'" :class="{active: isActive(4)}" class="icon-title">4</a>
 
                     </div>
-                    <div class="col-md-3 text-sm-center">
+                    <div class="col-md-3 navbar-center">
                         <navbar></navbar>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
     import Navbar from "./Navbar";
 
     export default {
-        props: ["sect1", "sect2","sect3", "sect4"],
+        props: ["sect1", "sect2","sect3", "sect4", "whoactive"],
         components: {
             Navbar,
             FixedHeader
@@ -40,6 +40,7 @@
             isActive: function(item){
                 if(item==1){
                     if(this.sect1 < 0 && this.sect2>0){
+                        this.$emit('update:whoactive', 1)
                         return true
                     } else {
                         return false
@@ -47,6 +48,7 @@
                 }
                 if(item==2){
                     if(this.sect2 < 0 && this.sect3>0){
+                        this.$emit('update:whoactive', 2)
                         return true
                     } else {
                         return false
@@ -54,6 +56,7 @@
                 }
                 if(item==3){
                     if(this.sect3 < 0 && this.sect4>0){
+                        this.$emit('update:whoactive', 3)
                         return true
                     } else {
                         return false
@@ -61,6 +64,7 @@
                 }
                 if(item==4){
                     if(this.sect4 < 0){
+                        this.$emit('update:whoactive', 4)
                         return true
                     } else {
                         return false
