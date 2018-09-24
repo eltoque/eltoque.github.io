@@ -43,7 +43,7 @@ Vue.use(VueScrollTo, {
 Vue.use(Vuetify)
 Vue.use(BootstrapVue)
 // Vue.use(VueAnalytics, {
-//     id: 'UA-54853009-1',
+//     id: 'UA-54pm 853009-1',
 //     autoTracking: {
 //         screenview: true
 //     }
