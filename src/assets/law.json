@@ -81,8 +81,8 @@
       "content": "Integración de Tratados Internacionales al ordenamiento cubano.",
       "remisiones": [
         "Decreto-Ley 191/99 Sobre los Tratados Internacionales",
-        "Resolución 462 de 2008",
-        "Resolución 49 de 2009",
+        "Resolución del Ministerio de Relaciones Exteriores 462 de 2008",
+        "Resolución del Ministerio de Relaciones Exteriores 49 de 2009",
         "Ley No. 59 Código Civil"
       ],
       "alerts": "Los Tratados ratificados implican obligaciones para los Estados que deben traducirse al ordenamiento nacional, a partir de mecanismos de recepción. El Proyecto, igual que la Constitución vigente, no define cuáles son esos mecanismos de integración y deja en manos de una Ley posterior la definición e implementación de esos asuntos. Aunque el actual Código Civil reconoce en su artículo 20 que si un acuerdo o un tratado internacional del que Cuba sea parte establece reglas diferentes a las expresadas en el Código o no contenidas en el mismo, deberá aplicarse el acuerdo o tratado. La actual normativa  hace depender su entrada en vigor de la publicación e introduce un mecanismo de limitación adicional: que el Presidente del Consejo de Estado y de Ministros puede ordenar que se publique íntegramente el texto del tratado o solamente una información sobre la ratificación, adhesión, aceptación o aprobación.  Por tanto, deberá esperarse a su publicación y a la declaración de entrada en vigor, para utilizarlo como norma de aplicación directa."
@@ -503,7 +503,11 @@
     "numero": 69,
     "leyes": {
       "clasificacion": "Familia",
-      "content": "Procedimientos para el reconocimiento de la paternidad."
+      "correct": true,
+      "modification": false,
+      "remisiones": [],
+      "content": "Procedimientos para el reconocimiento de la paternidad.",
+      "alerts": "En este caso, el Proyecto establece un mandato constitucional para que en las regulaciones posteriores se tenga en cuenta el principio de la igualdad de los hijos. Dichas regulaciones podrán ser diversas pues comprenderán tanto regulaciones meramente civiles como las relacionadas con el derecho a la herencia por igual de todos los hijos, hasta las relacionadas con las consecuencias de la adopción, relacionadas con el derecho familiar. "
     }
   },
   {
@@ -1219,6 +1223,9 @@
       "clasificacion": "Constitucional",
       "correct": true,
       "modification": false,
+      "remisiones": [
+        "Reglamentos de las Asambleas Municipales del Poder Popular"
+      ],
       "content": "Rendición de cuenta del delegado a sus electores",
       "alerts": "Se reconoce al igual que el texto de 1976 que los delegados deben rendir cuenta ante sus electores. Se mantienen así los representantes a los niveles municipales como los únicos que por mandato constitucional han de rendir cuentas ante sus electores. El Proyecto remite a una normativa posterior. El actual Reglamento de las Asambleas Municipales del Poder Popular regula la rendición de cuentas en los artículos 59, 60 y 61. En esos artículos se establece que el delegado, como mínimo, tiene que rendir cuenta dos veces en el año de su gestión personal y está obligado a mantener un vínculo permanente con sus electores."
     }
@@ -1268,6 +1275,9 @@
       "clasificacion": "Administrativo",
       "correct": false,
       "modification": true,
+      "remisiones": [
+        "Decreto 301, sobre las funciones estatales y de gobierno que se ejercen y cumplen en las provincias y municipios, objeto del experimento autorizado a realizar en sus respectivos territorios."
+      ],
       "content": "La Administración Municipal",
       "alerts": "El Proyecto refrenda a la Administración Municipal como un nuevo órgano. Remite a una legislación posterior para determinar la organización, estructura y funcionamiento de ese aparato administrativo local. Como antecedente para esa nueva legislación puede contarse el Decreto 301, diseñado para regular el experimento iniciado en las provincias de Artemisa y Mayabeque."
     }

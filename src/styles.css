@@ -51,6 +51,11 @@
         text-align-last: center !important;
     }
 
+    .others h2.text-section-title {
+        font-size: 17px !important;
+    }
+
+
 }
 
 body {
