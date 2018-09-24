@@ -11,7 +11,7 @@
                             <a href="#question4" v-scroll-to="'#question4'" :class="{active: isActive(4)}" class="icon-title">4</a>
 
                     </div>
-                    <div class="col-md-3 navbar-center">
+                    <div class="col-md-3 text-sm-center text-xs-center">
                         <navbar></navbar>
                     </div>
                 </div>
@@ -91,12 +91,24 @@
     a:hover{
         text-decoration: none;
     }
+
+    @media (max-width: 468px) {
+        .is-fixed{
+            top: auto !important;
+            bottom: 0px !important;
+        }
+        .top-bar-logo {
+            margin-left: 0px !important;
+
+        }
+
+    }
+
     .is-fixed {
         position: fixed;
-        top: 0;
+        top: 0px;
         width: 100%;
         z-index: 100000000;
-
     }
 
     .top-bar {
@@ -137,5 +149,6 @@
         transition: 0.5s;
 
     }
+
 
 </style>

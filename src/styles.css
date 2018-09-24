@@ -86,7 +86,7 @@ body * {
 }
 
 .section-intro {
-    background-image: url("/dist/assets/bg_portada.jpg");
+    background-image: url("/dist/assets/portada-pa-web.jpg");
     background-repeat: repeat-y;
     background-size: 100% auto;
     font-weight: bold;
@@ -99,8 +99,9 @@ body * {
 }
 
 .credits {
-    background-image: url("/dist/assets/bg_portada_2.png");
+    background-image: url("/dist/assets/portada-pa-web.jpg");
     background-repeat: repeat-y;
+    background-position: bottom;
     background-size: 100% auto;
     height: 650px;
     font-weight: bold;
@@ -108,16 +109,23 @@ body * {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
     color: #ffffff;
+    mix-blend-mode: multiply;
+    z-index: 1;
 }
 
 .dark {
     height: 650px;
     width: 100%;
     background-color: rgba(0,0,100,0.8);
-    z-index: 0;
+    z-index: 2;
+    position: absolute;
 }
+
+    .credits-text{
+        z-index: 3;
+    }
 
 .section-intro .layer-1 {
     background-color: rgba(0, 0, 0,0.3);
@@ -146,6 +154,11 @@ body * {
     text-align: left;
 
 
+}
+.topics h4 {
+    font-family: TradeGothicLTStd;
+    font-size: 18px;
+    color: #33ccb2;
 }
 
 .section-intro .layer-1 .sub-title {
@@ -225,7 +238,7 @@ body * {
 .title-credits{
     font-family: TradeGothicLTStd-Bold;
     color: white;
-    margin: 20px auto;
+    margin: 10px auto;
     max-width: 800px;
     padding-top: 60px;
     text-align: center;
@@ -272,7 +285,7 @@ body * {
 }
 .yt-video{
     width: 560px;
-    margin: 0px auto;
+    margin: 20px auto;
 }
 h2.text-section-title {
     font-family: TradeGothicLTStd-Bold;

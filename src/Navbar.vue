@@ -53,9 +53,8 @@
 
 
     .demopadding {
-        float: right;
-        padding-right: 20px;
-        display: inline-list-item;
+        margin: 0px auto;
+        display: inline-flex;
     }
 
     .icon-n {
@@ -82,7 +81,6 @@
     }
 
     .icon-n.social {
-        float: left;
         margin: 0 5px 0 0;
         cursor: pointer;
         background: #04152e;

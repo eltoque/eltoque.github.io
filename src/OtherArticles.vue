@@ -1,9 +1,8 @@
 <template>
     <flux-parallax src="/dist/assets/bg_portada.jpg" height="600px" offset="45%" type="fixed">
         <div class="content-related back-dark">
-            <h2 class="other-data">Otros contenidos relacionados</h2>
-            <h3 class="other-data">Como parte de la cobertura sobre el tema hemos publicado otros textos que
-                complementan esta aristas del tema. Aquí los ponemos a tu disposición:</h3>
+            <h2 class="other-data">TAMBIÉN PUEDES LEER</h2>
+            <h3 class="other-data">Como parte de nuestra cobertura hemos publicado otros textos que complementan esta arista del tema. Aquí los ponemos a tu disposición:</h3>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col text-center">
@@ -15,12 +14,13 @@
                             >
                                 <template v-for="item in items">
                                     <a :href="item.link">
-                                    <v-carousel-item :src="item.photo">
+                                        <v-carousel-item :src="item.photo">
                                             <div class="other-in">
                                                 <h5>{{item.title}}</h5>
 
                                             </div>
-                                    </v-carousel-item>                                        </a>
+                                        </v-carousel-item>
+                                    </a>
 
 
                                 </template>
@@ -61,11 +61,11 @@
             axios.get(`https://eltoque.com/wp-json/wp/v2/posts/?_embed=1&tags=${this.tag}`)
                 .then(response => {
                     // JSON responses are automatically parsed.
-                    for (let item of response.data){
+                    for (let item of response.data) {
                         this.items.push({
                             link: item.link,
                             title: item.title.rendered,
-                            photo:item._embedded["wp:featuredmedia"][0].source_url
+                            photo: item._embedded["wp:featuredmedia"][0].source_url
                         })
                     }
                 })
@@ -78,17 +78,37 @@
 </script>
 
 <style scoped>
-    h5{
+    h5 {
+
         z-index: 1;
-        text-align: center;
+        /* text-align: center; */
         font-family: TradeGothicLTStd;
         color: white;
-        margin: 0px auto;
-        max-width: 300px;
-        padding-top: 60px;
-        text-align: center;
+        /* max-width: 300px; */
+        /* height: 100%; */
         font-size: 22px;
+        text-align: left;
+        bottom: 0px;
+        position: absolute;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
     }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        .box-other {
+            width: 315px !important;
+            height: 230px !important;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 768px)  {
+        .sidebar-men{
+            padding-top: 20px !important;
+            z-index: 999999999999;
+        }
+    }
+
     .back-dark {
         height: 600px;
         width: 100%;
@@ -98,10 +118,10 @@
     }
 
     .other-in {
-        background-color:  rgba(0, 0, 0, 0.7);;
+        background-color: rgba(0, 0, 0, 0.7);;
         margin: 0px auto;
-        height: 280px;
-        width: 400px;
+        height: 315px;
+        width: 560px;
     }
 
     .content-related {
@@ -109,10 +129,10 @@
     }
 
     .box-other {
-        width: 400px;
-        height: 280px;
+        width: 460px;
+        height: 315px;
         text-align: center;
-
+        border: 20px solid white;
         /*background-color: white;*/
         margin: 10px auto;
     }
@@ -136,7 +156,7 @@
         font-style: normal;
         font-stretch: normal;
         line-height: normal;
-        max-width: 600px;
+        max-width: 800px;
         margin: 10px auto;
         text-align: center;
         color: #ffffff;

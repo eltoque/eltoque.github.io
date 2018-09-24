@@ -8,6 +8,7 @@
             fixed
             bottom
             right
+           style="z-index: 100000000000000000;"
             @click="gotoNearComment()"
     >
         <font-awesome-icon icon="comment"  size="2x"></font-awesome-icon>

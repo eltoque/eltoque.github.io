@@ -2,31 +2,31 @@
     <div class="container-fluid right-screen">
         <div class="row">
             <div class="col">
-                <h3>Derechos</h3>
-                <div class="text-left">
+                <div class="text-right" style="padding-right: 15px">
                     <button type="button" :class="{mark:all}" v-ripple class="btn btn-info right-btn" @click="showRights('all')">Todos</button>
-                    <button type="button" :class="{mark:old}" v-ripple class="btn btn-info right-btn" @click="showRights('old')">Viejo</button>
+                    <button type="button" :class="{mark:old}" v-ripple class="btn btn-info right-btn" @click="showRights('old')">Vigente</button>
                     <button type="button"  :class="{mark:nuu}" v-ripple class="btn btn-info right-btn" @click="showRights('nuu')">Nuevo</button>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <ul class="box-rigths">
-                    <template v-for="(item, index) in items">
-                        <li v-ripple :key="index" v-if="visible(index)"  class="item-rights" @click="getArticle(index)">
-                           + {{ item.derecho }}
-                        </li>
-                        <v-divider v-show="visible(index)" v-if="index + 1 < items.length" :key="`divider-${index}`"></v-divider>
-                    </template>
-                </ul>
-            </div>
             <div class="col col-md-6 side-rigths">
                 <v-divider class="hidden-sm-and-up"/>
                 <p class="rights">{{right}}</p>
                 <p class="type-rights">{{typo}}</p>
                 <p class="art-rights" ><span >{{article}}</span></p>
                 <p style="text-align:justify">{{textArticle}}</p>
+                <p style="text-align:justify">{{auxiliar}}</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="box-rigths">
+                    <template v-for="(item, index) in items">
+                        <li v-ripple :key="index" v-if="visible(index)"  class="item-rights" @click="getArticle(index)">
+                            + {{ item.derecho }}
+                        </li>
+                        <v-divider v-show="visible(index)" v-if="index + 1 < items.length" :key="`divider-${index}`"></v-divider>
+                    </template>
+                </ul>
             </div>
         </div>
     </div>
@@ -41,7 +41,8 @@
                 all: true,
                 old: false,
                 nuu: false,
-                textArticle:"",
+                textArticle:"El reconocimiento a los Derechos Humanos en el proyecto constitucional es señalado como un gran progreso. Entre los elementos más destacados del documento que se ha puesto a consideración resalta la inclusión de nuevos derechos y libertades, aunque también llaman la atención la aparición de límites a algunos derechos ya conquistados en nuevas formulaciones y las pocas garantías para el cumplimiento de todos.",
+                auxiliar:"Al tocar sobre cada derecho puedes ver el artículo donde se reconoce y el sujeto al que beneficia.",
                 right:"",
                 typo:"",
                 items: [
@@ -314,6 +315,8 @@
                 }
             },
             getArticle: function (index) {
+                this.auxiliar = ""
+
                 this.article = "Artículo "+this.items[index].numero;
                 this.right = this.items[index].derecho;
                 if(this.items[index].subject)
@@ -363,7 +366,7 @@
         margin: 0px auto;
         margin-top: 20px;
         font-size: 26px;
-        text-align: left;
+        text-align: right;
         text-transform: uppercase;
         letter-spacing: 5.2px;
     }
@@ -389,7 +392,7 @@
         /*margin-top: 140px;*/
         font-size: 16px;
         max-height: 400px;
-        overflow-y: scroll;
+        overflow-y: auto;
     }
 
     .art-rights{
@@ -411,22 +414,22 @@
 
     }
 
-    .right-btn {
-        font-size: 15px;
-        font-family: TradeGothicLTStd-Bold;
-        background-color: #3d6277;
-        font-weight: bold;
-        letter-spacing: 0.5px;
-        color: #f2f2f2;
-        text-align: center;
-        /*margin: 5px 5px;*/
-        width: 130px;
-        text-transform: uppercase;
-        user-select: none;
-        border: 0px;
-        height: 35px;
-        border-radius: 0px;
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    }
+        .right-btn {
+            font-size: 15px;
+            font-family: TradeGothicLTStd-Bold;
+            background-color: #3d6277;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            color: #f2f2f2;
+            text-align: center;
+            /*margin: 5px 5px;*/
+            width: 130px;
+            text-transform: uppercase;
+            user-select: none;
+            border: 0px;
+            height: 35px;
+            border-radius: 0px;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
 
 </style>
