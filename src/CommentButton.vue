@@ -11,7 +11,7 @@
            style="z-index: 100000000000000000;"
             @click="gotoNearComment()"
     >
-        <font-awesome-icon icon="comment"  size="2x"></font-awesome-icon>
+            <font-awesome-icon icon="comment"  size="2x"></font-awesome-icon>
     </v-btn>
     </v-fab-transition>
 

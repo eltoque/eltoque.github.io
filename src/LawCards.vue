@@ -1,10 +1,10 @@
 <template>
     <div>
         <div :style="{display: dialoga}" class="modal-me">
-        <div :class="{flip:isflip}" class="flip-container">
+        <div  class="flip-container">
             <div class="flipper">
-                <div class="back text-center" :class="{hide:isflip}">
-                    <div @click="closedetail"> Cerrar</div>
+                <div class="back text-center" :class="{correct: detail.correct }" v-show="!isflip">
+                    <div @click="closedetail"  class="closebut"> <font-awesome-icon icon="window-close"  size="lg" class="icon"></font-awesome-icon></div>
                     <div class="list-laws">
                         <template v-for="itlaw in detail.laws">
                             <ul>- {{itlaw}}</ul>
@@ -12,8 +12,8 @@
                     </div>
                     <div class="btn more" @click="voltear()">Volver</div>
                 </div>
-                <div class="front text-center" :class="{hidenback:!isflip}">
-                    <div @click="closedetail"> Cerrar</div>
+                <div class="front text-center" :class="{correct: detail.correct }" v-show="isflip">
+                    <div @click="closedetail" class="closebut"> <font-awesome-icon icon="window-close"  size="lg" class="icon"></font-awesome-icon></div>
                     <p class="detail-law">{{detail.alerts}}</p>
                     <div class="btn more" @click="voltear()">Leyes que {{detail.modification?'': 'no'}} deben cambiar</div>
 
@@ -69,11 +69,15 @@
     import BCheckbox from "buefy/src/components/checkbox/Checkbox";
     import BModal from "buefy/src/components/modal/Modal";
     import VueFlip from 'vue-flip'
+    import {library} from '@fortawesome/fontawesome-svg-core'
+    import {faWindowClose} from '@fortawesome/free-solid-svg-icons'
+    import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
+    library.add(faWindowClose)
     export default {
 
         name: "LawCards",
-        components: {BModal, BCheckbox, BRadio, VueFlip},
+        components: {BModal, BCheckbox, BRadio, VueFlip, FontAwesomeIcon},
         data() {
             let showmore = 0;
             let cantcorrect = 0;
@@ -153,6 +157,7 @@
                 }
             },
             voltear: function () {
+                console.log(this.isflip)
                 this.isflip = !this.isflip
             },
             vermas: function () {
@@ -163,13 +168,14 @@
                 this.showmore = 116
             },
             alerta: function (key) {
+                this.isflip = true;
                 this.detail = {
                     laws: this.datos[key].leyes.remisiones,
                     alerts: this.datos[key].leyes.alerts,
-                    modification: this.datos[key].leyes.modification
+                    modification: this.datos[key].leyes.modification,
+                    correct: this.datos[key].leyes.correct
                 }
                  this.dialoga = 'block'
-                console.log(this.dialoga )
             },
             closedetail: function () {
                 this.dialoga = 'none'
@@ -209,7 +215,7 @@
     }
 
     .detail-law {
-        font-family: TradeGothicLTStd;
+        font-family: TradeGothicLTStd-Bold;
         color: white;
         font-size: 16px;
         margin: 15px 5px;
@@ -221,7 +227,7 @@
 
     .list-laws {
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         padding: 0px 15px;
         margin: 10px 5px;
         text-align: center;
@@ -362,6 +368,9 @@
         margin: 5% auto;
 
     }
+    .backgr{
+        background-color: #f89226;
+    }
 
     /*.hide{*/
     /*display: none;*/
@@ -376,7 +385,7 @@
 
     /* hide back of pane during swap */
     .front, .back {
-        backface-visibility: hidden;
+        /*backface-visibility: hidden;*/
         position: absolute;
         top: 0;
         left: 0;
@@ -388,7 +397,7 @@
 
     /* front pane, placed above back */
     .front {
-        z-index: 1;
+        /*z-index: 1;*/
         /* for firefox 31 */
         background-color: #33ccb2;
         transform: rotateY(0deg);
@@ -396,13 +405,20 @@
 
     /* back, initially hidden pane */
     .back {
-        z-index: 2;
+        /*z-index: 2;*/
         background-color: #33ccb2;
-        transform: rotateY(180deg);
+        /*transform: rotateY(180deg);*/
     }
 
     .correct {
         background-color: #33ccb2;
+    }
+    .closebut{
+        color:white ;
+        text-align: right;
+        margin-right: 5px;
+        margin-top: 5px;
+        cursor: pointer;
     }
 
     .btn.more {

@@ -63,13 +63,13 @@
                     "status": "old",
                     "subject": "Estado",
                     "numero": 16,
-                    "texto": "La República de Cuba basa las relaciones internacionales en el ejercicio de su soberanía y los principios antimperialistas e internacionalistas,  en función de los intereses del pueblo y, en consecuencia : "
+                    "texto": "La República de Cuba basa las relaciones internacionales en el ejercicio de su soberanía y los principios antimperialistas e internacionalistas,  en función de los intereses del pueblo y, en consecuencia: "
                 }, {
                     "derecho": "Derechos de propiedad sobre los bienes. ",
                     "status": "nuu",
                     "subject": "empresas",
                     "numero": 25,
-                    "texto": " El Estado crea y organiza empresas con el objetivo de desarrollar actividades económicas de producción y prestación de servicios, las que ejercen los derechos que les corresponden sobre los bienes de propiedad socialista de todo el pueblo que tienen asignados. Las empresas responden de las obligaciones contraídas con su patrimonio , en correspondencia con los límites que determine la ley. El Estado no responde de las obligaciones contraídas por las empresas y estas tampoco responden de las de aquel. La ley define otras formas en las que este tipo de propiedad puede ser gestionada. "
+                    "texto": " El Estado crea y organiza empresas con el objetivo de desarrollar actividades económicas de producción y prestación de servicios, las que ejercen los derechos que les corresponden sobre los bienes de propiedad socialista de todo el pueblo que tienen asignados. Las empresas responden de las obligaciones contraídas con su patrimonio, en correspondencia con los límites que determine la ley. El Estado no responde de las obligaciones contraídas por las empresas y estas tampoco responden de las de aquel. La ley define otras formas en las que este tipo de propiedad puede ser gestionada. "
                 }, {
                     "derecho": "Derecho a tener una ciudadanía y a cambiarla. ",
                     "status": "old",
@@ -99,7 +99,7 @@
                     "status": "nuu",
                     "subject": "personas",
                     "numero": 48,
-                    "texto": " Toda persona como garantía a su seguridad jurídica, disfruta de un debido proceso y en consecuencia goza de los derechos siguientes : "
+                    "texto": " Toda persona como garantía a su seguridad jurídica, disfruta de un debido proceso y en consecuencia goza de los derechos siguientes: "
                 }, {
                     "derecho": "Derecho a presentar Habeas Corpus. ",
                     "status": "nuu",
@@ -267,7 +267,7 @@
                     "status": "nuu",
                     "subject": "ciudadano cubano",
                     "numero": 92,
-                    "texto": " El ciudadano cubano tiene derecho a participar en la conformación, ejercicio y control del poder del Estado, en razón a esto puede, de conformidad con la Constitución y las leyes : "
+                    "texto": " El ciudadano cubano tiene derecho a participar en la conformación, ejercicio y control del poder del Estado, en razón a esto puede, de conformidad con la Constitución y las leyes: "
                 }, {
                     "derecho": "Derecho a reclamar ante los tribunales cuando se vulneran los derechos por los organos del Estado. ",
                     "status": "nuu",
@@ -285,7 +285,13 @@
                     "status": "old",
                     "subject": "ciudadanos",
                     "numero": 200,
-                    "texto": " El voto es un derecho y un deber ciudadano. Lo ejercen voluntariamente los cubanos, hombres y mujeres, mayores de dieciséis años de edad, excepto : "
+                    "texto": " El voto es un derecho y un deber ciudadano. Lo ejercen voluntariamente los cubanos, hombres y mujeres, mayores de dieciséis años de edad, excepto: "
+                }, {
+                    "derecho": "Derecho a un empleo digno",
+                    "status": "old",
+                    "subject": "Personas en condición de trabajar",
+                    "numero": 75,
+                    "texto": " La persona en condición de trabajar tiene derecho a obtener un empleo digno, en correspondencia con su elección, calificación, aptitud y exigencias de la economía y la sociedad"
                 }
                 ]
             }
