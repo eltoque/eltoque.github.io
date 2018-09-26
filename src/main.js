@@ -26,7 +26,7 @@ import CommentButton from "./CommentButton.vue"
 import Autocomplete from 'buefy/dist/components/autocomplete'
 import Toast from 'buefy/dist/components/toast'
 import VueWow from 'vue-wow'
-// import VueAnalytics from 'vue-analytics'
+import VueAnalytics from 'vue-analytics'
 
 var VueScrollTo = require('vue-scrollto');
 var SocialSharing = require('vue-social-sharing');
@@ -42,13 +42,12 @@ Vue.use(VueScrollTo, {
 })
 Vue.use(Vuetify)
 Vue.use(BootstrapVue)
-// Vue.use(VueAnalytics, {
-//     id: 'UA-54pm 853009-1',
-//     autoTracking: {
-//         screenview: true
-//     }
-// })
-Vue.config.productionTip = false
+Vue.use(VueAnalytics, {
+    id: 'UA-54853009-1',
+    autoTracking: {
+        screenview: true
+    }
+})
 
 new Vue({
     el: '#app',
@@ -68,17 +67,19 @@ new Vue({
         },
         getValue: function (el) {
             this.activeSect = el
+        },
+        track () {
+            this.$ga.page('/')
         }
-        // track () {
-        //     this.$ga.page('/')
-        // }
     },
-    data: () => ({
+    data() {
+        this.track();
+        return {
         offsetSect1: 0,
         offsetSect2: 0,
         offsetSect3: 0,
         offsetSect4: 0,
         activeSect: 0,
-    }),
+    }},
     // render: h => h(App)
 })
