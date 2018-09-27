@@ -3,6 +3,7 @@
         <div class="row">
             <div class="col">
                 <div class="text-right" style="padding-right: 15px">
+                    <transition name="fade"><div @click="goInitial" v-if="right!=''" v-ripple class="icon-back"><font-awesome-icon icon="arrow-left"  size="lg"></font-awesome-icon></div>   </transition>
                     <button type="button" :class="{mark:all}" v-ripple class="btn btn-info right-btn" @click="showRights('all')">Todos</button>
                     <button type="button" :class="{mark:old}" v-ripple class="btn btn-info right-btn" @click="showRights('old')">Vigente</button>
                     <button type="button"  :class="{mark:nuu}" v-ripple class="btn btn-info right-btn" @click="showRights('nuu')">Nuevo</button>
@@ -33,16 +34,24 @@
 </template>
 
 <script>
+    import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
+    import {library} from '@fortawesome/fontawesome-svg-core'
+    import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
+    library.add(faArrowLeft)
     export default {
         name: "Rights",
+        components: {FontAwesomeIcon},
         data() {
+            let initial = ["El reconocimiento a los Derechos Humanos en el proyecto constitucional es señalado como un gran progreso. Entre los elementos más destacados del documento que se ha puesto a consideración resalta la inclusión de nuevos derechos y libertades, aunque también llaman la atención la aparición de límites a algunos derechos ya conquistados en nuevas formulaciones y las pocas garantías para el cumplimiento de todos.",
+            "Al tocar sobre cada derecho puedes ver el artículo donde se reconoce y el sujeto al que beneficia."]
             return {
                 article: "",
+                initial:  initial,
                 all: true,
                 old: false,
                 nuu: false,
-                textArticle:"El reconocimiento a los Derechos Humanos en el proyecto constitucional es señalado como un gran progreso. Entre los elementos más destacados del documento que se ha puesto a consideración resalta la inclusión de nuevos derechos y libertades, aunque también llaman la atención la aparición de límites a algunos derechos ya conquistados en nuevas formulaciones y las pocas garantías para el cumplimiento de todos.",
-                auxiliar:"Al tocar sobre cada derecho puedes ver el artículo donde se reconoce y el sujeto al que beneficia.",
+                textArticle:initial[0],
+                auxiliar:initial[1],
                 right:"",
                 typo:"",
                 items: [
@@ -297,6 +306,13 @@
             }
         },
         methods:{
+            goInitial: function(){
+                     this.textArticle = this.initial[0]
+                     this.auxiliar = this.initial[1]
+               this.right = "";
+               this.typo = "",
+               this.article = "";
+            }   ,
             showRights: function(status){
                 switch (status) {
                     case 'all': {
@@ -357,11 +373,31 @@
         }
     }
 
+    .fade-enter-active, .fade-leave-active {
+        transition: opacity .5s;
+    }
+
+    .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */
+    {
+        opacity: 0;
+    }
+
+
+    .icon-back {
+        background-color: #33ccb2;
+        color: white;
+        width: 35px;
+        height: 35px;
+        float: left;
+        cursor: pointer;
+        text-align: center;
+        padding-top: 7px;
+    }
     .right-screen {
         max-width: 900px;
     }
     .box-rigths {
-        margin-top: 5px;
+        margin-top: 10px;
         max-height: 400px;
         padding-left: 0px;
         overflow-y: scroll;
@@ -388,7 +424,7 @@
 
     .rights{
         color: #4c768c;
-        margin-top: 0px;
+        margin-top: 10px;
         font-family: TradeGothicLTStd-Bold;
         font-weight: bold;
         text-align: justify;

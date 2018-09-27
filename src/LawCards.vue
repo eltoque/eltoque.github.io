@@ -1,9 +1,11 @@
 <template>
     <div>
-        <div :style="{display: dialoga}" class="modal-me">
+        <transition name="fade">
+         <div v-if="dialoga" class="modal-me">
         <div  class="flip-container">
             <div class="flipper">
-                <div class="back text-center" :class="{correct: detail.correct }" v-show="!isflip">
+                <div class="back text-center " :class="[{backgr: !detail.correct },{correct: detail.correct }]" v-show="!isflip">
+                    <div :class="[{backgr: !detail.correct },{correct: detail.correct }, detail.clasif]"></div>
                     <div @click="closedetail"  class="closebut"> <font-awesome-icon icon="window-close"  size="lg" class="icon"></font-awesome-icon></div>
                     <div class="list-laws">
                         <template v-for="itlaw in detail.laws">
@@ -12,7 +14,8 @@
                     </div>
                     <div class="btn more" @click="voltear()">Volver</div>
                 </div>
-                <div class="front text-center" :class="{correct: detail.correct }" v-show="isflip">
+                <div class="front text-center" :class="[{backgr: !detail.correct }, {correct: detail.correct }]" v-show="isflip">
+                    <div :class="[{backgr: !detail.correct },{correct: detail.correct }, detail.clasif]"></div>
                     <div @click="closedetail" class="closebut"> <font-awesome-icon icon="window-close"  size="lg" class="icon"></font-awesome-icon></div>
                     <p class="detail-law">{{detail.alerts}}</p>
                     <div class="btn more" @click="voltear()">Leyes que {{detail.modification?'': 'no'}} deben cambiar</div>
@@ -20,14 +23,8 @@
                 </div>
             </div>
         </div>
-
-
-
         </div>
-
-
-
-
+        </transition>
         <div class="container-fluid not-big">
             <div class="text-center">
                 <button type="button" :class="{bark:all}" v-ripple class="btn btn-info right-btn"
@@ -103,7 +100,7 @@
                 isflip: false,
                 categories: categories,
                 detail: {},
-                dialoga: 'none',
+                dialoga: false,
                 all: true,
                 corr: false,
                 inc: false
@@ -173,12 +170,13 @@
                     laws: this.datos[key].leyes.remisiones,
                     alerts: this.datos[key].leyes.alerts,
                     modification: this.datos[key].leyes.modification,
+                    clasif: this.datos[key].leyes.clasificacion,
                     correct: this.datos[key].leyes.correct
                 }
-                 this.dialoga = 'block'
+                 this.dialoga = true
             },
             closedetail: function () {
-                this.dialoga = 'none'
+                this.dialoga = false
             }
         }
     }
@@ -199,6 +197,12 @@
             width: 500px !important;
 
         }
+        .flip-container, .front, .back {
+            width: 80% !important;
+            height: 500px !important;
+            margin: 50px auto !important;
+
+        }
 
     }
 
@@ -211,6 +215,12 @@
         .not-big {
             width: 300px !important;
         }
+        .flip-container, .front, .back {
+            width: 100% !important;
+            height: 500px !important;
+            margin: 0 auto !important;
+
+        }
 
     }
 
@@ -218,20 +228,19 @@
         font-family: TradeGothicLTStd-Bold;
         color: white;
         font-size: 16px;
-        margin: 15px 5px;
+        margin: 7px 5px;
         padding: 0px 35px;
         text-align: justify;
-        height: 390px;
+        height: 360px;
         overflow-y: auto;
     }
 
     .list-laws {
         color: white;
         font-size: 18px;
-        padding: 0px 15px;
-        margin: 10px 5px;
-        text-align: center;
-        height: 400px;
+        padding: 0px 10px;
+        margin: 7px 5px;
+        height: 360px;
         overflow-y: auto;
 
     }
@@ -274,7 +283,7 @@
     }
 
     .modal-me {
-        display: none; /* Hidden by default */
+        display: block; /* Hidden by default */
         position: fixed; /* Stay in place */
         z-index: 1; /* Sit on top */
         left: 0;
@@ -364,17 +373,10 @@
 
     .flip-container, .front, .back {
         width: 400px;
-        height: 500px;
+        height: 470px;
         margin: 5% auto;
 
     }
-    .backgr{
-        background-color: #f89226;
-    }
-
-    /*.hide{*/
-    /*display: none;*/
-    /*}*/
 
     /* flip speed goes here */
     .flipper {
@@ -410,9 +412,7 @@
         /*transform: rotateY(180deg);*/
     }
 
-    .correct {
-        background-color: #33ccb2;
-    }
+
     .closebut{
         color:white ;
         text-align: right;
@@ -429,6 +429,194 @@
         width: 230px;
         font-size: 14px;
         text-transform: uppercase;
+    }
+
+    .backgr{
+        background-color: #f89226;
+    }
+    .correct {
+        background-color: #33ccb2;
+    }
+
+    .correct.Administrativo{
+        background-image: url("/dist/assets/administaivo2.jpg") !important;
+        background-size: 110%;
+        opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .backgr.Administrativo{
+        background-image: url("/dist/assets/administaivo1.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .correct.Constitucional{
+        background-image: url("/dist/assets/constitucional2.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .backgr.Constitucional{
+        background-image: url("/dist/assets/constitucional1.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .correct.Económico{
+        background-image: url("/dist/assets/econom2.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .backgr.Económico{
+        background-image: url("/dist/assets/econom1.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .correct.Civil{
+        background-image: url("/dist/assets/civil2.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .backgr.Civil{
+        background-image: url("/dist/assets/civil1.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .correct.Familia{
+        background-image: url("/dist/assets/familia 2.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .backgr.Familia{
+        background-image: url("/dist/assets/familia 1.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+
+    .correct.Penal{
+        background-image: url("/dist/assets/penal2.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .backgr.Penal{
+        background-image: url("/dist/assets/penal1.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .correct.Procesal{
+        background-image: url("/dist/assets/procesal2.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .backgr.Procesal{
+        background-image: url("/dist/assets/procesal1.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .correct.Laboral{
+        background-image: url("/dist/assets/laboral2.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .backgr.Laboral{
+        background-image: url("/dist/assets/laboral.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .correct.Financiero{
+        background-image: url("/dist/assets/financiero2.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+    }
+    .backgr.Financiero{
+        background-image: url("/dist/assets/finaciero.jpg") !important;
+        background-size: 110%;
+                opacity: 0.4;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
     }
 
 </style>

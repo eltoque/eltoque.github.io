@@ -120,8 +120,10 @@
     .other-in {
         background-color: rgba(0, 0, 0, 0.7);;
         margin: 0px auto;
-        height: 315px;
-        width: 560px;
+        height: 80px;
+        bottom: 0px;
+        position: absolute;
+        width: 520px;
     }
 
     .content-related {
@@ -129,8 +131,8 @@
     }
 
     .box-other {
-        width: 460px;
-        height: 315px;
+        width: 560px;
+        height: 350px;
         text-align: center;
         border: 20px solid white;
         /*background-color: white;*/

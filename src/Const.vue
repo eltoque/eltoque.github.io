@@ -84,8 +84,8 @@
             <affix relative-element-selector="#constitution-items" class="sidebar-men"
                    style="width: 130px; padding-top: 20px">
                 <span v-if="mod || add || del || equ" class="openall" @click="openall">
-                    <font-awesome-icon v-if="!open" icon="eye"></font-awesome-icon>
-                    <font-awesome-icon v-else icon="eye-slash"></font-awesome-icon><br>
+                    <font-awesome-icon style="background-color: #33ccb2; color: white; width : 50px" size="lg" v-if="!open" icon="chevron-down"></font-awesome-icon>
+                    <font-awesome-icon  style="background-color: #33ccb2; color: white; width : 50px" size="lg" v-else icon="chevron-up"></font-awesome-icon><br>
                     {{!open?'Abrir':'Cerrar'}} todos</span>
             </affix>
 
@@ -14101,10 +14101,10 @@
 <script>
     import {Affix} from 'vue-affix';
     import {library} from '@fortawesome/fontawesome-svg-core'
-    import {faEye, faEyeSlash} from '@fortawesome/free-solid-svg-icons'
+    import {faEye, faEyeSlash, faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons'
     import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
-    library.add(faEye, faEyeSlash)
+    library.add(faEye, faEyeSlash, faChevronDown, faChevronUp)
     export default {
         name: "Const",
         components: {
@@ -14475,12 +14475,12 @@
     }
 
     .openall {
-        color: #f89266;
+        color: #33ccb2;
         font-family: TradeGothicLTStd-Bold;
         text-transform: uppercase;
         cursor: pointer;
         text-align: left;
-        font-size: 20px
+        font-size: 17px
     }
 
     .sidebar-men {

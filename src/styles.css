@@ -19,7 +19,7 @@
 
     .section-intro .layer-1 .sub-title {
         font-size: 40px !important;
-        text-align-last: center !important;
+        text-align-last: right !important;
         margin: 0px auto;
     }
 }
@@ -107,7 +107,7 @@ body * {
     background-repeat: repeat-y;
     background-position: bottom;
     background-size: 100% auto;
-    height: 650px;
+    height: 600px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -120,7 +120,7 @@ body * {
 }
 
 .dark {
-    height: 650px;
+    height: 600px;
     width: 100%;
     background-color: rgba(0, 0, 100, 0.8);
     z-index: 2;
@@ -260,7 +260,7 @@ body * {
 
 .text-credits {
     font-family: TradeGothicLTStd-Bold;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0px auto;
     max-width: 800px;
     text-align: center;
