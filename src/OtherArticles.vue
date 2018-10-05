@@ -78,6 +78,30 @@
 </script>
 
 <style scoped>
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        .box-other {
+            width: 315px !important;
+            height: 230px !important;
+        }
+        h5 {
+            font-size: 16px !important;
+            width:300px ;
+
+        }
+        .other-in {
+            width: 100% !important;
+        }
+
+    }
+
+    @media (min-width: 481px) and (max-width: 768px)  {
+        .sidebar-men{
+            padding-top: 20px !important;
+            z-index: 999999999999;  padding: 1px;
+
+        }
+    }
     h5 {
 
         z-index: 1;
@@ -87,26 +111,11 @@
         /* max-width: 300px; */
         /* height: 100%; */
         font-size: 22px;
-        text-align: left;
         bottom: 0px;
         position: absolute;
         text-align: center;
         padding: 10px;
         width: 100%;
-    }
-
-    @media (min-width: 320px) and (max-width: 480px) {
-        .box-other {
-            width: 315px !important;
-            height: 230px !important;
-        }
-    }
-
-    @media (min-width: 481px) and (max-width: 768px)  {
-        .sidebar-men{
-            padding-top: 20px !important;
-            z-index: 999999999999;
-        }
     }
 
     .back-dark {

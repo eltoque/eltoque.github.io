@@ -47,6 +47,10 @@
         font-size: 40px !important;
     }
 
+    .credits {
+        height: 650px !important;
+    }
+
     .section-intro .layer-1 .sub-title {
         font-size: 30px !important;
         text-align-last: center !important;
@@ -117,6 +121,26 @@ body * {
     color: #ffffff;
     mix-blend-mode: multiply;
     z-index: 1;
+}
+
+.credits-button {
+    width: 200px;
+    height: 57px;
+    cursor: pointer;
+    font-family: TradeGothicLTStd-Bold;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 3.4px;
+    text-align: center;
+    color: #ffffff;
 }
 
 .dark {

@@ -65,6 +65,9 @@ new Vue({
             this.offsetSect3 = this.$el.querySelector("#question3").getBoundingClientRect().top - 55
             this.offsetSect4 = this.$el.querySelector("#question4").getBoundingClientRect().top - 55
         },
+        openmeth: function(){
+            window.open('https://eltoque.com/como-construimos-el-especial-de-la-constitucion','_blank')
+        },
         getValue: function (el) {
             this.activeSect = el
         },
@@ -80,6 +83,6 @@ new Vue({
         offsetSect3: 0,
         offsetSect4: 0,
         activeSect: 0,
-    }},
+    }}
     // render: h => h(App)
 })
