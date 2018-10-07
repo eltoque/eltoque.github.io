@@ -19,14 +19,10 @@ import Const from "./Const.vue"
 import Rights from "./Rights.vue"
 import LawCards from "./LawCards.vue"
 import Topic from "./Topic2.vue"
-import Comment from "./Comment.vue"
 import FixedBar from "./FixedBar.vue"
-import OtherArticles from "./OtherArticles.vue"
-import CommentButton from "./CommentButton.vue"
 import Autocomplete from 'buefy/dist/components/autocomplete'
 import Toast from 'buefy/dist/components/toast'
 import VueWow from 'vue-wow'
-import VueAnalytics from 'vue-analytics'
 
 var VueScrollTo = require('vue-scrollto');
 var SocialSharing = require('vue-social-sharing');
@@ -34,26 +30,20 @@ Vue.use(SocialSharing);
 
 import Navbar from "./Navbar.vue"
 
-Vue.use(VueWow)
-Vue.use(Autocomplete)
-Vue.use(Toast)
+Vue.use(VueWow);
+Vue.use(Autocomplete);
+Vue.use(Toast);
 Vue.use(VueScrollTo, {
     offset: -55,
-})
-Vue.use(Vuetify)
-Vue.use(BootstrapVue)
-Vue.use(VueAnalytics, {
-    id: 'UA-54853009-1',
-    autoTracking: {
-        screenview: true
-    }
-})
+});
+Vue.use(Vuetify);
+Vue.use(BootstrapVue);
 
 new Vue({
     el: '#app',
 
     components: {
-        Donut, Const, Rights, Navbar, Topic, Comment, FixedBar, CommentButton, OtherArticles, LawCards
+        Donut, Const, Rights, Navbar, Topic, FixedBar, LawCards
     },
     methods: {
         onScroll(e) {
@@ -70,13 +60,9 @@ new Vue({
         },
         getValue: function (el) {
             this.activeSect = el
-        },
-        track () {
-            this.$ga.page('/')
         }
     },
     data() {
-        this.track();
         return {
         offsetSect1: 0,
         offsetSect2: 0,
@@ -85,4 +71,4 @@ new Vue({
         activeSect: 0,
     }}
     // render: h => h(App)
-})
+});
