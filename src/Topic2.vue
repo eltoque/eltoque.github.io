@@ -126,10 +126,12 @@
         methods: {
             findTopic: function (index) {
                 if (index >= 0) {
+                    if(this.selected != null && this.selected.key == this.buttons[index].key){
+                        this.selected = null
+                        } else
                     for (let opt of this.datos.temas) {
                         if (opt.key == this.buttons[index].key) {
                             this.selected = opt;
-                            // console.log(this.name)
                             break;
                         }
                     }
