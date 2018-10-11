@@ -7,7 +7,7 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 module.exports = {
   entry: './src/main.js',
-  watch: true,
+  // watch: true,
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
