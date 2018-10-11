@@ -22,6 +22,10 @@
         text-align-last: right !important;
         margin: 0px auto;
     }
+    .credits-button {
+        margin: 10px auto !important;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -59,7 +63,10 @@
     .others h2.text-section-title {
         font-size: 17px !important;
     }
-
+    .yt-video {
+        width: 320px !important;
+        height: 180px !important;
+    }
 
 }
 
@@ -282,7 +289,7 @@ body * {
     letter-spacing: 8px;
 }
 
-.text-credits {
+.text-credits , .text-credits a{
     font-family: TradeGothicLTStd-Bold;
     font-size: 20px;
     margin: 0px auto;
@@ -326,6 +333,9 @@ body * {
 
 .yt-video {
     width: 560px;
+    height: 315px;
+}
+.yt-list {
     margin: 20px auto;
 }
 

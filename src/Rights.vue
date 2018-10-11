@@ -2,7 +2,7 @@
     <div class="container-fluid right-screen">
         <div class="row">
             <div class="col">
-                <div class="text-right" style="padding-right: 15px">
+                <div class="text-md-right text-sm-center text-xs-center" style="padding-right: 15px">
                     <transition name="fade">
                         <div @click="goInitial" v-if="right!=''" v-ripple class="icon-back">
                             <font-awesome-icon icon="arrow-left" size="lg"></font-awesome-icon>
@@ -377,6 +377,10 @@
 
         .side-rigths {
             overflow-y: auto !important;
+        }
+
+        .right-btn {
+            width: 100px !important;
         }
     }
 
