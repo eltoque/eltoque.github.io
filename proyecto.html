@@ -2,10 +2,21 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Especial sobre el proyecto de Constitución de la República de Cuba">
+    <meta name="tags" content="cuba, constitución, constitution, toque">
+    <meta name="author" content="Abraham Calas <dogcalas@gmail.com>">
+    <meta property="og:image" content="https://eltoque.com/wp-content/uploads/2016/01/especial-constitución.jpg"/>
+    <link rel="icon"
+          type="image/png"
+          href="dist/assets/favicon.png"/>
+    <link rel="stylesheet" href="/dist/main.css">
     <title>Proyecto de constitución</title>
 </head>
 <body>
-<table>
+<div onclick="chageColor()">Cambiar Fondo</div>
+<table class="proyect-all">
     <tr>
         <td id='preambulo' class='titulo'>Preámbulo</td>
     </tr>
@@ -2202,11 +2213,9 @@
             Estado y al Primer Ministro. Al Presidente del Tribunal Supremo Popular, al Fiscal General de la República,
             al Contralor General de la República y al Presidente del Consejo Electoral Nacional, solo los puede
             suspender del ejercicio de sus responsabilidades.
-        </td>
-    </tr>
-    <tr>
-        <td class="articulo" id='articulo-117-inciso-k'> k) En todos los casos, da cuenta a la Asamblea Nacional del
-            Poder Popular en su sesión más próxima, a los efectos que corresponda;
+            <br/>
+            En todos los casos, da cuenta a la Asamblea Nacional del Poder Popular en su sesión más próxima, a los
+            efectos que corresponda;
         </td>
     </tr>
     <tr>
@@ -4388,4 +4397,27 @@
     </tr>
 </table>
 </body>
+<script>
+    function copylink() {
+
+    }
+
+    function icreaseDecreasLetter(type) {
+        if(type=="+"){
+
+        } else {
+
+        }
+    }
+
+    function chageColor() {
+        if (document.body.style.backgroundColor == "rgb(255, 255, 255)") {
+            document.body.style.backgroundColor = "#000"
+            document.body.style.color = "#FFF"
+        } else {
+            document.body.style.backgroundColor = "#FFF"
+            document.body.style.color = "#212529"
+        }
+    }
+</script>
 </html>

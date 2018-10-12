@@ -22,9 +22,6 @@
         text-align-last: right !important;
         margin: 0px auto;
     }
-    .credits-button {
-        margin: 10px auto !important;
-    }
 
 }
 
@@ -138,8 +135,6 @@ body * {
     text-transform: uppercase;
     border: 1px solid white;
     padding: 10px;
-    margin-left: 100px;
-    margin-top: 50px;
     font-size: 15px;
     font-weight: bold;
     font-style: normal;
@@ -148,6 +143,7 @@ body * {
     letter-spacing: 3.4px;
     text-align: center;
     color: #ffffff;
+    margin: 20px;
 }
 
 .dark {
@@ -519,4 +515,27 @@ div.text-section-title {
 .section-social-content {
     margin-bottom: -40px;
     margin-top: 20px;
+}
+
+.proyect-all{
+    max-width: 800px;
+    margin: 20px auto;
+}
+.proyect-all .titulo{
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.proyect-all .capitulo{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.proyect-all .articulo{
+    font-size: 17px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.proyect-all .articulo-titulo {
+    font-size: 19px;
+    font-weight: bold;
 }

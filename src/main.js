@@ -68,6 +68,9 @@ new Vue({
         openmeth: function(){
             window.open('https://eltoque.com/como-construimos-el-especial-de-la-constitucion','_blank')
         },
+        openproy: function(){
+            window.open('https://constitucion.eltoque.com/proyecto.html','_blank')
+        },
         getValue: function (el) {
             this.activeSect = el
         },
