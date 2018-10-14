@@ -51,6 +51,7 @@
     "css-loader": "^0.28.7",
     "electron": "^3.0.0",
     "electron-packager": "^12.1.2",
+    "electron-winstaller": "^2.7.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.5",
     "font-loader": "^0.1.2",
