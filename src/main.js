@@ -81,7 +81,7 @@ new Vue({
                 case "meth": window.open('https://eltoque.com/como-construimos-el-especial-de-la-constitucion','_blank'); break;
                 case "proy": window.open('https://constitucion.eltoque.com/proyecto.html','_blank'); break;
                 case "vig": window.open('https://constitucion.eltoque.com/vigente.html','_blank'); break;
-                case "off": window.open('https://constitucion.eltoque.com/offline.zip','_blank'); break;
+                case "off": window.open('https://constitucion.eltoque.com/dist/assets/offline.zip','_blank'); break;
             }
 
         },
