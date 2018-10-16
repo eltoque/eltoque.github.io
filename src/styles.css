@@ -567,6 +567,11 @@ display: inline-block;
 a .down-icon{
     color: #212529;
 }
+
+.title-const{
+    margin: 5px auto;
+    text-align: center;
+}
 @media print
 {
 .no-print, .no-print *
