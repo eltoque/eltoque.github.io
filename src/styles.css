@@ -520,3 +520,66 @@ div.text-section-title {
     margin-bottom: -40px;
     margin-top: 20px;
 }
+
+.proyect-all{
+    max-width: 800px;
+    margin: 20px auto;
+}
+.proyect-all .titulo{
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.proyect-all .capitulo{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.proyect-all .articulo{
+    font-size: 1.2em;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.proyect-all .articulo-titulo {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.read-tool{
+display: inline-block;
+    width: auto;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .6));
+
+}
+.read-tool div{
+    float: left;
+    height: 100%;
+    margin: 0px 10px;
+    vertical-align: middle;
+}
+
+.down-icon{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+a .down-icon{
+    color: #212529;
+}
+
+.title-const{
+    margin: 5px auto;
+    text-align: center;
+}
+@media print
+{
+.no-print, .no-print *
+{
+    display: none !important;
+}
+}
