@@ -23,6 +23,7 @@ import Comment from "./Comment.vue"
 import FixedBar from "./FixedBar.vue"
 import OtherArticles from "./OtherArticles.vue"
 import CommentButton from "./CommentButton.vue"
+// import Cloud from "./Cloud.vue"
 import Autocomplete from 'buefy/dist/components/autocomplete'
 import Toast from 'buefy/dist/components/toast'
 import VueWow from 'vue-wow'
@@ -65,13 +66,13 @@ new Vue({
     },
     methods: {
         onScroll(e) {
-            if (this.$el.querySelector("#question1").getBoundingClientRect().top - 55 > 0) {
+            if (this.$el.querySelector("#question1").getBoundingClientRect().top - 60 > 0) {
                 this.activeSect = 0
             }
-            this.offsetSect1 = this.$el.querySelector("#question1").getBoundingClientRect().top - 55
-            this.offsetSect2 = this.$el.querySelector("#question2").getBoundingClientRect().top - 55
-            this.offsetSect3 = this.$el.querySelector("#question3").getBoundingClientRect().top - 55
-            this.offsetSect4 = this.$el.querySelector("#question4").getBoundingClientRect().top - 55
+            this.offsetSect1 = this.$el.querySelector("#question1").getBoundingClientRect().top - 60
+            this.offsetSect2 = this.$el.querySelector("#question2").getBoundingClientRect().top - 60
+            this.offsetSect3 = this.$el.querySelector("#question3").getBoundingClientRect().top - 60
+            this.offsetSect4 = this.$el.querySelector("#question4").getBoundingClientRect().top - 60
         },
         openmeth: function(){
 

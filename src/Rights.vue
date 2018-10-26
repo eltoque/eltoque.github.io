@@ -76,7 +76,7 @@
                     },
                     {
                         "derecho": "Libertad religiosa. ",
-                        "status": "Old",
+                        "status": "old",
                         "subject": "Ciudadano ,  organizaciones . ",
                         "numero": 15,
                         "texto": "El Estado reconoce,  respeta y garantiza la libertad religiosa. <br/>En la República de Cuba las instituciones religiosas están separadas del Estado  y todas tienen los mismos derechos y deberes.  <br/>Las distintas creencias y religiones gozan de igual consideración. <br/>"
@@ -90,7 +90,7 @@
                     },
                     {
                         "derecho": "Derechos de propiedad sobre los bienes. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "empresas",
                         "numero": 25,
                         "texto": " El Estado crea y organiza empresas con el objetivo de desarrollar actividades económicas de producción y prestación de servicios,  las que ejercen los derechos que les corresponden sobre los bienes de propiedad socialista de todo el pueblo que tienen asignados.  <br/>Las empresas responden de las obligaciones contraídas  con su patrimonio,  en correspondencia con los límites que determine la ley. <br/>El Estado no responde de las obligaciones contraídas por las empresas y estas tampoco responden de las de aquel. <br/> La ley define otras formas en las que este tipo de propiedad puede ser gestionada.  <br/>"
@@ -104,42 +104,42 @@
                     },
                     {
                         "derecho": "Derecho a la vida. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "ciudadanos",
                         "numero": 43,
                         "texto": " El Estado garantiza a todos sus ciudadanos la vida,  la libertad,  la justicia,  la seguridad,  la paz,  la salud,  la educación,  la cultura y su desarrollo integral.  <br/>"
                     },
                     {
                         "derecho": "Derecho al libre desenvolvimiento de la personalidad bajo una conducta de respeto,  fraternidad y solidaridad. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 44,
                         "texto": " Las personas tienen derecho al libre desenvolvimiento de su personalidad y deben guardar entre sí una conducta de respeto,  fraternidad y solidaridad.  <br/>"
                     },
                     {
                         "derecho": "Derecho a la intmidad personal y familiar. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 46,
                         "texto": " El Estado respeta y garantiza el derecho de las personas a su intimidad personal y familiar,  a su imagen,  dignidad y honor.  <br/>"
                     },
                     {
                         "derecho": "Derecho al debido proceso.",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 48,
                         "texto": " Toda persona como garantía a su seguridad jurídica,  disfruta de un debido proceso y en consecuencia goza de los derechos siguientes:  <br/>a)  no ser privada de libertad,  sino por autoridad competente;  <br/>b)  no ser detenida ni procesada,  sino por causa justa,  autoridad competente y por el tiempo establecido;  <br/>c)  que se presuma inocente,  mientras no se haya declarado responsable por sentencia firme de tribunal;  <br/>d) ser  procesada  y condenada por tribunal competente,   independiente,  imparcial,  preestablecido legalmente  y en virtud de leyes anteriores al delito; <br/>e)  ser tratada con respeto a su dignidad e integridad física,  síquica y moral;  <br/>f)  recibir asistencia jurídica para ejercer su defensa;  <br/>g)  ser notificada de los cargos en su contra y acceder a los medios de pruebas;  <br/>h)  comunicarse con sus familiares,  caso de ser detenida o arrestada.  Si se tratara de extranjeros se procede a la notificación consular;  <br/>i)  no ser privada de sus derechos sino por resolución fundada de autoridad competente o sentencia firme de tribunal,  e <br/>j)  interponer los recursos pertinentes contra las resoluciones judiciales o administrativas que correspondan.  <br/>"
                     },
                     {
                         "derecho": "Derecho a presentar Habeas Corpus. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas ,  privadas de libertad",
                         "numero": 50,
                         "texto": " Quien estuviere privado de libertad ilegalmente,  tiene derecho a establecer ante tribunal competente procedimiento de Habeas Corpus,  conforme a las exigencias establecidas en la ley.  <br/>"
                     },
                     {
                         "derecho": "Derecho de las personas privadas de libertad a su reinserción social. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas ,  privadas de libertad",
                         "numero": 51,
                         "texto": " El Estado favorece en su política penitenciaria la reinserción social de las personas privadas de libertad,  garantiza el respeto de sus derechos y el cumplimiento de las normas establecidas para su tratamiento en los establecimientos penitenciarios.  <br/>"
@@ -160,28 +160,28 @@
                     },
                     {
                         "derecho": "Derecho a conocer sobre sus datos personales. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 55,
                         "texto": " Toda persona tiene el derecho de conocer lo que de ella conste en archivos o cualquier otra forma de registros públicos,  así como a interesar su no divulgación y obtener su debida corrección,  rectificación y actualización,  de conformidad con lo establecido en la ley.  <br/>"
                     },
                     {
                         "derecho": "Derecho a la información veraz,  oportuna y adecuada por parte del Estado. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 56,
                         "texto": " Todas las personas tienen derecho a recibir del Estado información veraz,  adecuada y oportuna,  conforme a las regulaciones establecidas.  <br/>"
                     },
                     {
                         "derecho": "Derecho al uso,  disfrute y libre disposición de la propiedad. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "propietarios",
                         "numero": 57,
                         "texto": " El Estado garantiza el uso,  disfrute y libre disposición de la propiedad,  de conformidad con lo establecido en la ley.  <br/>"
                     },
                     {
                         "derecho": "Libertad de conciencia.",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": false,
                         "numero": 59,
                         "texto": "El Estado reconoce,  respeta y garantiza la libertad de  pensamiento,  conciencia  y expresión.  <br/>"
@@ -202,7 +202,7 @@
                     },
                     {
                         "derecho": "Derecho a profesar o no y a cambiar de creencia religiosa. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 62,
                         "texto": " Toda persona tiene derecho a profesar o no creencias religiosas,  a cambiarlas y a practicar la de su preferencia,  con el debido respeto a otros credos y de conformidad con la ley.  <br/>"
@@ -216,21 +216,21 @@
                     },
                     {
                         "derecho": "Derechos de creación intelectual. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "Autores y titulares",
                         "numero": 65,
                         "texto": " Se reconocen a las personas los derechos derivados de la creación intelectual,  conforme a la ley y los tratados internacionales.  <br/> Los derechos adquiridos se ejercen por los autores y titulares en correspondencia con las políticas públicas.  <br/>"
                     },
                     {
                         "derecho": "Derecho a la sucesión. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": false,
                         "numero": 66,
                         "texto": "El Estado reconoce el derecho  a la sucesión   por causa de muerte.  La ley regula su contenido y alcance.  <br/>"
                     },
                     {
                         "derecho": "Derecho a obtener un empleo digno,  en correspondencia con su elección,  calificación,  aptitud y exigencias. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 75,
                         "texto": " La persona en condición de trabajar tiene derecho a obtener un empleo digno,  en correspondencia con su elección,  calificación,  aptitud y exigencias de la economía y la sociedad.  <br/>"
@@ -258,7 +258,7 @@
                     },
                     {
                         "derecho": "Derecho a la vivienda. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 82,
                         "texto": " Se reconoce el derecho   de las personas a una vivienda digna.  <br/>El Estado trabaja  para hacer efectivo este derecho  mediante programas de construcción de viviendas,  con la participación de entidades y de la población,  en correspondencia con las normas del ordenamiento territorial y urbano y las leyes.  <br/>"
@@ -272,7 +272,7 @@
                     },
                     {
                         "derecho": "Derecho a la educación. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 84,
                         "texto": " La educación es un derecho de todas las personas   y una responsabilidad del Estado,  la sociedad y las familias.  <br/> El Estado   garantiza a sus ciudadanos servicios de educación gratuitos y asequibles para su formación integral,  desde el preescolar hasta la enseñanza universitaria de pregrado,  conforme a  las exigencias sociales y a las necesidades del desarrollo económico-social del país. <br/> La ley define,  entre otras cuestiones,  el alcance de la obligatoriedad de estudiar y la preparación general básica que,  como mínimo,  debe adquirir todo ciudadano.  <br/> Se garantiza la formación posgraduada y la educación de las personas adultas,  de conformidad con las regulaciones establecidas.  <br/>"
@@ -286,49 +286,49 @@
                     },
                     {
                         "derecho": "Derecho a vivir en un medio ambiente sano y equilibrado. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 86,
                         "texto": " Todas las personas tienen derecho a vivir en un medio ambiente sano y equilibrado.  <br/>El Estado protege el medio ambiente y los recursos naturales del país.  Reconoce su estrecha vinculación con el desarrollo sostenible de la economía y la sociedad para hacer más racional la vida humana y asegurar la supervivencia,  el bienestar y la seguridad de las generaciones actuales y futuras. <br/>"
                     },
                     {
                         "derecho": "Derecho al agua. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 87,
                         "texto": " Todas las personas tienen derecho al agua,  con la debida retribución y uso racional.  <br/>"
                     },
                     {
                         "derecho": "Derecho a la alimentación. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 88,
                         "texto": " Se reconoce el derecho de las personas a la alimentación.  El Estado trabaja para alcanzar la seguridad alimentaria de toda la población.  <br/>"
                     },
                     {
                         "derecho": "Derecho a consumir bienes y servicios de calidad. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 89,
                         "texto": " Todas las personas tienen derecho a consumir bienes y servicios de calidad y que no atenten contra su salud,  y a acceder a información adecuada y veraz sobre estos,  así como a recibir un trato equitativo y digno de conformidad con la ley.  <br/>"
                     },
                     {
                         "derecho": "Derecho a participar en la vida cultural y artística. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 90,
                         "texto": " Todas las personas tienen derecho a participar en la vida cultural y artística de la nación.  El Estado promueve la cultura y las distintas manifestaciones artísticas,  de conformidad con la política cultural y la ley.  <br/>"
                     },
                     {
                         "derecho": "Derecho a la participación en la conformación,  ejercicio y control del poder del Estado. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "ciudadano cubano",
                         "numero": 92,
                         "texto": " El ciudadano cubano tiene derecho a participar en la conformación,  ejercicio y control del poder del Estado,  en razón a esto puede,  de conformidad con la Constitución y las leyes:  <br/>a)  estar inscripto en el registro electoral;  <br/>b)  proponer y nominar candidatos;  <br/>c)  elegir y ser elegido;  <br/>d)  participar en elecciones,  plebiscitos,  referendos,  consultas populares y otras formas de participación democrática;  <br/>e)  pronunciarse sobre la rendición de cuenta que le presentan los elegidos;  <br/>f)  revocar el mandato de los elegidos;  <br/>g)  ejercer la iniciativa legislativa y de reforma de la Constitución;  <br/>h)  desempeñar funciones y cargos públicos,  y <br/>i)  estar informado de la gestión de los órganos y autoridades del Estado.  <br/>"
                     },
                     {
                         "derecho": "Derecho a reclamar ante los tribunales cuando se vulneran los derechos por los organos del Estado. ",
-                        "status": "new",
+                        "status": "nuu",
                         "subject": "personas",
                         "numero": 94,
                         "texto": " La  persona  a la que se le vulneren sus derechos y  sufriere daño o perjuicio por  órganos del Estado,  sus directivos,   funcionarios y  empleados,   con motivo de  la acción u omisión indebida de sus funciones,   tiene derecho a reclamar,   ante los tribunales,  la restitución de los derechos  y obtener,   de conformidad con la ley,   la correspondiente reparación o indemnización. <br/> La ley establece la pertinencia y el procedimiento preferente,  expedito y concentrado para su cumplimiento.  <br/>"
