@@ -23,7 +23,8 @@ import Comment from "./Comment.vue"
 import FixedBar from "./FixedBar.vue"
 import OtherArticles from "./OtherArticles.vue"
 import CommentButton from "./CommentButton.vue"
-// import Cloud from "./Cloud.vue"
+import Cloud from "./Cloud.vue"
+import Countries from "./Countries.vue"
 import Autocomplete from 'buefy/dist/components/autocomplete'
 import Toast from 'buefy/dist/components/toast'
 import VueWow from 'vue-wow'
@@ -62,7 +63,7 @@ new Vue({
     el: '#app',
 
     components: {
-        Donut, Const, Rights, Navbar, Topic, Comment, FixedBar, CommentButton, OtherArticles, LawCards
+        Donut, Const, Rights, Navbar, Topic, Comment, FixedBar, CommentButton, OtherArticles, LawCards, Cloud, Countries
     },
     methods: {
         onScroll(e) {
