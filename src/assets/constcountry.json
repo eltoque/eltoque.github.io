@@ -4,8 +4,8 @@
     "title": "Lenguaje inclusivo",
     "bigtitle": "Lenguaje inclusivo en la redacción de la Constitución:",
     "desc": "Utilización de un lenguaje que no sea sexista y se vean reflejados todas las personas. Por ejemplo: todos y todas, hombres y mujeres; madres y padres, etc.",
-    "pais": "",
-    "constitution": ""
+    "pais": "República Bolivariana de Venezuela",
+    "constitution": "ARTÍCULO 32   <br/><br/>Son venezolanos y venezolanas por nacimiento:   <br/><br/>ARTÍCULO 62   <br/><br/>Todos los ciudadanos y ciudadanas tienen el derecho de participar libremente en los asuntos públicos, directamente o por medio de sus representantes elegidos o elegidas.<br/><br/>ARTÍCULO 64   <br/><br/>Son electores o electoras todos los venezolanos y venezolanas que hayan cumplido dieciocho años de edad y que no estén sujetos a interdicción civil o inhabilitación política. Se prohíbe la extradición de venezolanos y venezolanas.<br/><br/>ARTÍCULO 79   <br/><br/>Los jóvenes y las jóvenes tienen el derecho y el deber de ser sujetos activos del proceso de desarrollo. (...) <br/><br/>ARTÍCULO 91<br/><br/>Todo trabajador o trabajadora tiene derecho a un salario suficiente que le permita vivir con dignidad y cubrir para sí y su familia las necesidades básicas materiales, sociales e intelectuales. (…)<br/><br/>ARTÍCULO 149   <br/><br/>Los funcionarios públicos y funcionarias públicas no podrán aceptar cargos, honores o recompensas de gobiernos extranjeros sin la autorización de la Asamblea Nacional.<br/><br/>"
   },
   {
     "id": 2,
@@ -13,374 +13,334 @@
     "bigtitle": "Establecimiento del trato oficial y obligatorio de ciudadano o ciudadana:",
     "desc": "Definir constitucionalmente que la forma de dirigirse a cualquier persona es llamándola ciudadano o ciudadana. ",
     "pais": "República Bolivariana de Venezuela",
-    "constitution": "TÍTULO III, CAPÍTULO I, ARTÍCULO 21\nTodas las personas son iguales ante la ley, y en consecuencia:\n(…)\n3.Sólo se dará el trato oficial de ciudadano o ciudadana; salvo las fórmulas diplomáticas.\n"
+    "constitution": "TÍTULO III, CAPÍTULO I, ARTÍCULO 21<br/><br/>Todas las personas son iguales ante la ley, y en consecuencia:<br/><br/>(…)<br/><br/>3.Sólo se dará el trato oficial de ciudadano o ciudadana; salvo las fórmulas diplomáticas.<br/><br/>"
   },
   {
     "id": 3,
     "title": "Personas vulnerables",
-    "bigtitle": "Preferencia en la protección a las personas en condición de múltiple vulnerabilidad: ",
-    "desc": "Implica priorizar la protección en todos los aspectos (económico, laboral, social) a aquellas personas que son vulnerables desde varios puntos de vista. Por ejemplo: ancianos que a la vez son discapacitados o mujeres que son madres solteras y desempleadas. ",
-    "pais": "",
-    "constitution": ""
+    "bigtitle": "Preferencia en la protección a las personas en condiciones de vulnerabilidad: ",
+    "desc": "Implica proteger a los grupos sociales menos. Dicha protección puede manifestarse en los aspectos económico, laboral, social e incluso puede abarcar especialmente a aquellas personas que son vulnerables desde varios puntos de vista. Por ejemplo: ancianos que a la vez son discapacitados o mujeres que son madres solteras y desempleadas. Cada país determina qué grupos merecen la calificación de vulnerables y luego implementa políticas públicas para ellos.",
+    "pais": "Federación Rusa",
+    "constitution": "SECCIÓN 1, CAPÍTULO 1, ARTÍCULO 72<br/><br/>En la Federación Rusa se protegen el trabajo y la salud de las personas, se establece un salario mínimo garantizado, se garantiza el apoyo estatal a la familia, la maternidad, la paternidad y la infancia, a inválidos y ancianos; se desarrolla un sistema de servicios sociales y se establecen jubilaciones estatales, subsidios y otras garantías de protección social.<br/><br/>"
   },
   {
     "id": 4,
-    "title": "Competencia económica",
-    "bigtitle": "Regulación de la competencia económica:",
-    "desc": "Fijar pautas constitucionales para definir cómo debe desarrollarse la competencia entre los diferentes sujetos de la economía nacional. ",
-    "pais": "México",
-    "constitution": "TÍTULO PRIMERO, CAPÍTULO I, ARTÍCULO 28\nEl Estado contará con una Comisión Federal de Competencia Económica, que será un órgano autónomo, con personalidad jurídica y patrimonio propio, que tendrá por objeto garantizar la libre competencia y concurrencia, así como prevenir, investigar y combatir los monopolios, las prácticas monopólicas, las concentraciones y demás restricciones al funcionamiento eficiente de los mercados, en los términos que establecen esta Constitución y las leyes. La Comisión contará con las facultades necesarias para cumplir eficazmente con su objeto, entre ellas las de ordenar medidas para eliminar las barreras a la competencia y la libre concurrencia; regular el acceso a insumos esenciales, y ordenar la desincorporación de activos, derechos, partes sociales o acciones de los agentes económicos, en las proporciones necesarias para eliminar efectos anticompetitivos.\n[…]\nEl Instituto Federal de Telecomunicaciones será también la autoridad en materia de competencia económica de los sectores de radiodifusión y telecomunicaciones, por lo que en éstos ejercerá en forma exclusiva las facultades que este artículo y las leyes establecen para la Comisión Federal de Competencia Económica y regulará de forma asimétrica a los participantes en estos mercados con el objeto de eliminar eficazmente las barreras a la competencia y la libre concurrencia; impondrá límites a la concentración nacional y regional de frecuencias, al concesionamiento y a la propiedad cruzada que controle varios medios de comunicación que sean concesionarios de radiodifusión y telecomunicaciones que sirvan a un mismo mercado o zona de cobertura geográfica, y ordenará la desincorporación de activos, derechos o partes necesarias para asegurar el cumplimiento de estos límites, garantizando lo dispuesto en los artículos 6o. y 7o. de esta Constitución."
+    "title": "Pobreza",
+    "bigtitle": "Erradicación de la pobreza como deber del Estado: ",
+    "desc": "Es el compromiso del Estado con el enfrentamiento de la pobreza mediante políticas públicas y acciones concretas enfocadas en la atención de los sectores sociales menos favorecidos. ",
+    "pais": "Guinea Ecuatorial",
+    "constitution": "TÍTULO PRIMERO,ARTÍCULO 26<br/><br/>El trabajo es un derecho y un deber social. El Estado reconoce su función constructiva para el mejoramiento del bienestar y el desarrollo de la riqueza nacional. El Estado promueve las condiciones económicas y sociales para hacer desaparecer la pobreza, la miseria, y asegura con igualdad a los ciudadanos de la República de Guinea Ecuatorial las posibilidades de una ocupación útil que les permita no estar acosados por la necesidad<br/><br/>"
   },
   {
     "id": 5,
-    "title": "Actividades económicas",
-    "bigtitle": "Derecho a desarrollar actividades económicas, en forma individual o colectiva, conforme a los principios de solidaridad, responsabilidad social y ambiental:",
-    "desc": "Posibilidad de que los ciudadanos puedan desarrollar actividades económicas para la satisfacción de sus necesidades personales y del resto de la sociedad, con respeto del medio ambiente.  ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 6,
-    "title": "Libre contratación",
-    "bigtitle": "Derecho a la libertad de contratación: ",
-    "desc": "Es el derecho que tienen las personas para decidir celebrar contratos y con quién hacerlo, así como la libertad para determinar el contenido de los mismos. Por consiguiente, las personas son libres para negociar la celebración de sus contratos y las condiciones, limitaciones, modalidades, formalidades, plazos, y demás particularidades que regirán la relación jurídica creada por el contrato.",
-    "pais": "Ecuador",
-    "constitution": "TÍTULO II, CAPÍTULO 6, ARTÍCULO 66\nSe reconoce y garantizará a las personas:\n[…] \n16.El derecho a la libertad de contratación.\n"
-  },
-  {
-    "id": 7,
-    "title": "Monopolios",
-    "bigtitle": "Prohibición de todo tipo de monopolios: ",
-    "desc": "Supone la no existencia de grandes empresas, públicas o privadas, que acaparen sectores enteros de la economía. ",
-    "pais": "República islámica de Irán",
-    "constitution": "PREÁMBULO\nCon la debida atención al carácter esencial de este gran movimiento, la Constitución garantiza el rechazo de todas las formas de tiranía intelectual y social y el monopolio económico, y apunta a confiar los destinos del pueblo a las personas mismas para romper completamente con el sistema de opresión (Esto está de acuerdo con el versículo coránico \"Él quita de ellos sus cargas y los grillos que estaban sobre ellos\" [7: 157]).\n"
-  },
-  {
-    "id": 8,
-    "title": "Financiamiento a las organizaciones",
-    "bigtitle": "Prohibición del financiamiento de las organizaciones sociales desde el Estado: ",
-    "desc": "El Estado no puede financiar el funcionamiento de las organizaciones sociales, lo cual asegura más independencia de estas últimas. ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 9,
-    "title": "Distribución equitativa",
-    "bigtitle": "Garantía de la distribución equitativa y solidaria del presupuesto para la ejecución de las políticas públicas y la prestación de bienes y servicios públicos: ",
-    "desc": "Compromiso del Estado con la distribución equitativa de los recursos presupuestarios, para la satisfacción de las necesidades sociales. ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 10,
-    "title": "Extradición",
-    "bigtitle": "Prohibición de extradición de ciudadanos nacionales:",
-    "desc": "Supone la imposibilidad de autorizar el traslado a otros Estados, de ciudadanos cubanos presentes en la Isla, cuando la intención sea la de juzgarles por crímenes cometidos en el extranjero. ",
-    "pais": "Nicaragua",
-    "constitution": "TÍTULO IV, CAPÍTULO I, ARTÍCULO 43\nEn Nicaragua no existe extradición por delitos políticos o comunes conexos con ellos, según calificación nicaragüense. La extradición por delitos comunes está regulada por la ley y los tratados internacionales.\nLos nicaragüenses no podrán ser objeto de extradición del territorio nacional.\n"
-  },
-  {
-    "id": 11,
-    "title": "Bienestar animal",
-    "bigtitle": "Bienestar animal: ",
-    "desc": "Deber de los ciudadanos y de las instituciones públicas con el cuidado y protección de los animales. ",
-    "pais": "Alemania",
-    "constitution": "ARTÍCULO 20A. PROTECCIÓN DE LOS FUNDAMENTOS NATURALES DE LA VIDA Y DE LOS ANIMALES   \nEl Estado protegerá, teniendo en cuenta también su responsabilidad con las generaciones futuras, dentro del marco del orden constitucional, los fundamentos naturales de la vida y los animales a través de la legislación y, de acuerdo con la ley y el Derecho, por medio de los poderes ejecutivo y judicial.\n"
-  },
-  {
-    "id": 12,
-    "title": "Identidad cultural",
-    "bigtitle": "Derecho a construir y mantener la propia identidad cultural, a decidir sobre su pertenencia a una o varias comunidades culturales y a expresar dichas elecciones: ",
-    "desc": "Posibilita la identificación de las personas con un determinado grupo social. ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 13,
-    "title": "Derecho al cuerpo",
-    "bigtitle": "Derecho a la libre disposición del cuerpo: ",
-    "desc": "Incluye la posibilidad de que los ciudadanos puedan disponer libremente sobre su cuerpo. Es un punto de partida para el debate de temas como la eutanasia, el aborto y la reasignación de sexo.",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 14,
-    "title": "Adopción",
-    "bigtitle": "Regulación sobre la adopción: ",
-    "desc": "Reconocimiento constitucional de los requisitos básicos para adoptar. Por ejemplo, la edad mínima. ",
-    "pais": "República Dominicana",
-    "constitution": "TÍTULO II, CAPÍTULO I, SECCIÓN II, ARTÍCULO 55, DERECHOS DE LA FAMILIA\nLa familia es el fundamento de la sociedad y el espacio básico para el desarrollo integral de las personas. Se constituye por vínculos naturales o jurídicos, por la decisión libre de un hombre y una mujer de contraer matrimonio o por la voluntad responsable de conformarla.\n(…)\n12.El Estado garantizará, mediante ley, políticas seguras y efectivas para la adopción;\n"
-  },
-  {
-    "id": 15,
-    "title": "Derecho a la ciudad",
-    "bigtitle": "Derecho a la ciudad: ",
-    "desc": "Implica no solo el derecho a vivir en ambientes urbanos y que estos tengan las condiciones adecuadas para vivir en ellos. Por tanto, las ciudades deben contar con los servicios públicos básicos (acueducto, electricidad, comunicaciones, viales, comunales) que posibiliten la vida de las personas.",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 16,
-    "title": "Libre sindicalización",
-    "bigtitle": "Derecho de libre sindicalización: ",
-    "desc": "La libertad sindical es un derecho fundamental de los trabajadores y sus agrupaciones para organizarse y defender sus intereses comunes. Para ello deben, garantizarse también sus pilares: garantizando la actividad previa y necesaria para constituir sindicatos, debiendo reconocerse sus pilares que son organización, regulación, representación y negociación y huelga, y su objeto, que es la defensa de los intereses comunes.",
-    "pais": "España",
-    "constitution": "TÍTULO PRELIMINAR, ARTÍCULO 7\nLos sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios. Su creación y el ejercicio de su actividad son libres dentro del respeto a la Constitución y a la ley. Su estructura interna y funcionamiento deberán ser democráticos.\nTÍTULO I, CAPÍTULO SEGUNDO, SECCIÓN 1A, ARTÍCULO 281\nTodos tienen derecho a sindicarse libremente. La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos. La libertad sindical comprende el derecho a fundar sindicatos y a afiliarse al de su elección, así como el derecho de los sindicatos a formar confederaciones y a fundar organizaciones sindicales internacionales o a afiliarse a las mismas. Nadie podrá ser obligado a afiliarse a un sindicato.\n"
-  },
-  {
-    "id": 17,
-    "title": "Salida del país",
-    "bigtitle": "Regulación de que la prohibición de salir del país sólo pueda ser ordenada por juez competente: ",
-    "desc": "Solo una autoridad judicial podría prohibir la salida del país de un ciudadano y por una causa justificada legalmente.",
-    "pais": "Nigeria",
-    "constitution": "CAPÍTULO IV, 41\nTodos los nigerianos tienen derecho a moverse libremente por Nigeria y a residir en cualquier parte del país. Ningún nigeriano será expulsado de Nigeria ni se le negará la entrada o salida del país.\n"
-  },
-  {
-    "id": 18,
-    "title": "Espacio público",
-    "bigtitle": "Derecho a acceder y participar del espacio público como ámbito de deliberación, intercambio cultural, cohesión social y promoción de la igualdad en la diversidad: ",
-    "desc": "Implica el reconocimiento del espacio público como un ambiente de convergencia y de dominio colectivo. Implica el reconocimiento del derecho de los ciudadanos de hacer un uso libre del mismo, para expresarse e intercambiar experiencias. Ese derecho podrá estar limitado solo por conceptos legalmente establecidos y recurribles judicialmente.",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 19,
-    "title": "Tecnologías de la Información",
-    "bigtitle": "Derecho al acceso universal a las tecnologías de información y comunicación: ",
-    "desc": "Es un derecho de una doble dimensión. La primera la de permitir que los ciudadanos usen y disfruten libremente de las tecnologías de la información y la comunicación para generar sinergias y expresar ideas. La segunda, el derecho de todos los ciudadanos de contar con una estructura que les permita, sin importar su condición económica acceder a las tecnologías en igualdad de condiciones que el resto de la sociedad.",
-    "pais": "México",
-    "constitution": "TÍTULO PRIMERO, CAPÍTULO I, ARTÍCULO 6\nEl Estado garantizará el derecho de acceso a las tecnologías de la información y comunicación, así como a los servicios de radiodifusión y telecomunicaciones, incluido el de banda ancha e internet. Para tales efectos, el Estado establecerá condiciones de competencia efectiva en la prestación de dichos servicios.\n"
-  },
-  {
-    "id": 20,
-    "title": "Censura previa",
-    "bigtitle": "Prohibición de censura previa: ",
-    "desc": "La censura es la facultad de aprobar o prohibir determinado material o expresión antes de hacerse público e impide que ciertos materiales sean distribuidos o escuchados. Supone la prohibición de producir, imprimir y difundir cierta información, arte o incluso la expresión coloquial de determinados temas. De ahí que sea prohibida en algunas constituciones.",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 21,
-    "title": "Información pública",
-    "bigtitle": "Acción de acceso a la información pública:",
-    "desc": "Acción judicial para conocer la información que administran instituciones estatales o entidades que realizan funciones vinculadas con la satisfacción de necesidades sociales. Se emplea cuando el acceso a la información haya sido denegado de manera expresa o tácita, e incluso cuando se niegue la información basándose en que la misma es de carácter secreto.",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 22,
-    "title": "Publicidad",
-    "bigtitle": "Prohibición de emisión de publicidad que induzca a la violencia, la discriminación, el racismo, la toxicomanía, el sexismo, la intolerancia religiosa o política y toda aquella que atente contra los derechos: ",
-    "desc": "Implica la imposibilidad de hacer publicidad que suponga un menoscabo del principio de igualdad, se apoya en la no discriminación y el fomento de una cultura del respeto a las diferencias de todo tipo. ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 23,
-    "title": "Agravios públicos",
-    "bigtitle": "Derecho de toda persona agraviada por informaciones sin pruebas o inexactas, emitidas por medios de comunicación social, a la rectificación, réplica o respuesta: ",
-    "desc": "Supone que, ante actos difamadores, calumniosos o injuriosos emitidos en medios de comunicación, las personas agraviadas puedan replicar e incluso lograr una rectificación de lo dicho sobre ellos, así como una sanción a quien los ha ofendido. ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 24,
-    "title": "Medios de comunicación",
-    "bigtitle": "Derecho a la creación de medios de comunicación social, y al acceso en igualdad de condiciones al uso de las frecuencias del espectro radioeléctrico para la gestión de estaciones de radio y televisión públicas, privadas y comunitarias, y a bandas libres para la explotación de redes inalámbricas:",
-    "desc": "Supone la posibilidad de que organizaciones sociales y de masas, las comunidades y las personas puedan crear sus propios medios de comunicación, y en cualquier formato. Además, implica el acceso y uso del espectro radioeléctrico e internet de forma igualitaria para todos los sujetos que los empleen. ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 25,
-    "title": "Abuso de poder",
-    "bigtitle": "Derecho a la resistencia frente a acciones u omisiones del poder público o de las personas naturales o jurídicas no estatales que vulneren o puedan vulnerar sus derechos constitucionales, y demandar el reconocimiento de nuevos derechos: ",
-    "desc": "Posibilidad de resistirse al abuso de poder o incluso al abuso de derechos por parte de personas naturales o jurídicas, así como la posibilidad de demandar que se reconozcan nuevos derechos, a partir de la modificación de las condiciones sociales, políticas o económicas. ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 26,
-    "title": "Huelga",
-    "bigtitle": "Derecho de huelga: ",
-    "desc": "La huelga, tanto política como económica, son instrumentos importantes para defender los derechos de los trabajadores y del pueblo soberano. En Cuba se ha argumento que al ser el pueblo el dueño de los medios fundamentales de producción, cualquier manifestación constituye una autoagresión.  Sin embargo, hoy existen (y se reconocen en el nuevo proyecto constitucional) otros sujetos económicos (propietarios privados, cooperativas e inversionistas extranjeros con trabajadores contratados) y la propiedad social está en manos de administradores que determinan sobre los trabajadores; por tanto, la huelga es un instrumento jurídico y político útil.",
-    "pais": "Argentina",
-    "constitution": "PRIMERA PARTE, CAPÍTULO PRIMERO, ARTÍCULO 14\nQueda garantizado a los gremios: concertar convenios colectivos de trabajo; recurrir a la conciliación y al arbitraje; el derecho de huelga. Los representantes gremiales gozarán de las garantías necesarias para el cumplimiento de su gestión sindical y las relacionadas con la estabilidad de su empleo.\n"
-  },
-  {
-    "id": 27,
-    "title": "Exilio político",
-    "bigtitle": "Exilio político:",
-    "desc": "Según la doctrina del poder negativo del pueblo, los mecanismos que tiene el soberano para defenderse políticamente son la secesión o rebelión, la huelga y el exilio.  ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 28,
-    "title": "Funciones públicas",
-    "bigtitle": "Derecho a desempeñar empleos y funciones públicas con base en méritos y capacidades, y en un sistema de selección y designación transparente: ",
-    "desc": "Definir constitucionalmente los requisitos para el acceso a los empleos y funciones públicas, mediante el establecimiento de un sistema como el que se describe.  ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 29,
-    "title": "Voto desde el exterior",
-    "bigtitle": "Derecho al sufragio desde el exterior: ",
-    "desc": "Implica la posibilidad de que los ciudadanos de un Estado puedan ejercer el voto fuera del territorio nacional.",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 30,
-    "title": "Pena de muerte",
-    "bigtitle": "Abolición de la pena de muerte: ",
-    "desc": "Esto significa la eliminación de la pena de muerte como sanción penal.  ",
-    "pais": "Uruguay",
-    "constitution": "SECCIÓN II, CAPÍTULO I, ARTÍCULO 26\nA nadie se le aplicará la pena de muerte.\n"
-  },
-  {
-    "id": 31,
-    "title": "Autonomía universitaria",
-    "bigtitle": "Autonomía universitaria: ",
-    "desc": "Es un principio de organización que implica la independencia política y administrativa de una universidad pública respecto de factores externos. Se sostiene en que la universidad debe ser autónoma y auto-gobernada, y que debe elegir sus propias autoridades sin injerencia de los órganos de poder estatal, decidiendo sus propios estatutos y programas de estudio.",
-    "pais": "República Bolivariana de Venezuela",
-    "constitution": "TÍTULO III, CAPÍTULO VI, ARTÍCULO 109\nEl Estado reconocerá la autonomía universitaria como principio y jerarquía que permite a los profesores, profesoras, estudiantes, estudiantes, egresados y egresadas de su comunidad dedicarse a la búsqueda del conocimiento a través de la investigación científica, humanística y tecnológica, para beneficio espiritual y material de la Nación. Las universidades autónomas se darán sus normas de gobierno, funcionamiento y la administración eficiente de su patrimonio bajo el control y vigilancia que a tales efectos establezca la ley. Se consagra la autonomía universitaria para planificar, organizar, elaborar y actualizar los programas de investigación, docencia y extensión. Se establece la inviolabilidad del recinto universitario. Las universidades nacionales experimentales alcanzarán su autonomía de conformidad con la ley.\n"
-  },
-  {
-    "id": 32,
-    "title": "Libertad de enseñanza",
-    "bigtitle": "Libertad de enseñanza y libertad de cátedra en la educación superior: ",
-    "desc": "La libertad de enseñanza incluye la libertad de los profesores, estudiantes e instituciones académicas de tener como meta la búsqueda desinteresada de la verdad y del conocimiento, sin importar a dónde conduzca y sin una interferencia indebida o irrazonable. Comprende como mecanismo de materialización, la libertad para escoger temas de investigación, para escoger lo que se enseñará en clase y para publicar y compartir los hallazgos de las investigaciones. La libertad de cátedra contenida dentro de la libertad académica es el derecho a ejercer la docencia, en el ámbito de la educación superior, con absoluta libertad.",
-    "pais": "República Dominicana",
-    "constitution": "TÍTULO II, CAPÍTULO I, SECCIÓN II, ARTÍCULO 63\nToda persona tiene derecho a una educación integral, de calidad, permanente, en igualdad de condiciones y oportunidades, sin más limitaciones que las derivadas de sus aptitudes, vocación y aspiraciones. En consecuencia:\n[…] \n7.El Estado debe velar por la calidad de la educación superior y financiará los centros y universidades públicas, de conformidad con lo que establezca la ley. Garantizará la autonomía universitaria y la libertad de cátedra;\n\n\n"
-  },
-  {
-    "id": 33,
     "title": "Transparencia",
     "bigtitle": "Principio de transparencia:",
     "desc": "Se trata de un principio de organización y funcionamiento de los órganos vinculados directa o indirectamente con el ejercicio del poder. Su reconocimiento permite acceder a información transcendente para que los ciudadanos puedan fiscalizar la gestión de sus representantes; participar en el ámbito público, así como para garantizar un disfrute pleno de sus derechos fundamentales.",
     "pais": "Tunez",
-    "constitution": "TÍTULO PRIMERO, ARTÍCULO 15\nLa Administración Pública está al servicio del ciudadano y del interés público. Su organización y funcionamiento se establecerán conforme a los principios de neutralidad, igualdad y continuidad del servicio público, además de las normas de transparencia, integridad, eficacia e interpelación.\n"
+    "constitution": "TÍTULO PRIMERO, ARTÍCULO 15<br/><br/>La Administración Pública está al servicio del ciudadano y del interés público. Su organización y funcionamiento se establecerán conforme a los principios de neutralidad, igualdad y continuidad del servicio público, además de las normas de transparencia, integridad, eficacia e interpelación.<br/><br/>"
   },
   {
-    "id": 34,
-    "title": "Información estatal",
-    "bigtitle": "Regulación de la reserva de información por parte del Estado: ",
-    "desc": "Es la definición constitucional de los motivos por los cuales los órganos estatales pueden establecer que cierta información es confidencial o secreta. ",
-    "pais": "Ecuador",
-    "constitution": "TÍTULO II, CAPÍTULO 2, SECCIÓN 3, ARTÍCULO 18\nTodas las personas, en forma individual o colectiva, tienen derecho a:\n[…] \n2.Acceder libremente a la información generada en entidades públicas, o en las privadas que manejen fondos del Estado o realicen funciones públicas. No existirá reserva de información excepto en los casos expresamente establecidos en la ley. En caso de violación a los derechos humanos, ninguna entidad pública negará la información.\n\n"
-  },
-  {
-    "id": 35,
+    "id": 6,
     "title": "Control social",
     "bigtitle": "Regulación sobre mecanismos permanentes de transparencia, rendición de cuentas y control social: ",
     "desc": "Regulación constitucional de procedimientos e instituciones que aseguren el control, la rendición de cuentas y la transparencia, de las instituciones, órganos y organismos vinculados de alguna forma al ejercicio del poder. ",
     "pais": "Ecuador",
-    "constitution": "TÍTULO IV, CAPÍTULO 5, SECCIÓN 1, ARTÍCULO 204\nEl pueblo es el mandante y primer fiscalizador del poder público, en ejercicio de su derecho a la participación.\nLa Función de Transparencia y Control Social promoverá e impulsará el control de las entidades y organismos del sector público, y de las personas naturales o jurídicas del sector privado que presten servicios o desarrollen actividades de interés público, para que los realicen con responsabilidad, transparencia y equidad; fomentará e incentivará la participación ciudadana; protegerá el ejercicio y cumplimiento de los derechos; y prevendrá y combatirá la corrupción.\nLa Función de Transparencia y Control Social estará formada por el Consejo de Participación Ciudadana y Control Social, la Defensoría del Pueblo, la Contraloría General del Estado y las superintendencias. Estas entidades tendrán personalidad jurídica y autonomía administrativa, financiera, presupuestaria y organizativa.\nTÍTULO IV, CAPÍTULO 5, SECCIÓN 1, ARTÍCULO 205\nLos representantes de las entidades que forman parte de la Función de Transparencia y Control Social ejercerán sus funciones durante un período de cinco años, tendrán fuero de Corte Nacional y estarán sujetos al enjuiciamiento político de la Asamblea Nacional. En caso de darse este enjuiciamiento, y de procederse a la destitución, se deberá realizar un nuevo proceso de designación. En ningún caso la Función Legislativa podrá designar al reemplazo.\nSus máximas autoridades deberán ser ecuatorianas o ecuatorianos en goce de los derechos políticos y serán seleccionadas mediante concurso público de oposición y méritos en los casos que proceda, con postulación, veeduría e impugnación ciudadana.\nTÍTULO IV, CAPÍTULO 5, SECCIÓN 1, ARTÍCULO 206\nLos titulares de las entidades de la Función de Transparencia y Control Social conformarán una instancia de coordinación, y elegirán de entre ellos, cada año, a la Presidenta o Presidente de la Función. Serán atribuciones y deberes de la instancia de coordinación, además de los que establezca la ley:\n1.Formular políticas públicas de transparencia, control, rendición de cuentas, promoción de la participación ciudadana y prevención y lucha contra la corrupción.\n2.Coordinar el plan de acción de las entidades de la Función, sin afectar su autonomía.\n3.Articular la formulación del plan nacional de lucha contra la corrupción.\n4.Presentar a la Asamblea Nacional propuestas de reformas legales en el ámbito de sus competencias.\n5.Informar anualmente a la Asamblea Nacional de las actividades relativas al cumplimiento de sus funciones, o cuando ésta lo requiera.\n"
+    "constitution": "TÍTULO IV, CAPÍTULO 5, SECCIÓN 1, ARTÍCULO 204<br/><br/>El pueblo es el mandante y primer fiscalizador del poder público, en ejercicio de su derecho a la participación.<br/><br/>La Función de Transparencia y Control Social promoverá e impulsará el control de las entidades y organismos del sector público, y de las personas naturales o jurídicas del sector privado que presten servicios o desarrollen actividades de interés público, para que los realicen con responsabilidad, transparencia y equidad; fomentará e incentivará la participación ciudadana; protegerá el ejercicio y cumplimiento de los derechos; y prevendrá y combatirá la corrupción.<br/><br/>La Función de Transparencia y Control Social estará formada por el Consejo de Participación Ciudadana y Control Social, la Defensoría del Pueblo, la Contraloría General del Estado y las superintendencias. Estas entidades tendrán personalidad jurídica y autonomía administrativa, financiera, presupuestaria y organizativa.<br/><br/>TÍTULO IV, CAPÍTULO 5, SECCIÓN 1, ARTÍCULO 205<br/><br/>Los representantes de las entidades que forman parte de la Función de Transparencia y Control Social ejercerán sus funciones durante un período de cinco años, tendrán fuero de Corte Nacional y estarán sujetos al enjuiciamiento político de la Asamblea Nacional. En caso de darse este enjuiciamiento, y de procederse a la destitución, se deberá realizar un nuevo proceso de designación. En ningún caso la Función Legislativa podrá designar al reemplazo.<br/><br/>Sus máximas autoridades deberán ser ecuatorianas o ecuatorianos en goce de los derechos políticos y serán seleccionadas mediante concurso público de oposición y méritos en los casos que proceda, con postulación, veeduría e impugnación ciudadana.<br/><br/>TÍTULO IV, CAPÍTULO 5, SECCIÓN 1, ARTÍCULO 206<br/><br/>Los titulares de las entidades de la Función de Transparencia y Control Social conformarán una instancia de coordinación, y elegirán de entre ellos, cada año, a la Presidenta o Presidente de la Función. Serán atribuciones y deberes de la instancia de coordinación, además de los que establezca la ley:<br/><br/>1.Formular políticas públicas de transparencia, control, rendición de cuentas, promoción de la participación ciudadana y prevención y lucha contra la corrupción.<br/><br/>2.Coordinar el plan de acción de las entidades de la Función, sin afectar su autonomía.<br/><br/>3.Articular la formulación del plan nacional de lucha contra la corrupción.<br/><br/>4.Presentar a la Asamblea Nacional propuestas de reformas legales en el ámbito de sus competencias.<br/><br/>5.Informar anualmente a la Asamblea Nacional de las actividades relativas al cumplimiento de sus funciones, o cuando ésta lo requiera.<br/><br/>"
   },
   {
-    "id": 36,
-    "title": "Negligencia en los servicios públicos ",
-    "bigtitle": "Responsabilidad estatal civil por los daños y perjuicios causados a las personas por negligencia y descuido en la atención de los servicios públicos estatales:",
-    "desc": "Supone el compromiso del Estado con la reparación de los daños y perjuicios causados por empleados y funcionarios públicos durante la prestación de los servicios públicos. Por ejemplo, de salud, la educación, entre otros. ",
-    "pais": "",
-    "constitution": ""
+    "id": 7,
+    "title": "Participación popular",
+    "bigtitle": "Mecanismos de participación popular y garantías para la autonomía municipal",
+    "desc": "Muchas constituciones establecen mecanismos que permiten a los ciudadanos participar y controlar la labor de gobierno local de forma directa de diversa forma. Por ejemplo: La participación en las sesiones de los gobiernos locales es una de ellas. La Constitución Ecuatoriana, estableció la figura de la Silla Vacía que obliga a mantener en todas las sesiones de los gobiernos autónomos un puesto vacante para que participe un ciudadano. Se han implementado mecanismos presupuestarios que contemplan que la ciudadanía pueda que se destinen hacia los lugares de mayor necesidad las diferentes partidas definidas centralmente. Así se conforma el presupuesto definitivo y las capacidades de ejecución en muchos casos quedan en manos de las autoridades locales. También se han implementado mecanismos para el control social de los servicios públicos, como el defensor del consumidor, encargado de velar y exigir por la calidad de los servicios que reciben los consumidores.",
+    "pais": "Ecuador",
+    "constitution": "TÍTULO IV, CAPÍTULO 1, SECCIÓN 3, ARTÍCULO 101   <br/><br/>Las sesiones de los gobiernos autónomos descentralizados serán públicas, y en ellas existirá la silla vacía que ocupará una representante o un representante ciudadano en función de los temas a tratarse, con el propósito de participar en su debate y en la toma de decisiones.<br/><br/>"
   },
   {
-    "id": 37,
-    "title": "Corrupción",
-    "bigtitle": "Deber estatal y recursos ciudadanos para la lucha contra la corrupción: ",
-    "desc": "Supone el compromiso estatal para la lucha contra la corrupción y la facilitación de recursos para que los ciudadanos enfrenten actos de corrupción. ",
+    "id": 8,
+    "title": "Paz",
+    "bigtitle": "El territorio nacional como territorio de paz: ",
+    "desc": "Implica que no se puedan instalar en el país bases miliares extranjeras, así como que Cuba debe seguir siendo un Estado no alineado. Sería un precepto constitucional relacionado con la Declaración de América Latina como zona de Paz, adoptada en el seno de la CELAC. ",
+    "pais": "República Bolivariana de Venezuela",
+    "constitution": "TÍTULO II, CAPÍTULO I, ARTÍCULO 13<br/><br/>El espacio geográfico venezolano es una zona de paz. No se podrán establecer en él bases militares extranjeras o instalaciones que tengan de alguna manera propósitos militares, por parte de ninguna potencia o coalición de potencias."
+  },
+  {
+    "id": 9,
+    "title": "Competencia económica",
+    "bigtitle": "Regulación de la competencia económica:",
+    "desc": "Fijar pautas constitucionales para definir cómo debe desarrollarse la competencia entre los diferentes sujetos de la economía nacional. ",
     "pais": "México",
-    "constitution": "TÍTULO CUARTO, ARTÍCULO 113\nEl Sistema Nacional Anticorrupción es la instancia de coordinación entre las autoridades de todos los órdenes de gobierno competentes en la prevención, detección y sanción de responsabilidades administrativas y hechos de corrupción, así como en la fiscalización y control de recursos públicos. Para el cumplimiento de su objeto se sujetará a las siguientes bases mínimas:\nI. El Sistema contará con un Comité Coordinador que estará integrado por los titulares de la Auditoría Superior de la Federación; de la Fiscalía Especializada en Combate a la Corrupción; de la secretaría del Ejecutivo Federal responsable del control interno; por el presidente del Tribunal Federal de Justicia Administrativa; el presidente del organismo garante que establece el artículo 6o. de esta Constitución; así como por un representante del Consejo de la Judicatura Federal y otro del Comité de Participación Ciudadana;\nII. El Comité de Participación Ciudadana del Sistema deberá integrarse por cinco ciudadanos que se hayan destacado por su contribución a la transparencia, la rendición de cuentas o el combate a la corrupción y serán designados en los términos que establezca la ley, y\nIII. Corresponderá al Comité Coordinador del Sistema, en los términos que determine la Ley:\na. El establecimiento de mecanismos de coordinación con los sistemas locales;\nb. El diseño y promoción de políticas integrales en materia de fiscalización y control de recursos públicos, de prevención, control y disuasión de faltas administrativas y hechos de corrupción, en especial sobre las causas que los generan;\nc. La determinación de los mecanismos de suministro, intercambio, sistematización y actualización de la información que sobre estas materias generen las instituciones competentes de los órdenes de gobierno;\nd. El establecimiento de bases y principios para la efectiva coordinación de las autoridades de los órdenes de gobierno en materia de fiscalización y control de los recursos públicos;\ne. La elaboración de un informe anual que contenga los avances y resultados del ejercicio de sus funciones y de la aplicación de políticas y programas en la materia.\n•  Derivado de este informe, podrá emitir recomendaciones no vinculantes a las autoridades, con el objeto de que adopten medidas dirigidas al fortalecimiento institucional para la prevención de faltas administrativas y hechos de corrupción, así como al mejoramiento de su desempeño y del control interno. Las autoridades destinatarias de las recomendaciones informarán al Comité sobre la atención que brinden a las mismas.\nLas entidades federativas establecerán sistemas locales anticorrupción con el objeto de coordinar a las autoridades locales competentes en la prevención, detección y sanción de responsabilidades administrativas y hechos de corrupción.\n"
+    "constitution": "TÍTULO PRIMERO, CAPÍTULO I, ARTÍCULO 28<br/><br/>El Estado contará con una Comisión Federal de Competencia Económica, que será un órgano autónomo, con personalidad jurídica y patrimonio propio, que tendrá por objeto garantizar la libre competencia y concurrencia, así como prevenir, investigar y combatir los monopolios, las prácticas monopólicas, las concentraciones y demás restricciones al funcionamiento eficiente de los mercados, en los términos que establecen esta Constitución y las leyes. La Comisión contará con las facultades necesarias para cumplir eficazmente con su objeto, entre ellas las de ordenar medidas para eliminar las barreras a la competencia y la libre concurrencia; regular el acceso a insumos esenciales, y ordenar la desincorporación de activos, derechos, partes sociales o acciones de los agentes económicos, en las proporciones necesarias para eliminar efectos anticompetitivos.<br/><br/>[…]<br/><br/>El Instituto Federal de Telecomunicaciones será también la autoridad en materia de competencia económica de los sectores de radiodifusión y telecomunicaciones, por lo que en éstos ejercerá en forma exclusiva las facultades que este artículo y las leyes establecen para la Comisión Federal de Competencia Económica y regulará de forma asimétrica a los participantes en estos mercados con el objeto de eliminar eficazmente las barreras a la competencia y la libre concurrencia; impondrá límites a la concentración nacional y regional de frecuencias, al concesionamiento y a la propiedad cruzada que controle varios medios de comunicación que sean concesionarios de radiodifusión y telecomunicaciones que sirvan a un mismo mercado o zona de cobertura geográfica, y ordenará la desincorporación de activos, derechos o partes necesarias para asegurar el cumplimiento de estos límites, garantizando lo dispuesto en los artículos 6o. y 7o. de esta Constitución."
   },
   {
-    "id": 38,
+    "id": 10,
+    "title": "Actividades económicas",
+    "bigtitle": "Derecho a desarrollar actividades económicas, en forma individual o colectiva, conforme a los principios de solidaridad, responsabilidad social y ambiental:",
+    "desc": "Posibilidad de que los ciudadanos puedan desarrollar actividades económicas para la satisfacción de sus necesidades personales y del resto de la sociedad, con respeto del medio ambiente.  ",
+    "pais": "Ecuador",
+    "constitution": "CAPÍTULO 6, ARTÍCULO 66<br/><br/>Se reconoce y garantizará a las personas:<br/><br/>(…)<br/><br/>15.El derecho a desarrollar actividades económicas, en forma individual o colectiva, conforme a los principios de solidaridad, responsabilidad social y ambiental.<br/><br/>"
+  },
+  {
+    "id": 11,
+    "title": "Libre contratación",
+    "bigtitle": "Derecho a la libertad de contratación: ",
+    "desc": "Es el derecho que tienen las personas para decidir celebrar contratos y con quién hacerlo, así como la libertad para determinar el contenido de los mismos. Por consiguiente, las personas son libres para negociar la celebración de sus contratos y las condiciones, limitaciones, modalidades, formalidades, plazos, y demás particularidades que regirán la relación jurídica creada por el contrato.",
+    "pais": "Ecuador",
+    "constitution": "TÍTULO II, CAPÍTULO 6, ARTÍCULO 66<br/><br/>Se reconoce y garantizará a las personas:<br/><br/>[…] <br/><br/>16.El derecho a la libertad de contratación.<br/><br/>"
+  },
+  {
+    "id": 12,
+    "title": "Monopolios",
+    "bigtitle": "Prohibición de todo tipo de monopolios: ",
+    "desc": "Supone la no existencia de grandes empresas, públicas o privadas, que acaparen sectores enteros de la economía. ",
+    "pais": "República islámica de Irán",
+    "constitution": "PREÁMBULO<br/><br/>Con la debida atención al carácter esencial de este gran movimiento, la Constitución garantiza el rechazo de todas las formas de tiranía intelectual y social y el monopolio económico, y apunta a confiar los destinos del pueblo a las personas mismas para romper completamente con el sistema de opresión (Esto está de acuerdo con el versículo coránico \"Él quita de ellos sus cargas y los grillos que estaban sobre ellos\" [7: 157]).<br/><br/>"
+  },
+  {
+    "id": 13,
+    "title": "Distribución equitativa",
+    "bigtitle": "Garantía de la distribución equitativa y solidaria del presupuesto para la ejecución de las políticas públicas y la prestación de bienes y servicios públicos: ",
+    "desc": "Compromiso del Estado con la distribución equitativa de los recursos presupuestarios, para la satisfacción de las necesidades sociales. ",
+    "pais": "Ecuador",
+    "constitution": "ARTÍCULO 85<br/><br/>La formulación, ejecución, evaluación y control de las políticas públicas y servicios públicos que garanticen los derechos reconocidos por la Constitución, se regularán de acuerdo con las siguientes disposiciones:<br/><br/>3.El Estado garantizará la distribución equitativa y solidaria del presupuesto para la ejecución de las políticas públicas y la prestación de bienes y servicios públicos."
+  },
+  {
+    "id": 14,
+    "title": "Presupuestos participativos",
+    "bigtitle": "Presupuestos participativos: ",
+    "desc": "Implementar mecanismos jurídicos para asegurar la participación de la ciudadanía en la elaboración, aprobación y ejecución de los presupuestos. ",
+    "pais": "Ecuador",
+    "constitution": "SECCIÓN 3, ARTÍCULO 100<br/><br/>En todos los niveles de gobierno se conformarán instancias de participación integradas por autoridades electas, representantes del régimen dependiente y representantes de la sociedad del ámbito territorial de cada nivel de gobierno, que funcionarán regidas por principios democráticos. La participación en estas instancias se ejerce para:<br/><br/>(...)<br/><br/>3.Elaborar presupuestos participativos de los gobiernos.<br/><br/>(...)"
+  },
+  {
+    "id": 15,
     "title": "Sistema tributario",
     "bigtitle": "Regulación de principios del sistema tributario: ",
     "desc": "Se trata de un mecanismo de control sobre el ejercicio del poder por parte del presidente y vicepresidente de la República, con la posibilidad de someterlos a juicio ante el Tribunal Supremo y a partir de la decisión del órgano legislativo.",
     "pais": "República Árabe Siria",
-    "constitution": "TÍTULO I, CAPÍTULO II, ARTÍCULO 182\nEl sistema tributario se basará en condiciones justas, y los impuestos deben ser progresivos de manera que se logren los principios de igualdad y justicia social.\n"
+    "constitution": "TÍTULO I, CAPÍTULO II, ARTÍCULO 182<br/><br/>El sistema tributario se basará en condiciones justas, y los impuestos deben ser progresivos de manera que se logren los principios de igualdad y justicia social.<br/><br/>"
   },
   {
-    "id": 39,
+    "id": 16,
+    "title": "Discriminación",
+    "bigtitle": "Prohibición de discriminación por ideología, filiación política, pasado judicial, condición socio-económica y condición migratoria:",
+    "desc": "Siempre es bueno ser lo más preciso y explícito posible cuando se trata de no discriminación, y son elementos no contenidos en el proyecto. ",
+    "pais": "Estado plurinacional de Bolivia",
+    "constitution": "PRIMERA PARTE, TÍTULO II, CAPÍTULO PRIMERO, ARTÍCULO 14II<br/><br/>El Estado prohíbe y sanciona toda forma de discriminación fundada en razón de sexo, color, edad, orientación sexual, identidad de género, origen, cultura, nacionalidad, ciudadanía, idioma, credo religioso, ideología, filiación política o filosófica, estado civil, condición económica o social, tipo de ocupación, grado de instrucción, discapacidad, embarazo, u otras que tengan por objetivo o resultado anular o menoscabar el reconocimiento, goce o ejercicio, en condiciones de igualdad, de los derechos de toda persona.<br/><br/>"
+  },
+  {
+    "id": 17,
+    "title": "Extradición",
+    "bigtitle": "Prohibición de extradición de ciudadanos nacionales:",
+    "desc": "Supone la imposibilidad de autorizar el traslado a otros Estados, de ciudadanos cubanos presentes en la Isla, cuando la intención sea la de juzgarles por crímenes cometidos en el extranjero. ",
+    "pais": "Nicaragua",
+    "constitution": "TÍTULO IV, CAPÍTULO I, ARTÍCULO 43<br/><br/>En Nicaragua no existe extradición por delitos políticos o comunes conexos con ellos, según calificación nicaragüense. La extradición por delitos comunes está regulada por la ley y los tratados internacionales.<br/><br/>Los nicaragüenses no podrán ser objeto de extradición del territorio nacional.<br/><br/>"
+  },
+  {
+    "id": 18,
+    "title": "Bienestar animal",
+    "bigtitle": "Bienestar animal: ",
+    "desc": "Deber de los ciudadanos y de las instituciones públicas con el cuidado y protección de los animales. ",
+    "pais": "Alemania",
+    "constitution": "ARTÍCULO 20A. PROTECCIÓN DE LOS FUNDAMENTOS NATURALES DE LA VIDA Y DE LOS ANIMALES   <br/><br/>El Estado protegerá, teniendo en cuenta también su responsabilidad con las generaciones futuras, dentro del marco del orden constitucional, los fundamentos naturales de la vida y los animales a través de la legislación y, de acuerdo con la ley y el Derecho, por medio de los poderes ejecutivo y judicial.<br/><br/>"
+  },
+  {
+    "id": 19,
+    "title": "Adopción",
+    "bigtitle": "Regulación sobre la adopción: ",
+    "desc": "Reconocimiento constitucional de los requisitos básicos para adoptar. Por ejemplo, la edad mínima. ",
+    "pais": "República Dominicana",
+    "constitution": "TÍTULO II, CAPÍTULO I, SECCIÓN II, ARTÍCULO 55, DERECHOS DE LA FAMILIA<br/><br/>La familia es el fundamento de la sociedad y el espacio básico para el desarrollo integral de las personas. Se constituye por vínculos naturales o jurídicos, por la decisión libre de un hombre y una mujer de contraer matrimonio o por la voluntad responsable de conformarla.<br/><br/>(…)<br/><br/>12.El Estado garantizará, mediante ley, políticas seguras y efectivas para la adopción;<br/><br/>"
+  },
+  {
+    "id": 20,
+    "title": "Desplazamiento arbitrario",
+    "bigtitle": "Prohibición de todo desplazamiento arbitrario:",
+    "desc": "Se vincula con el derecho a establecer libremente el domicilio, e implica que no puede trasladarse a una persona en base a considerar que no puede domiciliarse en determinado lugar.",
+    "pais": "Ecuador",
+    "constitution": "TÍTULO II, CAPÍTULO 3, SECCIÓN 3, ARTÍCULO 42<br/><br/>Se prohíbe todo desplazamiento arbitrario. Las personas que hayan sido desplazadas tendrán derecho a recibir protección y asistencia humanitaria emergente de las autoridades, que asegure el acceso a alimentos, alojamiento, vivienda y servicios médicos y sanitarios.<br/><br/>"
+  },
+  {
+    "id": 21,
+    "title": "Salida del país",
+    "bigtitle": "Regulación de que la prohibición de salir del país sólo pueda ser ordenada por juez competente: ",
+    "desc": "Solo una autoridad judicial podría prohibir la salida del país de un ciudadano y por una causa justificada legalmente.",
+    "pais": "Nigeria",
+    "constitution": "CAPÍTULO IV, 41<br/><br/>Todos los nigerianos tienen derecho a moverse libremente por Nigeria y a residir en cualquier parte del país. Ningún nigeriano será expulsado de Nigeria ni se le negará la entrada o salida del país.<br/><br/>"
+  },
+  {
+    "id": 22,
+    "title": "Libre sindicalización",
+    "bigtitle": "Derecho de libre sindicalización: ",
+    "desc": "La libertad sindical es un derecho fundamental de los trabajadores y sus agrupaciones para organizarse y defender sus intereses comunes. Para ello deben, garantizarse también sus pilares: garantizando la actividad previa y necesaria para constituir sindicatos, debiendo reconocerse sus pilares que son organización, regulación, representación y negociación y huelga, y su objeto, que es la defensa de los intereses comunes.",
+    "pais": "España",
+    "constitution": "TÍTULO PRELIMINAR, ARTÍCULO 7<br/><br/>Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios. Su creación y el ejercicio de su actividad son libres dentro del respeto a la Constitución y a la ley. Su estructura interna y funcionamiento deberán ser democráticos.<br/><br/>TÍTULO I, CAPÍTULO SEGUNDO, SECCIÓN 1A, ARTÍCULO 281<br/><br/>Todos tienen derecho a sindicarse libremente. La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos. La libertad sindical comprende el derecho a fundar sindicatos y a afiliarse al de su elección, así como el derecho de los sindicatos a formar confederaciones y a fundar organizaciones sindicales internacionales o a afiliarse a las mismas. Nadie podrá ser obligado a afiliarse a un sindicato.<br/><br/>"
+  },
+  {
+    "id": 23,
+    "title": "Espacio público",
+    "bigtitle": "Derecho a acceder y participar del espacio público como ámbito de deliberación, intercambio cultural, cohesión social y promoción de la igualdad en la diversidad: ",
+    "desc": "Implica el reconocimiento del espacio público como un ambiente de convergencia y de dominio colectivo. Implica el reconocimiento del derecho de los ciudadanos de hacer un uso libre del mismo, para expresarse e intercambiar experiencias. Ese derecho podrá estar limitado solo por conceptos legalmente establecidos y recurribles judicialmente.",
+    "pais": "Ecuador",
+    "constitution": "SECCIÓN 3, ARTÍCULO 23   <br/><br/>Las personas tienen derecho a acceder y participar del espacio público como ámbito de deliberación, intercambio cultural, cohesión social y promoción de la igualdad en la diversidad. El derecho a difundir en el espacio público las propias expresiones culturales se ejercerá sin más limitaciones que las que establezca la ley, con sujeción a los principios constitucionales.<br/><br/>"
+  },
+  {
+    "id": 24,
+    "title": "Tecnologías de la Información ",
+    "bigtitle": "Derecho al acceso universal a las tecnologías de información y comunicación: ",
+    "desc": "Es un derecho de una doble dimensión. La primera, permitir que los ciudadanos usen y disfruten libremente de las tecnologías de la información y la comunicación para generar sinergias y expresar ideas. La segunda, el derecho de todos los ciudadanos de contar con una estructura que les permita, sin importar su condición económica acceder a las tecnologías en igualdad de condiciones que el resto de la sociedad.",
+    "pais": "México",
+    "constitution": "TÍTULO PRIMERO, CAPÍTULO I, ARTÍCULO 6<br/><br/>El Estado garantizará el derecho de acceso a las tecnologías de la información y comunicación, así como a los servicios de radiodifusión y telecomunicaciones, incluido el de banda ancha e internet. Para tales efectos, el Estado establecerá condiciones de competencia efectiva en la prestación de dichos servicios.<br/><br/>"
+  },
+  {
+    "id": 25,
+    "title": "Censura previa",
+    "bigtitle": "Prohibición de censura previa: ",
+    "desc": "La censura es la facultad de aprobar o prohibir determinado material o expresión antes de hacerse público e impide que ciertos materiales sean distribuidos o escuchados. Supone la prohibición de producir, imprimir y difundir cierta información, arte o incluso la expresión coloquial de determinados temas. De ahí que sea prohibida en algunas constituciones.",
+    "pais": "Panamá",
+    "constitution": "TÍTULO III, CAPÍTULO 1, ARTÍCULO 37<br/><br/>Toda persona puede emitir libremente su pensamiento de palabra, por escrito o por cualquier otro medio, sin sujeción a censura previa; pero existen las responsabilidades legales cuando por alguno de estos medios se atente contra la reputación o la honra de las personas o contra la seguridad social o el orden público.<br/><br/>"
+  },
+  {
+    "id": 26,
+    "title": "Publicidad",
+    "bigtitle": "Prohibición de emisión de publicidad que induzca a la violencia, la discriminación, el racismo, la toxicomanía, el sexismo, la intolerancia religiosa o política y toda aquella que atente contra los derechos: ",
+    "desc": "Implica la imposibilidad de hacer publicidad que suponga un menoscabo del principio de igualdad, se apoya en la no discriminación y el fomento de una cultura del respeto a las diferencias de todo tipo. ",
+    "pais": "Ecuador",
+    "constitution": "TÍTULO II, CAPÍTULO 3, SECCIÓN 9, ARTÍCULO 54<br/><br/>Las personas o entidades que presten servicios públicos o que produzcan o comercialicen bienes de consumo, serán responsables civil y penalmente por la deficiente prestación del servicio, por la calidad defectuosa del producto, o cuando sus condiciones no estén de acuerdo con la publicidad efectuada o con la descripción que incorpore.<br/><br/>"
+  },
+  {
+    "id": 27,
+    "title": "Medios de comunicación",
+    "bigtitle": "Derecho a la creación de medios de comunicación social, y al acceso en igualdad de condiciones al uso de las frecuencias del espectro radioeléctrico para la gestión de estaciones de radio y televisión públicas, privadas y comunitarias, y a bandas libres para la explotación de redes inalámbricas:",
+    "desc": "Supone la posibilidad de que organizaciones sociales y de masas, las comunidades y las personas puedan crear sus propios medios de comunicación, y en cualquier formato. Además, implica el acceso y uso del espectro radioeléctrico e internet de forma igualitaria para todos los sujetos que los empleen. ",
+    "pais": "Ecuador",
+    "constitution": "TÍTULO II, CAPÍTULO 2, SECCIÓN 3, ARTÍCULO 16<br/><br/>Todas las personas, en forma individual o colectiva, tienen derecho a:<br/><br/>[…] <br/><br/>3.La creación de medios de comunicación social, y al acceso en igualdad de condiciones al uso de las frecuencias del espectro radioeléctrico para la gestión de estaciones de radio y televisión públicas, privadas y comunitarias, y a bandas libres para la explotación de redes inalámbricas.<br/><br/>TÍTULO II, CAPÍTULO 2, SECCIÓN 3, ARTÍCULO 17<br/><br/>El Estado fomentará la pluralidad y la diversidad en la comunicación, y al efecto:<br/><br/>1.Garantizará la asignación, a través de métodos transparentes y en igualdad de condiciones, de las frecuencias del espectro radioeléctrico, para la gestión de estaciones de radio y televisión públicas, privadas y comunitarias, así como el acceso a bandas libres para la explotación de redes inalámbricas, y precautelará que en su utilización prevalezca el interés colectivo.<br/><br/>2.Facilitará la creación y el fortalecimiento de medios de comunicación públicos, privados y comunitarios, así como el acceso universal a las tecnologías de información y comunicación en especial para las personas y colectividades que carezcan de dicho acceso o lo tengan de forma limitada.<br/><br/>3.No permitirá el oligopolio o monopolio, directo ni indirecto, de la propiedad de los medios de comunicación y del uso de las frecuencias.<br/><br/>"
+  },
+  {
+    "id": 29,
+    "title": "Información secreta",
+    "bigtitle": "Regulación de la reserva de información por parte del Estado: ",
+    "desc": "Es la definición constitucional de los motivos por los cuales los órganos estatales pueden establecer que cierta información es confidencial o secreta. ",
+    "pais": "Ecuador",
+    "constitution": "TÍTULO II, CAPÍTULO 2, SECCIÓN 3, ARTÍCULO 18<br/><br/>Todas las personas, en forma individual o colectiva, tienen derecho a:<br/><br/>[…] <br/><br/>2.Acceder libremente a la información generada en entidades públicas, o en las privadas que manejen fondos del Estado o realicen funciones públicas. No existirá reserva de información excepto en los casos expresamente establecidos en la ley. En caso de violación a los derechos humanos, ninguna entidad pública negará la información.<br/><br/>"
+  },
+  {
+    "id": 30,
+    "title": "Huelga",
+    "bigtitle": "Derecho de huelga: ",
+    "desc": "La huelga, tanto política como económica, son instrumentos importantes para defender los derechos de los trabajadores y del pueblo soberano. En Cuba se ha argumento que al ser el pueblo el dueño de los medios fundamentales de producción, cualquier manifestación constituye una autoagresión.  Sin embargo, hoy existen (y se reconocen en el nuevo proyecto constitucional) otros sujetos económicos (propietarios privados, cooperativas e inversionistas extranjeros con trabajadores contratados) y la propiedad social está en manos de administradores que determinan sobre los trabajadores; por tanto, la huelga es un instrumento jurídico y político útil.",
+    "pais": "Argentina",
+    "constitution": "PRIMERA PARTE, CAPÍTULO PRIMERO, ARTÍCULO 14<br/><br/>Queda garantizado a los gremios: concertar convenios colectivos de trabajo; recurrir a la conciliación y al arbitraje; el derecho de huelga. Los representantes gremiales gozarán de las garantías necesarias para el cumplimiento de su gestión sindical y las relacionadas con la estabilidad de su empleo.<br/><br/>"
+  },
+  {
+    "id": 31,
+    "title": "Pena de muerte",
+    "bigtitle": "Abolición de la pena de muerte: ",
+    "desc": "Esto significa la eliminación de la pena de muerte como sanción penal.  ",
+    "pais": "Uruguay",
+    "constitution": "SECCIÓN II, CAPÍTULO I, ARTÍCULO 26<br/><br/>A nadie se le aplicará la pena de muerte.<br/><br/>"
+  },
+  {
+    "id": 32,
+    "title": "Autonomía universitaria",
+    "bigtitle": "Autonomía universitaria: ",
+    "desc": "Es un principio de organización que implica la independencia política y administrativa de una universidad pública respecto de factores externos. Se sostiene en que la universidad debe ser autónoma y auto-gobernada, y que debe elegir sus propias autoridades sin injerencia de los órganos de poder estatal, decidiendo sus propios estatutos y programas de estudio.",
+    "pais": "República Bolivariana de Venezuela",
+    "constitution": "TÍTULO III, CAPÍTULO VI, ARTÍCULO 109<br/><br/>El Estado reconocerá la autonomía universitaria como principio y jerarquía que permite a los profesores, profesoras, estudiantes, estudiantes, egresados y egresadas de su comunidad dedicarse a la búsqueda del conocimiento a través de la investigación científica, humanística y tecnológica, para beneficio espiritual y material de la Nación. Las universidades autónomas se darán sus normas de gobierno, funcionamiento y la administración eficiente de su patrimonio bajo el control y vigilancia que a tales efectos establezca la ley. Se consagra la autonomía universitaria para planificar, organizar, elaborar y actualizar los programas de investigación, docencia y extensión. Se establece la inviolabilidad del recinto universitario. Las universidades nacionales experimentales alcanzarán su autonomía de conformidad con la ley.<br/><br/>"
+  },
+  {
+    "id": 33,
+    "title": "Libertad de enseñanza",
+    "bigtitle": "Libertad de enseñanza y libertad de cátedra en la educación superior: ",
+    "desc": "La libertad de enseñanza incluye la libertad de los profesores, estudiantes e instituciones académicas de tener como meta la búsqueda desinteresada de la verdad y del conocimiento, sin importar a dónde conduzca y sin una interferencia indebida o irrazonable. Comprende como mecanismo de materialización, la libertad para escoger temas de investigación, para escoger lo que se enseñará en clase y para publicar y compartir los hallazgos de las investigaciones. La libertad de cátedra contenida dentro de la libertad académica es el derecho a ejercer la docencia, en el ámbito de la educación superior, con absoluta libertad.",
+    "pais": "República Dominicana",
+    "constitution": "TÍTULO II, CAPÍTULO I, SECCIÓN II, ARTÍCULO 63<br/><br/>Toda persona tiene derecho a una educación integral, de calidad, permanente, en igualdad de condiciones y oportunidades, sin más limitaciones que las derivadas de sus aptitudes, vocación y aspiraciones. En consecuencia:<br/><br/>[…] <br/><br/>7.El Estado debe velar por la calidad de la educación superior y financiará los centros y universidades públicas, de conformidad con lo que establezca la ley. Garantizará la autonomía universitaria y la libertad de cátedra;<br/><br/>"
+  },
+  {
+    "id": 34,
+    "title": "Elección de jueces",
+    "bigtitle": "Elección directa por parte del electorado de los jueces a todos los niveles:",
+    "desc": "Se trata de la intervención directa de la ciudadanía en la elección de los jueces que van a formar parte del sistema de tribunales populares.  ",
+    "pais": "Estado plurinacional de Bolivia",
+    "constitution": "TÍTULO III, SECCIÓN I, ARTÍCULO 182<br/><br/>I. Las Magistradas y los Magistrados del Tribunal Supremo de Justicia serán elegidas y elegidos mediante sufragio universal."
+  },
+  {
+    "id": 35,
+    "title": "Corrupción",
+    "bigtitle": "Deber estatal y recursos ciudadanos para la lucha contra la corrupción: ",
+    "desc": "Supone el compromiso estatal para la lucha contra la corrupción y la facilitación de recursos para que los ciudadanos enfrenten actos de corrupción. ",
+    "pais": "México",
+    "constitution": "TÍTULO CUARTO, ARTÍCULO 113<br/><br/>El Sistema Nacional Anticorrupción es la instancia de coordinación entre las autoridades de todos los órdenes de gobierno competentes en la prevención, detección y sanción de responsabilidades administrativas y hechos de corrupción, así como en la fiscalización y control de recursos públicos. Para el cumplimiento de su objeto se sujetará a las siguientes bases mínimas:<br/><br/>I. El Sistema contará con un Comité Coordinador que estará integrado por los titulares de la Auditoría Superior de la Federación; de la Fiscalía Especializada en Combate a la Corrupción; de la secretaría del Ejecutivo Federal responsable del control interno; por el presidente del Tribunal Federal de Justicia Administrativa; el presidente del organismo garante que establece el artículo 6o. de esta Constitución; así como por un representante del Consejo de la Judicatura Federal y otro del Comité de Participación Ciudadana;<br/><br/>II. El Comité de Participación Ciudadana del Sistema deberá integrarse por cinco ciudadanos que se hayan destacado por su contribución a la transparencia, la rendición de cuentas o el combate a la corrupción y serán designados en los términos que establezca la ley, y<br/><br/>III. Corresponderá al Comité Coordinador del Sistema, en los términos que determine la Ley:<br/><br/>a. El establecimiento de mecanismos de coordinación con los sistemas locales;<br/><br/>b. El diseño y promoción de políticas integrales en materia de fiscalización y control de recursos públicos, de prevención, control y disuasión de faltas administrativas y hechos de corrupción, en especial sobre las causas que los generan;<br/><br/>c. La determinación de los mecanismos de suministro, intercambio, sistematización y actualización de la información que sobre estas materias generen las instituciones competentes de los órdenes de gobierno;<br/><br/>d. El establecimiento de bases y principios para la efectiva coordinación de las autoridades de los órdenes de gobierno en materia de fiscalización y control de los recursos públicos;<br/><br/>e. La elaboración de un informe anual que contenga los avances y resultados del ejercicio de sus funciones y de la aplicación de políticas y programas en la materia.<br/><br/>•  Derivado de este informe, podrá emitir recomendaciones no vinculantes a las autoridades, con el objeto de que adopten medidas dirigidas al fortalecimiento institucional para la prevención de faltas administrativas y hechos de corrupción, así como al mejoramiento de su desempeño y del control interno. Las autoridades destinatarias de las recomendaciones informarán al Comité sobre la atención que brinden a las mismas.<br/><br/>Las entidades federativas establecerán sistemas locales anticorrupción con el objeto de coordinar a las autoridades locales competentes en la prevención, detección y sanción de responsabilidades administrativas y hechos de corrupción.<br/><br/>"
+  },
+  {
+    "id": 36,
     "title": "Policía",
     "bigtitle": "Regulación de principios de la función de la Policía: ",
-    "desc": "Regulación constitucional de los principios básicos en que se basa el sistema de tributos de país. Por ejemplo, establecer que los ingresos provenientes de los tributos se destinan a la satisfacción de necesidades sociales. ",
-    "pais": "Portugal",
-    "constitution": "PARTE III, TÍTULO VIII, CAPÍTULO I, ARTÍCULO 2373\nLa policía municipal deberá cooperar en el mantenimiento del orden público y la protección de las comunidades locales.\nPARTE III, TÍTULO IX, ARTÍCULO 272, POLICÍA\nLa policía tendrá por funciones defender la legalidad democrática y garantizar la seguridad interna y los derechos de los ciudadanos.\n[…]\nLas medidas de policía serán las previstas en la ley, no debiendo ser utilizadas más allá de lo estrictamente necesario.\n[…]\nLa prevención de los delitos, incluidos los delitos contra la seguridad del Estado, sólo podrá hacerse con observancia de las normas generales que rigen a la policía y con el respeto de los derechos, libertades y garantías de los ciudadanos.\n"
-  },
-  {
-    "id": 40,
-    "title": "Participación popular",
-    "bigtitle": "Mecanismos de participación popular y garantías para la autonomía municipal",
     "desc": "Establecimiento constitucional de reglas mínimas sobre el funcionamiento de la Policía, que podría incluir, por ejemplo, su definición como un cuerpo para el mantenimiento del orden público y el enfrentamiento al delito y las indisciplinas sociales; así como la prohibición de su militarización, esto es, no convertir o equipar a la fuerza pública como si fuera parte de las fuerzas armadas. ",
-    "pais": "",
-    "constitution": ""
+    "pais": "Portugal",
+    "constitution": "PARTE III, TÍTULO VIII, CAPÍTULO I, ARTÍCULO 2373<br/><br/>La policía municipal deberá cooperar en el mantenimiento del orden público y la protección de las comunidades locales.<br/><br/>PARTE III, TÍTULO IX, ARTÍCULO 272, POLICÍA<br/><br/>La policía tendrá por funciones defender la legalidad democrática y garantizar la seguridad interna y los derechos de los ciudadanos.<br/><br/>[…]<br/><br/>Las medidas de policía serán las previstas en la ley, no debiendo ser utilizadas más allá de lo estrictamente necesario.<br/><br/>[…]<br/><br/>La prevención de los delitos, incluidos los delitos contra la seguridad del Estado, sólo podrá hacerse con observancia de las normas generales que rigen a la policía y con el respeto de los derechos, libertades y garantías de los ciudadanos.<br/><br/>"
   },
   {
-    "id": 41,
+    "id": 37,
     "title": "Defensor del pueblo",
     "bigtitle": "Defensor del pueblo: ",
     "desc": "Es una autoridad del Estado encargada de garantizar los derechos de los ciudadanos ante abusos que puedan cometer los órganos del Estado.  Creado en Suecia en el siglo XVIII y nombrado en español “Defensoría del Pueblo” por la Constitución española de 1978. ",
-    "pais": "",
-    "constitution": ""
+    "pais": "Paraguay",
+    "constitution": "PARTE II, TÍTULO II, CAPÍTULO IV, SECCIÓN I, DE LA DEFENSORÍA DEL PUEBLO<br/><br/>ARTÍCULO 276. DEL DEFENSOR DEL PUEBLO<br/><br/>El Defensor del Pueblo es un comisionado parlamentario cuyas funciones son la defensa de los derechos humanos, la canalización de reclamos populares y la profesión de los intereses comunitarios. En ningún caso tendrá función judicial ni competencia ejecutiva.<br/><br/>ARTÍCULO 277. DE LA AUTONOMÍA, DEL NOMBRAMIENTO Y DE LA REMOCIÓN<br/><br/>El Defensor del Pueblo gozará de autonomía e inamovilidad. Es nombrado por mayoría de dos tercios de la Cámara de Diputados, de una terna propuesta por el Senado, y durará cinco años en sus funciones, coincidentes con el período del Congreso. Podrá ser reelecto. Además, podrá ser removido por mal desempeño de sus funciones, con el procedimiento del juicio político establecido en esta Constitución.<br/><br/>ARTÍCULO 278. DE LOS REQUISITOS, DE LAS INCOMPATIBILIDADES Y DE LAS INMUNIDADES<br/><br/>El Defensor del Pueblo deberá reunir los mismos requisitos exigidos para los Diputados, y tiene las mismas incompatibilidades e inmunidades que las de los magistrados judiciales. Durante su mandato no podrá formar parte de ningún poder del Estado ni ejercer actividad político partidaria alguna.<br/><br/>ARTÍCULO 279. DE LOS DEBERES Y DE LAS ATRIBUCIONES<br/><br/>Son deberes y atribuciones del Defensor del Pueblo:<br/><br/>1.recibir e investigar denuncias, quejas y reclamos contra violaciones de los derechos humanos y otros hechos que establecen esta Constitución y la ley.<br/><br/>2.requerir de las autoridades en sus diversos niveles, incluyendo los de los órganos policiales y los de seguridad en general, información para el mejor ejercicio de sus funciones, sin que pueda oponérsele reserva alguna. Podrá acceder a los sitios donde se denuncie la comisión de tales hechos. Es también de su competencia actuar de oficio;<br/><br/>3.emitir censura pública por actos o comportamientos contrarios a los derechos humanos;<br/><br/>4.informar anualmente de sus gestiones a las Cámaras del Congreso;<br/><br/>5.elaborar y divulgar informes sobre la situación de los derechos humanos que, a su juicio, requieran pronta atención pública, y<br/><br/>6.los demás deberes y atribuciones que fije la ley.<br/><br/>ARTÍCULO 280. DE LA REGULACIÓN DE SUS FUNCIONES<br/><br/>Las funciones del Defensor del Pueblo serán reguladas por la ley a fin de asegurar su eficacia, pudiendo nombrarse defensores departamentales o municipales.<br/><br/>"
   },
   {
-    "id": 42,
+    "id": 38,
     "title": "Bases militares",
     "bigtitle": "Prohibición de establecimiento de instalaciones extranjeras con propósitos militares y prohibición de emplear bases militares nacionales por parte de fuerzas armadas o de seguridad extranjeras: ",
     "desc": "Tanto una como otra hacen alusión a la no permanencia en el territorio nacional de fuerzas armadas extranjeras, bien mediante el establecimiento de nuevas instalaciones militares como mediante el uso de bases militares cubanas preexistentes. ",
-    "pais": "",
-    "constitution": ""
+    "pais": "Nicaragua",
+    "constitution": "TÍTULO V, CAPÍTULO UNICO,ARTÍCULO 92<br/><br/>Se prohíbe el establecimiento de bases militares extranjeras en el territorio nacional. Podrá autorizarse el tránsito o estacionamiento de naves, aeronaves, maquinarias y personal militar extranjero para fines humanitarios, adiestramiento, instrucción e intercambio, siempre que sean solicitadas por el Presidente de la República y ratificados por la Asamblea Nacional.<br/><br/>"
   },
   {
-    "id": 43,
-    "title": "Administración pública",
-    "bigtitle": "Conceptos de “Administración pública”, “Políticas públicas” y “Servicios públicos”:",
-    "desc": "Es importante para conocer desde la Constitución qué características tiene que cumplir un órgano, una política o un servicio para ser considerados como públicos. En el caso de los órganos, para saber si forman parte o no de la administración pública. ",
-    "pais": "",
-    "constitution": ""
+    "id": 39,
+    "title": "Agente químicos, biológicos y nucleares",
+    "bigtitle": "Prohibición de todo tipo de manejo de armas químicas, biológicas y nucleares, residuos nucleares, de contaminantes orgánicos tóxicos, agroquímicos prohibidos internacionalmente, de agentes biológicos experimentales nocivos y de organismos genéticamente modificados perjudiciales para la salud humana:",
+    "desc": "Supone el compromiso del Estado con la no manipulación tanto dentro como fuera del territorio nacional de ese tipo de sustancias o armas.  ",
+    "pais": "Estado plurinacional de Bolivia",
+    "constitution": "CUARTA PARTE, TÍTULO II, CAPÍTULO PRIMERO, ARTÍCULO 344I<br/><br/>Se prohíbe la fabricación y uso de armas químicas, biológicas y nucleares en el territorio Boliviano, así como la internación, tránsito y depósito de residuos nucleares y desechos tóxicos.<br/><br/>"
   },
   {
-    "id": 44,
+    "id": 40,
     "title": "Procedimiento legislativo",
     "bigtitle": "Regulación del procedimiento legislativo: ",
     "desc": "Regulación constitucional de los pasos mínimos para la elaboración de una ley, así como la diferenciación de qué materias se regularán en leyes orgánicas y cuales, en ordinarias. ",
-    "pais": "",
-    "constitution": ""
+    "pais": "Estado plurinacional de Bolivia",
+    "constitution": "ARTÍCULO 163<br/><br/>El procedimiento legislativo se desarrollará de la siguiente manera:<br/><br/>1.El proyecto de ley presentado por asambleístas de una de las Cámaras, iniciará el procedimiento legislativo en esa Cámara, que la remitirá a la comisión o comisiones que correspondan para su tratamiento y aprobación inicial.<br/><br/>2.El proyecto de ley presentado por otra iniciativa será enviado a la Cámara de Diputados, que lo remitirá a la comisión o las comisiones.<br/><br/>3.Las iniciativas legislativas en materia de descentralización, autonomías y ordenamiento territorial serán de conocimiento de la Cámara de Senadores.<br/><br/>4.Cuando el proyecto haya sido informado por la comisión o las comisiones correspondientes, pasará a consideración de la plenaria de la Cámara, donde será discutido y aprobado en grande y en detalle. Cada aprobación requerirá de la mayoría absoluta de los miembros presentes.<br/><br/>5.El proyecto aprobado por la Cámara de origen será remitido a la Cámara revisora para su discusión. Si la Cámara revisora lo aprueba, será enviado al Órgano Ejecutivo para su promulgación.<br/><br/>6.Si la Cámara revisora enmienda o modifica el proyecto, éste se considerará aprobado si la Cámara de origen acepta por mayoría absoluta de los miembros presentes las enmiendas o modificaciones. En caso de que no las acepte, las dos Cámaras se reunirán a requerimiento de la Cámara de origen dentro de los veinte días siguientes y deliberarán sobre el proyecto. La decisión será tomada por el Pleno de la Asamblea Legislativa Plurinacional por mayoría absoluta de sus miembros presentes.<br/><br/>7.En caso de que pasen treinta días sin que la Cámara revisora se pronuncie sobre el proyecto de ley, el proyecto será considerado en el Pleno de la Asamblea Legislativa Plurinacional.<br/><br/>8.El proyecto aprobado, una vez sancionado, será remitido al Órgano Ejecutivo para su promulgación como ley.<br/><br/>9.Aquel proyecto que haya sido rechazado podrá ser propuesto nuevamente en la Legislatura siguiente.<br/><br/>10.La ley sancionada por la Asamblea Legislativa Plurinacional y remitida al Órgano Ejecutivo, podrá ser observada por la Presidenta o el Presidente del Estado en el término de diez días hábiles desde el momento de su recepción. Las observaciones del Órgano Ejecutivo se dirigirán a la Asamblea. Si ésta estuviera en receso, la Presidenta o el Presidente del Estado remitirá sus observaciones a la Comisión de Asamblea.<br/><br/>11.Si la Asamblea Legislativa Plurinacional considera fundadas las observaciones modificará la ley conforme a éstas y la devolverá al Órgano Ejecutivo para su promulgación. En el caso de que considere infundadas las observaciones, la ley será promulgada por la Presidenta o el Presidente de la Asamblea. Las decisiones de la Asamblea se tomarán por mayoría absoluta de sus miembros presentes.<br/><br/>12.La ley que no sea observada dentro del plazo correspondiente será promulgada por la Presidenta o Presidente del Estado. Las leyes no promulgadas por el Órgano Ejecutivo en los plazos previstos en los numerales anteriores serán promulgadas por la Presidenta o el Presidente de la Asamblea."
   },
   {
-    "id": 45,
+    "id": 41,
     "title": "Reserva de ley",
     "bigtitle": "Reserva de ley: ",
     "desc": "Es una garantía constitucional mediante la cual determinadas materias de especial protección solo pueden ser reguladas en una ley, entendida esta como una disposición que adopta el órgano legislativo, que en el caso cubano es la ANPP y no por una norma de menor jerarquía. ",
-    "pais": "",
-    "constitution": ""
+    "pais": "Alemania",
+    "constitution": "ARTÍCULO 74. LEGISLACIÓN CONCURRENTE DE LA FEDERACIÓN<br/><br/> 1. La legislación concurrente abarca las materias siguientes:<br/><br/>1.el Derecho civil, el Derecho penal, la organización judicial, el procedimiento judicial (con exclusión del Derecho de ejecución de la prisión provisional), el régimen de la abogacía, del notariado y del asesoramiento jurídico;<br/><br/>2.el estado civil;<br/><br/>3.el derecho de asociación;<br/><br/>4.el derecho de residencia y establecimiento de los extranjeros;<br/><br/>4a.(derogado);<br/><br/>5.(derogado)<br/><br/>6.los asuntos relativos a los refugiados y expulsados;<br/><br/>7.la asistencia social;<br/><br/>8.(derogado);<br/><br/>9.los daños de guerra y reparaciones;<br/><br/>10.las tumbas de guerra y las tumbas de otras víctimas de guerra y de la tiranía;<br/><br/>11.el Derecho de la economía (minería, industria, energía, artesanía, pequeña industria, comercio, régimen bancario y bursátil, seguros de derecho privado) con exclusión del Derecho del cierre del comercio, de los restaurantes y bares, de salas de juego, de la exhibición de personas, de las ferias, de las exposiciones y de los mercados;<br/><br/>11a.(derogado);<br/><br/>12.el Derecho laboral con inclusión del régimen orgánico de las empresas, la protección laboral y las oficinas de colocación, así como el seguro social con inclusión del seguro de desempleo;<br/><br/>13.la regulación de las ayudas para la formación profesional y el fomento de la investigación científica;<br/><br/>14.el derecho de expropiación en lo referente a las materias comprendidas en los Artículos 73 y 74;<br/><br/>15.la transferencia de la tierra, de los recursos naturales y medios de producción a un régimen de propiedad colectiva u otras formas de economía colectiva;<br/><br/>16.la prevención del abuso de una posición de poder económico;<br/><br/>17.el fomento de la producción agrícola y forestal (con exclusión del Derecho de concentración parcelaria), el aseguramiento del abastecimiento de alimentos, la importación y exportación de productos agrícolas, ganaderos y forestales, la pesca costera y de alta mar y la protección de las costas;<br/><br/>18.las transacciones inmobiliarias, el Derecho del suelo (con exclusión del Derecho de las contribuciones por urbanización) y el régimen de los arrendamientos rurales, de las viviendas, de las colonias y hogares;<br/><br/>19.las medidas contra enfermedades humanas y animales contagiosas y peligrosas para la colectividad, la admisión al ejercicio de las profesiones médicas, paramédicas y afines, así como el comercio de medicamentos, remedios, estupefacientes y tóxicos;<br/><br/>19a.el financiamiento de los hospitales y la regulación de las tarifas de los mismos;<br/><br/>20.las medidas de protección en el comercio de productos alimenticios y estimulantes, artículos de consumo, piensos, semillas y plantas agrícolas y forestales, protección de las plantas contra enfermedades y parásitos, así como la protección de animales;<br/><br/>21.la navegación de alta mar y de cabotaje, así como las señales marítimas, la navegación interior, el servicio meteorológico, las vías marítimas y las vías navegables interiores destinadas al tráfico general;<br/><br/>22.el tráfico por carretera, el régimen para vehículos de motor, la construcción y el mantenimiento de las carreteras para el tráfico de largo recorrido, así como la recaudación y distribución de ingresos por el uso de carreteras públicas con vehículos;<br/><br/>23.los ferrocarriles que no sean ferrocarriles de la Federación, con excepción de los de montaña;<br/><br/>24.la eliminación de basuras, el mantenimiento de la pureza del aire y la lucha contra el ruido;<br/><br/>25.la responsabilidad del Estado;<br/><br/>26.la inseminación artificial humana, la investigación sobre manipulaciones genéticas así como las regulaciones sobre trasplante de órganos y tejidos.<br/><br/>27.los derechos estatuarios y obligaciones de los funcionarios de los Länder, municipios y otras corporaciones de Derecho público así como de los jueces en los Länder con la excepción de las carreras profesionales, de la remuneración y de previsión;<br/><br/>28.la caza;<br/><br/>29.la protección de la naturaleza y el cuidado del paisaje;<br/><br/>30.la distribución de la tierra;<br/><br/>31.la ordenación del territorio;<br/><br/>32.el régimen hidráulico;<br/><br/>33.la admisión a las universidades y los diplomas universitarios.<br/><br/>2. Las leyes según el apartado (1) No. 25 y 27 requieren la aprobación del Bundesrat."
   },
   {
-    "id": 46,
+    "id": 42,
     "title": "Control constitucional",
     "bigtitle": "Control jurisdiccional de constitucionalidad: ",
     "desc": "Es una forma de controlar que las leyes y otras disposiciones normativas se correspondan con la Constitución a partir de la intervención de los tribunales. Este control puede ser ejercido por un tribunal independiente o una sala especializada dentro de la máxima instancia de justicia o por cualquier tribunal.",
-    "pais": "",
-    "constitution": ""
+    "pais": "Lituania",
+    "constitution": "CAPÍTULO VIII, EL TRIBUNAL CONSTITUCIONAL<br/><br/>El Tribunal Constitucional velará para que las leyes y otros actos jurídicos del Parlamento no estén en conflicto con la Constitución y para que los actos jurídicos del Presidente y del Gobierno no violen la Constitución o las leyes.<br/><br/>(...)<br/><br/>El Tribunal Constitucional decidirá en audiencia si las leyes de la República de Lituania y los actos jurídicos aprobados por el Parlamento están o no en conflicto con la Constitución de la República de Lituania.<br/><br/>El Tribunal Constitucional también examinará si los siguientes actos están o no en conflicto con la Constitución:<br/><br/>El Tribunal Constitucional se pronunciará sobre:<br/><br/>El Gobierno, al menos un quinto de todos los miembros del Parlamento, y los Tribunales tienen el derecho de recurrir al Tribunal Constitucional los actos jurídicos especificados en el párrafo 1 del artículo 105.<br/><br/>Al menos un quinto de todos los miembros del Parlamento y los Tribunales pueden recurrir al Tribunal Constitucional en lo relativo a la conformidad de los actos del Presidente con la Constitución y las leyes.<br/><br/>Al menos un quinto de todos los miembros del Parlamento, los Tribunales, y el Presidente de la República de Lituania pueden recurrir al Tribunal Constitucional en lo relativo a la conformidad de un acto del Gobierno con la Constitución y las leyes.<br/><br/>Un dictamen del Tribunal Constitucional puede ser solicitada por el Parlamento, y en los casos referidos a las elecciones al Parlamento o a los Acuerdos internacionales, por el Presidente de la República de Lituania.<br/><br/>El Tribunal Constitucional podría rechazar un caso si el recurso no cumple con los requisitos legales.<br/><br/>Una ley de la República de Lituania o parte de ella o cualquier otro acto del Parlamento o parte de él, un acto del Presidente de la República de Lituania, y un acto del Gobierno o parte de él, no pueden ser aplicados desde el día del anuncio de la decisión del Tribunal Constitucional sobre que ese acto en cuestión, o parte del mismo, vulnera la Constitución de la República de Lituania.<br/><br/>Las decisiones del Tribunal Constitucional sobre los asuntos que la Constitución le atribuye son firmes e irrecurribles.<br/><br/>Con base en las decisiones del Tribunal Constitucional, el Parlamento adoptará una decisión definitiva en los asuntos recogidos en el párrafo 3 del artículo 105 de la Constitución."
   },
   {
-    "id": 47,
-    "title": "Amparo constitucional",
-    "bigtitle": "Proceso de amparo constitucional: ",
-    "desc": "El amparo cumple una doble función: de protección al ciudadano en sus garantías fundamentales y a la propia Constitución al garantizar la inviolabilidad de sus preceptos ya sea por normas generales contrarias a dichos preceptos o por actos de autoridad que vulneren el contenido o los derechos fundamentales reconocidos en la Constitución. ",
-    "pais": "",
-    "constitution": ""
-  },
-  {
-    "id": 48,
+    "id": 43,
     "title": "Defensa constitucional",
     "bigtitle": "Mecanismos procesales expresos para defender la Constitución: ",
-    "desc": "Son instrumentos procesales que se emplean para la defensa de los contenidos constitucionales en caso de que sean vulnerados.  ",
-    "pais": "",
-    "constitution": ""
+    "desc": "Son instrumentos para accionar ante un tribunal para la defensa de los contenidos constitucionales en caso de que sean vulnerados. El ejemplo paradigmático es el amparo, que es una acción que cumple una doble función: proteger los derechos ciudadanos y a la propia Constitución al garantizar la inviolabilidad de sus preceptos. ",
+    "pais": "Guatemala",
+    "constitution": "TÍTULO VI,CAPÍTULO II,ARTÍCULO 265,PROCEDENCIA DEL AMPARO<br/><br/>Se instituye el amparo con el fin de proteger a las personas contra las amenazas de violaciones a sus derechos o para restaurar el imperio de los mismos cuando la violación hubiere ocurrido. No hay ámbito que no sea susceptible de amparo, y procederá siempre que los actos, resoluciones, disposiciones o leyes de autoridad lleven implícitos una amenaza, restricción o violación a los derechos que la Constitución y las leyes garantizan."
+  },
+  {
+    "id": 44,
+    "title": "Asamblea Constituyente",
+    "bigtitle": "Convocatoria de Asamblea Constituyente como mecanismo de reforma constitucional: ",
+    "desc": "Legitimar la posibilidad de que se convoque a una Asamblea Constituyente para llevar a cabo una reforma. Implica la creación de un órgano especial para adoptar una nueva Constitución, que pudiera ser convocada por múltiples sujetos. ",
+    "pais": "Filipinas",
+    "constitution": "SECCION XVII, ARTÍCULO 1<br/><br/>Cualquier enmienda o revisión de esta Constitución podrá ser propuesta por:<br/><br/>[…] <br/><br/>2.Una Asamblea Constituyente.<br/><br/>SECCION XVII,  ARTÍCULO 3<br/><br/>Por votación de dos tercios de la totalidad de todos sus miembros, el Congreso podrá convocar una Asamblea Constituyente, o por una mayoría de votos de todos sus miembros, someter al electorado la cuestión de convocar o no dicha Asamblea.<br/><br/>"
   }
 ]

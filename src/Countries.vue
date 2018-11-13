@@ -1,29 +1,28 @@
 <template>
     <div class="container-fluid worldmap">
-        <div class="row">
-            <div class="col-lg-8 text-center">
+        <div class="row revrt">
+            <div class="col-lg-8 col-md-8 text-center">
                 <div class="back">
+                    <div class="temp" v-show="firsttime">Elige un tema</div>
                     <h1 class="big-title">{{title}}</h1>
-                    <h2>{{titlec}}</h2>
                     <div class="description">{{desc}}</div>
-                    <div class="const">{{constitution}}</div>
+                    <h2 class="c-title">{{titlec}}</h2>
+                    <div class="const" v-html="constitution"></div>
                 </div>
                 <div class="">
                     <canvas ref="map"></canvas>
                 </div>
 
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-12">
                 <ul class="data-el">
                     <template v-for="(item, index) in datos">
-                        <li v-ripple class="data-item" @click="drawMap(item)">+ {{item.title}}</li>
+                        <li v-ripple class="data-item" @click="drawMap(item)"><div class="circle"></div> {{item.title}}</li>
                         <v-divider v-if="index + 1 < datos.length"
                                    :key="`divider-${index}`"></v-divider>
                     </template>
                 </ul>
             </div>
-
-
         </div>
 
 
@@ -43,7 +42,7 @@
         data() {
             return {
                 datos: datos,
-                test: "HI",
+                firsttime: true,
                 width: 600,
                 height: 600,
                 projection: d3.geoOrthographic(),
@@ -58,7 +57,7 @@
         },
         mounted() {
             this.start();
-            this.drawMap({pais: "Cuba"});
+            this.drawMap({pais: " "});
         },
         methods: {
             start: function () {
@@ -98,12 +97,14 @@
             },
             drawMap: function (item) {
                 var me = this;
+                if(item.pais != " "){
+                    this.firsttime = false;
+                }
                 var globe = {type: "Sphere"},
                     land = topojson.feature(world, world.objects.land),
                     borders = topojson.mesh(world, world.objects.countries, function (a, b) {
                         return a !== b;
                     })
-                console.log(item)
 
                 let pai = this.findbyPais(item.pais);
 
@@ -125,9 +126,8 @@
                             me.projection.rotate(r(t));
                             me.context.clearRect(0, 0, me.width, me.height);
                             me.context.fillStyle = "rgb(230,230,230)", me.context.beginPath(), me.path(land), me.context.fill();
-                            me.context.fillStyle = "#33ccb2", me.context.beginPath(), me.path(pai), me.context.fill();
+                            me.context.fillStyle = "#f4d366", me.context.beginPath(), me.path(pai), me.context.fill();
                             me.context.strokeStyle = "#fff", me.context.lineWidth = .5, me.context.beginPath(), me.path(borders), me.context.stroke();
-                            // this.context .strokeStyle = "#000", this.context .lineWidth = 2, this.context .beginPath(), path(globe), this.context .stroke();
                         };
                     })
 
@@ -138,6 +138,22 @@
 </script>
 
 <style scoped>
+
+    @media (max-width: 764px) {
+        .data-el {
+            max-width: 100% !important;
+        }
+
+        .data-item {
+            width: 100% !important;
+        }
+        .revrt{
+
+            -ms-flex-direction: column-reverse!important;
+            flex-direction: column-reverse !important;
+        }
+    }
+
     .worldmap {
         max-width: 900px;
         margin-top: 50px;
@@ -145,15 +161,14 @@
     .description{
         color: #4c768c;
         font-family: TradeGothicLTStd-Bold;
-        padding: 10px 0px;
-        font-weight: bold;
-        text-align: justify;
-        font-size: 19px;
+        padding: 5px 0px;
+        text-align: left;
+        font-size: 16px;
     }
     .big-title{
         font-family: TradeGothicLTStd-Bold;
         margin: 5px 0px 15px 0px;
-        font-size: 19.5px;
+        font-size: 16px;
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
@@ -164,11 +179,20 @@
         color: #4c768c;
     }
     .const{
-        text-align: justify;
+        text-align: left;
     }
+
 
     .back {
         position: absolute;
+        max-height: 550px;
+        margin-right: 30px;
+        overflow-y: auto;
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+    }
+    .back::-webkit-scrollbar {
+        display: none;
     }
 
     .data-el {
@@ -184,5 +208,30 @@
         list-style: none;
         font-family: TradeGothicLTStd;
         font-size: 14px;
+        display: inline-flex;
+        width: 230px;
+    }
+    .c-title{
+        text-align: left;
+        color: #9d9d9d;
+        margin-top: 20px;
+        font-family: TradeGothicLTStd-Bold;
+    }
+
+    .temp{
+        color: #f4d366 !important;
+        font-family: TradeGothicLTStd-Bold;
+        margin: 0px auto;
+        text-align: center;
+        font-size: 20px !important;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .circle{
+        width: 9px;
+        height: 9px;
+        border-radius: 10px;
+        margin: 4px 10px;
+        background-color: #f4d366;
     }
 </style>
