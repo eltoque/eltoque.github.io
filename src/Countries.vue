@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid worldmap">
         <div class="row revrt">
-            <div class="col-lg-8 col-md-8 text-center">
+            <div id="mapshow" class="col-lg-8 col-md-8 text-center">
                 <div class="back">
                     <div class="temp" v-show="firsttime">Elige un tema</div>
                     <h1 class="big-title">{{title}}</h1>
@@ -9,7 +9,7 @@
                     <h2 class="c-title">{{titlec}}</h2>
                     <div class="const" v-html="constitution"></div>
                 </div>
-                <div class="">
+                <div>
                     <canvas ref="map"></canvas>
                 </div>
 
@@ -17,7 +17,7 @@
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <ul class="data-el">
                     <template v-for="(item, index) in datos">
-                        <li v-ripple class="data-item" @click="drawMap(item)"><div class="circle"></div> {{item.title}}</li>
+                        <li v-ripple v-scroll-to="sizing" class="data-item" @click="drawMap(item)"><div class="circle"></div> {{item.title}}</li>
                         <v-divider v-if="index + 1 < datos.length"
                                    :key="`divider-${index}`"></v-divider>
                     </template>
@@ -44,6 +44,7 @@
                 datos: datos,
                 firsttime: true,
                 width: 600,
+                widths:0,
                 height: 600,
                 projection: d3.geoOrthographic(),
                 context: null,
@@ -55,11 +56,28 @@
                 constitution: ""
             }
         },
+        created() {
+            window.addEventListener('resize', this.handleResize)
+            this.handleResize();
+        },
+        destroyed() {
+            window.removeEventListener('resize', this.handleResize)
+        },
         mounted() {
             this.start();
             this.drawMap({pais: " "});
         },
+        computed: {
+            sizing: function () {
+                if (this.widths < 468)
+                    return "#mapshow"
+                return false
+            }
+        },
         methods: {
+            handleResize() {
+                this.widths = window.innerWidth;
+            },
             start: function () {
 
                 let width = this.width,
