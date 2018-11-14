@@ -1,36 +1,58 @@
 <template>
     <div class="cloud-component">
+        <div class="graph-windows" v-show="showgraph">
+            <div @click="showgraph=false" class="closebuton">
+                <font-awesome-icon icon="times" size="lg" class="icon"></font-awesome-icon>
+            </div>
+            <div class="axes" ref="axes"></div>
+        </div>
         <div class="row">
-            <div class="listTopics col-lg-2">
+            <div class="listTopics col-lg-3">
                 <template v-for="med in medialist">
-                    <button type="button" :class="isselected(med)" v-ripple class="btn btn-info cloud-btn"
-                            @click="updateMedio(med)"> {{med}}
-                    </button>
+                    <div class="btn-group">
+                        <button type="button" :class="isselected(med)" v-ripple class="btn btn-info cloud-btn"
+                                @click="updateMedio(med)"> {{med}}
+                        </button>
+                        <button type="button" :class="isselectedgraph(med)" v-ripple class="btn btn-info graph-btn"
+                                @click="updateMedioGraph(med)">
+                            <font-awesome-icon icon="chart-bar" class="icon"></font-awesome-icon>
+                        </button>
+                    </div>
                 </template>
             </div>
-            <div class="col-lg-10">
-                <div class="axes" ref="axes" v-show="topic"></div>
-
-                <canvas :width="width" v-show="!topic" :height="height" class="wordCloud" ref="wordCloud"></canvas>
+            <div class="col-lg-9">
+                <canvas :width="width" :height="height" class="wordCloud" ref="wordCloud"></canvas>
                 <div class="legend-color">
                     <div v-ripple class="box-color" style="background-color: rgb(184,184,194)" @click="showlabel(1)"
                     ></div>
-                    <transition name="fade"><div v-show="label(1)">No aparece en el proyecto</div></transition>
-                    <div v-ripple class="box-color" style="background-color: rgb(255,0,0)" title="Negativo"
+                    <transition name="fade">
+                        <div v-show="label(1)">No aparece en el proyecto</div>
+                    </transition>
+                    <div v-ripple class="box-color" style="background-color: rgb(225,64,10)" title="Negativo"
                          @click="showlabel(2)"></div>
-                    <transition name="fade"><div v-show="label(2)">Negativo</div></transition>
-                    <div v-ripple class="box-color" style="background-color: rgb(277,78,0)"
+                    <transition name="fade">
+                        <div v-show="label(2)">Negativo</div>
+                    </transition>
+                    <div v-ripple class="box-color" style="background-color: rgb(175,101,56)"
                          title="Predominantemente Negativo" @click="showlabel(3)"></div>
-                    <transition name="fade"><div v-show="label(3)">Predominantemente Negativo</div></transition>
-                    <div v-ripple class="box-color" style="background-color: rgb(204,113,36)" title="Neutro"
+                    <transition name="fade">
+                        <div v-show="label(3)">Predominantemente Negativo</div>
+                    </transition>
+                    <div v-ripple class="box-color" style="background-color: rgb(2,166,141)" title="Neutro"
                          @click="showlabel(4)"></div>
-                    <transition name="fade"><div v-show="label(4)">Neutro</div></transition>
-                    <div v-ripple class="box-color" style="background-color: rgb(46,212,186)"
+                    <transition name="fade">
+                        <div v-show="label(4)">Neutro</div>
+                    </transition>
+                    <div v-ripple class="box-color" style="background-color: rgb(1,142,188)"
                          title="Predominantemente positivo" @click="showlabel(5)"></div>
-                    <transition name="fade"><div v-show="label(5)">Predominantemente positivo</div></transition>
-                    <div v-ripple class="box-color" style="background-color: rgb(43,175,151)" title="Positivo"
+                    <transition name="fade">
+                        <div v-show="label(5)">Predominantemente positivo</div>
+                    </transition>
+                    <div v-ripple class="box-color" style="background-color: rgb(1,81,196)" title="Positivo"
                          @click="showlabel(6)"></div>
-                    <transition name="fade"><div v-show="label(6)">Positivo</div></transition>
+                    <transition name="fade">
+                        <div v-show="label(6)">Positivo</div>
+                    </transition>
                 </div>
             </div>
         </div>
@@ -41,10 +63,18 @@
     import datos from './assets/nube.json';
     import * as  wc from 'wordcloud'
     import * as d3 from "d3";
+    import {library} from '@fortawesome/fontawesome-svg-core'
+    import {faChartBar, faTimes} from '@fortawesome/free-solid-svg-icons'
+    import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
+    library.add(faChartBar)
+    library.add(faTimes)
 
     export default {
         name: "Cloud",
+        components: {
+            FontAwesomeIcon
+        },
         data() {
             return {
                 textos: datos,
@@ -57,13 +87,14 @@
                 rotate: 0,
                 labelshowing: null,
                 topic: null,
+                showgraph: null,
                 colors: {
                     0: "rgb(184,184,194)",
-                    1: "rgb(255,0,0)",
-                    2: "rgb(277,78,0)",
-                    3: "rgb(204,113,36)",
-                    4: "rgb(46,212,186)",
-                    5: "rgb(43,175,151)",
+                    1: "rgb(225,64,10)",
+                    2: "rgb(175,101,56)",
+                    3: "rgb(2,166,141)",
+                    4: "rgb(1,142,188)",
+                    5: "rgb(1,81,196)",
                 }
 
             }
@@ -115,7 +146,7 @@
 
 
                 var axisScaleY = d3.scaleLinear()
-                    .domain([0, 30])
+                    .domain([0, 25])
                     .range([height, 0]);
 
 
@@ -140,6 +171,8 @@
 
 
                 var dotContainer = svgContainer.append("g").attr("class", "dotContainer");
+                let numContainer = svgContainer.append("g").attr("class", 'numbers')
+
 
                 svgContainer.append('text')
                     .attr('x', fullwidth / 2)
@@ -151,7 +184,7 @@
                 var heightByTipo = {}
                 axisScaleX.domain()
                     .map(function (d, i) {
-                        heightByTipo[d] = 1;
+                        heightByTipo[d] = 0;
                     });
 
                 let rectWidth = Math.floor(axisScaleX.range()[1] / ((type == 'topic') ? (me.medialist.length * 2) : me.wordlist.length * 2));
@@ -168,26 +201,28 @@
                     .attr("transform", "rotate(-90)")
 
 
-                //Add numbers to Y axis
-                svgContainer.append("g")
-                // .attr("transform", "translate(0,50)")
-                    .call(yAxis);
+                // //Add numbers to Y axis
+                // svgContainer.append("g")
+                // // .attr("transform", "translate(0,50)")
+                //     .call(yAxis);
+                //
+
 
                 let locateY = function (d) {
+
                     var medioLoc = (type == "topic") ? d.medio : d.word;
-                    var topping = heightByTipo[medioLoc];
+                    if (d.name)
+                        medioLoc = d.name;
+
+
                     heightByTipo[medioLoc] += 1;
+                    var topping = heightByTipo[medioLoc];
 
                     return axisScaleY(topping);
                 }
 
 
-                //Change the year when moving the slider
                 let updateDots = function (tipo) {
-
-                    for (let ind in heightByTipo) {
-                        heightByTipo[ind] = 1
-                    }
 
 
                     let Data = (tipo == "topic") ? me.getMediaByTopic(me.topic.word) : me.getTopicByMedia(me.medio)
@@ -205,7 +240,8 @@
                             });
 
                     //ENTER
-                    dots.enter().append("rect")
+                    dots.enter()
+                        .append("rect")
                         .attr("class", "dot")
                         .attr("width", rectWidth)
                         .attr("height", rectHeight)
@@ -228,11 +264,32 @@
                         .attr("y", function (d) {
                             return locateY(d);
                         })
-                        .transition().duration(500).delay(function (d, i) {
-                        return i / 2;
-                    })
+                        .transition().duration(500)
+                        .delay(function (d, i) {
+                            return i / 2;
+                        })
                         .style("opacity", 1);
 
+                    let dataHeight = []
+                    for (let el in heightByTipo) {
+                        dataHeight.push({name: el, size: heightByTipo[el]})
+                    }
+
+                    var num = numContainer.selectAll(".num")
+                        .data(dataHeight)
+                        //redefine another data set, getting totals of medio/word.
+                        .enter().append("text")
+                        .attr("class", "bar")
+                        .attr("text-anchor", "middle")
+                        .attr("x", function (d) {
+                            return axisScaleX(d.name);
+                        })
+                        .attr("y", function (d) {
+                            return locateY(d);
+                        })
+                        .text(function (d) {
+                            return (d.size > 0) ? d.size : "";
+                        });
 
                 }//function updateDots
                 updateDots(type)
@@ -254,6 +311,12 @@
             },
             updateMedio: function (medio) {
                 this.topic = null
+                this.medio = medio;
+                this.createCanvas()
+            },
+            updateMedioGraph: function (medio) {
+                this.topic = null
+                this.showgraph = true;
                 this.medio = medio;
                 this.createCanvas()
                 this.drawGraph('medio')
@@ -278,6 +341,7 @@
                     rotationSteps: 2,
                     click: function (item, dimension, event) {
                         me.medio = null
+                        me.showgraph = true;
                         me.topic = item
                         me.drawGraph('topic')
                     }
@@ -325,6 +389,11 @@
             isselected: function (key) {
                 if (this.medio && this.medio == key)
                     return 'btn-select'
+                return ""
+            },
+            isselectedgraph: function (key) {
+                if (this.medio && this.medio == key)
+                    return 'btn-select-graph'
                 return ""
             }
         },
@@ -407,15 +476,15 @@
         transition: 0.2s !important;
     }
 
-    .cloud-btn {
+    .cloud-btn, .graph-btn {
         font-size: 15px;
         font-family: TradeGothicLTStd-Bold;
-        background-color: #3d6277;
+        background-color: #6d6d6d;
         font-weight: bold;
         letter-spacing: 0.5px;
         color: #f2f2f2;
         text-align: center;
-        margin: 1px 10px;
+        margin: 1px 3px 1px 0px;
         width: 160px;
         text-transform: uppercase;
         user-select: none;
@@ -423,6 +492,18 @@
         height: 32px;
         border-radius: 0px;
         transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .graph-btn {
+        width: 30px;
+        letter-spacing: 0px;
+        padding: 0px 0px !important;
+        padding-top: 4px !important;
+        color: #f89226;
+    }
+
+    .graph-btn .icon {
+        height: auto !important;
     }
 
     .cloud-component {
@@ -448,6 +529,11 @@
         background-color: #f89226;
     }
 
+    .btn-select-graph {
+        background-color: #f89226;
+        color: white;
+    }
+
     .wordCloud {
         margin: 5px auto;
         /*width: 100%;*/
@@ -456,11 +542,24 @@
         /*overflow: hidden;*/
     }
 
-    .axes {
-        /*position: absolute;*/
+    .wordCloud:hover {
+        cursor: pointer;
+    }
+    .graph-windows{
+        margin: 10px auto;
+        position: absolute;
+        filter: drop-shadow(0 1px 4px rgba(0, 0, 0, .6));
+        max-width: 800px;
+        background-color: white;
+        border-radius: 10px;
+        z-index: 100;
     }
 
-    .wordCloud:hover {
+    .closebuton {
+        color: #7a7a7a;
+        text-align: right;
+        margin-right: 5px;
+        margin-top: 5px;
         cursor: pointer;
     }
 </style>
