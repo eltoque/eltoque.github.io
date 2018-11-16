@@ -27,8 +27,17 @@
                         </div>
                     </transition>
                     <div class="axes" ref="axes"></div>
-                    <button type="button" v-ripple class="btn btn-info" @mousedown="goback(true)" @mouseup="goback(false)" :disabled="(astep==0)"> ATRAS </button>
-                    <button type="button" v-ripple class="btn btn-info" @click="gonext" :disabled="astep ==steps">SIGUIENTE</button>
+                    <div class="d-flex">
+                        <button type="button" class="btn btn-normal d-flex justify-content-start"
+                                @mousedown="goback(true)" @mouseup="goback(false)" :disabled="(astep==0)">
+                            <font-awesome-icon icon="caret-left" class="icon blucolor" size="6x"></font-awesome-icon>
+                        </button>
+                        <button type="button" class="btn btn-normal d-flex justify-content-end"
+                                @mousedown="gonext(true)" @mouseup="gonext(false)"
+                                :disabled="astep ==steps">
+                            <font-awesome-icon icon="caret-right" class="icon blucolor" size="6x"></font-awesome-icon>
+                        </button>
+                    </div>
                 </div>
             </div>
         </transition>
@@ -46,7 +55,8 @@
                         </button>
                     </div>
                 </template>
-                <div ><a class="noteb"href="https://eltoque.com/debates-paralelos/" target="_blank">Ver metodología</a></div>
+                <div><a class="noteb" href="https://eltoque.com/debates-paralelos/" target="_blank">Ver metodología</a>
+                </div>
             </div>
             <div class="col-lg-9">
                 <canvas :width="width" :height="height" class="wordCloud" ref="wordCloud"></canvas>
@@ -84,12 +94,14 @@
     import * as  wc from 'wordcloud'
     import * as d3 from "d3";
     import {library} from '@fortawesome/fontawesome-svg-core'
-    import {faChartBar, faTimes, faLink} from '@fortawesome/free-solid-svg-icons'
+    import {faChartBar, faTimes, faLink, faCaretLeft, faCaretRight} from '@fortawesome/free-solid-svg-icons'
     import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
     library.add(faChartBar)
     library.add(faTimes)
     library.add(faLink)
+    library.add(faCaretLeft)
+    library.add(faCaretRight)
 
     export default {
         name: "Cloud",
@@ -99,21 +111,23 @@
         data() {
             return {
                 textos: datos,
-                astep:0,
+                astep: 0,
                 padding: 1,
                 width: 800,
                 title: "",
-                activetype:"",
+                activetype: "",
                 authors: "",
-                activeColor:"red",
+                activeColor: "red",
                 medios: "",
                 date: "",
+                list: [],
+                timeout: null,
                 enlace: "",
                 temasaxis: [],
-                steps:0,
+                steps: 0,
                 height: 500,
                 heightgraph: 400,
-                startpoint:0,
+                startpoint: 0,
                 widthgraph: 800,
                 grahtitle: "",
                 details: false,
@@ -147,15 +161,48 @@
 
         },
         methods: {
-            gonext: function(){
-                if(this.astep <= this.steps)
-                    this.astep++;
-                this.drawGraph(this.activetype, true)
+            iluminate(type){
+
             },
-            goback: function(goahead){
-                if(this.astep >0)
-                    this.astep--;
-                this.drawGraph(this.activetype, true)
+            gonext: function (goahead) {
+                let me = this;
+                clearInterval(this.timeout)
+                if (goahead) {
+
+                    if (me.astep <= me.steps)
+                        me.astep++;
+                    me.drawGraph(me.activetype, true)
+
+                    this.timeout = setInterval(function () {
+                        if (me.astep <= me.steps) {
+                            me.astep++;
+                            me.drawGraph(me.activetype, true)
+                        } else
+                            clearInterval(me.timeout)
+
+
+                    }, 200)
+                }
+            },
+            goback: function (goahead) {
+                let me = this;
+                clearInterval(this.timeout)
+                if (goahead) {
+
+                    if (me.astep > 0)
+                        me.astep--;
+                    me.drawGraph(me.activetype, true)
+
+                    this.timeout = setInterval(function () {
+                        if (me.astep > 0) {
+                            me.astep--;
+                            me.drawGraph(me.activetype, true)
+                        } else
+                            clearInterval(me.timeout)
+
+
+                    }, 300)
+                }
             },
             label: function (id) {
                 return this.labelshowing == id
@@ -175,12 +222,10 @@
                 let topics = this.temasaxis
 
                 let n = (type == 'topic') ? medias.length : topics.length
-                let steps=this.steps= n-size
+                let steps = this.steps = n - size
 
-                console.log(this.astep, size)
-                console.log((type == 'topic') ? medias.length : topics.length)
-
-                let list = (type == 'topic') ? medias.slice(this.astep, size+this.astep) : topics.slice(this.astep, size+this.astep)
+                if (this.astep == 0)
+                    this.list = (type == 'topic') ? medias : topics
 
 
                 let me = this;
@@ -195,11 +240,40 @@
                     height = fullheight - margin.top - margin.bottom - padding;
 
 
+                let Data = (type == "topic") ? me.getMediaByTopic(me.topic.word, this.list) : me.getTopicByMedia(me.medio, this.list)
+
+                if (this.astep == 0) {
+                    let mapCount = new Map()
+                    for (let el of this.list) {
+                        mapCount.set(el, 0)
+                    }
+                    //Ordering the list
+                    for (let tex of Data) {
+                        mapCount.set((type == "topic") ? tex.medio : tex.word, mapCount.get((type == "topic") ? tex.medio : tex.word) + 1)
+                    }
+
+                    mapCount = new Map(
+                        Array
+                            .from(mapCount)
+                            .sort((a, b) => {
+                                // a[0], b[0] is the key of the map
+                                // return  median(b[1].clasifs) - median(a[1].clasifs);
+                                return b[1] - a[1];
+                            })
+                    )
+
+                    this.list = []
+                    for (let el of mapCount) {
+                        this.list.push(el[0])
+                    }
+                }
+
+
                 d3.select(this.$refs.axes).select("svg").remove()
 
-
+                let tempList = this.list.slice(this.astep, size + this.astep)
                 var axisScaleX = d3.scalePoint()
-                    .domain(list)
+                    .domain(tempList)
                     .padding(20)
                     .range([0, width]);
 
@@ -241,7 +315,7 @@
                         heightByTipo[d] = 0;
                     });
 
-                let rectWidth = Math.floor(axisScaleX.range()[1] / (list.length * 2)  );
+                let rectWidth = Math.floor(axisScaleX.range()[1] / (tempList.length * 2));
                 let rectHeight = Math.floor(height / 32);
 
                 //Add topics or medias on X axis
@@ -277,9 +351,7 @@
 
 
                 let updateDots = function (tipo) {
-                    let Data = (tipo == "topic") ? me.getMediaByTopic(me.topic.word, list) : me.getTopicByMedia(me.medio,list)
-
-
+                    let Data = (type == "topic") ? me.getMediaByTopic(me.topic.word, tempList) : me.getTopicByMedia(me.medio, tempList)
                     //DATA JOIN
                     //Join new data with old elements, if any.
                     var dots = dotContainer.selectAll(".dot")
@@ -326,14 +398,14 @@
                             return axisScaleY(1);
                         })
                         .style("opacity", 0)
-                        .transition().duration((noanim==true)?1:500)
+                        .transition().duration((noanim == true) ? 1 : 500)
                         .attr("x", function (d) {
                             return (axisScaleX((tipo == "topic") ? d.medio : d.word) - rectWidth / 2);
                         })
                         .attr("y", function (d) {
                             return locateY(d);
                         })
-                        .transition().duration((noanim==true)?1:500)
+                        .transition().duration((noanim == true) ? 1 : 500)
                         .delay(function (d, i) {
                             return i / 2;
                         })
@@ -360,7 +432,7 @@
                         .text(function (d) {
                             return (d.size > 0) ? d.size : "";
                         }).style("opacity", 0)
-                        .transition().duration(1000)
+                        .transition().duration((noanim == true) ? 1 : 1000)
                         .style("opacity", 1);
                     ;
 
@@ -447,11 +519,10 @@
 
             },
             getTopicByMedia: function (media, list) {
-                console.log(list)
                 let wordlist = []
                 for (let text of this.textos) {
                     for (let topic of text.temas) {
-                        if ((text.medio == media || media == "Todos") && list.includes(topic.name) ) {
+                        if ((text.medio == media || media == "Todos") && list.includes(topic.name)) {
                             wordlist.push({
                                 enlace: text.url,
                                 word: topic.name,
@@ -527,7 +598,12 @@
                                     wordlist[topic.codtema].weight++
                                     wordlist[topic.codtema].attributes.push(topic.clasif)
                                 } else {
-                                    wordlist[topic.codtema] = {word: topic.name, den: topic.denom, weight: 1, attributes: [topic.clasif]}
+                                    wordlist[topic.codtema] = {
+                                        word: topic.name,
+                                        den: topic.denom,
+                                        weight: 1,
+                                        attributes: [topic.clasif]
+                                    }
                                 }
                             }
                     }
@@ -740,14 +816,19 @@
     .link {
         padding-bottom: 10px;
     }
-    a.link{
+
+    a.link {
         color: white;
     }
-    .legend{
+
+    .legend {
         font-family: TradeGothicLTStd;
         font-size: 10px;
         line-height: 30px;
 
+    }
+    .blucolor{
+        color: #33ccb2;
     }
 
     .noteb {
