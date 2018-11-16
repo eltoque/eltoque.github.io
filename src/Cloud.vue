@@ -8,6 +8,7 @@
                         <font-awesome-icon icon="times" size="lg" class="icon"></font-awesome-icon>
                     </div>
                     <div class="title-graph">{{grahtitle}}</div>
+                    <div class="note">(Haga click en un recuadro para ver más detalles.)</div>
                     <transition name="fade">
                         <div class="info-art" v-show="details" :style="{'background-color': activeColor}">
                             <div @click="details=false" class="closebuton2">
