@@ -134,7 +134,7 @@ body * {
 }
 
 .credits-button {
-    width: 200px;
+    max-width: 200px;
     height: 57px;
     cursor: pointer;
     font-family: TradeGothicLTStd-Bold;
@@ -162,6 +162,12 @@ body * {
 
 .credits-text {
     z-index: 3;
+}
+.note{
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    color: #a8a8a8;
 }
 
 .section-intro .layer-1 {

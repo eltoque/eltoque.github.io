@@ -1,11 +1,38 @@
 <template>
     <div class="cloud-component">
-        <div class="graph-windows" v-show="showgraph">
-            <div @click="showgraph=false" class="closebuton">
-                <font-awesome-icon icon="times" size="lg" class="icon"></font-awesome-icon>
+        <transition name="fade">
+
+            <div class="container-win" v-show="showgraph">
+                <div class="graph-windows">
+                    <div @click="details=showgraph=false" class="closebuton">
+                        <font-awesome-icon icon="times" size="lg" class="icon"></font-awesome-icon>
+                    </div>
+                    <div class="title-graph">{{grahtitle}}</div>
+                    <transition name="fade">
+                        <div class="info-art" v-show="details" :style="{'background-color': activeColor}">
+                            <div @click="details=false" class="closebuton2">
+                                <font-awesome-icon icon="times" size="lg" class="icon"></font-awesome-icon>
+                            </div>
+                            <div class="title-art">{{title}}
+                            </div>
+                            <div class="authors">{{authors}}</div>
+                            <div class="d-flex down">
+                                <div class="d-flex justify-content-start medio">{{medios}}</div>
+                                <a :href="enlace" v-show="enlace" target="_blank"
+                                   class="d-flex justify-content-center link">
+                                    <font-awesome-icon icon="link" class="icon" size="2x"></font-awesome-icon>
+                                </a>
+                                <div class="d-flex justify-content-end date">{{date}}</div>
+                            </div>
+                        </div>
+                    </transition>
+                    <div class="axes" ref="axes"></div>
+                    <button type="button" v-ripple class="btn btn-info" @mousedown="goback(true)" @mouseup="goback(false)" :disabled="(astep==0)"> ATRAS </button>
+                    <button type="button" v-ripple class="btn btn-info" @click="gonext" :disabled="astep ==steps">SIGUIENTE</button>
+                </div>
             </div>
-            <div class="axes" ref="axes"></div>
-        </div>
+        </transition>
+
         <div class="row">
             <div class="listTopics col-lg-3">
                 <template v-for="med in medialist">
@@ -19,41 +46,34 @@
                         </button>
                     </div>
                 </template>
+                <div ><a class="noteb"href="https://eltoque.com/debates-paralelos/" target="_blank">Ver metodología</a></div>
             </div>
             <div class="col-lg-9">
                 <canvas :width="width" :height="height" class="wordCloud" ref="wordCloud"></canvas>
                 <div class="legend-color">
                     <div v-ripple class="box-color" style="background-color: rgb(184,184,194)" @click="showlabel(1)"
                     ></div>
-                    <transition name="fade">
-                        <div v-show="label(1)">No aparece en el proyecto</div>
-                    </transition>
+                    <div class="legend">No aparece</div>
                     <div v-ripple class="box-color" style="background-color: rgb(225,64,10)" title="Negativo"
-                         @click="showlabel(2)"></div>
-                    <transition name="fade">
-                        <div v-show="label(2)">Negativo</div>
-                    </transition>
+                         @mouseover="iluminate('n')"></div>
+                    <div class="legend">
+                        Negativo
+                    </div>
                     <div v-ripple class="box-color" style="background-color: rgb(175,101,56)"
-                         title="Predominantemente Negativo" @click="showlabel(3)"></div>
-                    <transition name="fade">
-                        <div v-show="label(3)">Predominantemente Negativo</div>
-                    </transition>
+                         title="Predominantemente Negativo" @mouseover="iluminate('pn')"></div>
+                    <div class="legend">Predomina Negativo</div>
                     <div v-ripple class="box-color" style="background-color: rgb(2,166,141)" title="Neutro"
-                         @click="showlabel(4)"></div>
-                    <transition name="fade">
-                        <div v-show="label(4)">Neutro</div>
-                    </transition>
+                         @mouseover="iluminate('no')"></div>
+                    <div class="legend">Neutro</div>
                     <div v-ripple class="box-color" style="background-color: rgb(1,142,188)"
-                         title="Predominantemente positivo" @click="showlabel(5)"></div>
-                    <transition name="fade">
-                        <div v-show="label(5)">Predominantemente positivo</div>
-                    </transition>
+                         title="Predominantemente positivo" @mouseover="iluminate('pp')"></div>
+                    <div class="legend">Predomina positivo</div>
                     <div v-ripple class="box-color" style="background-color: rgb(1,81,196)" title="Positivo"
-                         @click="showlabel(6)"></div>
-                    <transition name="fade">
-                        <div v-show="label(6)">Positivo</div>
-                    </transition>
+                         @mouseover="iluminate('pp')"></div>
+                    <div class="legend">Positivo</div>
                 </div>
+                <div class="note">Las valoraciones son con respecto al texto del proyecto constitucional.</div>
+
             </div>
         </div>
     </div>
@@ -64,11 +84,12 @@
     import * as  wc from 'wordcloud'
     import * as d3 from "d3";
     import {library} from '@fortawesome/fontawesome-svg-core'
-    import {faChartBar, faTimes} from '@fortawesome/free-solid-svg-icons'
+    import {faChartBar, faTimes, faLink} from '@fortawesome/free-solid-svg-icons'
     import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
     library.add(faChartBar)
     library.add(faTimes)
+    library.add(faLink)
 
     export default {
         name: "Cloud",
@@ -78,10 +99,24 @@
         data() {
             return {
                 textos: datos,
+                astep:0,
                 padding: 1,
                 width: 800,
+                title: "",
+                activetype:"",
+                authors: "",
+                activeColor:"red",
+                medios: "",
+                date: "",
+                enlace: "",
                 temasaxis: [],
+                steps:0,
                 height: 500,
+                heightgraph: 400,
+                startpoint:0,
+                widthgraph: 800,
+                grahtitle: "",
+                details: false,
                 medio: "Todos",
                 types: {},
                 rotate: 0,
@@ -112,6 +147,16 @@
 
         },
         methods: {
+            gonext: function(){
+                if(this.astep <= this.steps)
+                    this.astep++;
+                this.drawGraph(this.activetype, true)
+            },
+            goback: function(goahead){
+                if(this.astep >0)
+                    this.astep--;
+                this.drawGraph(this.activetype, true)
+            },
             label: function (id) {
                 return this.labelshowing == id
             },
@@ -121,12 +166,26 @@
                 else
                     this.labelshowing = id
             },
-            drawGraph: function (type) {
+            drawGraph: function (type, noanim) {
+                this.activetype = type;
+                this.details = false
+                let starter = this.startpoint;
+                let size = 12;
                 let medias = this.medialist.slice(1)
                 let topics = this.temasaxis
+
+                let n = (type == 'topic') ? medias.length : topics.length
+                let steps=this.steps= n-size
+
+                console.log(this.astep, size)
+                console.log((type == 'topic') ? medias.length : topics.length)
+
+                let list = (type == 'topic') ? medias.slice(this.astep, size+this.astep) : topics.slice(this.astep, size+this.astep)
+
+
                 let me = this;
-                var fullwidth = me.width,
-                    fullheight = me.height;
+                var fullwidth = me.widthgraph,
+                    fullheight = me.heightgraph;
 
                 // these are the margins around the graph. Axes labels go in margins.
                 var margin = {top: 20, right: 20, bottom: 20, left: 20};
@@ -140,20 +199,20 @@
 
 
                 var axisScaleX = d3.scalePoint()
-                    .domain((type == 'topic') ? medias : topics)
+                    .domain(list)
                     .padding(20)
                     .range([0, width]);
 
 
                 var axisScaleY = d3.scaleLinear()
-                    .domain([0, 25])
+                    .domain([0, 30])
                     .range([height, 0]);
 
 
                 var xAxis = d3.axisBottom()
                     .scale(axisScaleX)
                     .tickSizeOuter(0)
-                    .ticks(medias.length);
+                    .ticks(10);
 
                 var yAxis = d3.axisLeft()
                     .scale(axisScaleY)
@@ -173,13 +232,8 @@
                 var dotContainer = svgContainer.append("g").attr("class", "dotContainer");
                 let numContainer = svgContainer.append("g").attr("class", 'numbers')
 
+                me.grahtitle = (type == 'topic') ? me.topic.den : me.medio
 
-                svgContainer.append('text')
-                    .attr('x', fullwidth / 2)
-                    .attr('y', 20)
-                    .attr("class", "title")
-                    .style("text-anchor", "middle")
-                    .text((type == 'topic') ? me.topic.word : me.medio);
 
                 var heightByTipo = {}
                 axisScaleX.domain()
@@ -187,8 +241,8 @@
                         heightByTipo[d] = 0;
                     });
 
-                let rectWidth = Math.floor(axisScaleX.range()[1] / ((type == 'topic') ? (me.medialist.length * 2) : me.wordlist.length * 2));
-                let rectHeight = Math.floor(height / 30);
+                let rectWidth = Math.floor(axisScaleX.range()[1] / (list.length * 2)  );
+                let rectHeight = Math.floor(height / 32);
 
                 //Add topics or medias on X axis
                 svgContainer.append("g")
@@ -223,9 +277,7 @@
 
 
                 let updateDots = function (tipo) {
-
-
-                    let Data = (tipo == "topic") ? me.getMediaByTopic(me.topic.word) : me.getTopicByMedia(me.medio)
+                    let Data = (tipo == "topic") ? me.getMediaByTopic(me.topic.word, list) : me.getTopicByMedia(me.medio,list)
 
 
                     //DATA JOIN
@@ -245,11 +297,28 @@
                         .attr("class", "dot")
                         .attr("width", rectWidth)
                         .attr("height", rectHeight)
+                        .attr("title", function (d) {
+                            return d.titulo
+                        })
                         .style("fill", function (d) {
                             return d.color;
                         })
-                        // .on("click", showTooltip)
-                        // .on("mouseout", hideTooltip)
+                        .on("click", function (d) {
+                            me.details = true;
+                            me.title = d.titulo
+                            me.authors = d.autor
+                            me.medios = d.medio
+                            me.activeColor = d.color
+                            me.enlace = d.enlace
+                            me.date = new Date(d.fecha).toLocaleDateString("es", {
+                                month: "short",
+                                day: "numeric"
+                            })
+
+                        })
+                        // .on("mouseover", function (d) {
+                        //     d3.select(this).style({opacity: '0.2'})
+                        // })
                         .attr("x", function (d) {
                             return (axisScaleX((tipo == "topic") ? d.medio : d.word) - rectWidth / 2);
                         })
@@ -257,14 +326,14 @@
                             return axisScaleY(1);
                         })
                         .style("opacity", 0)
-                        .transition().duration(500)
+                        .transition().duration((noanim==true)?1:500)
                         .attr("x", function (d) {
                             return (axisScaleX((tipo == "topic") ? d.medio : d.word) - rectWidth / 2);
                         })
                         .attr("y", function (d) {
                             return locateY(d);
                         })
-                        .transition().duration(500)
+                        .transition().duration((noanim==true)?1:500)
                         .delay(function (d, i) {
                             return i / 2;
                         })
@@ -281,6 +350,7 @@
                         .enter().append("text")
                         .attr("class", "bar")
                         .attr("text-anchor", "middle")
+                        .style("font-size", "0.7em")
                         .attr("x", function (d) {
                             return axisScaleX(d.name);
                         })
@@ -289,7 +359,10 @@
                         })
                         .text(function (d) {
                             return (d.size > 0) ? d.size : "";
-                        });
+                        }).style("opacity", 0)
+                        .transition().duration(1000)
+                        .style("opacity", 1);
+                    ;
 
                 }//function updateDots
                 updateDots(type)
@@ -319,13 +392,15 @@
                 this.showgraph = true;
                 this.medio = medio;
                 this.createCanvas()
+                this.astep = 0;
+                this.steps = 0;
                 this.drawGraph('medio')
             },
             createCanvas: function () {
                 let me = this;
                 wc(this.$refs.wordCloud, {
                     list: this.wordlist,
-                    gridSize: 5,
+                    gridSize: 7,
                     clearCanvas: true,
                     weightFactor: function (size) {
                         return me.maprange(size)
@@ -343,21 +418,25 @@
                         me.medio = null
                         me.showgraph = true;
                         me.topic = item
+                        me.astep = 0;
+                        me.steps = 0;
                         me.drawGraph('topic')
                     }
                     // backgroundColor: '#FFF'
                 });
             },
-            getMediaByTopic: function (tema) {
+            getMediaByTopic: function (tema, list) {
                 let wordlist = []
                 for (let text of this.textos) {
                     for (let topic of text.temas) {
-                        if (topic.denom == tema) {
+                        if (topic.name == tema && list.includes(text.medio)) {
                             wordlist.push({
                                 medio: text.medio,
+                                enlace: text.url,
                                 color: this.colors[topic.clasif],
                                 clasif: topic.clasif,
                                 fecha: text.fecha,
+                                den: topic.denom,
                                 titulo: text.titulo,
                                 autor: text.autor,
                             })
@@ -367,14 +446,18 @@
                 return wordlist
 
             },
-            getTopicByMedia: function (media) {
+            getTopicByMedia: function (media, list) {
+                console.log(list)
                 let wordlist = []
                 for (let text of this.textos) {
                     for (let topic of text.temas) {
-                        if (text.medio == media) {
+                        if ((text.medio == media || media == "Todos") && list.includes(topic.name) ) {
                             wordlist.push({
-                                word: topic.denom,
+                                enlace: text.url,
+                                word: topic.name,
+                                den: topic.denom,
                                 color: this.colors[topic.clasif],
+                                medio: text.medio,
                                 clasif: topic.clasif,
                                 fecha: text.fecha,
                                 titulo: text.titulo,
@@ -438,14 +521,15 @@
                 let wordlist = {}
                 for (let text of salida) {
                     if (!media || (media && media == text.medio) || media == "Todos") {
-                        for (let topic of text.temas) {
-                            if (wordlist[topic.codtema]) {
-                                wordlist[topic.codtema].weight++
-                                wordlist[topic.codtema].attributes.push(topic.clasif)
-                            } else {
-                                wordlist[topic.codtema] = {word: topic.denom, weight: 1, attributes: [topic.clasif]}
+                        if (text.temas)
+                            for (let topic of text.temas) {
+                                if (wordlist[topic.codtema]) {
+                                    wordlist[topic.codtema].weight++
+                                    wordlist[topic.codtema].attributes.push(topic.clasif)
+                                } else {
+                                    wordlist[topic.codtema] = {word: topic.name, den: topic.denom, weight: 1, attributes: [topic.clasif]}
+                                }
                             }
-                        }
                     }
                 }
                 let words = []
@@ -467,6 +551,10 @@
 </script>
 
 <style>
+    .dot {
+        cursor: pointer;
+    }
+
     .texto {
         cursor: pointer !important;
     }
@@ -479,7 +567,7 @@
     .cloud-btn, .graph-btn {
         font-size: 15px;
         font-family: TradeGothicLTStd-Bold;
-        background-color: #6d6d6d;
+        background-color: #a7a7a7;
         font-weight: bold;
         letter-spacing: 0.5px;
         color: #f2f2f2;
@@ -499,7 +587,6 @@
         letter-spacing: 0px;
         padding: 0px 0px !important;
         padding-top: 4px !important;
-        color: #f89226;
     }
 
     .graph-btn .icon {
@@ -519,19 +606,22 @@
     }
 
     .box-color {
-        width: 30px;
+        width: 20px;
         height: 20px;
-        margin: 5px 10px;
+        margin: 5px 5px;
+        margin-left: 20px;
         cursor: pointer;
     }
 
     .btn-select {
         background-color: #f89226;
+        z-index: 0;
     }
 
     .btn-select-graph {
         background-color: #f89226;
         color: white;
+        z-index: 0 !important;
     }
 
     .wordCloud {
@@ -542,17 +632,87 @@
         /*overflow: hidden;*/
     }
 
+    .axes {
+        width: content-box;
+        margin: 5px auto;
+        overflow-y: auto;
+    }
+
     .wordCloud:hover {
         cursor: pointer;
     }
-    .graph-windows{
-        margin: 10px auto;
-        position: absolute;
+
+    .container-win {
+        display: block; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+        backdrop-filter: blur(25px);
+
+    }
+
+    .graph-windows {
+        margin: 120px auto;
         filter: drop-shadow(0 1px 4px rgba(0, 0, 0, .6));
         max-width: 800px;
+        background-color: rgb(255, 255, 255);
+        z-index: 10000;
+    }
+
+    .title-graph, .title-art {
+        font-size: 21px;
+        font-family: TradeGothicLTStd-Bold;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        color: #33ccb2;
+    }
+
+    .title-art {
+        font-size: 15px;
+        color: white !important;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
+    .info-art {
+        color: white !important;
+        position: absolute;
+        left: 50%;
+        margin-left: -25%;
+        z-index: 9999;
+        width: 50%;
+        height: 200px;
+        filter: drop-shadow(0 1px 4px rgba(0, 0, 0, .4));
         background-color: white;
-        border-radius: 10px;
-        z-index: 100;
+        padding: 20px;
+    }
+
+    .medio {
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .date {
+        text-align: right;
+    }
+
+    .authors {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .down {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0px 10px;
+        width: 100%;
     }
 
     .closebuton {
@@ -562,4 +722,40 @@
         margin-top: 5px;
         cursor: pointer;
     }
+
+    .closebuton2 {
+        color: white;
+        text-align: right;
+        margin-right: 5px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    .info-art .closebuton2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .link {
+        padding-bottom: 10px;
+    }
+    a.link{
+        color: white;
+    }
+    .legend{
+        font-family: TradeGothicLTStd;
+        font-size: 10px;
+        line-height: 30px;
+
+    }
+
+    .noteb {
+        /*text-align: center;*/
+        font-size: 13px;
+        font-style: italic;
+        margin-top: 10px;
+        color: #a8a8a8 !important;
+    }
+
 </style>
