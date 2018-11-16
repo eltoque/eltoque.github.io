@@ -8,7 +8,7 @@
 </script>
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<div id="chart" style="width: 800px;height: 500px">
+<div id="chart" style="width: 700px;height: 450px">
 </div>
 <script>
     function pieChart(config) {
@@ -46,7 +46,7 @@
                 top: 20,
                 right: 20,
                 bottom: 30,
-                left: 40
+                left: 80
             },
             width = +svg.attr("width") - margin.left - margin.right,
             height = +svg.attr("height") - margin.top - margin.bottom;
@@ -193,6 +193,7 @@
             .attr("xlink:href", function(d, i) {
                 return "#arc-" + i;
             })
+            .style("font-size", 12)
             .text(function(d) {
                 return d.data[caption].toString();
             });
