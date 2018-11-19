@@ -127,7 +127,7 @@
                 temasaxis: [],
                 steps: 0,
                 height: 500,
-                heightgraph: 400,
+                heightgraph: 350,
                 startpoint: 0,
                 grahtitle: "",
                 details: false,
