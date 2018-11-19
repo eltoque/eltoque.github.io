@@ -47,7 +47,7 @@
             <div class="listTopics col-lg-3">
                 <template v-for="med in medialist">
                     <div class="btn-group">
-                        <button type="button" :class="isselected(med)" v-ripple class="btn btn-info cloud-btn"
+                        <button type="button" v-scroll-to="sizing" :class="isselected(med)" v-ripple class="btn btn-info cloud-btn"
                                 @click="updateMedio(med)"> {{med}}
                         </button>
                         <button type="button" :class="isselectedgraph(med)" v-ripple class="btn btn-info graph-btn"
@@ -59,7 +59,7 @@
                 <div><a class="noteb" href="https://eltoque.com/debates-paralelos/" target="_blank">Ver metodología</a>
                 </div>
             </div>
-            <div class="col-lg-9">
+            <div class="col-lg-9" ref="colcanvas"  id="word-cloud">
                 <canvas :width="width" :height="height" class="wordCloud" ref="wordCloud"></canvas>
                 <div class="legend-color">
                     <div v-ripple class="box-color" style="background-color: rgb(184,184,194)" @click="showlabel(1)"
@@ -114,8 +114,8 @@
                 textos: datos,
                 astep: 0,
                 padding: 1,
-                width: 800,
                 title: "",
+                ordererMapList: null,
                 activetype: "",
                 authors: "",
                 activeColor: "red",
@@ -129,7 +129,6 @@
                 height: 500,
                 heightgraph: 400,
                 startpoint: 0,
-                widthgraph: 800,
                 grahtitle: "",
                 details: false,
                 medio: "Todos",
@@ -149,8 +148,13 @@
 
             }
         },
+        // created(){
+        //     this.width = this.$refs.colcanvas.getBoundingClientRect().width;
+        // },
         mounted() {
+            console.log(this.width)
             this.createCanvas()
+
         },
         watch: {
             width() {
@@ -230,7 +234,7 @@
 
 
                 let me = this;
-                var fullwidth = me.widthgraph,
+                var fullwidth = me.width,
                     fullheight = me.heightgraph;
 
                 // these are the margins around the graph. Axes labels go in margins.
@@ -253,7 +257,7 @@
                         mapCount.set((type == "topic") ? tex.medio : tex.word, mapCount.get((type == "topic") ? tex.medio : tex.word) + 1)
                     }
 
-                    mapCount = new Map(
+                    mapCount = this.ordererMapList= new Map(
                         Array
                             .from(mapCount)
                             .sort((a, b) => {
@@ -278,9 +282,10 @@
                     .padding(20)
                     .range([0, width]);
 
+                let topY = (this.ordererMapList.get(tempList[0])>30)?this.ordererMapList.get(tempList[0]):30;
 
                 var axisScaleY = d3.scaleLinear()
-                    .domain([0, 30])
+                    .domain([0, topY])
                     .range([height, 0]);
 
 
@@ -488,7 +493,7 @@
                     },
                     rotationSteps: 2,
                     click: function (item, dimension, event) {
-                        me.medio = null
+                        // me.medio = null
                         me.showgraph = true;
                         me.topic = item
                         me.astep = 0;
@@ -553,6 +558,14 @@
             }
         },
         computed: {
+            sizing: function () {
+                if (this.width < 468)
+                    return "#word-cloud"
+                return false
+            },
+            width: function(){
+                return  (window.innerWidth < 800)? window.innerWidth: 800;
+            },
             medialist: function () {
                 let medias = new Set();
                 let salida = this.textos
@@ -628,6 +641,21 @@
 </script>
 
 <style>
+    @media (max-width: 468px) {
+
+        .cloud-btn {
+            width: 90% !important;
+        }
+        .graph-btn{
+            width: 10% !important;
+        }
+        .listTopics > .btn-group{
+            width: 100% !important;
+        }
+        .closebuton {
+            margin-right: 12px !important;
+        }
+    }
     .dot {
         cursor: pointer;
     }
@@ -692,7 +720,7 @@
 
     .btn-select {
         background-color: #f89226;
-        z-index: 0;
+        z-index: 0 !important;
     }
 
     .btn-select-graph {
@@ -703,10 +731,6 @@
 
     .wordCloud {
         margin: 5px auto;
-        /*width: 100%;*/
-        /*display: block;*/
-        /*position: relative;*/
-        /*overflow: hidden;*/
     }
 
     .axes {
@@ -734,7 +758,7 @@
     }
 
     .graph-windows {
-        margin: 120px auto;
+        margin: 80px auto;
         filter: drop-shadow(0 1px 4px rgba(0, 0, 0, .6));
         max-width: 800px;
         background-color: rgb(255, 255, 255);
