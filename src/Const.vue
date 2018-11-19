@@ -273,7 +273,7 @@
 
     @media (min-width: 320px) and (max-width: 480px) {
         .sidebar-men {
-            bottom: 20px !important;
+            bottom: 50px !important;
             z-index: 999999999999;
             top: unset !important;
         }

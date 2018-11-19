@@ -13,14 +13,14 @@
         font-size: 80px !important;
     }
 
-    .top-bar-logo {
-        margin-left: 0px !important;
-    }
 
     .section-intro .layer-1 .sub-title {
         font-size: 40px !important;
         text-align-last: right !important;
         margin: 0px auto;
+    }
+    .credits-button {
+        margin: 10px auto !important;
     }
 
 }
@@ -69,6 +69,9 @@
     .yt-video {
         width: 320px !important;
         height: 180px !important;
+    }
+    .box-recomend {
+        width: auto !important;
     }
 
 }
@@ -141,6 +144,7 @@ body * {
     text-transform: uppercase;
     border: 1px solid white;
     padding: 10px;
+    margin: 10px auto;
     font-size: 15px;
     font-weight: bold;
     font-style: normal;
@@ -149,7 +153,6 @@ body * {
     letter-spacing: 3.4px;
     text-align: center;
     color: #ffffff;
-    margin: 20px;
 }
 
 .dark {
@@ -228,9 +231,11 @@ body * {
 }
 
 .title-section {
-    height: 160px;
+    height: auto;
     background-color: #4c768c;
     vertical-align: middle;
+    text-align: center;
+    padding: 20px;
 }
 
 .no-regula .title-section {
@@ -351,12 +356,11 @@ h2.text-section-title {
     font-family: TradeGothicLTStd-Bold;
     color: white;
     margin: 0px auto;
-    max-width: 800px;
-    padding-top: 50px;
+    padding-top: 10px;
     text-align: center;
-    font-size: 28px;
+    font-size: 25px;
     text-transform: uppercase;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
 
 }
 
