@@ -127,7 +127,6 @@
                 temasaxis: [],
                 steps: 0,
                 height: 500,
-                heightgraph: 350,
                 startpoint: 0,
                 grahtitle: "",
                 details: false,
@@ -563,6 +562,9 @@
                     return "#word-cloud"
                 return false
             },
+            heightgraph:function(){
+                return  (window.innerWidth < 800)? 350: 400;
+            },
             width: function(){
                 return  (window.innerWidth < 800)? window.innerWidth: 800;
             },
@@ -642,7 +644,9 @@
 
 <style>
     @media (max-width: 468px) {
-
+        .graph-windows {
+            margin: 10px auto !important;
+        }
         .cloud-btn {
             width: 90% !important;
         }
@@ -654,6 +658,12 @@
         }
         .closebuton {
             margin-right: 12px !important;
+        }
+        .info-art {
+            left: 80% !important;
+            margin-left: -70% !important;
+            width: 80% !important;
+            height: 250px !important    ;
         }
     }
     .dot {

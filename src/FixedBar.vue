@@ -3,10 +3,8 @@
         <transition name="fade">
         <div v-show="isFixed" :class="{ 'is-fixed': isFixed }">
                 <div class="top-bar row">
-                    <div class="col-md-3 text-sm-center text-xs-center"></div>
-
-                        <div class="col-md-6 col-sm-6 col-xs-6 text-center">
-                        <img src="/src/assets/favicon.png" class="top-bar-logo"/>
+                    <div class="col-md-3 text-sm-center text-xs-center"><img src="/src/assets/logo.png" class="top-bar-logo"/></div>
+                    <div class="col-md-6 text-center">
                             <a href="#question1" v-scroll-to="'#question1'" :class="{active: isActive(1)}" class="icon-title">1</a>
                             <a href="#question2" v-scroll-to="'#question2'" :class="{active: isActive(2)}" class="icon-title">2</a>
                             <a href="#question3" v-scroll-to="'#question3'" :class="{active: isActive(3)}" class="icon-title">3</a>
@@ -14,6 +12,7 @@
 
                     </div>
                     <div class="col-md-3 text-sm-center text-xs-center">
+                        <navbar></navbar>
                     </div>
                 </div>
         </div>
@@ -98,6 +97,10 @@
             top: auto !important;
             bottom: 0px !important;
         }
+        .top-bar-logo {
+            margin-left: 0px !important;
+
+        }
 
     }
 
@@ -116,8 +119,9 @@
     }
 
     .top-bar-logo {
-        height: 30px;
-        margin-left: 15px;
+        height: 20px;
+        margin-left: 20px;
+        margin-top: 5px;
     }
 
     .icon-title {
