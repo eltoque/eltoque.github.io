@@ -8,7 +8,7 @@
                         <font-awesome-icon icon="times" size="lg" class="icon"></font-awesome-icon>
                     </div>
                     <div class="title-graph">{{grahtitle}}</div>
-                    <div class="note">(Haga click en un recuadro para ver más detalles.)</div>
+                    <div class="note">(Cada rectángulo representa un texto publicado. Haga click para ver más detalles.)</div>
                     <transition name="fade">
                         <div class="info-art" v-show="details" :style="{'background-color': activeColor}">
                             <div @click="details=false" class="closebuton2">
@@ -28,16 +28,16 @@
                         </div>
                     </transition>
                     <div class="axes" ref="axes"></div>
-                    <div class="d-flex">
-                        <button type="button" class="btn btn-normal d-flex justify-content-start"
+                    <div class="d-flex"  v-if="activetype!='topic'">
+                        <div class="btn d-flex justify-content-start"
                                 @mousedown="goback(true)" @mouseup="goback(false)" :disabled="(astep==0)">
-                            <font-awesome-icon icon="caret-left" class="icon blucolor" size="6x"></font-awesome-icon>
-                        </button>
-                        <button type="button" class="btn btn-normal d-flex justify-content-end"
+                            <font-awesome-icon icon="caret-left" class="icon blucolor" size="lg"></font-awesome-icon>
+                        </div>
+                        <div class="btn d-flex justify-content-end"
                                 @mousedown="gonext(true)" @mouseup="gonext(false)"
                                 :disabled="astep ==steps">
-                            <font-awesome-icon icon="caret-right" class="icon blucolor" size="6x"></font-awesome-icon>
-                        </button>
+                            <font-awesome-icon icon="caret-right" class="icon blucolor" size="lg"></font-awesome-icon>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                         </button>
                     </div>
                 </template>
-                <div><a class="noteb" href="https://eltoque.com/debates-paralelos/" target="_blank">Ver metodología</a>
+                <div><a class="noteb" href="https://eltoque.com/debates-paralelos/" target="_blank">Ver Análisis de los resultados</a>
                 </div>
             </div>
             <div class="col-lg-9" ref="colcanvas"  id="word-cloud">
@@ -275,7 +275,7 @@
 
                 d3.select(this.$refs.axes).select("svg").remove()
 
-                let tempList = this.list.slice(this.astep, size + this.astep)
+                let tempList = (type == "topic") ? this.list : this.list.slice(this.astep, size + this.astep)
                 var axisScaleX = d3.scalePoint()
                     .domain(tempList)
                     .padding(20)
@@ -291,7 +291,7 @@
                 var xAxis = d3.axisBottom()
                     .scale(axisScaleX)
                     .tickSizeOuter(0)
-                    .ticks(10);
+                    .ticks((type == "topic") ? 16 : 10);
 
                 var yAxis = d3.axisLeft()
                     .scale(axisScaleY)
@@ -575,10 +575,12 @@
                 for (let text of salida) {
                     medias.add(text.medio)
                 }
-                let exit = ["Todos"];
+                let exit = [];
                 for (let m of medias.entries())
                     exit.push(m[0])
 
+                exit.sort()
+                exit.unshift("Todos")
                 return exit;
             },
             wordlist: function () {
