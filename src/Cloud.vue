@@ -28,6 +28,17 @@
                         </div>
                     </transition>
                     <div class="axes" ref="axes"></div>
+                    <div class="d-flex"  v-if="activetype!='topic'">
+                        <div class="btn d-flex justify-content-start"
+                                @mousedown="goback(true)" @mouseup="goback(false)" :disabled="(astep==0)">
+                            <font-awesome-icon icon="caret-left" class="icon blucolor" size="lg"></font-awesome-icon>
+                        </div>
+                        <div class="btn d-flex justify-content-end"
+                                @mousedown="gonext(true)" @mouseup="gonext(false)"
+                                :disabled="astep ==steps">
+                            <font-awesome-icon icon="caret-right" class="icon blucolor" size="lg"></font-awesome-icon>
+                        </div>
+                    </div>
                     <div class="legend-color-small">
                         <div v-ripple class="box-color-small" style="background-color: rgb(184,184,194)"></div>
                         <div class="legend">No aparece</div>
@@ -41,17 +52,6 @@
                         <div class="legend">Acuerdo</div>
                         <div v-ripple class="box-color-small" style="background-color: rgb(1,81,196)"></div>
                         <div class="legend">Acuerdo total</div>
-                    </div>
-                    <div class="d-flex"  v-if="activetype!='topic'">
-                        <div class="btn d-flex justify-content-start"
-                                @mousedown="goback(true)" @mouseup="goback(false)" :disabled="(astep==0)">
-                            <font-awesome-icon icon="caret-left" class="icon blucolor" size="lg"></font-awesome-icon>
-                        </div>
-                        <div class="btn d-flex justify-content-end"
-                                @mousedown="gonext(true)" @mouseup="gonext(false)"
-                                :disabled="astep ==steps">
-                            <font-awesome-icon icon="caret-right" class="icon blucolor" size="lg"></font-awesome-icon>
-                        </div>
                     </div>
                 </div>
             </div>
