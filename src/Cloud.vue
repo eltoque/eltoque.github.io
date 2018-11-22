@@ -28,6 +28,20 @@
                         </div>
                     </transition>
                     <div class="axes" ref="axes"></div>
+                    <div class="legend-color-small">
+                        <div v-ripple class="box-color-small" style="background-color: rgb(184,184,194)"></div>
+                        <div class="legend">No aparece</div>
+                        <div v-ripple class="box-color-small" style="background-color: rgb(225,64,10)"></div>
+                        <div class="legend">Desacuerdo total</div>
+                        <div v-ripple class="box-color-small" style="background-color: rgb(175,101,56)"></div>
+                        <div class="legend">Desacuerdo</div>
+                        <div v-ripple class="box-color-small" style="background-color: rgb(2,166,141)"></div>
+                        <div class="legend">Neutro</div>
+                        <div v-ripple class="box-color-small" style="background-color: rgb(1,142,188)"></div>
+                        <div class="legend">Acuerdo</div>
+                        <div v-ripple class="box-color-small" style="background-color: rgb(1,81,196)"></div>
+                        <div class="legend">Acuerdo total</div>
+                    </div>
                     <div class="d-flex"  v-if="activetype!='topic'">
                         <div class="btn d-flex justify-content-start"
                                 @mousedown="goback(true)" @mouseup="goback(false)" :disabled="(astep==0)">
@@ -62,26 +76,18 @@
             <div class="col-lg-9" ref="colcanvas"  id="word-cloud">
                 <canvas :width="width" :height="height" class="wordCloud" ref="wordCloud"></canvas>
                 <div class="legend-color">
-                    <div v-ripple class="box-color" style="background-color: rgb(184,184,194)" @click="showlabel(1)"
-                    ></div>
+                    <div v-ripple class="box-color" style="background-color: rgb(184,184,194)"></div>
                     <div class="legend">No aparece</div>
-                    <div v-ripple class="box-color" style="background-color: rgb(225,64,10)" title="Negativo"
-                         @mouseover="iluminate('n')"></div>
-                    <div class="legend">
-                        Negativo
-                    </div>
-                    <div v-ripple class="box-color" style="background-color: rgb(175,101,56)"
-                         title="Predominantemente Negativo" @mouseover="iluminate('pn')"></div>
-                    <div class="legend">Predomina Negativo</div>
-                    <div v-ripple class="box-color" style="background-color: rgb(2,166,141)" title="Neutro"
-                         @mouseover="iluminate('no')"></div>
+                    <div v-ripple class="box-color" style="background-color: rgb(225,64,10)"></div>
+                    <div class="legend">Desacuerdo total</div>
+                    <div v-ripple class="box-color" style="background-color: rgb(175,101,56)"></div>
+                    <div class="legend">Desacuerdo</div>
+                    <div v-ripple class="box-color" style="background-color: rgb(2,166,141)"></div>
                     <div class="legend">Neutro</div>
-                    <div v-ripple class="box-color" style="background-color: rgb(1,142,188)"
-                         title="Predominantemente positivo" @mouseover="iluminate('pp')"></div>
-                    <div class="legend">Predomina positivo</div>
-                    <div v-ripple class="box-color" style="background-color: rgb(1,81,196)" title="Positivo"
-                         @mouseover="iluminate('pp')"></div>
-                    <div class="legend">Positivo</div>
+                    <div v-ripple class="box-color" style="background-color: rgb(1,142,188)"></div>
+                    <div class="legend">Acuerdo</div>
+                    <div v-ripple class="box-color" style="background-color: rgb(1,81,196)"></div>
+                    <div class="legend">Acuerdo total</div>
                 </div>
                 <div class="note">Las valoraciones son con respecto al texto del proyecto constitucional.</div>
 
@@ -563,7 +569,7 @@
                 return false
             },
             heightgraph:function(){
-                return  (window.innerWidth < 800)? 350: 400;
+                return  (window.innerWidth < 800)? 300: 370;
             },
             width: function(){
                 return  (window.innerWidth < 800)? window.innerWidth: 800;
@@ -580,7 +586,8 @@
                     exit.push(m[0])
 
                 exit.sort()
-                exit.unshift("Todos")
+                exit.push(exit[0])
+                exit[0] = "Todos"
                 return exit;
             },
             wordlist: function () {
@@ -722,12 +729,25 @@
         margin: 5px auto;
     }
 
+    .legend-color-small {
+        font-size: 8px;
+        display: flex;
+        width: fit-content;
+        margin: 0px auto;
+    }
+
+    .box-color-small {
+        width: 10px;
+        height: 10px;
+        margin: 9px 2px;
+        margin-left: 8px;
+    }
+
     .box-color {
         width: 20px;
         height: 20px;
         margin: 5px 5px;
         margin-left: 20px;
-        cursor: pointer;
     }
 
     .btn-select {
