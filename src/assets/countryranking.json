@@ -1,0 +1,1909 @@
+[
+
+  {
+    "country": "Cuba",
+    "Year": 1976,
+    "Scope": "0,54",
+    "Length": 12.893,
+    "Executive": 3,
+    "Legislative": "0,38",
+    "Judicial": 1,
+    "rights": 45,
+    "selected": true
+  },
+  {
+    "country": "Afganistán",
+    "Year": 2004,
+    "Scope": "0,67",
+    "Length": 10.227,
+    "Executive": 6,
+    "Legislative": "0,38",
+    "Judicial": 2,
+    "rights": 37
+  },
+  {
+    "country": "Albania",
+    "Year": 1998,
+    "Scope": "0,61",
+    "Length": 13.826,
+    "Executive": 5,
+    "Legislative": "0,43",
+    "Judicial": 5,
+    "rights": 77
+  },
+  {
+    "country": "Argelia",
+    "Year": 1996,
+    "Scope": "0,61",
+    "Length": 10.038,
+    "Executive": 7,
+    "Legislative": "0,29",
+    "Judicial": 1,
+    "rights": 36
+  },
+  {
+    "country": "Andorra",
+    "Year": 1993,
+    "Scope": "0,51",
+    "Length": 8.74,
+    "Executive": 6,
+    "Legislative": "0,19",
+    "Judicial": 3,
+    "rights": 51
+  },
+  {
+    "country": "Angola",
+    "Year": 2010,
+    "Scope": "0,80",
+    "Length": 27.181,
+    "Executive": 7,
+    "Legislative": "0,19",
+    "Judicial": 2,
+    "rights": 80
+  },
+  {
+    "country": "Antigua y Barbuda",
+    "Year": 1981,
+    "Scope": "0,56",
+    "Length": 38.464,
+    "Executive": 3,
+    "Legislative": "0,14",
+    "Judicial": 0,
+    "rights": 39
+  },
+  {
+    "country": "Argentina",
+    "Year": 1983,
+    "Scope": "0,64",
+    "Length": 12.514,
+    "Executive": 3,
+    "Legislative": "0,43",
+    "Judicial": 6,
+    "rights": 51
+  },
+  {
+    "country": "Armenia",
+    "Year": 1995,
+    "Scope": "0,66",
+    "Length": 13.786,
+    "Executive": 6,
+    "Legislative": "0,29",
+    "Judicial": 4,
+    "rights": 82
+  },
+  {
+    "country": "Australia",
+    "Year": 1901,
+    "Scope": "0,43",
+    "Length": 17.318,
+    "Executive": 2,
+    "Legislative": "0,14",
+    "Judicial": 3,
+    "rights": 11
+  },
+  {
+    "country": "Austria",
+    "Year": 1945,
+    "Scope": "0,57",
+    "Length": 41.366,
+    "Executive": 3,
+    "Legislative": "0,43",
+    "Judicial": 1,
+    "rights": 15
+  },
+  {
+    "country": "Azerbaiyán",
+    "Year": 1995,
+    "Scope": "0,63",
+    "Length": 17.354,
+    "Executive": 6,
+    "Legislative": "0,29",
+    "Judicial": 3,
+    "rights": 72
+  },
+  {
+    "country": "Bahamas",
+    "Year": 1973,
+    "Scope": "0,47",
+    "Length": 41.835,
+    "Executive": 3,
+    "Legislative": "0,14",
+    "Judicial": 2,
+    "rights": 39
+  },
+  {
+    "country": "Bahrein",
+    "Year": 2002,
+    "Scope": "0,57",
+    "Length": 10.806,
+    "Executive": 7,
+    "Legislative": "0,33",
+    "Judicial": 2,
+    "rights": 48
+  },
+  {
+    "country": "Bangladesh",
+    "Year": 1986,
+    "Scope": "0,63",
+    "Length": 27.643,
+    "Executive": 4,
+    "Legislative": "0,33",
+    "Judicial": 5,
+    "rights": 49
+  },
+  {
+    "country": "Barbados",
+    "Year": 1966,
+    "Scope": "0,40",
+    "Length": 34.144,
+    "Executive": 3,
+    "Legislative": "0,19",
+    "Judicial": 3,
+    "rights": 40
+  },
+  {
+    "country": "Bielorrusia",
+    "Year": 1994,
+    "Scope": "0,61",
+    "Length": 13.278,
+    "Executive": 7,
+    "Legislative": "0,33",
+    "Judicial": 2,
+    "rights": 62
+  },
+  {
+    "country": "Bélgica",
+    "Year": 1831,
+    "Scope": "0,59",
+    "Length": 16.119,
+    "Executive": 4,
+    "Legislative": "0,38",
+    "Judicial": 3,
+    "rights": 35
+  },
+  {
+    "country": "Belice",
+    "Year": 1981,
+    "Scope": "0,47",
+    "Length": 39.629,
+    "Executive": 3,
+    "Legislative": "0,24",
+    "Judicial": 4,
+    "rights": 46
+  },
+  {
+    "country": "Benin",
+    "Year": 1990,
+    "Scope": "0,56",
+    "Length": 11.386,
+    "Executive": 4,
+    "Legislative": "0,29",
+    "Judicial": 1,
+    "rights": 43
+  },
+  {
+    "country": "Bután",
+    "Year": 2008,
+    "Scope": "0,64",
+    "Length": 13.632,
+    "Executive": 4,
+    "Legislative": "0,29",
+    "Judicial": 5,
+    "rights": 44
+  },
+  {
+    "country": "Bolivia",
+    "Year": 2009,
+    "Scope": "0,74",
+    "Length": 39.375,
+    "Executive": 5,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 88,
+    "selected": true
+  },
+  {
+    "country": "Bosnia y Herzegovina",
+    "Year": 1995,
+    "Scope": "0,41",
+    "Length": 5.454,
+    "Executive": 2,
+    "Legislative": "0,24",
+    "Judicial": 0,
+    "rights": 28
+  },
+  {
+    "country": "Botsuana",
+    "Year": 1966,
+    "Scope": "0,43",
+    "Length": 30.713,
+    "Executive": 3,
+    "Legislative": "0,10",
+    "Judicial": 4,
+    "rights": 36
+  },
+  {
+    "country": "Brasil",
+    "Year": 1988,
+    "Scope": "0,70",
+    "Length": 64.488,
+    "Executive": 5,
+    "Legislative": "0,48",
+    "Judicial": 5,
+    "rights": 79
+  },
+  {
+    "country": "Brunei",
+    "Year": 1959,
+    "Scope": "0,33",
+    "Length": 13.869,
+    "Executive": 7,
+    "Legislative": "0,00",
+    "Judicial": 0,
+    "rights": 2
+  },
+  {
+    "country": "Bulgaria",
+    "Year": 1991,
+    "Scope": "0,70",
+    "Length": 13.641,
+    "Executive": 6,
+    "Legislative": "0,52",
+    "Judicial": 6,
+    "rights": 70
+  },
+  {
+    "country": "Burkina Faso",
+    "Year": 1991,
+    "Scope": "0,59",
+    "Length": 10.03,
+    "Executive": 7,
+    "Legislative": "0,29",
+    "Judicial": 3,
+    "rights": 54
+  },
+  {
+    "country": "Burundi",
+    "Year": 2005,
+    "Scope": "0,66",
+    "Length": 17.574,
+    "Executive": 7,
+    "Legislative": "0,29",
+    "Judicial": 2,
+    "rights": 55
+  },
+  {
+    "country": "Camboya",
+    "Year": 1993,
+    "Scope": "0,61",
+    "Length": 8.936,
+    "Executive": 5,
+    "Legislative": "0,52",
+    "Judicial": 2,
+    "rights": 52
+  },
+  {
+    "country": "Camerún",
+    "Year": 1972,
+    "Scope": "0,46",
+    "Length": 8.444,
+    "Executive": 7,
+    "Legislative": "0,24",
+    "Judicial": 1,
+    "rights": 36
+  },
+  {
+    "country": "Canada",
+    "Year": 1867,
+    "Scope": "0,40",
+    "Length": 19.565,
+    "Executive": 2,
+    "Legislative": "0,05",
+    "Judicial": 1,
+    "rights": 36
+  },
+  {
+    "country": "Cabo Verde",
+    "Year": 1980,
+    "Scope": "0,76",
+    "Length": 32.132,
+    "Executive": 5,
+    "Legislative": "0,43",
+    "Judicial": 1,
+    "rights": 87
+  },
+  {
+    "country": "República Centroafricana",
+    "Year": 2013,
+    "Scope": "0,57",
+    "Length": 9.767,
+    "Executive": 5,
+    "Legislative": "0,24",
+    "Judicial": 3,
+    "rights": 48
+  },
+  {
+    "country": "Chad",
+    "Year": 1996,
+    "Scope": "0,57",
+    "Length": 11.768,
+    "Executive": 4,
+    "Legislative": "0,38",
+    "Judicial": 3,
+    "rights": 44
+  },
+  {
+    "country": "Chile",
+    "Year": 1980,
+    "Scope": "0,67",
+    "Length": 25.821,
+    "Executive": 6,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 46
+  },
+  {
+    "country": "China",
+    "Year": 1982,
+    "Scope": "0,51",
+    "Length": 10.96,
+    "Executive": 2,
+    "Legislative": "0,38",
+    "Judicial": 2,
+    "rights": 33,
+    "selected": true
+  },
+  {
+    "country": "Colombia",
+    "Year": 1991,
+    "Scope": "0,76",
+    "Length": 46.902,
+    "Executive": 5,
+    "Legislative": "0,33",
+    "Judicial": 3,
+    "rights": 76
+  },
+  {
+    "country": "Comoras",
+    "Year": 2001,
+    "Scope": "0,44",
+    "Length": 6.185,
+    "Executive": 5,
+    "Legislative": "0,24",
+    "Judicial": 1,
+    "rights": 23
+  },
+  {
+    "country": "Congo",
+    "Year": 2001,
+    "Scope": "0,60",
+    "Length": 9.97,
+    "Executive": 6,
+    "Legislative": "0,29",
+    "Judicial": 2,
+    "rights": 55
+  },
+  {
+    "country": "República Democrática del Congo",
+    "Year": 2005,
+    "Scope": "0,70",
+    "Length": 19.285,
+    "Executive": 5,
+    "Legislative": "0,38",
+    "Judicial": 1,
+    "rights": 58
+  },
+  {
+    "country": "Costa Rica",
+    "Year": 1949,
+    "Scope": "0,63",
+    "Length": 16.705,
+    "Executive": 5,
+    "Legislative": "0,29",
+    "Judicial": 1,
+    "rights": 55
+  },
+  {
+    "country": "Costa de Marfil",
+    "Year": 2000,
+    "Scope": "0,50",
+    "Length": 7.897,
+    "Executive": 6,
+    "Legislative": "0,33",
+    "Judicial": 3,
+    "rights": 36
+  },
+  {
+    "country": "Croacia",
+    "Year": 1991,
+    "Scope": "0,59",
+    "Length": 10.898,
+    "Executive": 6,
+    "Legislative": "0,43",
+    "Judicial": 4,
+    "rights": 69
+  },
+  {
+    "country": "Chipre",
+    "Year": 1960,
+    "Scope": "0,53",
+    "Length": 37.006,
+    "Executive": 3,
+    "Legislative": "0,19",
+    "Judicial": 3,
+    "rights": 52
+  },
+  {
+    "country": "República Checa",
+    "Year": 1993,
+    "Scope": "0,60",
+    "Length": 14.58,
+    "Executive": 4,
+    "Legislative": "0,38",
+    "Judicial": 2,
+    "rights": 57
+  },
+  {
+    "country": "Dinamarca",
+    "Year": 1953,
+    "Scope": "0,53",
+    "Length": 6.221,
+    "Executive": 4,
+    "Legislative": "0,43",
+    "Judicial": 1,
+    "rights": 21
+  },
+  {
+    "country": "Djibouti",
+    "Year": 1992,
+    "Scope": "0,41",
+    "Length": 6.666,
+    "Executive": 4,
+    "Legislative": "0,38",
+    "Judicial": 1,
+    "rights": 26
+  },
+  {
+    "country": "Dominica",
+    "Year": 1978,
+    "Scope": "0,54",
+    "Length": 36.08,
+    "Executive": 3,
+    "Legislative": "0,14",
+    "Judicial": 0,
+    "rights": 38
+  },
+  {
+    "country": "República Dominicana",
+    "Year": 2010,
+    "Scope": "0,70",
+    "Length": 29.71,
+    "Executive": 6,
+    "Legislative": "0,29",
+    "Judicial": 4,
+    "rights": 75
+  },
+  {
+    "country": "Ecuador",
+    "Year": 2008,
+    "Scope": "0,79",
+    "Length": 54.555,
+    "Executive": 7,
+    "Legislative": "0,14",
+    "Judicial": 2,
+    "rights": 99,
+    "selected": true
+  },
+  {
+    "country": "Egipto",
+    "Year": 2014,
+    "Scope": "0,77",
+    "Length": 22.626,
+    "Executive": 6,
+    "Legislative": "0,48",
+    "Judicial": 1,
+    "rights": 65
+  },
+  {
+    "country": "El Salvador",
+    "Year": 1983,
+    "Scope": "0,64",
+    "Length": 22.823,
+    "Executive": 4,
+    "Legislative": "0,38",
+    "Judicial": 3,
+    "rights": 61
+  },
+  {
+    "country": "Guinea Ecuatorial",
+    "Year": 1991,
+    "Scope": "0,57",
+    "Length": 5.575,
+    "Executive": 7,
+    "Legislative": "0,14",
+    "Judicial": 1,
+    "rights": 33
+  },
+  {
+    "country": "Eritrea",
+    "Year": 1997,
+    "Scope": "0,54",
+    "Length": 6.753,
+    "Executive": 3,
+    "Legislative": "0,48",
+    "Judicial": 4,
+    "rights": 54
+  },
+  {
+    "country": "Estonia",
+    "Year": 1992,
+    "Scope": "0,59",
+    "Length": 11.344,
+    "Executive": 6,
+    "Legislative": "0,38",
+    "Judicial": 2,
+    "rights": 66
+  },
+  {
+    "country": "Etiopía",
+    "Year": 1994,
+    "Scope": "0,64",
+    "Length": 13.63,
+    "Executive": 3,
+    "Legislative": "0,48",
+    "Judicial": 4,
+    "rights": 77
+  },
+  {
+    "country": "Fiyi",
+    "Year": 2013,
+    "Scope": "0,63",
+    "Length": 40.773,
+    "Executive": 3,
+    "Legislative": "0,43",
+    "Judicial": 4,
+    "rights": 64
+  },
+  {
+    "country": "Finlandia",
+    "Year": 1999,
+    "Scope": "0,61",
+    "Length": 12.64,
+    "Executive": 3,
+    "Legislative": "0,48",
+    "Judicial": 1,
+    "rights": 48
+  },
+  {
+    "country": "Francia",
+    "Year": 1958,
+    "Scope": "0,50",
+    "Length": 10.18,
+    "Executive": 7,
+    "Legislative": "0,24",
+    "Judicial": 2,
+    "rights": 13
+  },
+  {
+    "country": "Gabón",
+    "Year": 1991,
+    "Scope": "0,66",
+    "Length": 11.804,
+    "Executive": 7,
+    "Legislative": "0,33",
+    "Judicial": 1,
+    "rights": 40
+  },
+  {
+    "country": "Gambia",
+    "Year": 1996,
+    "Scope": "0,73",
+    "Length": 43.465,
+    "Executive": 3,
+    "Legislative": "0,33",
+    "Judicial": 6,
+    "rights": 62
+  },
+  {
+    "country": "Georgia",
+    "Year": 1995,
+    "Scope": "0,66",
+    "Length": 11.49,
+    "Executive": 5,
+    "Legislative": "0,43",
+    "Judicial": 2,
+    "rights": 63
+  },
+  {
+    "country": "Alemania",
+    "Year": 1949,
+    "Scope": "0,71",
+    "Length": 27.379,
+    "Executive": 5,
+    "Legislative": "0,29",
+    "Judicial": 2,
+    "rights": 48
+  },
+  {
+    "country": "Ghana",
+    "Year": 1992,
+    "Scope": "0,71",
+    "Length": 53.985,
+    "Executive": 3,
+    "Legislative": "0,29",
+    "Judicial": 4,
+    "rights": 61
+  },
+  {
+    "country": "Grecia",
+    "Year": 1975,
+    "Scope": "0,73",
+    "Length": 26.989,
+    "Executive": 3,
+    "Legislative": "0,24",
+    "Judicial": 3,
+    "rights": 56
+  },
+  {
+    "country": "Granada",
+    "Year": 1991,
+    "Scope": "0,47",
+    "Length": 33.737,
+    "Executive": 3,
+    "Legislative": "0,14",
+    "Judicial": 1,
+    "rights": 39
+  },
+  {
+    "country": "Guatemala",
+    "Year": 1985,
+    "Scope": "0,60",
+    "Length": 28.692,
+    "Executive": 5,
+    "Legislative": "0,38",
+    "Judicial": 1,
+    "rights": 63
+  },
+  {
+    "country": "Guinea",
+    "Year": 2010,
+    "Scope": "0,64",
+    "Length": 12.707,
+    "Executive": 7,
+    "Legislative": "0,24",
+    "Judicial": 3,
+    "rights": 44
+  },
+  {
+    "country": "Guinea-Bissau",
+    "Year": 1984,
+    "Scope": "0,57",
+    "Length": 7.82,
+    "Executive": 3,
+    "Legislative": "0,33",
+    "Judicial": 0,
+    "rights": 47
+  },
+  {
+    "country": "Guayana",
+    "Year": 1980,
+    "Scope": "0,59",
+    "Length": 46.221,
+    "Executive": 3,
+    "Legislative": "0,19",
+    "Judicial": 3,
+    "rights": 57
+  },
+  {
+    "country": "Haití",
+    "Year": 1987,
+    "Scope": "0,69",
+    "Length": 18.488,
+    "Executive": 4,
+    "Legislative": "0,62",
+    "Judicial": 4,
+    "rights": 49
+  },
+  {
+    "country": "Honduras",
+    "Year": 1982,
+    "Scope": "0,69",
+    "Length": 23.434,
+    "Executive": 4,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 68
+  },
+  {
+    "country": "Hungría",
+    "Year": 2011,
+    "Scope": "0,69",
+    "Length": 15.247,
+    "Executive": 6,
+    "Legislative": "0,33",
+    "Judicial": 2,
+    "rights": 68
+  },
+  {
+    "country": "Islandia",
+    "Year": 1944,
+    "Scope": "0,43",
+    "Length": 4.089,
+    "Executive": 4,
+    "Legislative": "0,29",
+    "Judicial": 1,
+    "rights": 40
+  },
+  {
+    "country": "India",
+    "Year": 1949,
+    "Scope": "0,60",
+    "Length": 146.385,
+    "Executive": 4,
+    "Legislative": "0,19",
+    "Judicial": 4,
+    "rights": 44
+  },
+  {
+    "country": "Indonesia",
+    "Year": 1959,
+    "Scope": "0,56",
+    "Length": 5.915,
+    "Executive": 3,
+    "Legislative": "0,33",
+    "Judicial": 2,
+    "rights": 32
+  },
+  {
+    "country": "Iran",
+    "Year": 1979,
+    "Scope": "0,66",
+    "Length": 16.179,
+    "Executive": 2,
+    "Legislative": "0,38",
+    "Judicial": 4,
+    "rights": 45
+  },
+  {
+    "country": "Irak",
+    "Year": 2005,
+    "Scope": "0,60",
+    "Length": 11.55,
+    "Executive": 4,
+    "Legislative": "0,43",
+    "Judicial": 1,
+    "rights": 53
+  },
+  {
+    "country": "Irlanda",
+    "Year": 1937,
+    "Scope": "0,56",
+    "Length": 16.007,
+    "Executive": 3,
+    "Legislative": "0,38",
+    "Judicial": 3,
+    "rights": 31
+  },
+  {
+    "country": "Israel",
+    "Year": 1958,
+    "Scope": "0,39",
+    "Length": 17.053,
+    "Executive": 0,
+    "Legislative": "0,19",
+    "Judicial": 4,
+    "rights": 6
+  },
+  {
+    "country": "Italia",
+    "Year": 1947,
+    "Scope": "0,67",
+    "Length": 11.708,
+    "Executive": 4,
+    "Legislative": "0,24",
+    "Judicial": 1,
+    "rights": 56
+  },
+  {
+    "country": "Jamaica",
+    "Year": 1962,
+    "Scope": "0,40",
+    "Length": 38.048,
+    "Executive": 3,
+    "Legislative": "0,10",
+    "Judicial": 1,
+    "rights": 35
+  },
+  {
+    "country": "Japán",
+    "Year": 1946,
+    "Scope": "0,36",
+    "Length": 4.998,
+    "Executive": 2,
+    "Legislative": "0,38",
+    "Judicial": 2,
+    "rights": 48
+  },
+  {
+    "country": "Jordania",
+    "Year": 1952,
+    "Scope": "0,54",
+    "Length": 10.239,
+    "Executive": 7,
+    "Legislative": "0,19",
+    "Judicial": 1,
+    "rights": 35
+  },
+  {
+    "country": "Kazajstán",
+    "Year": 1995,
+    "Scope": "0,56",
+    "Length": 13.482,
+    "Executive": 6,
+    "Legislative": "0,14",
+    "Judicial": 3,
+    "rights": 57
+  },
+  {
+    "country": "Kenia",
+    "Year": 2010,
+    "Scope": "0,81",
+    "Length": 48.818,
+    "Executive": 2,
+    "Legislative": "0,29",
+    "Judicial": 5,
+    "rights": 72
+  },
+  {
+    "country": "Kiribati",
+    "Year": 1979,
+    "Scope": "0,54",
+    "Length": 26.08,
+    "Executive": 2,
+    "Legislative": "0,10",
+    "Judicial": 4,
+    "rights": 41
+  },
+  {
+    "country": "Kosovo",
+    "Year": 2008,
+    "Scope": "0,66",
+    "Length": 19.782,
+    "Executive": 6,
+    "Legislative": "0,29",
+    "Judicial": 5,
+    "rights": 73
+  },
+  {
+    "country": "Kuwait",
+    "Year": 1992,
+    "Scope": "0,51",
+    "Length": 8.197,
+    "Executive": 7,
+    "Legislative": "0,33",
+    "Judicial": 1,
+    "rights": 38
+  },
+  {
+    "country": "Kirguizstán",
+    "Year": 2010,
+    "Scope": "0,71",
+    "Length": 14.327,
+    "Executive": 4,
+    "Legislative": "0,33",
+    "Judicial": 3,
+    "rights": 69
+  },
+  {
+    "country": "Laos",
+    "Year": 1991,
+    "Scope": "0,46",
+    "Length": 4.82,
+    "Executive": 3,
+    "Legislative": "0,43",
+    "Judicial": 2,
+    "rights": 27
+  },
+  {
+    "country": "Letonia",
+    "Year": 1991,
+    "Scope": "0,51",
+    "Length": 4.917,
+    "Executive": 3,
+    "Legislative": "0,38",
+    "Judicial": 2,
+    "rights": 44
+  },
+  {
+    "country": "Líbano",
+    "Year": 1926,
+    "Scope": "0,47",
+    "Length": 6.296,
+    "Executive": 6,
+    "Legislative": "0,14",
+    "Judicial": 1,
+    "rights": 14
+  },
+  {
+    "country": "Lesoto",
+    "Year": 1993,
+    "Scope": "0,56",
+    "Length": 45.532,
+    "Executive": 3,
+    "Legislative": "0,14",
+    "Judicial": 3,
+    "rights": 55
+  },
+  {
+    "country": "Liberia",
+    "Year": 1986,
+    "Scope": "0,59",
+    "Length": 11.667,
+    "Executive": 2,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 49
+  },
+  {
+    "country": "Liechtenstein",
+    "Year": 1921,
+    "Scope": "0,47",
+    "Length": 9.513,
+    "Executive": 5,
+    "Legislative": "0,19",
+    "Judicial": 2,
+    "rights": 29
+  },
+  {
+    "country": "Lituania",
+    "Year": 1992,
+    "Scope": "0,66",
+    "Length": 12.214,
+    "Executive": 4,
+    "Legislative": "0,38",
+    "Judicial": 3,
+    "rights": 66
+  },
+  {
+    "country": "Luxemburgo",
+    "Year": 1868,
+    "Scope": "0,53",
+    "Length": 5.601,
+    "Executive": 5,
+    "Legislative": "0,33",
+    "Judicial": 3,
+    "rights": 27
+  },
+  {
+    "country": "Macedonia",
+    "Year": 1991,
+    "Scope": "0,60",
+    "Length": 13.486,
+    "Executive": 3,
+    "Legislative": "0,38",
+    "Judicial": 3,
+    "rights": 68
+  },
+  {
+    "country": "Madagascar",
+    "Year": 2010,
+    "Scope": "0,60",
+    "Length": 15.759,
+    "Executive": 7,
+    "Legislative": "0,19",
+    "Judicial": 1,
+    "rights": 46
+  },
+  {
+    "country": "Malawi",
+    "Year": 1994,
+    "Scope": "0,67",
+    "Length": 33.422,
+    "Executive": 3,
+    "Legislative": "0,43",
+    "Judicial": 4,
+    "rights": 66
+  },
+  {
+    "country": "Malasia",
+    "Year": 1957,
+    "Scope": "0,59",
+    "Length": 64.08,
+    "Executive": 4,
+    "Legislative": "0,10",
+    "Judicial": 2,
+    "rights": 31
+  },
+  {
+    "country": "Maldivas",
+    "Year": 2008,
+    "Scope": "0,61",
+    "Length": 23.991,
+    "Executive": 1,
+    "Legislative": "0,38",
+    "Judicial": 5,
+    "rights": 74
+  },
+  {
+    "country": "Mali",
+    "Year": 1992,
+    "Scope": "0,54",
+    "Length": 7.503,
+    "Executive": 7,
+    "Legislative": "0,24",
+    "Judicial": 2,
+    "rights": 43
+  },
+  {
+    "country": "Malta",
+    "Year": 1964,
+    "Scope": "0,47",
+    "Length": 31.82,
+    "Executive": 4,
+    "Legislative": "0,14",
+    "Judicial": 2,
+    "rights": 46
+  },
+  {
+    "country": "Islas Marshall",
+    "Year": 1979,
+    "Scope": "0,44",
+    "Length": 21.429,
+    "Executive": 1,
+    "Legislative": "0,19",
+    "Judicial": 5,
+    "rights": 46
+  },
+  {
+    "country": "Mauritania",
+    "Year": 1991,
+    "Scope": "0,49",
+    "Length": 6.997,
+    "Executive": 6,
+    "Legislative": "0,33",
+    "Judicial": 1,
+    "rights": 31
+  },
+  {
+    "country": "Mauricio",
+    "Year": 1968,
+    "Scope": "0,47",
+    "Length": 37.32,
+    "Executive": 3,
+    "Legislative": "0,14",
+    "Judicial": 3,
+    "rights": 36
+  },
+  {
+    "country": "México",
+    "Year": 1917,
+    "Scope": "0,76",
+    "Length": 57.087,
+    "Executive": 4,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 81
+  },
+  {
+    "country": "Micronesia",
+    "Year": 1978,
+    "Scope": "0,46",
+    "Length": 5.271,
+    "Executive": 3,
+    "Legislative": "0,19",
+    "Judicial": 4,
+    "rights": 36
+  },
+  {
+    "country": "Moldavia",
+    "Year": 1994,
+    "Scope": "0,61",
+    "Length": 12.818,
+    "Executive": 5,
+    "Legislative": "0,38",
+    "Judicial": 2,
+    "rights": 65
+  },
+  {
+    "country": "Mónaco",
+    "Year": 1962,
+    "Scope": "0,37",
+    "Length": 3.814,
+    "Executive": 5,
+    "Legislative": "0,14",
+    "Judicial": 2,
+    "rights": 26
+  },
+  {
+    "country": "Mongolia",
+    "Year": 1992,
+    "Scope": "0,56",
+    "Length": 8.25,
+    "Executive": 6,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 62
+  },
+  {
+    "country": "Montenegro",
+    "Year": 2007,
+    "Scope": "0,64",
+    "Length": 11.572,
+    "Executive": 5,
+    "Legislative": "0,43",
+    "Judicial": 4,
+    "rights": 76
+  },
+  {
+    "country": "Marruecos",
+    "Year": 2011,
+    "Scope": "0,64",
+    "Length": 15.897,
+    "Executive": 7,
+    "Legislative": "0,19",
+    "Judicial": 3,
+    "rights": 53
+  },
+  {
+    "country": "Mozambique",
+    "Year": 2004,
+    "Scope": "0,73",
+    "Length": 24.171,
+    "Executive": 7,
+    "Legislative": "0,14",
+    "Judicial": 2,
+    "rights": 64
+  },
+  {
+    "country": "Myanmar",
+    "Year": 2008,
+    "Scope": "0,60",
+    "Length": 40.492,
+    "Executive": 3,
+    "Legislative": "0,38",
+    "Judicial": 4,
+    "rights": 39
+  },
+  {
+    "country": "Namibia",
+    "Year": 1990,
+    "Scope": "0,59",
+    "Length": 24.198,
+    "Executive": 5,
+    "Legislative": "0,24",
+    "Judicial": 4,
+    "rights": 59
+  },
+  {
+    "country": "Nauru",
+    "Year": 1968,
+    "Scope": "0,33",
+    "Length": 13.714,
+    "Executive": 2,
+    "Legislative": "0,14",
+    "Judicial": 1,
+    "rights": 34
+  },
+  {
+    "country": "Nepal",
+    "Year": 2006,
+    "Scope": "0,70",
+    "Length": 32.753,
+    "Executive": 3,
+    "Legislative": "0,29",
+    "Judicial": 6,
+    "rights": 56
+  },
+  {
+    "country": "Países Bajos",
+    "Year": 1815,
+    "Scope": "0,43",
+    "Length": 8.739,
+    "Executive": 5,
+    "Legislative": "0,29",
+    "Judicial": 1,
+    "rights": 26
+  },
+  {
+    "country": "Nueva Zelanda",
+    "Year": 1852,
+    "Scope": "0,21",
+    "Length": 48.438,
+    "Executive": 1,
+    "Legislative": "0,19",
+    "Judicial": 4,
+    "rights": 40
+  },
+  {
+    "country": "Nicaragua",
+    "Year": 1987,
+    "Scope": "0,64",
+    "Length": 20.535,
+    "Executive": 4,
+    "Legislative": "0,33",
+    "Judicial": 2,
+    "rights": 77
+  },
+  {
+    "country": "Níger",
+    "Year": 2010,
+    "Scope": "0,66",
+    "Length": 14.806,
+    "Executive": 5,
+    "Legislative": "0,43",
+    "Judicial": 1,
+    "rights": 46
+  },
+  {
+    "country": "Nigeria",
+    "Year": 1999,
+    "Scope": "0,63",
+    "Length": 66.263,
+    "Executive": 2,
+    "Legislative": "0,38",
+    "Judicial": 4,
+    "rights": 57
+  },
+  {
+    "country": "Corea del Norte",
+    "Year": 1972,
+    "Scope": "0,50",
+    "Length": 7.364,
+    "Executive": 1,
+    "Legislative": "0,33",
+    "Judicial": 1,
+    "rights": 35
+  },
+  {
+    "country": "Noruega",
+    "Year": 1814,
+    "Scope": "0,51",
+    "Length": 7.307,
+    "Executive": 5,
+    "Legislative": "0,33",
+    "Judicial": 2,
+    "rights": 39
+  },
+  {
+    "country": "Omán",
+    "Year": 1996,
+    "Scope": "0,56",
+    "Length": 7.233,
+    "Executive": 5,
+    "Legislative": "0,05",
+    "Judicial": 1,
+    "rights": 39
+  },
+  {
+    "country": "Pakistán",
+    "Year": 2002,
+    "Scope": "0,64",
+    "Length": 56.24,
+    "Executive": 5,
+    "Legislative": "0,29",
+    "Judicial": 3,
+    "rights": 45
+  },
+  {
+    "country": "Panamá",
+    "Year": 1972,
+    "Scope": "0,59",
+    "Length": 26.097,
+    "Executive": 5,
+    "Legislative": "0,19",
+    "Judicial": 2,
+    "rights": 63
+  },
+  {
+    "country": "Papúa Nueva Guinea",
+    "Year": 1975,
+    "Scope": "0,47",
+    "Length": 58.49,
+    "Executive": 2,
+    "Legislative": "0,33",
+    "Judicial": 2,
+    "rights": 53
+  },
+  {
+    "country": "Paraguay",
+    "Year": 1992,
+    "Scope": "0,61",
+    "Length": 25.461,
+    "Executive": 3,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 74
+  },
+  {
+    "country": "Perú",
+    "Year": 1993,
+    "Scope": "0,70",
+    "Length": 19.216,
+    "Executive": 6,
+    "Legislative": "0,33",
+    "Judicial": 5,
+    "rights": 72
+  },
+  {
+    "country": "Filipinas",
+    "Year": 1987,
+    "Scope": "0,71",
+    "Length": 21.954,
+    "Executive": 3,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 63
+  },
+  {
+    "country": "Polonia",
+    "Year": 1997,
+    "Scope": "0,66",
+    "Length": 19.602,
+    "Executive": 6,
+    "Legislative": "0,43",
+    "Judicial": 3,
+    "rights": 60
+  },
+  {
+    "country": "Portugal",
+    "Year": 1976,
+    "Scope": "0,76",
+    "Length": 35.219,
+    "Executive": 5,
+    "Legislative": "0,29",
+    "Judicial": 1,
+    "rights": 87
+  },
+  {
+    "country": "Katar",
+    "Year": 2003,
+    "Scope": "0,51",
+    "Length": 6.848,
+    "Executive": 6,
+    "Legislative": "0,29",
+    "Judicial": 1,
+    "rights": 32
+  },
+  {
+    "country": "Rumania",
+    "Year": 1991,
+    "Scope": "0,57",
+    "Length": 14.663,
+    "Executive": 7,
+    "Legislative": "0,43",
+    "Judicial": 1,
+    "rights": 71
+  },
+  {
+    "country": "Rusia",
+    "Year": 1993,
+    "Scope": "0,64",
+    "Length": 12.908,
+    "Executive": 7,
+    "Legislative": "0,24",
+    "Judicial": 3,
+    "rights": 64
+  },
+  {
+    "country": "Ruanda",
+    "Year": 2003,
+    "Scope": "0,63",
+    "Length": 16.94,
+    "Executive": 6,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 53
+  },
+  {
+    "country": "San Cristóbal y Nieves",
+    "Year": 1983,
+    "Scope": "0,56",
+    "Length": 49.643,
+    "Executive": 3,
+    "Legislative": "0,10",
+    "Judicial": 1,
+    "rights": 36
+  },
+  {
+    "country": "Santa Lucía",
+    "Year": 1978,
+    "Scope": "0,61",
+    "Length": 38.271,
+    "Executive": 3,
+    "Legislative": "0,10",
+    "Judicial": 0,
+    "rights": 41
+  },
+  {
+    "country": "Samoa",
+    "Year": 1962,
+    "Scope": "0,34",
+    "Length": 19.611,
+    "Executive": 4,
+    "Legislative": "0,14",
+    "Judicial": 4,
+    "rights": 37
+  },
+  {
+    "country": "Santo Tomé y Príncipe",
+    "Year": 1975,
+    "Scope": "0,51",
+    "Length": 7.988,
+    "Executive": 5,
+    "Legislative": "0,38",
+    "Judicial": 1,
+    "rights": 62
+  },
+  {
+    "country": "Arabia Saudita",
+    "Year": 1992,
+    "Scope": "0,49",
+    "Length": 6.335,
+    "Executive": 4,
+    "Legislative": "0,14",
+    "Judicial": 3,
+    "rights": 15
+  },
+  {
+    "country": "Senegal",
+    "Year": 2001,
+    "Scope": "0,53",
+    "Length": 10.866,
+    "Executive": 7,
+    "Legislative": "0,29",
+    "Judicial": 2,
+    "rights": 33
+  },
+  {
+    "country": "Serbia",
+    "Year": 2006,
+    "Scope": "0,64",
+    "Length": 19.891,
+    "Executive": 3,
+    "Legislative": "0,43",
+    "Judicial": 1,
+    "rights": 88
+  },
+  {
+    "country": "Seychelles",
+    "Year": 1993,
+    "Scope": "0,63",
+    "Length": 39.729,
+    "Executive": 5,
+    "Legislative": "0,19",
+    "Judicial": 3,
+    "rights": 61
+  },
+  {
+    "country": "Sierra Leona",
+    "Year": 1996,
+    "Scope": "0,54",
+    "Length": 44.636,
+    "Executive": 3,
+    "Legislative": "0,19",
+    "Judicial": 5,
+    "rights": 56
+  },
+  {
+    "country": "Singapur",
+    "Year": 1963,
+    "Scope": "0,50",
+    "Length": 40.076,
+    "Executive": 4,
+    "Legislative": "0,24",
+    "Judicial": 3,
+    "rights": 18
+  },
+  {
+    "country": "República Eslovaca",
+    "Year": 1992,
+    "Scope": "0,67",
+    "Length": 18.402,
+    "Executive": 5,
+    "Legislative": "0,33",
+    "Judicial": 5,
+    "rights": 74
+  },
+  {
+    "country": "Eslovenia",
+    "Year": 1991,
+    "Scope": "0,61",
+    "Length": 11.406,
+    "Executive": 6,
+    "Legislative": "0,52",
+    "Judicial": 5,
+    "rights": 72
+  },
+  {
+    "country": "Islas Salomón",
+    "Year": 1978,
+    "Scope": "0,41",
+    "Length": 31.836,
+    "Executive": 1,
+    "Legislative": "0,05",
+    "Judicial": 4,
+    "rights": 41
+  },
+  {
+    "country": "Somalia",
+    "Year": 2012,
+    "Scope": "0,64",
+    "Length": 19.823,
+    "Executive": 5,
+    "Legislative": "0,33",
+    "Judicial": 1,
+    "rights": 57
+  },
+  {
+    "country": "Sudáfrica",
+    "Year": 1996,
+    "Scope": "0,64",
+    "Length": 43.062,
+    "Executive": 4,
+    "Legislative": "0,29",
+    "Judicial": 5,
+    "rights": 60
+  },
+  {
+    "country": "Corea del Sur",
+    "Year": 1948,
+    "Scope": "0,66",
+    "Length": 9.059,
+    "Executive": 5,
+    "Legislative": "0,38",
+    "Judicial": 4,
+    "rights": 56
+  },
+  {
+    "country": "Sudán del Sur",
+    "Year": 2011,
+    "Scope": "0,73",
+    "Length": 27.191,
+    "Executive": 6,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 48
+  },
+  {
+    "country": "España",
+    "Year": 1978,
+    "Scope": "0,63",
+    "Length": 17.608,
+    "Executive": 7,
+    "Legislative": "0,38",
+    "Judicial": 1,
+    "rights": 60
+  },
+  {
+    "country": "Sri Lanka",
+    "Year": 1978,
+    "Scope": "0,67",
+    "Length": 40.085,
+    "Executive": 5,
+    "Legislative": "0,19",
+    "Judicial": 4,
+    "rights": 40
+  },
+  {
+    "country": "Sudán",
+    "Year": 2005,
+    "Scope": "0,71",
+    "Length": 26.644,
+    "Executive": 6,
+    "Legislative": "0,38",
+    "Judicial": 2,
+    "rights": 49
+  },
+  {
+    "country": "Surinam",
+    "Year": 1987,
+    "Scope": "0,57",
+    "Length": 12.488,
+    "Executive": 3,
+    "Legislative": "0,24",
+    "Judicial": 2,
+    "rights": 48
+  },
+  {
+    "country": "Suazilandia",
+    "Year": 2005,
+    "Scope": "0,66",
+    "Length": 48.604,
+    "Executive": 2,
+    "Legislative": "0,29",
+    "Judicial": 5,
+    "rights": 61
+  },
+  {
+    "country": "Suecia",
+    "Year": 1974,
+    "Scope": "0,61",
+    "Length": 13.635,
+    "Executive": 5,
+    "Legislative": "0,52",
+    "Judicial": 1,
+    "rights": 34
+  },
+  {
+    "country": "Suiza",
+    "Year": 1999,
+    "Scope": "0,63",
+    "Length": 16.484,
+    "Executive": 1,
+    "Legislative": "0,33",
+    "Judicial": 1,
+    "rights": 65
+  },
+  {
+    "country": "Siria",
+    "Year": 2012,
+    "Scope": "0,63",
+    "Length": 8.154,
+    "Executive": 7,
+    "Legislative": "0,33",
+    "Judicial": 0,
+    "rights": 42
+  },
+  {
+    "country": "Taiwán",
+    "Year": 1947,
+    "Scope": "0,50",
+    "Length": 11.558,
+    "Executive": 2,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 29
+  },
+  {
+    "country": "Tayikistan",
+    "Year": 1994,
+    "Scope": "0,63",
+    "Length": 7.917,
+    "Executive": 5,
+    "Legislative": "0,24",
+    "Judicial": 3,
+    "rights": 65
+  },
+  {
+    "country": "Tanzania",
+    "Year": 1977,
+    "Scope": "0,59",
+    "Length": 35.651,
+    "Executive": 3,
+    "Legislative": "0,33",
+    "Judicial": 2,
+    "rights": 38
+  },
+  {
+    "country": "Tailandia",
+    "Year": 2014,
+    "Scope": "0,59",
+    "Length": 7.683,
+    "Executive": 5,
+    "Legislative": "0,14",
+    "Judicial": 1,
+    "rights": 2
+  },
+  {
+    "country": "Timor",
+    "Year": 2002,
+    "Scope": "0,64",
+    "Length": 15.307,
+    "Executive": 3,
+    "Legislative": "0,33",
+    "Judicial": 2,
+    "rights": 67
+  },
+  {
+    "country": "Togo",
+    "Year": 1992,
+    "Scope": "0,57",
+    "Length": 10.252,
+    "Executive": 6,
+    "Legislative": "0,29",
+    "Judicial": 1,
+    "rights": 49
+  },
+  {
+    "country": "Tonga",
+    "Year": 1875,
+    "Scope": "0,41",
+    "Length": 10.192,
+    "Executive": 4,
+    "Legislative": "0,29",
+    "Judicial": 1,
+    "rights": 20
+  },
+  {
+    "country": "Trinidad y Tobago",
+    "Year": 1976,
+    "Scope": "0,51",
+    "Length": 32.567,
+    "Executive": 3,
+    "Legislative": "0,10",
+    "Judicial": 3,
+    "rights": 33
+  },
+  {
+    "country": "Túnez",
+    "Year": 2014,
+    "Scope": "0,70",
+    "Length": 9.508,
+    "Executive": 7,
+    "Legislative": "0,38",
+    "Judicial": 2,
+    "rights": 45
+  },
+  {
+    "country": "Turquía",
+    "Year": 1982,
+    "Scope": "0,69",
+    "Length": 29.727,
+    "Executive": 5,
+    "Legislative": "0,38",
+    "Judicial": 4,
+    "rights": 68
+  },
+  {
+    "country": "Turkmenistan",
+    "Year": 2008,
+    "Scope": "0,50",
+    "Length": 5.735,
+    "Executive": 4,
+    "Legislative": "0,14",
+    "Judicial": 1,
+    "rights": 56
+  },
+  {
+    "country": "Tuvalu",
+    "Year": 1986,
+    "Scope": "0,40",
+    "Length": 34.801,
+    "Executive": 2,
+    "Legislative": "0,19",
+    "Judicial": 2,
+    "rights": 40
+  },
+  {
+    "country": "Estados Unidos de América",
+    "Year": 1789,
+    "Scope": "0,49",
+    "Length": 7.762,
+    "Executive": 1,
+    "Legislative": "0,38",
+    "Judicial": 3,
+    "rights": 35
+  },
+  {
+    "country": "Uganda",
+    "Year": 1995,
+    "Scope": "0,69",
+    "Length": 49.448,
+    "Executive": 2,
+    "Legislative": "0,24",
+    "Judicial": 5,
+    "rights": 70
+  },
+  {
+    "country": "Ucrania",
+    "Year": 1996,
+    "Scope": "0,66",
+    "Length": 19.299,
+    "Executive": 6,
+    "Legislative": "0,48",
+    "Judicial": 4,
+    "rights": 70
+  },
+  {
+    "country": "Emiratos árabes Unidos",
+    "Year": 1971,
+    "Scope": "0,47",
+    "Length": 11.557,
+    "Executive": 4,
+    "Legislative": "0,10",
+    "Judicial": 2,
+    "rights": 32
+  },
+  {
+    "country": "Reino Unido",
+    "Year": 1215,
+    "Scope": "0,43",
+    "Length": 54.408,
+    "Executive": 0,
+    "Legislative": "0,09",
+    "Judicial": 3,
+    "rights": 44
+  },
+  {
+    "country": "Uruguay",
+    "Year": 1985,
+    "Scope": "0,66",
+    "Length": 29.911,
+    "Executive": 5,
+    "Legislative": "0,48",
+    "Judicial": 1,
+    "rights": 54
+  },
+  {
+    "country": "Uzbekistan",
+    "Year": 1992,
+    "Scope": "0,59",
+    "Length": 7.941,
+    "Executive": 5,
+    "Legislative": "0,33",
+    "Judicial": 2,
+    "rights": 55
+  },
+  {
+    "country": "Vanuatu",
+    "Year": 1980,
+    "Scope": "0,51",
+    "Length": 8.425,
+    "Executive": 6,
+    "Legislative": "0,29",
+    "Judicial": 4,
+    "rights": 28
+  },
+  {
+    "country": "Venezuela",
+    "Year": 1999,
+    "Scope": "0,66",
+    "Length": 37.344,
+    "Executive": 6,
+    "Legislative": "0,38",
+    "Judicial": 1,
+    "rights": 82,
+    "selected": true
+  },
+  {
+    "country": "Vietnam",
+    "Year": 1992,
+    "Scope": "0,51",
+    "Length": 11.344,
+    "Executive": 2,
+    "Legislative": "0,43",
+    "Judicial": 0,
+    "rights": 45,
+    "selected": true
+  },
+  {
+    "country": "Zambia",
+    "Year": 1991,
+    "Scope": "0,63",
+    "Length": 30.696,
+    "Executive": 4,
+    "Legislative": "0,10",
+    "Judicial": 4,
+    "rights": 50
+  },
+  {
+    "country": "Zimbabue",
+    "Year": 2013,
+    "Scope": "0,81",
+    "Length": 55.883,
+    "Executive": 6,
+    "Legislative": "0,33",
+    "Judicial": 4,
+    "rights": 74
+  }
+]

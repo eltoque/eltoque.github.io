@@ -3,13 +3,16 @@
         <transition name="fade">
         <div v-show="isFixed" :class="{ 'is-fixed': isFixed }">
                 <div class="top-bar row">
-                    <div class="col-md-3 text-sm-center text-xs-center"><img src="/src/assets/logo.png" class="top-bar-logo"/></div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-3 text-sm-center text-xs-center">
+                        <img src="/src/assets/logo.png" class="top-bar-logo"/></div>
+                    <div :class="(hideNumbers)?'col-md-3 text-center':'col-md-6 text-center'">
+                        <div class="menu-phase"><span v-scroll-to="'#phase1'" :class="{actives: phase=='I'}">Fase I</span> - <span v-scroll-to="'#phase2'" :class="{actives: phase=='II'}">Fase II</span></div>
+                    </div>
+                    <div class="col-md-3 text-center" v-show="hideNumbers">
                             <a href="#question1" v-scroll-to="'#question1'" :class="{active: isActive(1)}" class="icon-title">1</a>
                             <a href="#question2" v-scroll-to="'#question2'" :class="{active: isActive(2)}" class="icon-title">2</a>
                             <a href="#question3" v-scroll-to="'#question3'" :class="{active: isActive(3)}" class="icon-title">3</a>
                             <a href="#question4" v-scroll-to="'#question4'" :class="{active: isActive(4)}" class="icon-title">4</a>
-
                     </div>
                     <div class="col-md-3 text-sm-center text-xs-center">
                         <navbar></navbar>
@@ -26,7 +29,7 @@
     import Navbar from "./Navbar";
 
     export default {
-        props: ["sect1", "sect2","sect3", "sect4", "whoactive"],
+        props: ["sect1", "sect2","sect3", "sect4", "whoactive", "phase"],
         components: {
             Navbar,
             FixedHeader
@@ -35,6 +38,14 @@
             return {
                 isFixed: false,
             }
+        },
+        computed:{
+          hideNumbers: function () {
+              if(this.phase == "" || this.phase == 'II'){
+                  return false;
+              }
+              return true;
+          }
         },
         methods:{
             isActive: function(item){
@@ -76,6 +87,10 @@
 </script>
 
 <style scoped>
+    .actives{
+        color:red !important;
+        /*text-shadow: 0 0 10px #6d6d6d;*/
+    }
     .active{
         background-color: #3d6277 !important;
     }
@@ -90,6 +105,17 @@
     }
     a:hover{
         text-decoration: none;
+    }
+    .menu-phase{
+        cursor: pointer;
+        font-family: Times New Roman, serif;
+        font-weight: bold;
+        color: #4c768c;;
+        margin: 0px auto;
+        padding-top: 5px;
+        text-align: center;
+        font-size: 19px;
+        letter-spacing: 3px;
     }
 
     @media (max-width: 468px) {

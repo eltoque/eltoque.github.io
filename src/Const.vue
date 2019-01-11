@@ -471,6 +471,7 @@
         left: 5px;
         width: 25px;
         background-image: url(/dist/assets/search.jpg);
+        margin-left: -25px;
     }
 
     .articulo {

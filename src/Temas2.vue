@@ -1,124 +1,141 @@
 <template>
-    <div class="cloud-component">
-        <transition name="fade">
+    <div class="container-fluid indrig">
 
-            <div class="container-win" v-show="showgraph">
-                <div class="graph-windows">
-                    <div @click="details=showgraph=false" class="closebuton">
+            <v-select
+                    class="topic-box"
+                    :items="temas"
+                    label="Temas"
+                    append-icon="fa fa-chevron-down"
+                    box
+                    @change="filteredArticles"
+            ></v-select>
+
+        <div class="graph-windowss" v-show="showgraph">
+            <div class="title-graph">{{grahtitle}}</div>
+            <div class="note">(Cada rectángulo representa un texto publicado. Haga click para ver más detalles.)</div>
+            <transition name="fade">
+                <div class="info-art" v-show="details" :style="{'background-color': activeColor}">
+                    <div @click="details=false" class="closebuton2">
                         <font-awesome-icon icon="times" size="lg" class="icon"></font-awesome-icon>
                     </div>
-                    <div class="title-graph">{{grahtitle}}</div>
-                    <div class="note">(Cada rectángulo representa un texto publicado. Haga click para ver más detalles.)</div>
-                    <transition name="fade">
-                        <div class="info-art" v-show="details" :style="{'background-color': activeColor}">
-                            <div @click="details=false" class="closebuton2">
-                                <font-awesome-icon icon="times" size="lg" class="icon"></font-awesome-icon>
-                            </div>
-                            <div class="title-art">{{title}}
-                            </div>
-                            <div class="authors">{{authors}}</div>
-                            <div class="d-flex down">
-                                <div class="d-flex justify-content-start medio">{{medios}}</div>
-                                <a :href="enlace" v-show="enlace" target="_blank"
-                                   class="d-flex justify-content-center link">
-                                    <font-awesome-icon icon="link" class="icon" size="2x"></font-awesome-icon>
-                                </a>
-                                <div class="d-flex justify-content-end date">{{date}}</div>
-                            </div>
-                        </div>
-                    </transition>
-                    <div class="axes" ref="axes"></div>
-                    <div class="d-flex"  v-if="activetype!='topic'">
-                        <div class="btn d-flex justify-content-start"
-                                @mousedown="goback(true)" @mouseup="goback(false)" :disabled="(astep==0)">
-                            <font-awesome-icon icon="caret-left" class="icon blucolor" size="lg"></font-awesome-icon>
-                        </div>
-                        <div class="btn d-flex justify-content-end"
-                                @mousedown="gonext(true)" @mouseup="gonext(false)"
-                                :disabled="astep ==steps">
-                            <font-awesome-icon icon="caret-right" class="icon blucolor" size="lg"></font-awesome-icon>
-                        </div>
+                    <div class="title-art">{{title}}
                     </div>
-                    <div class="legend-color-small">
-                        <div v-ripple class="box-color-small" style="background-color: rgb(184,184,194)"></div>
-                        <div class="legend">No aparece</div>
-                        <div v-ripple class="box-color-small" style="background-color: rgb(225,64,10)"></div>
-                        <div class="legend">Desacuerdo total</div>
-                        <div v-ripple class="box-color-small" style="background-color: rgb(175,101,56)"></div>
-                        <div class="legend">Desacuerdo</div>
-                        <div v-ripple class="box-color-small" style="background-color: rgb(2,166,141)"></div>
-                        <div class="legend">Neutro</div>
-                        <div v-ripple class="box-color-small" style="background-color: rgb(1,142,188)"></div>
-                        <div class="legend">Acuerdo</div>
-                        <div v-ripple class="box-color-small" style="background-color: rgb(1,81,196)"></div>
-                        <div class="legend">Acuerdo total</div>
+                    <div class="authors">{{authors}}</div>
+                    <div class="d-flex down">
+                        <div class="d-flex justify-content-start medio">{{medios}}</div>
+                        <a :href="enlace" v-show="enlace" target="_blank"
+                           class="d-flex justify-content-center link">
+                            <font-awesome-icon icon="link" class="icon" size="2x"></font-awesome-icon>
+                        </a>
+                        <div class="d-flex justify-content-end date">{{date}}</div>
                     </div>
+                </div>
+            </transition>
+            <div class="axes" ref="axes"></div>
+            <div class="d-flex" v-if="activetype!='topic'">
+                <div class="btn d-flex justify-content-start"
+                     @mousedown="goback(true)" @mouseup="goback(false)" :disabled="(astep==0)">
+                    <font-awesome-icon icon="caret-left" class="icon blucolor" size="lg"></font-awesome-icon>
+                </div>
+                <div class="btn d-flex justify-content-end"
+                     @mousedown="gonext(true)" @mouseup="gonext(false)"
+                     :disabled="astep ==steps">
+                    <font-awesome-icon icon="caret-right" class="icon blucolor" size="lg"></font-awesome-icon>
                 </div>
             </div>
-        </transition>
-
-        <div class="row">
-            <div class="listTopics col-lg-3">
-                <template v-for="med in medialist">
-                    <div class="btn-group">
-                        <button type="button" v-scroll-to="sizing" :class="isselected(med)" v-ripple class="btn btn-info cloud-btn"
-                                @click="updateMedio(med)"> {{med}}
-                        </button>
-                        <button type="button" :class="isselectedgraph(med)" v-ripple class="btn btn-info graph-btn"
-                                @click="updateMedioGraph(med)">
-                            <font-awesome-icon icon="chart-bar" class="icon"></font-awesome-icon>
-                        </button>
-                    </div>
-                </template>
-                <div><a class="noteb" href="https://eltoque.com/debates-paralelos/" target="_blank">Ver Análisis de los resultados</a>
-                </div>
+            <div class="legend-color-small">
+                <div v-ripple class="box-color-small" style="background-color: rgb(184,184,194)"></div>
+                <div class="legend">No aparece</div>
+                <div v-ripple class="box-color-small" style="background-color: rgb(225,64,10)"></div>
+                <div class="legend">Desacuerdo total</div>
+                <div v-ripple class="box-color-small" style="background-color: rgb(175,101,56)"></div>
+                <div class="legend">Desacuerdo</div>
+                <div v-ripple class="box-color-small" style="background-color: rgb(2,166,141)"></div>
+                <div class="legend">Neutro</div>
+                <div v-ripple class="box-color-small" style="background-color: rgb(1,142,188)"></div>
+                <div class="legend">Acuerdo</div>
+                <div v-ripple class="box-color-small" style="background-color: rgb(1,81,196)"></div>
+                <div class="legend">Acuerdo total</div>
             </div>
-            <div class="col-lg-9" ref="colcanvas"  id="word-cloud">
-                <canvas :width="width" :height="height" class="wordCloud" ref="wordCloud"></canvas>
-                <div class="legend-color">
-                    <div v-ripple class="box-color" style="background-color: rgb(184,184,194)"></div>
-                    <div class="legend">No aparece</div>
-                    <div v-ripple class="box-color" style="background-color: rgb(225,64,10)"></div>
-                    <div class="legend">Desacuerdo total</div>
-                    <div v-ripple class="box-color" style="background-color: rgb(175,101,56)"></div>
-                    <div class="legend">Desacuerdo</div>
-                    <div v-ripple class="box-color" style="background-color: rgb(2,166,141)"></div>
-                    <div class="legend">Neutro</div>
-                    <div v-ripple class="box-color" style="background-color: rgb(1,142,188)"></div>
-                    <div class="legend">Acuerdo</div>
-                    <div v-ripple class="box-color" style="background-color: rgb(1,81,196)"></div>
-                    <div class="legend">Acuerdo total</div>
-                </div>
-                <div class="note">Las valoraciones son con respecto al texto del proyecto constitucional.</div>
+        </div>
 
+        <div v-for="(item, index) in showedArt">
+            <template v-if="item.tag == 'h4'">
+
+                <h4 :key="index" :class="item.style">+ {{item.texto}}</h4>
+
+            </template>
+            <div v-if="item.inside" class="text-article container-fluid">
+                <div class="row" v-for="(art, secindex) in item.inside">
+                    <div class="col"><p class="text-justify">{{art.texto}}</p></div>
+                    <div v-if="art.compared != '' && art.type == 'comp'" class="col"><p
+                            class="text-justify article-comparable"
+                            v-html="art.compared"></p></div>
+                    <!--<span class="badge-success">{{(art.type=='nu')?"NUEVO":""}}</span>-->
+                    <!--<span class="badge-info">{{(art.type=='equ')?"IGUAL":""}}</span>-->
+                    <div class="w-100"></div>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-    import datos from './assets/nube.json';
-    import * as  wc from 'wordcloud'
-    import * as d3 from "d3";
+    import {Affix} from 'vue-affix';
     import {library} from '@fortawesome/fontawesome-svg-core'
-    import {faChartBar, faTimes, faLink, faCaretLeft, faCaretRight} from '@fortawesome/free-solid-svg-icons'
+    import {
+        faEye,
+        faEyeSlash,
+        faChevronDown,
+        faChevronUp,
+        faChartBar,
+        faTimes,
+        faLink,
+        faCaretLeft,
+        faCaretRight
+    } from '@fortawesome/free-solid-svg-icons'
     import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
+    import borrador from './assets/borrador.json'
+    import datos from './assets/nube.json';
+    import * as d3 from "d3";
 
+    library.add(faEye, faEyeSlash, faChevronDown, faChevronUp)
     library.add(faChartBar)
     library.add(faTimes)
     library.add(faLink)
     library.add(faCaretLeft)
     library.add(faCaretRight)
-
     export default {
-        name: "Cloud",
+        name: "Temas",
         components: {
-            FontAwesomeIcon
+            Affix, FontAwesomeIcon
         },
-        data() {
-            return {
+        created() {
+            window.addEventListener('resize', this.handleResize)
+            this.handleResize();
+        },
+        destroyed() {
+            window.removeEventListener('resize', this.handleResize)
+        },
+        mounted(){
+            this.loadWordlist()
+        },
+        data: () => ({
                 textos: datos,
+                temas: ["Creación artística intelectual", "Discriminación racial", "Autonomía municipal", "Superioridad Partido Comunista", "Organizaciones de masas y sociales", "Discriminación", "Pobreza", "Relaciones internacionales", "Reclamación ante organismos internacionales", "Concentración de la propiedad", "Derecho Inversión de nacionales", "Cooperativismo", "Declaración jurada de los funcionarios", "Feminicidio", "Proceso judicial/legal", "Proceso penal", "Personas privadas de libertad", "Inviolabilidad comunicaciones personales", "Habeas data", "Libertad de expresión", "Derecho a réplica", "Reconocimiento de la eutanasia", "Vivienda", "Adultos mayores", "Derecho de asociación", "Educación", "Revocación", "Tribunal Constitucional", "Territorialidad de los diputados", "Defensor del Pueblo", "Respeto a la Constitución por los funcionarios", "Participación ciudadana", "Derechos cubanos residentes extranjero", "Indemnización", "Preámbulo", "Libertad de ideología", "idioma", "Medios de Comunicación", "Violencia familiar", "Salario", "Trabajo", "Alimentación", "Funcionamiento de la ANPP", "Derechos diputados", "Firmas reforma constitución", "Elección del presidente", "Elección de diputados", "Protección a trabajadores nacionales", "Participación en conflictos bélicos foráneos", "Bienestar animal", "Prohibición de pena de muerte", "Incompatibilidad de funciones de los diputados", "Matrimonio", "Concentración de la riqueza", "Inviolabilidad del domicilio", "Fuerzas Armadas", "Consejo Defensa Nacional", "Pluripartidismo", "Formas de propiedad", "Economía mixta", "Reconocimiento propiedad privada", "Propiedad socialista de todo el pueblo", "Derechos humanos", "Objeción de conciencia", "Propiedad intelectual", "Control popular", "Símbolos patrios", "Religión", "Limitación de mandatos", "Ciudadanía a extranjeros", "Gobernador", "Irrevocabilidad del socialismo", "Igualdad", "Círculos infantiles", "Salud", "Leyes", "Derecho al agua", "Exclusión del término comunismo y otros", "Intendente", "Estado y Sistema de Gobierno", "Republicanismo", "Propiedad social  (subsuelo, playas, etc.)", "Responsabilidades del Estado", "Sistema Económico", "Defensa derechos constitucionales", "Consejo Provincial", "Empresa estatal socialista", "Consejo de Ministros", "Elección del Primer Ministro", "Tribunales de Justicia", "Inversión extranjera", "Laicismo", "Estado Socialista de Derecho", "Contraloría General de la República", "Consejo Electoral Nacional", "Doble ciudadanía y ciudadanía efectiva", "Derecho de huelga", "Igualación Estado-Nación", "Funciones Primer Ministro", "Límite edad presidente", "Traición a la Patria", "Seguridad social", "Elección presidente municipal", "Moneda Oficial", "Funciones del presidente", "Edad electoral", "Defensa   ", "Propiedad comunitaria", "Reconocimiento de minorías", "Consejo Popular", "Partido único", "Modificar nombre del país", "Eliminar exigencia pasaporte", "Soberanía Ciberespacio", "Lucha armada", "Propiedad de las organizaciones", "Fiscalía", "Confiscación de propiedades", "Libertad de movimiento", "Acceso a la propiedad", "Consejo de Estado", "Derechos de extranjeros no residentes", "Derechos de los refugiados", "Investigación", "Deporte, Educación Física y Recreación", "Respeto de la privacidad e intimidad", "Asamblea Municipal", "Propiedad mixta", "Prohibición trabajo infantil", "Diversificación del financiamiento del deporte", "Derecho al aborto", "Exilio", "Proyección socialista", "Acceso a TICS", "Derecho de sucesión", "Sindicatos"],
+                articles: borrador,
+                grahtitle: "",
+                details: false,
                 astep: 0,
+                steps: 0,
+                showedArt: [],
+                temasaxis: [],
+                startpoint: 0,
+                medio: "Todos",
+                types: {},
+                rotate: 0,
+                labelshowing: null,
+                topic: null,
                 padding: 1,
                 title: "",
                 ordererMapList: null,
@@ -126,52 +143,130 @@
                 authors: "",
                 activeColor: "red",
                 medios: "",
+                wordlist: [],
                 date: "",
                 list: [],
                 timeout: null,
                 enlace: "",
-                temasaxis: [],
-                steps: 0,
-                height: 500,
-                startpoint: 0,
-                grahtitle: "",
-                details: false,
-                medio: "Todos",
-                types: {},
-                rotate: 0,
-                labelshowing: null,
-                topic: null,
                 showgraph: null,
                 colors: {
-                    0: "rgb(184,184,194)",
-                    1: "rgb(225,64,10)",
-                    2: "rgb(175,101,56)",
-                    3: "rgb(2,166,141)",
-                    4: "rgb(1,142,188)",
-                    5: "rgb(1,81,196)",
+                        0: "rgb(184,184,194)",
+                        1: "rgb(225,64,10)",
+                        2: "rgb(175,101,56)",
+                        3: "rgb(2,166,141)",
+                        4: "rgb(1,142,188)",
+                        5: "rgb(1,81,196)",
                 }
-
             }
-        },
-        // created(){
-        //     this.width = this.$refs.colcanvas.getBoundingClientRect().width;
-        // },
-        mounted() {
-            this.createCanvas()
-
-        },
-        watch: {
-            width() {
-                this.createCanvas()
+        ),
+        computed: {
+            sizing: function () {
+                if (this.widths < 468)
+                    return "#mapshow"
+                return false
             },
-            height() {
-                this.createCanvas()
+            heightgraph: function () {
+                return (window.innerWidth < 800) ? 300 : 370;
             },
+            width: function () {
+                return (window.innerWidth < 800) ? window.innerWidth : 800;
+            },
+            medialist: function () {
+                let medias = new Set();
+                let salida = this.textos
 
+                for (let text of salida) {
+                    medias.add(text.medio)
+                }
+                let exit = [];
+                for (let m of medias.entries())
+                    exit.push(m[0])
+
+                exit.sort()
+                exit.push(exit[0])
+                exit[0] = "Todos"
+                return exit;
+            },
         },
         methods: {
-            iluminate(type){
+            handleResize() {
+                this.widths = window.innerWidth;
+            },
+            loadWordlist: function () {
+                let media = this.medio;
+                let salida = this.textos
+                //Todo: Funcion que calcula la moda dado una arreglo
+                let calcModa = function (numbers) {
+                    var modes = [], count = [], i, number, maxIndex = 0;
 
+                    for (i = 0; i < numbers.length; i += 1) {
+                        number = numbers[i];
+                        count[number] = (count[number] || 0) + 1;
+                        if (count[number] > maxIndex) {
+                            maxIndex = count[number];
+                        }
+                    }
+
+                    for (i in count)
+                        if (count.hasOwnProperty(i)) {
+                            if (count[i] === maxIndex) {
+                                modes.push(Number(i));
+                            }
+                        }
+
+                    return modes[0];
+                }
+                let wordlist = {}
+                for (let text of salida) {
+                    if (!media || (media && media == text.medio) || media == "Todos") {
+                        if (text.temas)
+                            for (let topic of text.temas) {
+                                if (wordlist[topic.codtema]) {
+                                    wordlist[topic.codtema].weight++
+                                    wordlist[topic.codtema].attributes.push(topic.clasif)
+                                } else {
+                                    wordlist[topic.codtema] = {
+                                        word: topic.name,
+                                        den: topic.denom,
+                                        weight: 1,
+                                        attributes: [topic.clasif]
+                                    }
+                                }
+                            }
+                    }
+                }
+                let words = []
+                this.types = {}
+                for (let wordl in wordlist) {
+                    this.types[wordlist[wordl].word] = calcModa(wordlist[wordl].attributes)
+                    words.push(wordlist[wordl])
+                }
+                this.temasaxis = []
+                for (let el in this.types) {
+                    this.temasaxis.push(el)
+                }
+
+                words.sort((a, b) => b.weight - a.weight)
+                this.wordlist = words;
+            },
+            filteredArticles: function (filter) {
+                for(let wword of this.wordlist){
+                    if (wword.den == filter){
+                        filter = wword;
+                        break;
+                    }
+                }
+                this.showgraph = true;
+                this.topic = filter
+                this.astep = 0;
+                this.steps = 0;
+                this.drawGraph('topic')
+
+                this.showedArt = this.articles.filter((el) => {
+                    if (el.topics && el.topics.length > 0) {
+                        return el.topics.includes(filter.den)
+                    }
+                })
             },
             gonext: function (goahead) {
                 let me = this;
@@ -222,6 +317,7 @@
                 else
                     this.labelshowing = id
             },
+
             drawGraph: function (type, noanim) {
                 this.activetype = type;
                 this.details = false
@@ -229,7 +325,6 @@
                 let size = 12;
                 let medias = this.medialist.slice(1)
                 let topics = this.temasaxis
-
                 let n = (type == 'topic') ? medias.length : topics.length
                 let steps = this.steps = n - size
 
@@ -261,7 +356,7 @@
                         mapCount.set((type == "topic") ? tex.medio : tex.word, mapCount.get((type == "topic") ? tex.medio : tex.word) + 1)
                     }
 
-                    mapCount = this.ordererMapList= new Map(
+                    mapCount = this.ordererMapList = new Map(
                         Array
                             .from(mapCount)
                             .sort((a, b) => {
@@ -281,12 +376,13 @@
                 d3.select(this.$refs.axes).select("svg").remove()
 
                 let tempList = (type == "topic") ? this.list : this.list.slice(this.astep, size + this.astep)
+
                 var axisScaleX = d3.scalePoint()
                     .domain(tempList)
                     .padding(20)
                     .range([0, width]);
 
-                let topY = (this.ordererMapList.get(tempList[0])>30)?this.ordererMapList.get(tempList[0]):30;
+                let topY = (this.ordererMapList.get(tempList[0]) > 30) ? this.ordererMapList.get(tempList[0]) : 30;
 
                 var axisScaleY = d3.scaleLinear()
                     .domain([0, topY])
@@ -464,49 +560,6 @@
             onWordClick: function (word) {
                 console.log(word)
             },
-            updateMedio: function (medio) {
-                this.topic = null
-                this.medio = medio;
-                this.createCanvas()
-            },
-            updateMedioGraph: function (medio) {
-                this.topic = null
-                this.showgraph = true;
-                this.medio = medio;
-                this.createCanvas()
-                this.astep = 0;
-                this.steps = 0;
-                this.drawGraph('medio')
-            },
-            createCanvas: function () {
-                let me = this;
-                wc(this.$refs.wordCloud, {
-                    list: this.wordlist,
-                    gridSize: 7,
-                    clearCanvas: true,
-                    weightFactor: function (size) {
-                        return me.maprange(size)
-                    },
-                    color: function (word, weight, fontSize, distance, theta) {
-                        return me.colors[me.types[word]]
-                    },
-                    drawOutOfBound: false,
-                    rotateRatio: 0,
-                    fontSize: function (size) {
-                        return size + 10
-                    },
-                    rotationSteps: 2,
-                    click: function (item, dimension, event) {
-                        // me.medio = null
-                        me.showgraph = true;
-                        me.topic = item
-                        me.astep = 0;
-                        me.steps = 0;
-                        me.drawGraph('topic')
-                    }
-                    // backgroundColor: '#FFF'
-                });
-            },
             getMediaByTopic: function (tema, list) {
                 let wordlist = []
                 for (let text of this.textos) {
@@ -560,120 +613,46 @@
                     return 'btn-select-graph'
                 return ""
             }
-        },
-        computed: {
-            sizing: function () {
-                if (this.width < 468)
-                    return "#word-cloud"
-                return false
-            },
-            heightgraph:function(){
-                return  (window.innerWidth < 800)? 300: 370;
-            },
-            width: function(){
-                return  (window.innerWidth < 800)? window.innerWidth: 800;
-            },
-            medialist: function () {
-                let medias = new Set();
-                let salida = this.textos
-
-                for (let text of salida) {
-                    medias.add(text.medio)
-                }
-                let exit = [];
-                for (let m of medias.entries())
-                    exit.push(m[0])
-
-                exit.sort()
-                exit.push(exit[0])
-                exit[0] = "Todos"
-                return exit;
-            },
-            wordlist: function () {
-                let media = this.medio;
-                let salida = this.textos
-                //Todo: Funcion que calcula la moda dado una arreglo
-                let calcModa = function (numbers) {
-                    var modes = [], count = [], i, number, maxIndex = 0;
-
-                    for (i = 0; i < numbers.length; i += 1) {
-                        number = numbers[i];
-                        count[number] = (count[number] || 0) + 1;
-                        if (count[number] > maxIndex) {
-                            maxIndex = count[number];
-                        }
-                    }
-
-                    for (i in count)
-                        if (count.hasOwnProperty(i)) {
-                            if (count[i] === maxIndex) {
-                                modes.push(Number(i));
-                            }
-                        }
-
-                    return modes[0];
-                }
-                let wordlist = {}
-                for (let text of salida) {
-                    if (!media || (media && media == text.medio) || media == "Todos") {
-                        if (text.temas)
-                            for (let topic of text.temas) {
-                                if (wordlist[topic.codtema]) {
-                                    wordlist[topic.codtema].weight++
-                                    wordlist[topic.codtema].attributes.push(topic.clasif)
-                                } else {
-                                    wordlist[topic.codtema] = {
-                                        word: topic.name,
-                                        den: topic.denom,
-                                        weight: 1,
-                                        attributes: [topic.clasif]
-                                    }
-                                }
-                            }
-                    }
-                }
-                let words = []
-                this.types = {}
-                for (let wordl in wordlist) {
-                    this.types[wordlist[wordl].word] = calcModa(wordlist[wordl].attributes)
-                    words.push(wordlist[wordl])
-                }
-                this.temasaxis = []
-                for (let el in this.types) {
-                    this.temasaxis.push(el)
-                }
-
-                words.sort((a, b) => b.weight - a.weight)
-                return words;
-            }
         }
     }
+
 </script>
 
-<style>
+<style scoped>
+    .topic-box {
+        max-width: 400px;
+        height: 100px;
+    }
+
     @media (max-width: 468px) {
         .graph-windows {
             margin: 10px auto !important;
         }
+
         .cloud-btn {
             width: 90% !important;
         }
-        .graph-btn{
+
+        .graph-btn {
             width: 10% !important;
         }
-        .listTopics > .btn-group{
+
+        .listTopics > .btn-group {
             width: 100% !important;
         }
+
         .closebuton {
             margin-right: 12px !important;
         }
+
         .info-art {
             left: 80% !important;
             margin-left: -70% !important;
             width: 80% !important;
-            height: 250px !important    ;
+            height: 250px !important;
         }
     }
+
     .dot {
         cursor: pointer;
     }
@@ -788,11 +767,9 @@
 
     }
 
-    .graph-windows {
-        margin: 80px auto;
-        filter: drop-shadow(0 1px 4px rgba(0, 0, 0, .6));
+    .graph-windowss {
+        margin: 20px auto;
         max-width: 800px;
-        background-color: rgb(255, 255, 255);
         z-index: 10000;
     }
 
@@ -883,7 +860,8 @@
         line-height: 30px;
 
     }
-    .blucolor{
+
+    .blucolor {
         color: #33ccb2;
     }
 
@@ -894,5 +872,4 @@
         margin-top: 10px;
         color: #a8a8a8 !important;
     }
-
 </style>

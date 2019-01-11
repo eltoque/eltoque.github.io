@@ -22,6 +22,7 @@ import Topic from "./Topic2.vue"
 import Comment from "./Comment.vue"
 import FixedBar from "./FixedBar.vue"
 import OtherArticles from "./OtherArticles.vue"
+import IndexRights from "./IndexRights.vue"
 import CommentButton from "./CommentButton.vue"
 import Cloud from "./Cloud.vue"
 import Countries from "./Countries.vue"
@@ -29,12 +30,15 @@ import Autocomplete from 'buefy/dist/components/autocomplete'
 import Toast from 'buefy/dist/components/toast'
 import VueWow from 'vue-wow'
 import VueAnalytics from 'vue-analytics'
+import Borrador from './Borrador.vue'
 
 var VueScrollTo = require('vue-scrollto');
 var SocialSharing = require('vue-social-sharing');
 Vue.use(SocialSharing);
 
 import Navbar from "./Navbar.vue"
+import Temas from "./Temas.vue"
+
 import {
     faFileDownload,
 } from '@fortawesome/free-solid-svg-icons';
@@ -63,45 +67,77 @@ new Vue({
     el: '#app',
 
     components: {
-        Donut, Const, Rights, Navbar, Topic, Comment, FixedBar, CommentButton, OtherArticles, LawCards, Cloud, Countries
+        Donut,
+        Const,
+        Rights,
+        Navbar,
+        Topic,
+        Comment,
+        FixedBar,
+        CommentButton,
+        OtherArticles,
+        LawCards,
+        Cloud,
+        Countries,
+        IndexRights,
+        Borrador,
+        Temas
     },
     methods: {
         onScroll(e) {
-            if (this.$el.querySelector("#question1").getBoundingClientRect().top - 60 > 0) {
+            if (this.$el.querySelector("#phase2").getBoundingClientRect().top - 60 > 0) {
                 this.activeSect = 0
+                this.actualphase = ""
+            }
+            if (this.$el.querySelector("#phase2").getBoundingClientRect().top - 60 < 0) {
+                this.actualphase = "II"
+                this.activeSect = 5
+            }
+            if (this.$el.querySelector("#phase1").getBoundingClientRect().top - 60 < 0) {
+                this.actualphase = "I"
             }
             this.offsetSect1 = this.$el.querySelector("#question1").getBoundingClientRect().top - 60
             this.offsetSect2 = this.$el.querySelector("#question2").getBoundingClientRect().top - 60
             this.offsetSect3 = this.$el.querySelector("#question3").getBoundingClientRect().top - 60
             this.offsetSect4 = this.$el.querySelector("#question4").getBoundingClientRect().top - 60
         },
-        openmeth: function(){
+        openmeth: function () {
 
         },
-        open: function(url){
+        open: function (url) {
             switch (url) {
-                case "meth": window.open('https://eltoque.com/como-construimos-el-especial-de-la-constitucion','_blank'); break;
-                case "proy": window.open('https://constitucion.eltoque.com/proyecto.html','_blank'); break;
-                case "vig": window.open('https://constitucion.eltoque.com/vigente.html','_blank'); break;
-                case "off": window.open('https://constitucion.eltoque.com/dist/assets/Especial_Offline.zip','_blank'); break;
+                case "meth":
+                    window.open('https://eltoque.com/como-construimos-el-especial-de-la-constitucion', '_blank');
+                    break;
+                case "proy":
+                    window.open('https://constitucion.eltoque.com/proyecto.html', '_blank');
+                    break;
+                case "vig":
+                    window.open('https://constitucion.eltoque.com/vigente.html', '_blank');
+                    break;
+                case "off":
+                    window.open('https://constitucion.eltoque.com/dist/assets/Especial_Offline.zip', '_blank');
+                    break;
             }
 
         },
         getValue: function (el) {
             this.activeSect = el
         },
-        track () {
+        track() {
             this.$ga.page('/')
         }
     },
     data() {
         this.track();
         return {
-        offsetSect1: 0,
-        offsetSect2: 0,
-        offsetSect3: 0,
-        offsetSect4: 0,
-        activeSect: 0,
-    }}
+            actualphase: "",
+            offsetSect1: 0,
+            offsetSect2: 0,
+            offsetSect3: 0,
+            offsetSect4: 0,
+            activeSect: 0,
+        }
+    }
     // render: h => h(App)
 })

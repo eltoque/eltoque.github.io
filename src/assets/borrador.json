@@ -5,8 +5,8 @@
     "type": "equ",
     "new": "",
     "compared": "",
-    "tag": "h4",
-    "style": "articulo",
+    "tag": "h1",
+    "style": "titulo",
     "inside": [
       {
         "texto": "NOSOTROS, EL PUEBLO DE CUBA,",
@@ -281,7 +281,7 @@
     ]
   },
   {
-    "texto": "TÍTULO I FUNDAMENTOS POLÍTICOS",
+    "texto": "TÍTULO I: FUNDAMENTOS POLÍTICOS",
     "similarity": 1,
     "type": "equ",
     "new": "",
@@ -424,6 +424,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "El Partido Comunista de Cuba, único, martiano, fidelista, marxista y leninista, vanguardia organizada de la nación cubana, sustentado en su carácter democrático y la permanente vinculación con el pueblo, es la fuerza política dirigente superior de la sociedad y del Estado. Organiza y orienta los esfuerzos comunes en la construcción del socialismo y el avance hacia la sociedad comunista. Trabaja por preservar y fortalecer la unidad patriótica de los cubanos y por desarrollar valores éticos, morales y cívicos.",
@@ -483,6 +484,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "Lo prescrito en los tratados internacionales en vigor para la República de Cuba forma parte o se integra, según corresponda, al ordenamiento jurídico nacional. La Constitución de la República de Cuba prima sobre estos tratados internacionales.",
@@ -753,6 +755,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "El Estado reconoce, respeta y garantiza la libertad religiosa.",
@@ -990,7 +993,7 @@
     ]
   },
   {
-    "texto": "TÍTULO II FUNDAMENTOS ECONÓMICOS",
+    "texto": "TÍTULO II: FUNDAMENTOS ECONÓMICOS",
     "similarity": 1,
     "type": "equ",
     "new": "",
@@ -1111,6 +1114,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "Se reconocen como formas de propiedad, las siguientes:",
@@ -1221,6 +1225,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "Son de propiedad socialista de todo el pueblo: las tierras que no pertenecen a particulares o a cooperativas integradas por estos, el subsuelo, los yacimientos minerales, las minas, los bosques, las aguas, las playas, las vías de comunicación y los recursos naturales tanto vivos como no vivos dentro de la zona económica exclusiva de la República.",
@@ -1511,11 +1516,11 @@
     ]
   },
   {
-    "texto": "TÍTULO III FUNDAMENTOS DE LA POLÍTICA EDUCACIONAL, CIENTÍFICA Y CULTURAL",
-    "similarity": 0.7654320987654321,
+    "texto": "TÍTULO III: FUNDAMENTOS DE LA POLÍTICA EDUCACIONAL, CIENTÍFICA Y CULTURAL",
+    "similarity": 0.7951807228915663,
     "type": "comp",
     "new": "TÍTULO V: Principios de la Política Educacional, Científica y Cultural",
-    "compared": "TÍTULO <del>V: Principios de la Política Educacional </del><ins>III FUNDAMENTOS DE LA POLÍTICA EDUCACIONAL</ins>, <del>Científica y Cultural</del><ins>CIENTÍFICA Y CULTURAL</ins>",
+    "compared": "TÍTULO <del>V </del><ins>III</ins>: <del>PRINCIPIOS </del><ins>FUNDAMENTOS </ins>DE LA POLÍTICA EDUCACIONAL, CIENTÍFICA Y CULTURAL",
     "tag": "h1",
     "style": "titulo"
   },
@@ -1655,11 +1660,11 @@
     ]
   },
   {
-    "texto": "TÍTULO IV CIUDADANÍA",
+    "texto": "TÍTULO IV: CIUDADANÍA",
     "similarity": 0.88,
     "type": "comp",
     "new": "TÍTULO III: Ciudadanía",
-    "compared": "TÍTULO <del>III: Ciudadanía</del><ins>IV CIUDADANÍA</ins>",
+    "compared": "TÍTULO <del>III </del><ins>IV</ins>: CIUDADANÍA",
     "tag": "h1",
     "style": "titulo"
   },
@@ -1775,6 +1780,7 @@
     "texto": "ARTÍCULO: 36",
     "compared": "",
     "tag": "h4",
+    "important": "",
     "style": "articulo",
     "inside": [
       {
@@ -1856,11 +1862,11 @@
     ]
   },
   {
-    "texto": "TÍTULO V DERECHOS, DEBERES Y GARANTÍAS",
+    "texto": "TÍTULO V: DERECHOS, DEBERES Y GARANTÍAS",
     "similarity": 0.972972972972973,
     "type": "comp",
     "new": "TÍTULO IV: Derechos, Deberes y Garantías",
-    "compared": "TÍTULO <del>IV: Derechos </del><ins>V DERECHOS</ins>, <del>Deberes y Garantías</del><ins>DEBERES Y GARANTÍAS</ins>",
+    "compared": "TÍTULO <del>IV </del><ins>V</ins>: DERECHOS, DEBERES Y GARANTÍAS",
     "tag": "h1",
     "style": "titulo"
   },
@@ -1916,6 +1922,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "Todas las personas son iguales ante la ley, reciben la misma protección y trato de las autoridades y gozan de los mismos derechos, libertades y oportunidades, sin ninguna discriminación por razones de sexo, género, orientación sexual, identidad de género, edad, origen étnico, color de la piel, creencia religiosa, discapacidad, origen nacional o territorial, o cualquier otra condición o circunstancia personal que implique distinción lesiva a la dignidad humana.",
@@ -2274,6 +2281,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "Se reconoce a las personas la libertad de prensa. Este derecho se ejerce de conformidad con la ley y los fines de la sociedad.",
@@ -2561,6 +2569,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "Toda persona tiene derecho a que su trabajo se remunere en función de la calidad y cantidad, expresión del principio de distribución socialista “de cada cual según su capacidad, a cada cual según su trabajo”.",
@@ -2734,6 +2743,7 @@
     "texto": "ARTÍCULO: 71",
     "compared": "",
     "tag": "h4",
+    "important": "",
     "style": "articulo",
     "inside": [
       {
@@ -2766,6 +2776,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "La salud pública es un derecho de todas las personas y es responsabilidad del Estado garantizar el acceso, la gratuidad y la calidad de los servicios de atención, protección y recuperación.",
@@ -3017,6 +3028,7 @@
     "texto": "ARTÍCULO: 80",
     "compared": "",
     "tag": "h4",
+    "important": "",
     "style": "articulo",
     "inside": [
       {
@@ -3248,6 +3260,7 @@
     "texto": "ARTÍCULO: 84",
     "compared": "",
     "tag": "h4",
+    "important": "",
     "style": "articulo",
     "inside": [
       {
@@ -3320,6 +3333,7 @@
     "texto": "ARTÍCULO: 86",
     "compared": "",
     "tag": "h4",
+    "important": "",
     "style": "articulo",
     "inside": [
       {
@@ -3352,6 +3366,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "El Estado, la sociedad y las familias reconocen a las personas jóvenes como activos participantes en la sociedad, a tales efectos crean las condiciones para el pleno ejercicio de sus derechos y su desarrollo integral.",
@@ -3424,6 +3439,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "",
     "inside": [
       {
         "texto": "El ejercicio de los derechos y libertades previstos en esta Constitución implican responsabilidades. Son deberes de los ciudadanos cubanos, además de los otros establecidos en esta Constitución y las leyes:",
@@ -3882,6 +3898,7 @@
     "texto": "ARTÍCULO: 96",
     "compared": "",
     "tag": "h4",
+    "important": "",
     "style": "articulo",
     "inside": [
       {
@@ -3925,6 +3942,7 @@
     "texto": "ARTÍCULO: 98",
     "compared": "",
     "tag": "h4",
+    "important": "",
     "style": "articulo",
     "inside": [
       {
@@ -3995,11 +4013,11 @@
     ]
   },
   {
-    "texto": "TÍTULO VI ESTRUCTURA DEL ESTADO",
-    "similarity": 0.9444444444444444,
-    "type": "comp",
-    "new": "TÍTULO VI: Estructura del Estado",
-    "compared": "TÍTULO VI<del>: Estructura del Estado</del><ins>ESTRUCTURA DEL ESTADO</ins>",
+    "texto": "TÍTULO VI: ESTRUCTURA DEL ESTADO",
+    "similarity": 1,
+    "type": "equ",
+    "new": "",
+    "compared": "",
     "tag": "h1",
     "style": "titulo"
   },
@@ -4016,6 +4034,7 @@
     "texto": "ARTÍCULO: 101",
     "compared": "",
     "tag": "h4",
+    "important": "",
     "style": "articulo",
     "inside": [
       {
@@ -5065,6 +5084,7 @@
     "texto": "ARTÍCULO: 122",
     "compared": "",
     "tag": "h4",
+    "important": "",
     "style": "articulo",
     "inside": [
       {
@@ -7173,11 +7193,11 @@
     ]
   },
   {
-    "texto": "TÍTULO VII ORGANIZACIÓN TERRITORIAL DEL ESTADO",
-    "similarity": 0.9629629629629629,
-    "type": "comp",
-    "new": "TÍTULO VII: Organización Territorial del Estado",
-    "compared": "TÍTULO VII<del>: Organización Territorial del Estado</del><ins>ORGANIZACIÓN TERRITORIAL DEL ESTADO</ins>",
+    "texto": "TÍTULO VII: ORGANIZACIÓN TERRITORIAL DEL ESTADO",
+    "similarity": 1,
+    "type": "equ",
+    "new": "",
+    "compared": "",
     "tag": "h1",
     "style": "titulo"
   },
@@ -7289,11 +7309,11 @@
     ]
   },
   {
-    "texto": "TÍTULO VIII ÓRGANOS LOCALES DEL PODER POPULAR",
-    "similarity": 0.9545454545454546,
-    "type": "comp",
-    "new": "TÍTULO VIII: Órganos Locales del Poder Popular",
-    "compared": "TÍTULO VIII<del>: Órganos Locales del Poder Popular</del><ins>ÓRGANOS LOCALES DEL PODER POPULAR</ins>",
+    "texto": "TÍTULO VIII: ÓRGANOS LOCALES DEL PODER POPULAR",
+    "similarity": 1,
+    "type": "equ",
+    "new": "",
+    "compared": "",
     "tag": "h1",
     "style": "titulo"
   },
@@ -8710,7 +8730,7 @@
     ]
   },
   {
-    "texto": "TÍTULO IX SISTEMA ELECTORAL",
+    "texto": "TÍTULO IX: SISTEMA ELECTORAL",
     "similarity": 1,
     "type": "equ",
     "new": "",
@@ -9097,7 +9117,7 @@
     ]
   },
   {
-    "texto": "TÍTULO X DEFENSA Y SEGURIDAD NACIONAL",
+    "texto": "TÍTULO X: DEFENSA Y SEGURIDAD NACIONAL",
     "similarity": 1,
     "type": "equ",
     "new": "",
@@ -9362,11 +9382,11 @@
     ]
   },
   {
-    "texto": "TÍTULO XI REFORMA DE LA CONSTITUCIÓN",
-    "similarity": 0.9444444444444444,
-    "type": "comp",
-    "new": "TÍTULO XI: Reforma de la Constitución",
-    "compared": "TÍTULO XI<del>: Reforma de la Constitución</del><ins>REFORMA DE LA CONSTITUCIÓN</ins>",
+    "texto": "TÍTULO XI: REFORMA DE LA CONSTITUCIÓN",
+    "similarity": 1,
+    "type": "equ",
+    "new": "",
+    "compared": "",
     "tag": "h1",
     "style": "titulo"
   },
@@ -9530,25 +9550,27 @@
     "new": "",
     "compared": "",
     "tag": "h1",
-    "style": "titulo"
-  },
-  {
-    "texto": "PRIMERA: Los diputados a la Asamblea Nacional del Poder Popular de la IX Legislatura se mantienen en sus cargos hasta tanto concluya su mandato.",
-    "similarity": 0.957983193277311,
-    "type": "comp",
-    "new": "Los diputados a la Asamblea Nacional del Poder Popular de la IX Legislatura se mantienen en sus cargos hasta tanto concluya su mandato.",
-    "compared": "<ins>PRIMERA: </ins>Los diputados a la Asamblea Nacional del Poder Popular de la IX Legislatura se mantienen en sus cargos hasta tanto concluya su <del>mandato.</del><ins>mandato.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "SEGUNDA: Se extiende el mandato actual de los delegados a las asambleas municipales del Poder Popular hasta cinco años, contados a partir de la fecha de su constitución.",
-    "similarity": 0.9612403100775194,
-    "type": "comp",
-    "new": "Se extiende el mandato actual de los delegados a las asambleas municipales del Poder Popular hasta cinco años, contados a partir de la fecha de su constitución.",
-    "compared": "<ins>SEGUNDA: </ins>Se extiende el mandato actual de los delegados a las asambleas municipales del Poder Popular hasta cinco <del>años, </del><ins>años, </ins>contados a partir de la fecha de su <del>constitución.</del><ins>constitución.</ins>",
-    "tag": "div",
-    "style": "text-article"
+    "style": "titulo",
+    "inside": [
+      {
+        "texto": "Los diputados a la Asamblea Nacional del Poder Popular de la IX Legislatura se mantienen en sus cargos hasta tanto concluya su mandato.",
+        "similarity": 1,
+        "type": "equ",
+        "new": "",
+        "compared": "",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "Se extiende el mandato actual de los delegados a las asambleas municipales del Poder Popular hasta cinco años, contados a partir de la fecha de su constitución.",
+        "similarity": 1,
+        "type": "equ",
+        "new": "",
+        "compared": "",
+        "tag": "div",
+        "style": "text-article"
+      }
+    ]
   },
   {
     "texto": "DISPOSICIONES TRANSITORIAS",
@@ -9557,124 +9579,127 @@
     "new": "",
     "compared": "",
     "tag": "h1",
-    "style": "titulo"
-  },
-  {
-    "texto": "PRIMERA: Antes del plazo de seis meses, después de haber entrado en vigor la presente Constitución, la Asamblea Nacional del Poder Popular aprueba una nueva Ley Electoral, en la que regule la elección de los diputados a la Asamblea Nacional, su Presidente, Vicepresidente y Secretario; el Consejo de Estado, el Presidente y Vicepresidente de la República, los miembros del Consejo Electoral Nacional, los gobernadores y vicegobernadores provinciales, los delegados a las asambleas municipales del Poder Popular, su Presidente y Vicepresidente.",
-    "similarity": 0.9221789883268483,
-    "type": "comp",
-    "new": "Antes del término de seis meses, después de haber entrado en vigor la presente Constitución, la Asamblea Nacional del Poder Popular aprueba una nueva Ley Electoral, en la que regule la elección de los diputados a la Asamblea Nacional, su Presidente, Vicepresidente y Secretario, el Consejo de Estado, el Presidente y Vicepresidente de la República, los miembros del Consejo Electoral Nacional, los delegados a las asambleas municipales del Poder Popular, así como su Presidente, Vicepresidente y Secretario.",
-    "compared": "<ins>PRIMERA: </ins>Antes del <del>término </del><ins>plazo </ins>de seis <del>meses, </del><ins>meses, </ins>después de haber entrado en vigor la presente <del>Constitución, </del><ins>Constitución, </ins>la Asamblea Nacional del Poder Popular aprueba una nueva Ley <del>Electoral, </del><ins>Electoral, </ins>en la que regule la elección de los diputados a la Asamblea <del>Nacional, </del><ins>Nacional, </ins>su <del>Presidente, </del><ins>Presidente, </ins>Vicepresidente y <del>Secretario, </del><ins>Secretario; </ins>el Consejo de <del>Estado, </del><ins>Estado, </ins>el Presidente y Vicepresidente de la <del>República, </del><ins>República, </ins>los miembros del Consejo Electoral <del>Nacional, </del><ins>Nacional, los gobernadores y vicegobernadores provinciales, </ins>los delegados a las asambleas municipales del Poder <del>Popular, así como </del><ins>Popular, </ins>su <del>Presidente, Vicepresidente </del><ins>Presidente </ins>y <del>Secretario.</del><ins>Vicepresidente.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "SEGUNDA: Luego de aprobada la Ley Electoral, la Asamblea Nacional del Poder Popular, en el plazo de tres meses, elige de entre sus diputados, a su Presidente, Vicepresidente y Secretario, a los demás miembros del Consejo de Estado, y al Presidente y Vicepresidente de la República.",
-    "similarity": 0.9498069498069498,
-    "type": "comp",
-    "new": "Luego de aprobada la Ley Electoral, la Asamblea Nacional del Poder Popular, en el término de tres meses, elige de entre sus diputados, a su Presidente, Vicepresidente y Secretario, a los demás miembros del Consejo de Estado, y al Presidente y Vicepresidente de la República.",
-    "compared": "<ins>SEGUNDA: </ins>Luego de aprobada la Ley <del>Electoral, </del><ins>Electoral, </ins>la Asamblea Nacional del Poder <del>Popular, </del><ins>Popular, </ins>en el <del>término </del><ins>plazo </ins>de tres <del>meses, </del><ins>meses, </ins>elige de entre sus <del>diputados, </del><ins>diputados, </ins>a su <del>Presidente, </del><ins>Presidente, </ins>Vicepresidente y <del>Secretario, </del><ins>Secretario, </ins>a los demás miembros del Consejo de <del>Estado, </del><ins>Estado, </ins>y al Presidente y Vicepresidente de la <del>República.</del><ins>República.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "TERCERA: Una vez elegido, el Presidente de la República, en el plazo de tres meses, propone a la Asamblea Nacional del Poder Popular la designación del Primer Ministro, Viceprimeros Ministros, el Secretario y demás miembros del Consejo de Ministros.",
-    "similarity": 0.9395348837209302,
-    "type": "comp",
-    "new": "Una vez elegido, el Presidente de la República propone a la Asamblea Nacional del Poder Popular la designación del Primer Ministro, Viceprimeros Ministros, el Secretario y demás miembros del Consejo de Ministros.",
-    "compared": "<ins>TERCERA: </ins>Una vez <del>elegido, </del><ins>elegido, </ins>el Presidente de la República<ins>, en el plazo de tres meses, </ins>propone a la Asamblea Nacional del Poder Popular la designación del Primer <del>Ministro, </del><ins>Ministro, </ins>Viceprimeros <del>Ministros, </del><ins>Ministros, </ins>el Secretario y demás miembros del Consejo de <del>Ministros.</del><ins>Ministros.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "CUARTA: Las asambleas provinciales del Poder Popular se mantienen en sus funciones hasta tanto tomen posesión de sus cargos los gobernadores, vicegobernadores y los consejos provinciales.",
-    "similarity": 0.9746835443037974,
-    "type": "comp",
-    "new": "Las asambleas provinciales del Poder Popular se mantienen en sus funciones hasta tanto tomen posesión de sus cargos los gobernadores, vicegobernadores y los consejos provinciales.",
-    "compared": "<ins>CUARTA: </ins>Las asambleas provinciales del Poder Popular se mantienen en sus funciones hasta tanto tomen posesión de sus cargos los <del>gobernadores, </del><ins>gobernadores, </ins>vicegobernadores y los consejos <del>provinciales.</del><ins>provinciales.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "QUINTA: El Presidente de la República, una vez elegido y en el plazo de tres meses, propone a las asambleas municipales del Poder Popular respectivas, la elección por sus delegados de los gobernadores y vicegobernadores provinciales.",
-    "similarity": 0.65,
-    "type": "nu",
-    "new": "",
-    "compared": "<ins>QUINTA: El Presidente de la República, una vez elegido y en el plazo de tres meses, propone a las asambleas municipales del Poder Popular respectivas, la elección por sus delegados de los gobernadores y vicegobernadores provinciales.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "SEXTA: Las asambleas municipales del Poder Popular, en el plazo de tres meses, designan con posterioridad a la elección de los gobernadores y vicegobernadores provinciales, a aquellos que van a ocupar los cargos de intendentes.",
-    "similarity": 0.6951871657754011,
-    "type": "comp",
-    "new": "Los delegados a las asambleas municipales del Poder Popular designan con posterioridad a la elección y designación de los integrantes de los órganos superiores del Estado, a aquellos que van a ocupar los cargos de intendentes.",
-    "compared": "<del>Los delegados a las </del><ins>SEXTA: Las </ins>asambleas municipales del Poder Popular<ins>, en el plazo de tres meses, </ins>designan con posterioridad a la elección <del>y designación </del>de los <del>integrantes de los órganos superiores del Estado, </del><ins>gobernadores y vicegobernadores provinciales, </ins>a aquellos que van a ocupar los cargos de <del>intendentes.</del><ins>intendentes.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "SÉPTIMA: La Asamblea Nacional del Poder Popular en el plazo de un año, luego de la entrada en vigor de la Constitución, aprueba su reglamento y el del Consejo de Estado.",
-    "similarity": 0.9064748201438849,
-    "type": "comp",
-    "new": "La Asamblea Nacional del Poder Popular en el término de un año, luego de la entrada en vigor de la Constitución, aprueba su Reglamento y el del Consejo de Estado.",
-    "compared": "<ins>SÉPTIMA: </ins>La Asamblea Nacional del Poder Popular en el <del>término </del><ins>plazo </ins>de un <del>año, </del><ins>año, </ins>luego de la entrada en vigor de la <del>Constitución, </del><ins>Constitución, </ins>aprueba su <del>Reglamento </del><ins>reglamento </ins>y el del Consejo de <del>Estado.</del><ins>Estado.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "OCTAVA: El Consejo de Ministros en el plazo de dos años de vigencia de la Constitución, presenta a la Asamblea Nacional del Poder Popular el proyecto de nuevo reglamento de ese órgano y el de los gobiernos provinciales.",
-    "similarity": 0.9361702127659575,
-    "type": "comp",
-    "new": "El Consejo de Ministros en el término de dos años de vigencia de la Constitución, presenta a la Asamblea Nacional del Poder Popular el proyecto de nuevo reglamento de ese órgano y el de los gobiernos provinciales.",
-    "compared": "<ins>OCTAVA: </ins>El Consejo de Ministros en el <del>término </del><ins>plazo </ins>de dos años de vigencia de la <del>Constitución, </del><ins>Constitución, </ins>presenta a la Asamblea Nacional del Poder Popular el proyecto de nuevo reglamento de ese órgano y el de los gobiernos <del>provinciales.</del><ins>provinciales.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "NOVENA: La Asamblea Nacional del Poder Popular en el plazo de dos años de vigencia de la Constitución, aprueba el reglamento de las asambleas municipales del Poder Popular y de sus consejos de la administración.",
-    "similarity": 0.9325842696629213,
-    "type": "comp",
-    "new": "La Asamblea Nacional del Poder Popular en el término de dos años de vigencia de la Constitución, aprueba el reglamento de las asambleas municipales del Poder Popular y de sus consejos de administración.",
-    "compared": "<ins>NOVENA: </ins>La Asamblea Nacional del Poder Popular en el <del>término </del><ins>plazo </ins>de dos años de vigencia de la <del>Constitución, </del><ins>Constitución, </ins>aprueba el reglamento de las asambleas municipales del Poder Popular y de sus consejos de <del>administración.</del><ins>la administración.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "DÉCIMA: El Consejo de Gobierno del Tribunal Supremo Popular, en el plazo de dieciocho meses de entrada en vigor de la Constitución, presenta a la Asamblea Nacional del Poder Popular el proyecto de nueva Ley de los Tribunales Populares, ajustado a los cambios que en la presente Constitución se establecen, así como las propuestas de modificaciones a la Ley de Procedimiento Penal y a la Ley de Procedimiento Civil, Administrativo, Laboral y Económico, que correspondan.",
-    "similarity": 0.8981481481481481,
-    "type": "comp",
-    "new": "Los tribunales mantienen su actual estructura y funcionamiento. El Consejo de Gobierno del Tribunal Supremo Popular, en el término de dieciocho meses de entrada en vigor de la Constitución, presenta a la Asamblea Nacional del Poder Popular el proyecto de nueva Ley de los Tribunales Populares, ajustado a los cambios que en la presente Constitución se establecen, así como las propuestas de modificaciones a la Ley de Procedimiento Penal y a la Ley de Procedimiento Civil, Administrativo, Laboral y Económico, que correspondan.",
-    "compared": "<del>Los tribunales mantienen su actual estructura y funcionamiento. </del><ins>DÉCIMA: </ins>El Consejo de Gobierno del Tribunal Supremo <del>Popular, </del><ins>Popular, </ins>en el <del>término </del><ins>plazo </ins>de dieciocho meses de entrada en vigor de la <del>Constitución, </del><ins>Constitución, </ins>presenta a la Asamblea Nacional del Poder Popular el proyecto de nueva Ley de los Tribunales <del>Populares, </del><ins>Populares, </ins>ajustado a los cambios que en la presente Constitución se <del>establecen, </del><ins>establecen, </ins>así como las propuestas de modificaciones a la Ley de Procedimiento Penal y a la Ley de Procedimiento <del>Civil, Administrativo, </del><ins>Civil, Administrativo, </ins>Laboral y <del>Económico, </del><ins>Económico, </ins>que <del>correspondan.</del><ins>correspondan.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "DECIMOPRIMERA: Atendiendo a los resultados de la Consulta Popular realizada, la Asamblea Nacional del Poder Popular dispondrá, en el plazo de dos años de vigencia de la Constitución, iniciar el proceso de consulta popular y referendo del proyecto de Código de Familia, en el que debe figurar la forma de constituir el matrimonio.",
-    "similarity": 0.5808823529411765,
-    "type": "comp",
-    "new": "Antes del término de un año de la vigencia de la presente Constitución,  la Asamblea Nacional del Poder Popular aprueba,  mediante ley,  las modificaciones legales pertinentes para hacer efectivo lo dispuesto en el artículo 68 de esta Constitución,  en cuanto a la institución del matrimonio. ",
-    "compared": "<del>Antes del término de un año de la vigencia </del><ins>DECIMOPRIMERA: Atendiendo a los resultados </ins>de la <del>presente Constitución </del><ins>Consulta Popular realizada</ins>, <del> </del>la Asamblea Nacional del Poder Popular <del>aprueba,  mediante ley </del><ins>dispondrá</ins>, <del> las modificaciones legales pertinentes para hacer efectivo lo dispuesto </del>en el <del>artículo 68 </del><ins>plazo de dos años </ins>de <del>esta </del><ins>vigencia de la </ins>Constitución, <del> </del><ins>iniciar el proceso de consulta popular y referendo del proyecto de Código de Familia, </ins>en <del>cuanto a </del><ins>el que debe figurar </ins>la <del>institución del </del><ins>forma de constituir el </ins>matrimonio<del>. </del><ins>.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "DECIMOSEGUNDA: La Asamblea Nacional del Poder Popular, en el plazo de dieciocho meses de entrada en vigor de la Constitución, aprueba las modificaciones legislativas requeridas para hacer efectivo lo previsto en su Artículo 99, referido a la posibilidad de los ciudadanos de acceder a la vía judicial para reclamar sus derechos.",
-    "similarity": 0.7899686520376176,
-    "type": "comp",
-    "new": "La Asamblea Nacional del Poder Popular, en el término de dieciocho meses de entrada en vigor de la Constitución, aprueba las modificaciones legislativas requeridas para hacer efectivo lo previsto en sus artículos 58 y 94, referidos al derecho de defensa ante los tribunales contra actos confiscatorios de bienes por autoridades administrativas y la posibilidad de los ciudadanos de acceder a la vía judicial para reclamar sus derechos, respectivamente.",
-    "compared": "<ins>DECIMOSEGUNDA: </ins>La Asamblea Nacional del Poder <del>Popular, </del><ins>Popular, </ins>en el <del>término </del><ins>plazo </ins>de dieciocho meses de entrada en vigor de la <del>Constitución, </del><ins>Constitución, </ins>aprueba las modificaciones legislativas requeridas para hacer efectivo lo previsto en <del>sus artículos 58 y 94, referidos al derecho de defensa ante los tribunales contra actos confiscatorios de bienes por autoridades administrativas y </del><ins>su Artículo 99, referido a </ins>la posibilidad de los ciudadanos de acceder a la vía judicial para reclamar sus <del>derechos, respectivamente.</del><ins>derechos.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "DECIMOTERCERA: La Asamblea Nacional del Poder Popular aprueba, en el plazo de un año de entrada en vigor de la Constitución, un cronograma legislativo que dé cumplimiento a la elaboración de las leyes que desarrollan los preceptos establecidos en esta Constitución.",
-    "similarity": 0.9067796610169492,
-    "type": "comp",
-    "new": "La Asamblea Nacional del Poder Popular aprueba en el término de hasta dieciocho meses de entrada en vigor de la Constitución un cronograma legislativo que dé cumplimiento a la elaboración de las leyes que desarrollan los preceptos establecidos en esta Constitución.",
-    "compared": "<ins>DECIMOTERCERA: </ins>La Asamblea Nacional del Poder Popular aprueba<ins>, </ins>en el <del>término </del><ins>plazo </ins>de <del>hasta dieciocho meses </del><ins>un año </ins>de entrada en vigor de la Constitución<ins>, </ins>un cronograma legislativo que dé cumplimiento a la elaboración de las leyes que desarrollan los preceptos establecidos en esta <del>Constitución.</del><ins>Constitución.</ins>",
-    "tag": "div",
-    "style": "text-article"
+    "style": "titulo",
+    "inside": [
+
+      {
+        "texto": "Antes del plazo de seis meses, después de haber entrado en vigor la presente Constitución, la Asamblea Nacional del Poder Popular aprueba una nueva Ley Electoral, en la que regule la elección de los diputados a la Asamblea Nacional, su Presidente, Vicepresidente y Secretario; el Consejo de Estado, el Presidente y Vicepresidente de la República, los miembros del Consejo Electoral Nacional, los gobernadores y vicegobernadores provinciales, los delegados a las asambleas municipales del Poder Popular, su Presidente y Vicepresidente.",
+        "similarity": 0.9273084479371316,
+        "type": "comp",
+        "new": "Antes del término de seis meses, después de haber entrado en vigor la presente Constitución, la Asamblea Nacional del Poder Popular aprueba una nueva Ley Electoral, en la que regule la elección de los diputados a la Asamblea Nacional, su Presidente, Vicepresidente y Secretario, el Consejo de Estado, el Presidente y Vicepresidente de la República, los miembros del Consejo Electoral Nacional, los delegados a las asambleas municipales del Poder Popular, así como su Presidente, Vicepresidente y Secretario.",
+        "compared": "Antes del <del>término </del><ins>plazo </ins>de seis meses, después de haber entrado en vigor la presente Constitución, la Asamblea Nacional del Poder Popular aprueba una nueva Ley Electoral, en la que regule la elección de los diputados a la Asamblea Nacional, su Presidente, Vicepresidente y Secretario<del>, </del><ins>; </ins>el Consejo de Estado, el Presidente y Vicepresidente de la República, los miembros del Consejo Electoral Nacional, los <ins>gobernadores y vicegobernadores provinciales, los </ins>delegados a las asambleas municipales del Poder Popular, <del>así como </del>su Presidente<del>, Vicepresidente </del>y <del>Secretario </del><ins>Vicepresidente</ins>.",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "Luego de aprobada la Ley Electoral, la Asamblea Nacional del Poder Popular, en el plazo de tres meses, elige de entre sus diputados, a su Presidente, Vicepresidente y Secretario, a los demás miembros del Consejo de Estado, y al Presidente y Vicepresidente de la República.",
+        "similarity": 0.968503937007874,
+        "type": "comp",
+        "new": "Luego de aprobada la Ley Electoral, la Asamblea Nacional del Poder Popular, en el término de tres meses, elige de entre sus diputados, a su Presidente, Vicepresidente y Secretario, a los demás miembros del Consejo de Estado, y al Presidente y Vicepresidente de la República.",
+        "compared": "Luego de aprobada la Ley Electoral, la Asamblea Nacional del Poder Popular, en el <del>término </del><ins>plazo </ins>de tres meses, elige de entre sus diputados, a su Presidente, Vicepresidente y Secretario, a los demás miembros del Consejo de Estado, y al Presidente y Vicepresidente de la República.",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "Una vez elegido, el Presidente de la República, en el plazo de tres meses, propone a la Asamblea Nacional del Poder Popular la designación del Primer Ministro, Viceprimeros Ministros, el Secretario y demás miembros del Consejo de Ministros.",
+        "similarity": 0.9619047619047619,
+        "type": "comp",
+        "new": "Una vez elegido, el Presidente de la República propone a la Asamblea Nacional del Poder Popular la designación del Primer Ministro, Viceprimeros Ministros, el Secretario y demás miembros del Consejo de Ministros.",
+        "compared": "Una vez elegido, el Presidente de la República<ins>, en el plazo de tres meses, </ins>propone a la Asamblea Nacional del Poder Popular la designación del Primer Ministro, Viceprimeros Ministros, el Secretario y demás miembros del Consejo de Ministros.",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "Las asambleas provinciales del Poder Popular se mantienen en sus funciones hasta tanto tomen posesión de sus cargos los gobernadores, vicegobernadores y los consejos provinciales.",
+        "similarity": 1,
+        "type": "equ",
+        "new": "",
+        "compared": "",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "El Presidente de la República, una vez elegido y en el plazo de tres meses, propone a las asambleas municipales del Poder Popular respectivas, la elección por sus delegados de los gobernadores y vicegobernadores provinciales.",
+        "similarity": 0.65,
+        "type": "nu",
+        "new": "",
+        "compared": "<ins>El Presidente de la República, una vez elegido y en el plazo de tres meses, propone a las asambleas municipales del Poder Popular respectivas, la elección por sus delegados de los gobernadores y vicegobernadores provinciales.</ins>",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "Las asambleas municipales del Poder Popular, en el plazo de tres meses, designan con posterioridad a la elección de los gobernadores y vicegobernadores provinciales, a aquellos que van a ocupar los cargos de intendentes.",
+        "similarity": 0.7065217391304348,
+        "type": "comp",
+        "new": "Los delegados a las asambleas municipales del Poder Popular designan con posterioridad a la elección y designación de los integrantes de los órganos superiores del Estado, a aquellos que van a ocupar los cargos de intendentes.",
+        "compared": "<del>Los delegados a las </del><ins>Las </ins>asambleas municipales del Poder Popular<ins>, en el plazo de tres meses, </ins>designan con posterioridad a la elección <del>y designación </del>de los <del>integrantes de los órganos superiores del Estado </del><ins>gobernadores y vicegobernadores provinciales</ins>, a aquellos que van a ocupar los cargos de intendentes.",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "La Asamblea Nacional del Poder Popular en el plazo de un año, luego de la entrada en vigor de la Constitución, aprueba su reglamento y el del Consejo de Estado.",
+        "similarity": 0.9402985074626866,
+        "type": "comp",
+        "new": "La Asamblea Nacional del Poder Popular en el término de un año, luego de la entrada en vigor de la Constitución, aprueba su Reglamento y el del Consejo de Estado.",
+        "compared": "La Asamblea Nacional del Poder Popular en el <del>término </del><ins>plazo </ins>de un año, luego de la entrada en vigor de la Constitución, aprueba su <del>Reglamento </del><ins>reglamento </ins>y el del Consejo de Estado.",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "El Consejo de Ministros en el plazo de dos años de vigencia de la Constitución, presenta a la Asamblea Nacional del Poder Popular el proyecto de nuevo reglamento de ese órgano y el de los gobiernos provinciales.",
+        "similarity": 0.9565217391304348,
+        "type": "comp",
+        "new": "El Consejo de Ministros en el término de dos años de vigencia de la Constitución, presenta a la Asamblea Nacional del Poder Popular el proyecto de nuevo reglamento de ese órgano y el de los gobiernos provinciales.",
+        "compared": "El Consejo de Ministros en el <del>término </del><ins>plazo </ins>de dos años de vigencia de la Constitución, presenta a la Asamblea Nacional del Poder Popular el proyecto de nuevo reglamento de ese órgano y el de los gobiernos provinciales.",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "La Asamblea Nacional del Poder Popular en el plazo de dos años de vigencia de la Constitución, aprueba el reglamento de las asambleas municipales del Poder Popular y de sus consejos de la administración.",
+        "similarity": 0.9540229885057471,
+        "type": "comp",
+        "new": "La Asamblea Nacional del Poder Popular en el término de dos años de vigencia de la Constitución, aprueba el reglamento de las asambleas municipales del Poder Popular y de sus consejos de administración.",
+        "compared": "La Asamblea Nacional del Poder Popular en el <del>término </del><ins>plazo </ins>de dos años de vigencia de la Constitución, aprueba el reglamento de las asambleas municipales del Poder Popular y de sus consejos de <ins>la </ins>administración.",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "El Consejo de Gobierno del Tribunal Supremo Popular, en el plazo de dieciocho meses de entrada en vigor de la Constitución, presenta a la Asamblea Nacional del Poder Popular el proyecto de nueva Ley de los Tribunales Populares, ajustado a los cambios que en la presente Constitución se establecen, así como las propuestas de modificaciones a la Ley de Procedimiento Penal y a la Ley de Procedimiento Civil, Administrativo, Laboral y Económico, que correspondan.",
+        "similarity": 0.9018691588785047,
+        "type": "comp",
+        "new": "Los tribunales mantienen su actual estructura y funcionamiento. El Consejo de Gobierno del Tribunal Supremo Popular, en el término de dieciocho meses de entrada en vigor de la Constitución, presenta a la Asamblea Nacional del Poder Popular el proyecto de nueva Ley de los Tribunales Populares, ajustado a los cambios que en la presente Constitución se establecen, así como las propuestas de modificaciones a la Ley de Procedimiento Penal y a la Ley de Procedimiento Civil, Administrativo, Laboral y Económico, que correspondan.",
+        "compared": "<del>Los tribunales mantienen su actual estructura y funcionamiento. </del>El Consejo de Gobierno del Tribunal Supremo Popular, en el <del>término </del><ins>plazo </ins>de dieciocho meses de entrada en vigor de la Constitución, presenta a la Asamblea Nacional del Poder Popular el proyecto de nueva Ley de los Tribunales Populares, ajustado a los cambios que en la presente Constitución se establecen, así como las propuestas de modificaciones a la Ley de Procedimiento Penal y a la Ley de Procedimiento Civil, Administrativo, Laboral y Económico, que correspondan.",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "Atendiendo a los resultados de la Consulta Popular realizada, la Asamblea Nacional del Poder Popular dispondrá, en el plazo de dos años de vigencia de la Constitución, iniciar el proceso de consulta popular y referendo del proyecto de Código de Familia, en el que debe figurar la forma de constituir el matrimonio.",
+        "similarity": 0.65,
+        "type": "nu",
+        "new": "",
+        "compared": "<ins>Atendiendo a los resultados de la Consulta Popular realizada, la Asamblea Nacional del Poder Popular dispondrá, en el plazo de dos años de vigencia de la Constitución, iniciar el proceso de consulta popular y referendo del proyecto de Código de Familia, en el que debe figurar la forma de constituir el matrimonio.</ins>",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "La Asamblea Nacional del Poder Popular, en el plazo de dieciocho meses de entrada en vigor de la Constitución, aprueba las modificaciones legislativas requeridas para hacer efectivo lo previsto en su Artículo 99, referido a la posibilidad de los ciudadanos de acceder a la vía judicial para reclamar sus derechos.",
+        "similarity": 0.7922077922077922,
+        "type": "comp",
+        "new": "La Asamblea Nacional del Poder Popular, en el término de dieciocho meses de entrada en vigor de la Constitución, aprueba las modificaciones legislativas requeridas para hacer efectivo lo previsto en sus artículos 58 y 94, referidos al derecho de defensa ante los tribunales contra actos confiscatorios de bienes por autoridades administrativas y la posibilidad de los ciudadanos de acceder a la vía judicial para reclamar sus derechos, respectivamente.",
+        "compared": "La Asamblea Nacional del Poder Popular, en el <del>término </del><ins>plazo </ins>de dieciocho meses de entrada en vigor de la Constitución, aprueba las modificaciones legislativas requeridas para hacer efectivo lo previsto en <del>sus artículos 58 y 94 </del><ins>su Artículo 99</ins>, <del>referidos al derecho de defensa ante los tribunales contra actos confiscatorios de bienes por autoridades administrativas y </del><ins>referido a </ins>la posibilidad de los ciudadanos de acceder a la vía judicial para reclamar sus derechos<del>, respectivamente</del>.",
+        "tag": "div",
+        "style": "text-article"
+      },
+      {
+        "texto": "La Asamblea Nacional del Poder Popular aprueba, en el plazo de un año de entrada en vigor de la Constitución, un cronograma legislativo que dé cumplimiento a la elaboración de las leyes que desarrollan los preceptos establecidos en esta Constitución.",
+        "similarity": 0.9155555555555556,
+        "type": "comp",
+        "new": "La Asamblea Nacional del Poder Popular aprueba en el término de hasta dieciocho meses de entrada en vigor de la Constitución un cronograma legislativo que dé cumplimiento a la elaboración de las leyes que desarrollan los preceptos establecidos en esta Constitución.",
+        "compared": "La Asamblea Nacional del Poder Popular aprueba<ins>, </ins>en el <del>término </del><ins>plazo </ins>de <del>hasta dieciocho meses </del><ins>un año </ins>de entrada en vigor de la Constitución<ins>, </ins>un cronograma legislativo que dé cumplimiento a la elaboración de las leyes que desarrollan los preceptos establecidos en esta Constitución.",
+        "tag": "div",
+        "style": "text-article"
+      }
+    ]
   },
   {
     "texto": "DISPOSICIONES FINALES",
@@ -9683,24 +9708,25 @@
     "new": "",
     "compared": "",
     "tag": "h1",
-    "style": "titulo"
-  },
-  {
-    "texto": "PRIMERA: Se deroga la Constitución de la República de Cuba, de 24 de febrero de 1976, tal como quedó redactada por las reformas de 1978, 1992 y 2002.",
-    "similarity": 0.9397590361445783,
-    "type": "comp",
-    "new": "Se deroga la Constitución de la República de Cuba de 24 de febrero de 1976, tal como quedó redactada por las reformas de 1978, 1992 y 2002.",
-    "compared": "<ins>PRIMERA: </ins>Se deroga la Constitución de la República de Cuba<ins>, </ins>de 24 de febrero de <del>1976, </del><ins>1976, </ins>tal como quedó redactada por las reformas de <del>1978, </del><ins>1978, </ins>1992 y <del>2002.</del><ins>2002.</ins>",
-    "tag": "div",
-    "style": "text-article"
-  },
-  {
-    "texto": "SEGUNDA: La presente Constitución entra en vigor, una vez proclamada, a partir de su publicación en la Gaceta Oficial de la República.",
-    "similarity": 0.8737864077669902,
-    "type": "comp",
-    "new": "La presente Constitución entra en vigor a partir de su publicación en la Gaceta Oficial de la República.",
-    "compared": "<ins>SEGUNDA: </ins>La presente Constitución entra en vigor<ins>, una vez proclamada, </ins>a partir de su publicación en la Gaceta Oficial de la <del>República.</del><ins>República.</ins>",
-    "tag": "div",
-    "style": "text-article"
+    "style": "titulo",
+    "inside": [
+      {
+        "texto": "Se deroga la Constitución de la República de Cuba, de 24 de febrero de 1976, tal como quedó redactada por las reformas de 1978, 1992 y 2002.",
+        "similarity": 1,
+        "type": "equ",
+        "new": "",
+        "compared": "",
+        "tag": "div",
+        "style": "text-article"
+      },{
+        "texto": "La presente Constitución entra en vigor, una vez proclamada, a partir de su publicación en la Gaceta Oficial de la República.",
+        "similarity": 0.9183673469387755,
+        "type": "comp",
+        "new": "La presente Constitución entra en vigor a partir de su publicación en la Gaceta Oficial de la República.",
+        "compared": "La presente Constitución entra en vigor<ins>, una vez proclamada, </ins>a partir de su publicación en la Gaceta Oficial de la República.",
+        "tag": "div",
+        "style": "text-article"
+      }
+    ]
   }
 ]

@@ -1,0 +1,954 @@
+[
+  {
+    "word": "Acceso a la propiedad",
+    "den": "Acceso a la propiedad",
+    "weight": 5,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Adultos",
+    "den": "Adultos mayores",
+    "weight": 6,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Alimentación",
+    "den": "Alimentación",
+    "weight": 4,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "AMPP",
+    "den": "Asamblea Municipal",
+    "weight": 4,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Autonomía",
+    "den": "Autonomía municipal",
+    "weight": 14,
+    "clasif": 5,
+    "nota": ""
+  },
+  {
+    "word": "Bienestar animal",
+    "den": "Bienestar animal",
+    "weight": 8,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Círculos infantiles",
+    "den": "Círculos infantiles",
+    "weight": 3,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Extranjeros",
+    "den": "Ciudadanía a extranjeros",
+    "weight": 2,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Concentración de la propiedad",
+    "den": "Concentración de la propiedad",
+    "weight": 28,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Riqueza",
+    "den": "Concentración de la riqueza",
+    "weight": 16,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Confiscación",
+    "den": "Confiscación de propiedades",
+    "weight": 2,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Conflictos bélicos",
+    "den": "Participación en conflictos bélicos foráneos",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Consejo de Estado",
+    "den": "Consejo de Estado",
+    "weight": 8,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Consejo de Ministros",
+    "den": "Consejo de Ministros",
+    "weight": 6,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Consejo Defensa",
+    "den": "Consejo Defensa Nacional",
+    "weight": 5,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Consejo Electoral ",
+    "den": "Consejo Electoral Nacional",
+    "weight": 9,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Consejo Provincial",
+    "den": "Consejo Provincial",
+    "weight": 11,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Consejo Popular",
+    "den": "Consejo Popular",
+    "weight": 2,
+    "clasif": 2,
+    "nota": ""
+  },
+  {
+    "word": "Contraloría General",
+    "den": "Contraloría General de la República",
+    "weight": 10,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Control popular",
+    "den": "Control popular",
+    "weight": 22,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Cooperativismo",
+    "den": "Cooperativismo",
+    "weight": 4,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Creación artística",
+    "den": "Creación artística intelectual",
+    "weight": 13,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Funcionarios",
+    "den": "Declaración jurada de los funcionarios",
+    "weight": 5,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Defensa   ",
+    "den": "Defensa   ",
+    "weight": 5,
+    "clasif": 2,
+    "nota": ""
+  },
+  {
+    "word": "Derechos constitucionales",
+    "den": "Defensa derechos constitucionales",
+    "weight": 9,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Defensor del Pueblo",
+    "den": "Defensor del Pueblo",
+    "weight": 11,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Deporte",
+    "den": "Deporte, Educación Física y Recreación",
+    "weight": 1,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Agua",
+    "den": "Derecho al agua",
+    "weight": 7,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Asociación",
+    "den": "Derecho de asociación",
+    "weight": 22,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Huelga",
+    "den": "Derecho de huelga",
+    "weight": 9,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Inversión",
+    "den": "Derecho Inversión de nacionales",
+    "weight": 24,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Réplica",
+    "den": "Derecho a réplica",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Cubanos no residentes ",
+    "den": "Derechos cubanos residentes extranjero",
+    "weight": 20,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Extranjeros",
+    "den": "Derechos de extranjeros no residentes",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Derechos diputados",
+    "den": "Derechos diputados",
+    "weight": 2,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Derechos humanos",
+    "den": "Derechos humanos",
+    "weight": 38,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Refugiados",
+    "den": "Derechos de los refugiados",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Discriminación",
+    "den": "Discriminación",
+    "weight": 10,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Racismo",
+    "den": "Discriminación racial",
+    "weight": 3,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Financiamiento deporte",
+    "den": "Diversificación del financiamiento del deporte",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Ciudadanía",
+    "den": "Doble ciudadanía y ciudadanía efectiva",
+    "weight": 12,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Economía mixta",
+    "den": "Economía mixta",
+    "weight": 6,
+    "clasif": 5,
+    "nota": ""
+  },
+  {
+    "word": "Edad electoral",
+    "den": "Edad electoral",
+    "weight": 3,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Educación",
+    "den": "Educación",
+    "weight": 27,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Diputados",
+    "den": "Elección de diputados",
+    "weight": 14,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Presidente",
+    "den": "Elección del presidente",
+    "weight": 37,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Municipal",
+    "den": "Elección presidente municipal",
+    "weight": 6,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Elección 1º Ministro",
+    "den": "Elección del Primer Ministro",
+    "weight": 14,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Pasaporte",
+    "den": "Eliminar exigencia pasaporte",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Empresa estatal",
+    "den": "Empresa estatal socialista",
+    "weight": 10,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Estado Socialista de Derecho",
+    "den": "Estado Socialista de Derecho",
+    "weight": 15,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Sistema de gobierno",
+    "den": "Estado y Sistema de Gobierno",
+    "weight": 26,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Comunismo",
+    "den": "Exclusión del término comunismo y otros",
+    "weight": 25,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Feminicidio",
+    "den": "Feminicidio",
+    "weight": 2,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Reformas constitucionales",
+    "den": "Firmas reforma constitución",
+    "weight": 7,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Fiscalía",
+    "den": "Fiscalía",
+    "weight": 6,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Propiedad",
+    "den": "Formas de propiedad",
+    "weight": 23,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "ANPP",
+    "den": "Funcionamiento de la ANPP",
+    "weight": 30,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Presidente",
+    "den": "Funciones del presidente",
+    "weight": 7,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "1º Ministro",
+    "den": "Funciones Primer Ministro",
+    "weight": 9,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Gobernador",
+    "den": "Gobernador",
+    "weight": 35,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Habeas data",
+    "den": "Habeas data",
+    "weight": 8,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "idioma",
+    "den": "idioma",
+    "weight": 1,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Estado-Nación",
+    "den": "Igualación Estado-Nación",
+    "weight": 9,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Igualdad",
+    "den": "Igualdad",
+    "weight": 15,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Funciones de los diputados",
+    "den": "Incompatibilidad de funciones de los diputados",
+    "weight": 5,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Indemnización",
+    "den": "Indemnización",
+    "weight": 8,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Intendente",
+    "den": "Intendente",
+    "weight": 12,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Inversión extranjera",
+    "den": "Inversión extranjera",
+    "weight": 11,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Investigación",
+    "den": "Investigación",
+    "weight": 5,
+    "clasif": 2,
+    "nota": ""
+  },
+  {
+    "word": "Comunicaciones personales",
+    "den": "Inviolabilidad comunicaciones personales",
+    "weight": 4,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Domicilio",
+    "den": "Inviolabilidad del domicilio",
+    "weight": 3,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Socialismo",
+    "den": "Irrevocabilidad del socialismo",
+    "weight": 40,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Edad del Presidente",
+    "den": "Límite edad presidente",
+    "weight": 20,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Laicismo",
+    "den": "Laicismo",
+    "weight": 3,
+    "clasif": 5,
+    "nota": ""
+  },
+  {
+    "word": "Leyes",
+    "den": "Leyes",
+    "weight": 15,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Libre ideología",
+    "den": "Libertad de ideología",
+    "weight": 26,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Libre movimiento",
+    "den": "Libertad de movimiento",
+    "weight": 6,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Libertad de expresión",
+    "den": "Libertad de expresión",
+    "weight": 22,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Mandatos",
+    "den": "Limitación de mandatos",
+    "weight": 24,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Lucha armada",
+    "den": "Lucha armada",
+    "weight": 2,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Matrimonio",
+    "den": "Matrimonio",
+    "weight": 99,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Medios de Comunicación",
+    "den": "Medios de Comunicación",
+    "weight": 16,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Fuerzas Armadas",
+    "den": "Fuerzas Armadas",
+    "weight": 3,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Nombre oficial",
+    "den": "Modificar nombre del país",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Moneda",
+    "den": "Moneda Oficial",
+    "weight": 4,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Objeción de conciencia",
+    "den": "Objeción de conciencia",
+    "weight": 2,
+    "clasif": 2,
+    "nota": ""
+  },
+  {
+    "word": "Organizaciones sociales",
+    "den": "Organizaciones de masas y sociales",
+    "weight": 7,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Participación ",
+    "den": "Participación ciudadana",
+    "weight": 23,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Partido único",
+    "den": "Partido único",
+    "weight": 16,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Pena de muerte",
+    "den": "Prohibición de pena de muerte",
+    "weight": 8,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Privación de libertad",
+    "den": "Personas privadas de libertad",
+    "weight": 2,
+    "clasif": 2,
+    "nota": ""
+  },
+  {
+    "word": "Pluripartidismo",
+    "den": "Pluripartidismo",
+    "weight": 9,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Pobreza",
+    "den": "Pobreza",
+    "weight": 9,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Preámbulo",
+    "den": "Preámbulo",
+    "weight": 15,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Proceso judicial",
+    "den": "Proceso judicial/legal",
+    "weight": 9,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Proceso penal",
+    "den": "Proceso penal",
+    "weight": 18,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Trabajo Infantil",
+    "den": "Prohibición trabajo infantil",
+    "weight": 1,
+    "clasif": 5,
+    "nota": ""
+  },
+  {
+    "word": "Propiedad comunitaria",
+    "den": "Propiedad comunitaria",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Propiedad de organizaciones",
+    "den": "Propiedad de las organizaciones",
+    "weight": 3,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Propiedad intelectual",
+    "den": "Propiedad intelectual",
+    "weight": 4,
+    "clasif": 5,
+    "nota": ""
+  },
+  {
+    "word": "Propiedad mixta",
+    "den": "Propiedad mixta",
+    "weight": 1,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Propiedad social  ",
+    "den": "Propiedad social  (subsuelo, playas, etc.)",
+    "weight": 8,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Propiedad socialista del pueblo",
+    "den": "Propiedad socialista de todo el pueblo",
+    "weight": 23,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Trabajadores",
+    "den": "Protección a trabajadores nacionales",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Organismos internacioanles",
+    "den": "Reclamación ante organismos internacionales",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Minorías",
+    "den": "Reconocimiento de minorías",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Eutanasia",
+    "den": "Reconocimiento de la eutanasia",
+    "weight": 8,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Propiedad privada",
+    "den": "Reconocimiento propiedad privada",
+    "weight": 37,
+    "clasif": 3,
+    "nota": ""
+  },
+  {
+    "word": "Relaciones internacionales",
+    "den": "Relaciones internacionales",
+    "weight": 6,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Religión",
+    "den": "Religión",
+    "weight": 14,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Republicanismo",
+    "den": "Republicanismo",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Respeto a la Constitución",
+    "den": "Respeto a la Constitución por los funcionarios",
+    "weight": 7,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Privacidad",
+    "den": "Respeto de la privacidad e intimidad",
+    "weight": 2,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Estado",
+    "den": "Responsabilidades del Estado",
+    "weight": 8,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Revocación",
+    "den": "Revocación",
+    "weight": 1,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Símbolos",
+    "den": "Símbolos patrios",
+    "weight": 6,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Salario",
+    "den": "Salario",
+    "weight": 30,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Salud",
+    "den": "Salud",
+    "weight": 20,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Seguridad social",
+    "den": "Seguridad social",
+    "weight": 4,
+    "clasif": 2,
+    "nota": ""
+  },
+  {
+    "word": "Economía",
+    "den": "Sistema Económico",
+    "weight": 13,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Ciberespacio",
+    "den": "Soberanía Ciberespacio",
+    "weight": 3,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Superioridad del Partido",
+    "den": "Superioridad Partido Comunista",
+    "weight": 81,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Territorialidad de los diputados",
+    "den": "Territorialidad de los diputados",
+    "weight": 6,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Trabajo",
+    "den": "Trabajo",
+    "weight": 22,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Traición",
+    "den": "Traición a la Patria",
+    "weight": 8,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Tribunal Constitucional",
+    "den": "Tribunal Constitucional",
+    "weight": 26,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Tribunales",
+    "den": "Tribunales de Justicia",
+    "weight": 12,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Violencia familiar",
+    "den": "Violencia familiar",
+    "weight": 1,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Vivienda",
+    "den": "Vivienda",
+    "weight": 13,
+    "clasif": 4,
+    "nota": ""
+  },
+  {
+    "word": "Aborto",
+    "den": "Derecho al aborto",
+    "weight": 7,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Exilio",
+    "den": "Exilio",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Proyección socialista",
+    "den": "Proyección socialista",
+    "weight": 4,
+    "clasif": 1,
+    "nota": ""
+  },
+  {
+    "word": "Acceso a TICS",
+    "den": "Acceso a TICS",
+    "weight": 1,
+    "clasif": 0,
+    "nota": ""
+  },
+  {
+    "word": "Sucesión",
+    "den": "Derecho de sucesión",
+    "weight": 1,
+    "clasif": 2,
+    "nota": ""
+  },
+  {
+    "word": "Sindicatos",
+    "den": "Sindicatos",
+    "weight": 2,
+    "clasif": 0,
+    "nota": ""
+  }
+]
