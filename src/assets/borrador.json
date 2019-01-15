@@ -186,7 +186,11 @@
         "new": "",
         "compared": "<ins>de que Cuba no volverá jamás al capitalismo como régimen sustentado en la explotación del hombre por el hombre, y que solo en el socialismo y en el comunismo el ser humano alcanza su dignidad plena;</ins>",
         "tag": "div",
-        "style": "text-article"
+        "style": "text-article",
+        "topics": [
+          "Comunismo",
+          "Socialismo"
+        ]
       },
       {
         "texto": "CONSCIENTES",
@@ -437,7 +441,8 @@
       }
     ],
     "topics": [
-      "Partido único"
+      "Partido único",
+      "Comunismo"
     ]
   },
   {
@@ -457,6 +462,8 @@
       }
     ],
     "topics": [
+      "Socialismo",
+      "Comunismo"
     ]
   },
   {
@@ -969,7 +976,8 @@
       }
     ],
     "topics": [
-      "Relaciones internacionales"
+      "Relaciones internacionales",
+      "Ciberespacio"
     ]
   },
   {
@@ -1072,15 +1080,16 @@
       {
         "texto": "La ley regula la participación de los colectivos laborales en la administración y gestión de las entidades empresariales estatales y unidades presupuestadas.",
         "similarity": 0.42276422764227645,
-        "type": "nu",
-        "new": "",
-        "compared": "",
+        "type": "comp",
+        "new": "Los trabajadores participan activa y conscientemente en estos procesos,  conforme a lo establecido. ",
+        "compared": "<del>Los trabajadores participan activa </del><ins>La ley regula la participación de los colectivos laborales en la administración y gestión de las entidades empresariales estatales </ins>y <del>conscientemente en estos procesos,  conforme a lo establecido. </del><ins>unidades presupuestadas.</ins>",
         "tag": "div",
         "style": "text-article"
       }
     ],
     "topics": [
-      "Sistema Económico"
+      "Sistema Económico",
+      "Trabajadores"
     ]
   },
   {
@@ -1297,7 +1306,8 @@
     ],
     "topics": [
       "Propiedad socialista de todo el pueblo",
-      "Acceso a la propiedad"
+      "Acceso a la propiedad",
+      "Empresa estatal socialista"
     ]
   },
   {
@@ -1376,7 +1386,7 @@
       }
     ],
     "topics": [
-      " Empresa estatal socialista"
+      "Empresa estatal socialista"
     ]
   },
   {
@@ -1885,6 +1895,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "Reconoce la dignidad humana como valor supremo que sustenta el ejercicio de los derechos y deberes.",
     "inside": [
       {
         "texto": "La dignidad humana es el valor supremo que sustenta el reconocimiento y ejercicio de los derechos y deberes consagrados en la Constitución, los tratados y las leyes.",
@@ -1967,7 +1978,8 @@
       "Discriminación",
       "Igualdad",
       "Trabajo",
-      "Salario"
+      "Salario",
+      "Racismo"
     ]
   },
   {
@@ -1975,6 +1987,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "Reconoce los derechos sexuales y reproductivos.",
     "inside": [
       {
         "texto": "La mujer y el hombre tienen iguales derechos y responsabilidades en lo económico, político, cultural, laboral, social, familiar y en cualquier otro ámbito.",
@@ -2000,7 +2013,9 @@
       "Participación ciudadana",
       "Igualdad",
       "Violencia familiar",
-      "Derechos humanos"
+      "Derechos humanos",
+      "Aborto",
+      "Feminicidio"
     ]
   },
   {
@@ -2428,7 +2443,8 @@
     ],
     "topics": [
       "Acceso a la propiedad",
-      "Proceso judicial/legal"
+      "Proceso judicial/legal",
+      "Confiscación"
     ]
   },
   {
@@ -2510,7 +2526,8 @@
     ],
     "topics": [
       "Derecho humanos",
-      "Creación artística intelectual"
+      "Creación artística intelectual",
+      "Propiedad intelectual"
     ]
   },
   {
@@ -2743,7 +2760,7 @@
     "texto": "ARTÍCULO: 71",
     "compared": "",
     "tag": "h4",
-    "important": "Se modifica e término vivienda digna por adecuada y se reconoce el derecho a un hábitad seguro y saludable.",
+    "important": "Se modifica el término vivienda digna por adecuada y se reconoce el derecho a un hábitat seguro y saludable.",
     "style": "articulo",
     "inside": [
       {
@@ -2776,7 +2793,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
-    "important": "Amplía el tema de la salud, explícita que los servicios son gratuitos y de calidad y retoma postulados de la Cosntitución vigente en cuanto al modo en qué este derecho se hace efectivo.",
+    "important": "Amplía el tema de la salud, explícita que los servicios son gratuitos y de calidad y retoma postulados de la Constitución vigente en cuanto al modo en qué este derecho se hace efectivo.",
     "inside": [
       {
         "texto": "La salud pública es un derecho de todas las personas y es responsabilidad del Estado garantizar el acceso, la gratuidad y la calidad de los servicios de atención, protección y recuperación.",
@@ -2817,7 +2834,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
-    "important": "Explícita que los servicios son gratuitos y de calidad y retoma postulados de la Cosntitución vigente en cuanto al modo en qué este derecho se hace efectivo. Reconoce la responsabilidad estatal desde la primera infancia hasta elposgrado universitario.",
+    "important": "Explícita que los servicios son gratuitos y de calidad y retoma postulados de la Constitución vigente en cuanto al modo en qué este derecho se hace efectivo. Reconoce la responsabilidad estatal desde la primera infancia hasta el posgrado universitario.",
     "inside": [
       {
         "texto": "La educación es un derecho de todas las personas y responsabilidad del Estado, que garantiza servicios de educación gratuitos, asequibles y de calidad para la formación integral, desde la primera infancia hasta la enseñanza universitaria de posgrado.",
@@ -2859,7 +2876,8 @@
     "topics": [
       "Derechos humanos",
       "Educación",
-      "Responsabilidades del Estado"
+      "Responsabilidades del Estado",
+      "Adultos mayores"
     ]
   },
   {
@@ -3183,7 +3201,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
-    "important": "Modifica el concepto de matrimonio, aplía el término familias y reconoce las uniones de hecho.",
+    "important": "Modifica el concepto de matrimonio, amplía el término familias y reconoce las uniones de hecho.",
     "inside": [
       {
         "texto": "El matrimonio es una institución social y jurídica. Es una de las formas de organización de las familias. Se funda en el libre consentimiento y en la igualdad de derechos, obligaciones y capacidad legal de los cónyuges.",
@@ -3327,7 +3345,8 @@
       }
     ],
     "topics": [
-      "Violencia familiar"
+      "Violencia familiar",
+      "Feminicidio"
     ]
   },
   {
@@ -3400,6 +3419,9 @@
         "tag": "div",
         "style": "text-article"
       }
+    ],
+    "topics": [
+      "Adultos mayores"
     ]
   },
   {
@@ -3422,7 +3444,6 @@
       "Seguridad social",
       "Derechos humanos",
       "Responsabilidades estatales",
-      "Participación ciudadana",
       "Adultos mayores"
     ]
   },
@@ -3440,7 +3461,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
-    "important": " Incluye como parte de los deberes ciudadanos la protección a la flora y la fauna. Esta formulación a es la más cercana al tema del bienestar animal que fue parte de los debates.",
+    "important": "  Incluye como parte de los deberes ciudadanos la protección a la flora y la fauna. Esta formulación a es la más cercana al tema del bienestar animal que fue parte de los debates.",
     "inside": [
       {
         "texto": "El ejercicio de los derechos y libertades previstos en esta Constitución implican responsabilidades. Son deberes de los ciudadanos cubanos, además de los otros establecidos en esta Constitución y las leyes:",
@@ -3559,6 +3580,9 @@
         "tag": "div",
         "style": "text-article"
       }
+    ],
+    "topics": [
+      "Bienestar animal"
     ]
   },
   {
@@ -3681,6 +3705,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
+    "important": "Considera la inclusión de métodos alternativos para la resolución de conflictos.",
     "inside": [
       {
         "texto": "El Estado reconoce el derecho de las personas a resolver sus controversias utilizando métodos alternos de solución de conflictos, de conformidad con la Constitución y las normas jurídicas que se establezcan a tales efectos.",
@@ -3959,7 +3984,8 @@
     ],
     "topics": [
       "Derechos humanos",
-      "Indemnización"
+      "Indemnización",
+      "Sistema de Estado y gobierno"
     ]
   },
   {
@@ -3967,7 +3993,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
-    "important": "Deja en manos de la ley posterior cuáles derechos tendrán un procedimiento expedito y concentrado.",
+    "important": "Se incorpora el amparo constitucional a un grupo de derechos, pero que serán especificados en la ley posterior.",
     "inside": [
       {
         "texto": "La persona a la que se le vulneren los derechos consagrados en esta Constitución y, como consecuencia sufriere daño o perjuicio por órganos del Estado, sus directivos, funcionarios o empleados, con motivo de la acción u omisión indebida de sus funciones, así como por particulares o por entes no estatales, tiene derecho a reclamar ante los tribunales la restitución de los derechos y obtener, de conformidad con la ley, la correspondiente reparación o indemnización.",
@@ -3990,7 +4016,8 @@
     ],
     "topics": [
       "Derechos humanos",
-      "Indemnización"
+      "Indemnización",
+      "Derechos constitucionales"
     ]
   },
   {
@@ -5453,7 +5480,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
-    "important": "Cambia la forma de elección del Gobernador y vicegobernador. Ahora el presidente le propone a los delegados municipales que correspondan su elección o revocación.",
+    "important": "Cambia la forma de elección del Gobernador y Vicegobernador. Ahora el presidente le propone a los delegados municipales que correspondan su elección o revocación.",
     "inside": [
       {
         "texto": "Corresponde al Presidente de la República:",
@@ -5704,7 +5731,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
-    "important": "Esclarece que para e vicepresidente se aplica la misma limitación de mandato que para el presidente.",
+    "important": "Esclarece que para el Vicepresidente se aplica la misma limitación de mandato que para el Presidente.",
     "inside": [
       {
         "texto": "Para ser Vicepresidente de la República se requiere haber cumplido treinta y cinco años de edad, hallarse en pleno goce de los derechos civiles y políticos, ser ciudadano cubano por nacimiento y no tener otra ciudadanía.",
@@ -6571,7 +6598,6 @@
       }
     ],
     "topics": [
-      "Proceso judicial/legal"
     ]
   },
   {
@@ -6609,7 +6635,7 @@
       }
     ],
     "topics": [
-      "Estado y Sistema de Gobierno"
+      "Tribunales"
     ]
   },
   {
@@ -7434,7 +7460,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
-    "important": "Reduce la función del gobernador solo a la responsabilidad ejecutivo-administrativa.",
+    "important": "Reduce la función del Gobernador solo a la responsabilidad ejecutivo-administrativa. ",
     "inside": [
       {
         "texto": "El Gobernador es el máximo responsable ejecutivo-administrativo en su provincia.",
@@ -7455,7 +7481,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
-    "important": "Cambia la forma de elección del Gobernador y vicegobernador. Ahora el presidente le propone a los delegados municipales que correspondan su elección o revocación.",
+    "important": "Cambia la forma de elección del Gobernador y vicegobernador. Ahora el Presidente le propone a los delegados municipales que correspondan su elección o revocación.",
     "inside": [
       {
         "texto": "El Gobernador es elegido por los delegados de las asambleas municipales del Poder Popular correspondientes, a propuesta del Presidente de la República, por el período de cinco años y de conformidad con el procedimiento establecido en la ley.",
@@ -7690,7 +7716,7 @@
     "compared": "",
     "tag": "h4",
     "style": "articulo",
-    "important": "Cambia la forma de elección del vicegobernador: de ser designado por el Consejo de Ministros es elegido por los delegados municipales correspondientes.",
+    "important": "Cambia la forma de elección del Vicegobernador: de ser designado por el Consejo de Ministros es elegido por los delegados municipales correspondientes.",
     "inside": [
       {
         "texto": "El Vicegobernador es elegido en la misma forma, por igual período y se le exigen los mismos requisitos que al Gobernador.",
@@ -8259,7 +8285,8 @@
       }
     ],
     "topics": [
-      "Asamblea Municipal"
+      "Asamblea Municipal",
+      "Intendente"
     ]
   },
   {
@@ -9504,7 +9531,7 @@
       "Consejo de Estado",
       "Consejo de Ministros",
       "Derechos diputados",
-      "Sindicatos"
+      "Sindicato"
     ]
   },
   {
@@ -9588,7 +9615,6 @@
     "tag": "h1",
     "style": "titulo",
     "inside": [
-
       {
         "texto": "Antes del plazo de seis meses, después de haber entrado en vigor la presente Constitución, la Asamblea Nacional del Poder Popular aprueba una nueva Ley Electoral, en la que regule la elección de los diputados a la Asamblea Nacional, su Presidente, Vicepresidente y Secretario; el Consejo de Estado, el Presidente y Vicepresidente de la República, los miembros del Consejo Electoral Nacional, los gobernadores y vicegobernadores provinciales, los delegados a las asambleas municipales del Poder Popular, su Presidente y Vicepresidente.",
         "similarity": 0.9273084479371316,
@@ -9725,7 +9751,8 @@
         "compared": "",
         "tag": "div",
         "style": "text-article"
-      },{
+      },
+      {
         "texto": "La presente Constitución entra en vigor, una vez proclamada, a partir de su publicación en la Gaceta Oficial de la República.",
         "similarity": 0.9183673469387755,
         "type": "comp",

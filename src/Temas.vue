@@ -5,7 +5,7 @@
                 <img src="/dist/assets/info.svg" alt="infografia" v-if="actualIndex==-1"/>
                 <div v-if="actualTopic && actualTopic.nota" class="row">
                     <div class="col">
-                        <p class="nota-articulo">
+                        <p class="nota-articulo"  v-if="actualIndex!=-1">
                             {{actualTopic.nota}}
                         </p>
                     </div>
@@ -104,7 +104,7 @@
                     this.actualTopic = filter;
                     this.showedArt = this.articles.filter((el) => {
                         if (el.topics && el.topics.length > 0) {
-                            return el.topics.includes(filter.den)
+                            return el.topics.includes(filter.den) ||  el.topics.includes(filter.word)
                         }
                     })
                 }
@@ -150,8 +150,8 @@
 
     }
 
-    #article-listing {
-        min-height: 400px;
+    #article-lis {
+        min-height: 500px;
     }
 
     .side{

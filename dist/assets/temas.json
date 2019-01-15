@@ -39,14 +39,14 @@
     "den": "Bienestar animal",
     "weight": 8,
     "clasif": 0,
-    "nota": ""
+    "nota": "Esta es la formulación más cercana al tema que se logró tras el debate. Este fue de los temas más polémicos."
   },
   {
     "word": "Círculos infantiles",
     "den": "Círculos infantiles",
     "weight": 3,
     "clasif": 1,
-    "nota": ""
+    "nota": "Este tema se retoma de la Constitución de 1976."
   },
   {
     "word": "Extranjeros",
@@ -67,7 +67,7 @@
     "den": "Concentración de la riqueza",
     "weight": 16,
     "clasif": 0,
-    "nota": ""
+    "nota": "Este fue uno de los temas más debatidos entre los diputados que aprobaron el texto constitucional."
   },
   {
     "word": "Confiscación",
@@ -105,7 +105,7 @@
     "nota": ""
   },
   {
-    "word": "Consejo Electoral ",
+    "word": "Consejo Electoral",
     "den": "Consejo Electoral Nacional",
     "weight": 9,
     "clasif": 3,
@@ -154,15 +154,8 @@
     "nota": ""
   },
   {
-    "word": "Funcionarios",
-    "den": "Declaración jurada de los funcionarios",
-    "weight": 5,
-    "clasif": 0,
-    "nota": ""
-  },
-  {
-    "word": "Defensa   ",
-    "den": "Defensa   ",
+    "word": "Defensa ",
+    "den": "Defensa",
     "weight": 5,
     "clasif": 2,
     "nota": ""
@@ -172,14 +165,14 @@
     "den": "Defensa derechos constitucionales",
     "weight": 9,
     "clasif": 1,
-    "nota": ""
+    "nota": "Al reconocer explícitamente el derecho de amparo en texto avanza con respecto al tema."
   },
   {
     "word": "Defensor del Pueblo",
     "den": "Defensor del Pueblo",
     "weight": 11,
     "clasif": 0,
-    "nota": ""
+    "nota": "Este tema se debatió; pero no se incluyó en el texto constitucional."
   },
   {
     "word": "Deporte",
@@ -207,35 +200,14 @@
     "den": "Derecho de huelga",
     "weight": 9,
     "clasif": 0,
-    "nota": ""
-  },
-  {
-    "word": "Inversión",
-    "den": "Derecho Inversión de nacionales",
-    "weight": 24,
-    "clasif": 0,
-    "nota": ""
-  },
-  {
-    "word": "Réplica",
-    "den": "Derecho a réplica",
-    "weight": 1,
-    "clasif": 0,
-    "nota": ""
+    "nota": "Sobre este tema se debatió; pero no se incluyó nada en el texto constitucional."
   },
   {
     "word": "Cubanos no residentes ",
     "den": "Derechos cubanos residentes extranjero",
     "weight": 20,
     "clasif": 0,
-    "nota": ""
-  },
-  {
-    "word": "Extranjeros",
-    "den": "Derechos de extranjeros no residentes",
-    "weight": 1,
-    "clasif": 0,
-    "nota": ""
+    "nota": "Este tema se debatió pero no se hace ninguna referncia en el texto constitucional."
   },
   {
     "word": "Derechos diputados",
@@ -249,21 +221,14 @@
     "den": "Derechos humanos",
     "weight": 38,
     "clasif": 3,
-    "nota": ""
-  },
-  {
-    "word": "Refugiados",
-    "den": "Derechos de los refugiados",
-    "weight": 1,
-    "clasif": 0,
-    "nota": ""
+    "nota": "Se reconoce como un gran progreso en el texto. Resalta la inclusión de nuevos derechos y libertades.Es uno de los temas que más modificaciones tuvo."
   },
   {
     "word": "Discriminación",
     "den": "Discriminación",
     "weight": 10,
     "clasif": 3,
-    "nota": ""
+    "nota": "Amplía su formuación, pero deja fuera otros elementos relevantes como la no discriminación política."
   },
   {
     "word": "Racismo",
@@ -273,39 +238,18 @@
     "nota": ""
   },
   {
-    "word": "Financiamiento deporte",
-    "den": "Diversificación del financiamiento del deporte",
-    "weight": 1,
-    "clasif": 0,
-    "nota": ""
-  },
-  {
     "word": "Ciudadanía",
     "den": "Doble ciudadanía y ciudadanía efectiva",
     "weight": 12,
     "clasif": 1,
-    "nota": ""
-  },
-  {
-    "word": "Economía mixta",
-    "den": "Economía mixta",
-    "weight": 6,
-    "clasif": 5,
-    "nota": ""
-  },
-  {
-    "word": "Edad electoral",
-    "den": "Edad electoral",
-    "weight": 3,
-    "clasif": 1,
-    "nota": ""
+    "nota": "Explícitar la posibilidad de la doble ciudadanía reconoce peticiones de los debates."
   },
   {
     "word": "Educación",
     "den": "Educación",
     "weight": 27,
     "clasif": 1,
-    "nota": ""
+    "nota": "Retoma la formulación de la Constitución de 1976 en cuanto a los servicios y reconoce su gratuidad y calidad."
   },
   {
     "word": "Diputados",
@@ -340,7 +284,7 @@
     "den": "Eliminar exigencia pasaporte",
     "weight": 1,
     "clasif": 0,
-    "nota": ""
+    "nota": "Aunque estuvo en el debate, obre este tema no se hace referencia en el texto constitucional."
   },
   {
     "word": "Empresa estatal",
@@ -368,14 +312,14 @@
     "den": "Exclusión del término comunismo y otros",
     "weight": 25,
     "clasif": 3,
-    "nota": ""
+    "nota": "Con respecto a este tema retoma la formulación de la Constitución de 1976."
   },
   {
     "word": "Feminicidio",
     "den": "Feminicidio",
     "weight": 2,
     "clasif": 0,
-    "nota": ""
+    "nota": "Aunque este término no se utiliza en el texto, si hace referncia en varias ocaciones a la protección contra la violencia a las mujeres.,"
   },
   {
     "word": "Reformas constitucionales",
@@ -399,22 +343,22 @@
     "nota": ""
   },
   {
-    "word": "ANPP",
+    "word": "Asamblea Nacional",
     "den": "Funcionamiento de la ANPP",
     "weight": 30,
     "clasif": 1,
-    "nota": ""
+    "nota": "A penas tuvo cambios despúes del debate."
   },
   {
     "word": "Presidente",
     "den": "Funciones del presidente",
     "weight": 7,
     "clasif": 1,
-    "nota": ""
+    "nota": "A pesar de ser uno de los temas más debatidos y que más propuestas generó. En este tema el único cambio que hubo fue la forma de elegir al gobernador, que es parte de las atribuciones del Presidente."
   },
   {
     "word": "1º Ministro",
-    "den": "Funciones Primer Ministro",
+    "den": "Funciones del Primer Ministro",
     "weight": 9,
     "clasif": 1,
     "nota": ""
@@ -424,7 +368,7 @@
     "den": "Gobernador",
     "weight": 35,
     "clasif": 1,
-    "nota": ""
+    "nota": "Despúes del debate, se redujo el alcance de su función, dejándolo solo en la responsabilidad ejecutivo administrativa y cambió su forma de elección: ahora es elegido por los delegados municipales a propuesta del Presidente de la República."
   },
   {
     "word": "Habeas data",
@@ -452,13 +396,6 @@
     "den": "Igualdad",
     "weight": 15,
     "clasif": 1,
-    "nota": ""
-  },
-  {
-    "word": "Funciones de los diputados",
-    "den": "Incompatibilidad de funciones de los diputados",
-    "weight": 5,
-    "clasif": 0,
     "nota": ""
   },
   {
@@ -515,14 +452,14 @@
     "den": "Límite edad presidente",
     "weight": 20,
     "clasif": 3,
-    "nota": ""
+    "nota": "Sobre este tema se dieron 24 365 opiniones según datos oficiales; pero el texto no sufrió nnguna modificación."
   },
   {
     "word": "Laicismo",
     "den": "Laicismo",
     "weight": 3,
     "clasif": 5,
-    "nota": ""
+    "nota": "Este tema se reconoce explícitamente."
   },
   {
     "word": "Leyes",
@@ -536,7 +473,7 @@
     "den": "Libertad de ideología",
     "weight": 26,
     "clasif": 0,
-    "nota": ""
+    "nota": "Sobre este tema se debatió, peo no se incluyó en el texto constitucional."
   },
   {
     "word": "Libre movimiento",
@@ -553,13 +490,6 @@
     "nota": ""
   },
   {
-    "word": "Mandatos",
-    "den": "Limitación de mandatos",
-    "weight": 24,
-    "clasif": 3,
-    "nota": ""
-  },
-  {
     "word": "Lucha armada",
     "den": "Lucha armada",
     "weight": 2,
@@ -571,14 +501,14 @@
     "den": "Matrimonio",
     "weight": 99,
     "clasif": 3,
-    "nota": ""
+    "nota": " Desató la principal polémica del texto, con 192 408 opiniones en las asambleas y mucho debate en los medios de comunicación. Si bien su redacción final avanza sobre la Constitución vigente, es más amplia y tiene una mirada detalla al tema familia; con respecto al proyecto anteriormente presentado da un paso atrás y saca el asunto del matrimonio igualitaria fuera de Constitución."
   },
   {
     "word": "Medios de Comunicación",
     "den": "Medios de Comunicación",
     "weight": 16,
     "clasif": 1,
-    "nota": ""
+    "nota": "En este asunto se limita la propiedad de medios fundamentales."
   },
   {
     "word": "Fuerzas Armadas",
@@ -592,21 +522,21 @@
     "den": "Modificar nombre del país",
     "weight": 1,
     "clasif": 0,
-    "nota": ""
+    "nota": "Las peticiones en cuanto al cambio de nombre oficial no procedieron."
   },
   {
     "word": "Moneda",
     "den": "Moneda Oficial",
     "weight": 4,
     "clasif": 0,
-    "nota": ""
+    "nota": "Este tema se debatió, pero no se incluyó nada en el texto constitucional."
   },
   {
     "word": "Objeción de conciencia",
     "den": "Objeción de conciencia",
     "weight": 2,
     "clasif": 2,
-    "nota": ""
+    "nota": "No varió su formulación. Su redacción está desde cuando no se puede invocar, pero no explícita cuando sí."
   },
   {
     "word": "Organizaciones sociales",
@@ -634,7 +564,7 @@
     "den": "Prohibición de pena de muerte",
     "weight": 8,
     "clasif": 0,
-    "nota": ""
+    "nota": "Este tema se debatió y aunque la Constitución reconoce el derecho a la vida; no se incluyó nada en explícito en el texto."
   },
   {
     "word": "Privación de libertad",
@@ -644,25 +574,11 @@
     "nota": ""
   },
   {
-    "word": "Pluripartidismo",
-    "den": "Pluripartidismo",
-    "weight": 9,
-    "clasif": 0,
-    "nota": ""
-  },
-  {
     "word": "Pobreza",
     "den": "Pobreza",
     "weight": 9,
     "clasif": 0,
-    "nota": ""
-  },
-  {
-    "word": "Preámbulo",
-    "den": "Preámbulo",
-    "weight": 15,
-    "clasif": 1,
-    "nota": ""
+    "nota": "Sobre este tema se debatió; pero no se incluyó nada en el texto constitucional."
   },
   {
     "word": "Proceso judicial",
@@ -690,7 +606,7 @@
     "den": "Propiedad comunitaria",
     "weight": 1,
     "clasif": 0,
-    "nota": ""
+    "nota": "Este tipo de propiedad no se incluyó como parte del texto constitucional."
   },
   {
     "word": "Propiedad de organizaciones",
@@ -714,13 +630,6 @@
     "nota": ""
   },
   {
-    "word": "Propiedad social  ",
-    "den": "Propiedad social  (subsuelo, playas, etc.)",
-    "weight": 8,
-    "clasif": 1,
-    "nota": ""
-  },
-  {
     "word": "Propiedad socialista del pueblo",
     "den": "Propiedad socialista de todo el pueblo",
     "weight": 23,
@@ -735,32 +644,25 @@
     "nota": ""
   },
   {
-    "word": "Organismos internacioanles",
+    "word": "Organismos internacionales",
     "den": "Reclamación ante organismos internacionales",
     "weight": 1,
     "clasif": 0,
-    "nota": ""
-  },
-  {
-    "word": "Minorías",
-    "den": "Reconocimiento de minorías",
-    "weight": 1,
-    "clasif": 0,
-    "nota": ""
+    "nota": "Este tema no se contempla en el texto de la Constitución."
   },
   {
     "word": "Eutanasia",
     "den": "Reconocimiento de la eutanasia",
     "weight": 8,
     "clasif": 0,
-    "nota": ""
+    "nota": "Este tema se debatió, pero no se incluyó nada en el texto constitucional."
   },
   {
     "word": "Propiedad privada",
     "den": "Reconocimiento propiedad privada",
     "weight": 37,
     "clasif": 3,
-    "nota": ""
+    "nota": "Específica los sujetos que la poseen y la define como un complemento de la economía."
   },
   {
     "word": "Relaciones internacionales",
@@ -774,13 +676,6 @@
     "den": "Religión",
     "weight": 14,
     "clasif": 4,
-    "nota": ""
-  },
-  {
-    "word": "Republicanismo",
-    "den": "Republicanismo",
-    "weight": 1,
-    "clasif": 0,
     "nota": ""
   },
   {
@@ -823,14 +718,14 @@
     "den": "Salario",
     "weight": 30,
     "clasif": 0,
-    "nota": ""
+    "nota": "Este fue uno de los temas más debatidos con 6 922 opiniones en las asambleas populares."
   },
   {
     "word": "Salud",
     "den": "Salud",
     "weight": 20,
     "clasif": 1,
-    "nota": ""
+    "nota": "Retoma la formulación de la Constitución de 1976 en cuanto a los servicios y reconoce su gratuidad y calidad."
   },
   {
     "word": "Seguridad social",
@@ -851,42 +746,35 @@
     "den": "Soberanía Ciberespacio",
     "weight": 3,
     "clasif": 0,
-    "nota": ""
+    "nota": "Esta es la única mención al tema, aunque no lo reconoce para el contexto nacional."
   },
   {
     "word": "Superioridad del Partido",
     "den": "Superioridad Partido Comunista",
     "weight": 81,
     "clasif": 1,
-    "nota": ""
-  },
-  {
-    "word": "Territorialidad de los diputados",
-    "den": "Territorialidad de los diputados",
-    "weight": 6,
-    "clasif": 0,
-    "nota": ""
+    "nota": "Este fue de los tema más debatidos en los medios alternativos de comunicaión, aunque no hay cifras oficiales de las asambleas populares."
   },
   {
     "word": "Trabajo",
     "den": "Trabajo",
     "weight": 22,
     "clasif": 1,
-    "nota": ""
+    "nota": "Sobre este asunto se realizaron 46 968 opiniones en las asambleas populares."
   },
   {
     "word": "Traición",
     "den": "Traición a la Patria",
     "weight": 8,
     "clasif": 1,
-    "nota": ""
+    "nota": "Este fue un tema muy debatido y su redacción quedó tal como estaba."
   },
   {
     "word": "Tribunal Constitucional",
     "den": "Tribunal Constitucional",
     "weight": 26,
     "clasif": 0,
-    "nota": ""
+    "nota": "Sobre este tema se debatió, peo no se incluyó en el texto constitucional."
   },
   {
     "word": "Tribunales",
@@ -914,28 +802,21 @@
     "den": "Derecho al aborto",
     "weight": 7,
     "clasif": 0,
-    "nota": ""
+    "nota": "Aunque no se reconoce explícitamente el tema, que se incororen los derechos sexuales y reproductivos es un avance."
   },
   {
     "word": "Exilio",
     "den": "Exilio",
     "weight": 1,
     "clasif": 0,
-    "nota": ""
-  },
-  {
-    "word": "Proyección socialista",
-    "den": "Proyección socialista",
-    "weight": 4,
-    "clasif": 1,
-    "nota": ""
+    "nota": "Este tema no se incluyó en el texto constitucional."
   },
   {
     "word": "Acceso a TICS",
     "den": "Acceso a TICS",
     "weight": 1,
     "clasif": 0,
-    "nota": ""
+    "nota": "Este tema no se incluyó en el texto constitucional."
   },
   {
     "word": "Sucesión",
@@ -949,6 +830,6 @@
     "den": "Sindicatos",
     "weight": 2,
     "clasif": 0,
-    "nota": ""
+    "nota": "Este tema no aparece de forma explícta en el texto, ni se reconoce como un derecho. Su única aproximación es cuando se refiere a la Central de Trabajdores de Cuba, la organización sindical cubana."
   }
 ]
