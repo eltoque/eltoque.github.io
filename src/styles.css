@@ -151,6 +151,10 @@ body * {
     color: #ffffff;
     margin: 20px;
 }
+a.credits-button:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 .dark {
     height: 600px;

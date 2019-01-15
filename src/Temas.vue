@@ -1,7 +1,15 @@
 <template>
     <div class="container-fluid indrig">
         <div class="row revrt">
-            <div id="" class="col-lg-8 col-md-8 text-center">
+            <div id="article-lis" class="col-lg-8 col-md-8 text-center">
+                <img src="/dist/assets/info.svg" alt="infografia" v-if="actualIndex==-1"/>
+                <div v-if="actualTopic && actualTopic.nota" class="row">
+                    <div class="col">
+                        <p class="nota-articulo">
+                            {{actualTopic.nota}}
+                        </p>
+                    </div>
+                </div>
                 <div v-for="(item, index) in showedArt">
                     <template v-if="item.tag == 'h4'">
 
@@ -9,7 +17,7 @@
                             {{item.texto}}
 
                         </h4>
-                        <span class="badge badge-warning">{{(item.important=='')?"importante":""}}</span>
+                        <!--<span class="badge badge-warning">{{(item.important=='')?"importante":""}}</span>-->
                     </template>
                     <div v-if="item.inside" class="text-article container-fluid">
                         <div class="row" v-for="(art, secindex) in item.inside">
@@ -32,16 +40,20 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
+                <affix :enabled="(!sizingl)?true:false" relative-element-selector="#article-lis" style="margin-top: 25px">
+                <div>
                 <ul class="data-el">
-                    <template v-for="(item, index) in orderedWords">
-                        <li v-ripple v-scroll-to="sizingl" class="data-item" @click="filteredArticles(item, index)">
-                            <div class="circle" :class="(index == actualIndex)?'sel':''"></div>
-                            {{item.word}}
-                        </li>
-                        <v-divider v-if="index + 1 < orderedWords.length"
-                                   :key="`divider-${index}`"></v-divider>
-                    </template>
-                </ul>
+                        <template v-for="(item, index) in orderedWords">
+                            <li v-ripple v-scroll-to="sizingl" class="data-item" @click="filteredArticles(item, index)">
+                                <div class="circle" :class="(index == actualIndex)?'sel':''"></div>
+                                {{item.word}}
+                            </li>
+                            <v-divider v-if="index + 1 < orderedWords.length"
+                                       :key="`divider-${index}`"></v-divider>
+                        </template>
+                    </ul>
+                </div>
+                </affix>
             </div>
         </div>
     </div>
@@ -50,9 +62,11 @@
 <script>
     import borrador from './assets/borrador.json'
     import datos from './assets/temas.json';
+    import {Affix} from 'vue-affix'
 
     export default {
         name: "Temas",
+        components: {Affix},
         created() {
             window.addEventListener('resize', this.handleResize)
             this.handleResize();
@@ -66,12 +80,13 @@
                 articles: borrador,
                 textos: datos,
                 actualIndex: -1,
+                actualTopic: null,
             }
         ),
         computed: {
             sizingl: function () {
                 if (this.widths < 468)
-                    return "#listtopics"
+                    return "#article-lis"
                 return false
             },
             orderedWords: () => datos.sort((a, b) => b.weight - a.weight)
@@ -81,12 +96,26 @@
                 this.widths = window.innerWidth;
             },
             filteredArticles: function (filter, index) {
-                this.actualIndex = index;
-                this.showedArt = this.articles.filter((el) => {
+                if (index == this.actualIndex) {
+                    this.actualIndex = -1
+                    this.showedArt = []
+                } else {
+                    this.actualIndex = index;
+                    this.actualTopic = filter;
+                    this.showedArt = this.articles.filter((el) => {
+                        if (el.topics && el.topics.length > 0) {
+                            return el.topics.includes(filter.den)
+                        }
+                    })
+                }
+
+            },
+            numberArticles: function (filter) {
+                return this.articles.filter((el) => {
                     if (el.topics && el.topics.length > 0) {
                         return el.topics.includes(filter.den)
                     }
-                })
+                }).length
             },
 
         }
@@ -99,10 +128,12 @@
     @media (max-width: 764px) {
         .data-el {
             max-width: 100% !important;
+            max-height: 400px !important;
         }
 
         .data-item {
             width: 100% !important;
+            max-height: 400px !important;
         }
 
         .revrt {
@@ -111,9 +142,22 @@
             flex-direction: column-reverse !important;
         }
     }
+    .nota-articulo {
+        color: #f89226;
+        font-family: TradeGothicLTStd-Bold;
+        font-weight: bold;
+        font-size: 1.2em;
 
-    .sel {
-        background-color: #33ccb2 !important;
+    }
+
+    #article-listing {
+        min-height: 400px;
+    }
+
+    .side{
+        width: 100px;
+        height: 100px;
+        border: 1px solid violet;
     }
 
     .circle {
@@ -166,7 +210,7 @@
 
     .data-el {
         max-width: 250px;
-        max-height: 550px;
+        max-height: 500px;
         padding-left: 0px;
         overflow-y: scroll;
     }

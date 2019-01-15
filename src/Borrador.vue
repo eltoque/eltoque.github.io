@@ -30,7 +30,8 @@
             <h3 v-else-if="item.tag == 'h3'" :key="index" v-show="checkIfShow" :class="item.style">{{item.texto}}</h3>
             <template v-else-if="item.tag == 'h4'">
 
-                <h4 :key="index" :class="item.style" @click="showInside(index)" v-show="checkIfVisible(item)">
+                <h4 :key="index" :class="item.style" @click="showInside(index)">
+                <!--<h4 :key="index" :class="item.style" @click="showInside(index)" v-show="checkIfVisible(item)">-->
                     <div v-if="item.important==''" class="nota-icon"></div>
                     +
                     {{item.texto}}</h4>
@@ -46,10 +47,18 @@
             </div>
 
             <div v-if="item.inside" class="text-article container-fluid"
-                 v-show="isvisible(index) && checkIfVisible(item)">
+                 >
+                 <!--v-show="isvisible(index) && checkIfVisible(item)">-->
                 <template v-for="(art, secindex) in item.inside">
-                    <div class="row" :style="backStyle" :class="realstyle(art.type)">
+                    <div class="row">
+                        <!--<div class="row" :style="backStyle" :class="realstyle(art.type)">-->
+
+
                         <div class="col"><p class="">{{art.texto}}</p></div>
+
+                        <div class="col"><p class="">{{art.similar}}</p></div>
+                        <div class="col"><p class="">{{art.new}}</p></div>
+
                         <div v-if="art.compared != '' && art.type == 'comp'" class="col">
                             <p class="article-comparable" v-html="art.compared"></p>
                         </div>
@@ -69,7 +78,7 @@
     import {library} from '@fortawesome/fontawesome-svg-core'
     import {faEye, faEyeSlash, faChevronDown, faChevronUp} from '@fortawesome/free-solid-svg-icons'
     import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
-    import borrador from './assets/borrador.json'
+    import borrador from './assets/borrador2.json'
     import PieChart from "./PieChart";
 
     library.add(faEye, faEyeSlash, faChevronDown, faChevronUp)
@@ -453,7 +462,8 @@
         letter-spacing: 0.2px;
         text-align: justify;
         color: #1b1d1e;
-        max-width: 680px;
+        /*max-width: 680px;*/
+        max-width: 1200px;
         margin: 20px auto;
     }
 
@@ -505,5 +515,8 @@
         font-size: 18px;
         letter-spacing: 4px;
         margin: 10px 15px;
+    }
+    .col{
+        border: 1px solid black;
     }
 </style>
