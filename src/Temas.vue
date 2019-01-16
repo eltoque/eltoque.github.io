@@ -5,7 +5,7 @@
                 <img src="/dist/assets/info.svg" alt="infografia" v-if="actualIndex==-1"/>
                 <div v-if="actualTopic && actualTopic.nota" class="row">
                     <div class="col">
-                        <p class="nota-articulo"  v-if="actualIndex!=-1">
+                        <p class="nota-articulo" v-if="actualIndex!=-1">
                             {{actualTopic.nota}}
                         </p>
                     </div>
@@ -38,24 +38,34 @@
                         </div>
                     </div>
                 </div>
+                <!--<div class="myBtn" v-scroll-to="'#article-lis'">-->
+                    <!--<font-awesome-icon style="color: white;" size="lg" icon="chevron-up">-->
+                    <!--</font-awesome-icon>-->
+                    <!--<br>-->
+                <!--</div>-->
             </div>
+
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <affix :enabled="(!sizingl)?true:false" relative-element-selector="#article-lis" style="margin-top: 25px">
-                <div>
-                <ul class="data-el">
-                        <template v-for="(item, index) in orderedWords">
-                            <li v-ripple v-scroll-to="sizingl" class="data-item" @click="filteredArticles(item, index)">
-                                <div class="circle" :class="(index == actualIndex)?'sel':''"></div>
-                                {{item.word}}
-                            </li>
-                            <v-divider v-if="index + 1 < orderedWords.length"
-                                       :key="`divider-${index}`"></v-divider>
-                        </template>
-                    </ul>
-                </div>
+                <affix :enabled="(!sizingl)?true:false" relative-element-selector="#article-lis"
+                       style="margin-top: 25px">
+                    <div>
+                        <ul class="data-el">
+                            <template v-for="(item, index) in orderedWords">
+                                <li v-ripple v-scroll-to="'#article-lis'" class="data-item"
+                                    @click="filteredArticles(item, index)">
+                                    <div class="circle" :class="(index == actualIndex)?'sel':''"></div>
+                                    {{item.word}}
+                                </li>
+                                <v-divider v-if="index + 1 < orderedWords.length"
+                                           :key="`divider-${index}`"></v-divider>
+                            </template>
+                        </ul>
+                    </div>
                 </affix>
             </div>
         </div>
+
+
     </div>
 </template>
 
@@ -63,10 +73,15 @@
     import borrador from './assets/borrador.json'
     import datos from './assets/temas.json';
     import {Affix} from 'vue-affix'
+    import {library} from '@fortawesome/fontawesome-svg-core'
+    import {faChevronDown, faChevronUp} from '@fortawesome/free-solid-svg-icons'
+    import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
+
+    library.add(  faChevronDown, faChevronUp)
 
     export default {
         name: "Temas",
-        components: {Affix},
+        components: {Affix, FontAwesomeIcon},
         created() {
             window.addEventListener('resize', this.handleResize)
             this.handleResize();
@@ -104,7 +119,7 @@
                     this.actualTopic = filter;
                     this.showedArt = this.articles.filter((el) => {
                         if (el.topics && el.topics.length > 0) {
-                            return el.topics.includes(filter.den) ||  el.topics.includes(filter.word)
+                            return el.topics.includes(filter.den) || el.topics.includes(filter.word)
                         }
                     })
                 }
@@ -142,11 +157,25 @@
             flex-direction: column-reverse !important;
         }
     }
+
     .nota-articulo {
         color: #f89226;
         font-family: TradeGothicLTStd-Bold;
         font-weight: bold;
         font-size: 1.2em;
+        margin-top: 10px;
+
+    }
+
+    .myBtn {
+        position: fixed;
+        max-width: 30px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: rgb(100, 100, 100);
+        padding: 5px;
+        text-align: center;
+        bottom: 120px !important;
+        border-radius: 4px;
 
     }
 
@@ -154,7 +183,7 @@
         min-height: 500px;
     }
 
-    .side{
+    .side {
         width: 100px;
         height: 100px;
         border: 1px solid violet;

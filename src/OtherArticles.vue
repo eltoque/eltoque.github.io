@@ -7,6 +7,7 @@
                 <div class="row">
                     <div class="col text-center">
                         <div>
+
                             <v-carousel class="box-other"
                                         hide-delimiters
                                         next-icon="fa fa-chevron-right"
@@ -44,7 +45,6 @@
     dom.watch()
     import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
-    // import data from './assets/posts.json';
 
     library.add(faChevronRight, faChevronLeft)
     export default {

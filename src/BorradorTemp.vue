@@ -23,10 +23,10 @@
                 <pie-chart :options="options" :chart-data="datacollection"></pie-chart>
                 <div class="row justify-content-center">
 
-                    <!--<button v-scroll-to="sizings" type="button" v-ripple-->
-                            <!--class="btn btn-info type-button"-->
-                            <!--@click="changeVisible('del')">-->
-                        <!--Eliminado<br/><span :class="{marks:del}">+</span></button>-->
+                    <button v-scroll-to="sizings" type="button" v-ripple
+                    class="btn btn-info type-button" v-if="section == 1"
+                    @click="changeVisible('del')">
+                    Eliminado<br/><span :class="{marks:del}">+</span></button>
                     <button v-scroll-to="sizings" type="button" v-ripple
                             style="background-color: rgb(2,166,141)"
                             class="btn btn-info type-button"
@@ -102,6 +102,31 @@
                     </affix>
                 </div>
                 <div id="article-listing">
+
+                    <div v-if="del" v-for="(dels, indey) in eliminados.primera">
+                        <h4 v-if="dels.numero" :key="indey" @click="showInsideDel(indey)"
+                            class="articulo"> + Articulo {{dels.numero}}</h4>
+                        <div v-for="(texto, ins) in dels.text">
+                            <div class="text-article container-fluid" v-show="checkIfVisibleDel(indey)" :style="backStyle">
+                                <div class="row">
+                                    <div class="col"><p :class="{'black-color': dels.del==ins }">{{texto}}</p></div>
+                                    <div class="w-100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div v-if="dels.incisos" v-for="(texto) in dels.incisos">
+                            <div class="text-article container-fluid" v-show="checkIfVisibleDel(indey)" :style="backStyle">
+                                <div class="row">
+                                    <div class="col"><p :class="{'black-color': texto.del==0 }">{{texto.text[0]}}</p></div>
+                                    <div class="w-100"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
                     <div id="listBorrador" v-for="(item, index) in contenido">
                         <h1 v-if="item.tag == 'h1'" :key="index" @click="showInside(index)" v-show="checkIfShow"
                             :class="item.style">{{(item.inside)?"+ ":""}}{{item.texto}}</h1>
@@ -168,6 +193,7 @@
     import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
     import borrador from './assets/borrador.json'
     import borrador2 from './assets/borrador2.json'
+    import elims from './assets/deleted.json'
     import PieChart from "./PieChart";
     import Const from "./Const";
 
@@ -195,6 +221,7 @@
                     legend: false,
 
                 },
+                eliminados: elims,
                 type: "",
                 cNu: 0,
                 cDel: 0,
@@ -207,6 +234,7 @@
                 nu: false,
                 equ: false,
                 listvisble: [],
+                listDelvisble: [],
                 datacollection: {
                     labels: ["Párrafos modificados", "Párrafos iguales", "Párrafos nuevos"],
                     datasets: [
@@ -245,6 +273,10 @@
             }
         },
         methods: {
+            checkIfVisibleDel(index){
+                this.listDelvisble[index] = (this.listDelvisble[index] == undefined || this.listDelvisble[index] == false) ? false : true
+                return this.listDelvisble[index]
+            },
             realstyle(type) {
                 if ((type == 'equ' && this.equ) || (type == 'comp' && this.comp) || (type == 'del' && this.del) || (type == 'nu' && this.nu)) {
                     return 'black-color'
@@ -256,11 +288,15 @@
                 for (let i = 0; i <= 366; i++) {
                     this.listvisble.splice(i, 1, this.open)
                 }
+                for (let i = 0; i <= 100; i++) {
+                    this.listDelvisble.splice(i, 1, this.open)
+                }
             },
             changeComp(type) {
                 if (type == 2) {
                     this.section = 2
                     this.contenido = borrador2
+                    this.del = false
                 }
                 if (type == 1) {
                     this.section = 1
@@ -369,6 +405,9 @@
             },
             showInside(index) {
                 this.listvisble.splice(index, 1, !this.listvisble[index])
+            },
+            showInsideDel(index) {
+                this.listDelvisble.splice(index, 1, !this.listDelvisble[index])
             },
             isvisible(index) {
                 this.listvisble[index] = (this.listvisble[index] == undefined || this.listvisble[index] == false) ? false : true

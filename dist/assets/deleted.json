@@ -1,0 +1,464 @@
+{
+  "primera": [
+    {
+      "numero": 18,
+      "del": 0,
+      "text": [
+        "La República de Cuba, en su propósito de promover la integración latinoamericana y caribeña, puede, mediante tratados, atribuir a entidades supranacionales el ejercicio de las facultades requeridas para ello."
+      ]
+    },
+    {
+      "numero": 23,
+      "del": 3,
+      "text": [
+        "Son de propiedad socialista de todo el pueblo: las tierras que no pertenecen a particulares o cooperativas integradas por estos, el subsuelo, las minas, los recursos naturales tanto vivos como no vivos dentro de la zona económica exclusiva de la República, los bosques, las aguas y las vías de comunicación.",
+        "Estos bienes son inalienables, imprescriptibles e inembargables, por lo que no pueden trasmitirse en propiedad a personas naturales o jurídicas.",
+        "La trasmisión de otros derechos sobre estos bienes se hará previa autorización del órgano u autoridad facultada, conforme a lo previsto en la ley, y siempre que se destinen a los fines del desarrollo del país y no afecten los fundamentos políticos, económicos y sociales del Estado.",
+        "La propiedad socialista de todo el pueblo incluye otros bienes, cuyo régimen legal se define en la ley."
+      ]
+    },
+    {
+      "numero": 25,
+      "del": 3,
+      "text": [
+        "El Estado crea y organiza empresas con el objetivo de desarrollar actividades económicas de producción y prestación de servicios, las que ejercen los derechos que les corresponden sobre los bienes de propiedad socialista de todo el pueblo que tienen asignados.",
+        "Las empresas responden de las obligaciones contraídas con su patrimonio, en correspondencia con los límites que determine la ley.",
+        "El Estado no responde de las obligaciones contraídas por las empresas y estas tampoco responden de las de aquel.",
+        "La ley define otras formas en las que este tipo de propiedad puede ser gestionada."
+      ]
+    },
+    {
+      "numero": 39,
+      "del": 1,
+      "text": [
+        "El Estado cubano garantiza a la persona el goce y el ejercicio irrenunciable, indivisible e interdependiente de los derechos humanos, en correspondencia con el principio de progresividad y sin discriminación. Su respeto y garantía son obligatorios para todos.",
+        "Los derechos y deberes reconocidos en esta Constitución se interpretan de conformidad con los tratados internacionales de derechos humanos ratificados por Cuba."
+      ]
+    },
+    {
+      "numero": 48,
+      "text": [
+        "Toda persona como garantía a su seguridad jurídica, disfruta de un debido proceso y en consecuencia goza de los derechos siguientes:"
+      ],
+      "incisos": [
+        {
+          "inciso": "a",
+          "text": [
+            "a) no ser privada de libertad, sino por autoridad competente;"
+          ]
+        },
+        {
+          "inciso": "b",
+          "del": 0,
+          "text": [
+            "b) no ser detenida ni procesada, sino por causa justa, autoridad competente y por el tiempo establecido;"
+          ]
+        },
+        {
+          "inciso": "c",
+          "text": [
+            "c) que se presuma inocente, mientras no se haya declarado responsable por sentencia firme de tribunal;"
+          ]
+        },
+        {
+          "inciso": "d",
+          "text": [
+            "d) ser procesada y condenada por tribunal competente, independiente, imparcial, preestablecido legalmente y en virtud de leyes anteriores al delito;"
+          ]
+        },
+        {
+          "inciso": "e",
+          "del": 0,
+          "text": [
+            "e) ser tratada con respeto a su dignidad e integridad física, síquica y moral;"
+          ]
+        },
+        {
+          "inciso": "f",
+          "text": [
+            "f) recibir asistencia jurídica para ejercer su defensa;"
+          ]
+        },
+        {
+          "inciso": "g",
+          "text": [
+            "g) ser notificada de los cargos en su contra y acceder a los medios de pruebas;"
+          ]
+        },
+        {
+          "inciso": "h",
+          "text": [
+            "h) comunicarse con sus familiares, caso de ser detenida o arrestada. Si se tratara de extranjeros se procede a la notificación consular;"
+          ]
+        },
+        {
+          "inciso": "i",
+          "text": [
+            "i) no ser privada de sus derechos sino por resolución fundada de autoridad competente o sentencia firme de tribunal, e"
+          ]
+        },
+        {
+          "inciso": "j",
+          "text": [
+            "j) interponer los recursos pertinentes contra las resoluciones judiciales o administrativas que correspondan."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 67,
+      "del": 1,
+      "text": [
+        "El Estado protege a las familias, la maternidad, la paternidad y el matrimonio.",
+        "El Estado atribuye a las familias, concebidas como células básicas de la sociedad, responsabilidades y funciones esenciales en la educación y formación de las nuevas generaciones y el cuidado y atención de los adultos mayores."
+      ]
+    },
+    {
+      "numero": 104,
+      "text": [
+        "La Asamblea Nacional del Poder Popular, en ejercicio de sus atribuciones:"
+      ],
+      "incisos": [
+        {
+          "inciso": "a",
+          "text": [
+            "a) elige al Presidente y Vicepresidente de la República;"
+          ]
+        },
+        {
+          "inciso": "b",
+          "text": [
+            "b) elige a su Presidente, Vicepresidente y Secretario;"
+          ]
+        },
+        {
+          "inciso": "c",
+          "text": [
+            "c) elige a los integrantes del Consejo de Estado;"
+          ]
+        },
+        {
+          "inciso": "d",
+          "text": [
+            "d) designa, a propuesta del Presidente de la República, al Primer Ministro;"
+          ]
+        },
+        {
+          "inciso": "e",
+          "text": [
+            "e) designa, a propuesta del Presidente de la República, a los Viceprimeros ministros y demás miembros del Consejo de Ministros;"
+          ]
+        },
+        {
+          "inciso": "f",
+          "text": [
+            "f) elige al Presidente del Tribunal Supremo Popular, al Fiscal General de la República y al Contralor General de la República;"
+          ]
+        },
+        {
+          "inciso": "g",
+          "text": [
+            "g) elige al Presidente y a los demás integrantes del Consejo Electoral Nacional;"
+          ]
+        },
+        {
+          "inciso": "h",
+          "text": [
+            "h) elige a los vicepresidentes y a los magistrados del Tribunal Supremo Popular, así como a los jueces legos de esta instancia;"
+          ]
+        },
+        {
+          "inciso": "i",
+          "text": [
+            "i) elige a los vicefiscales y vicecontralores generales de la República;"
+          ]
+        },
+        {
+          "inciso": "j",
+          "del": 0,
+          "text": [
+            "j) designa, a propuesta del Presidente de la República, a los gobernadores provinciales, y"
+          ]
+        },
+        {
+          "inciso": "k",
+          "text": [
+            "k) revoca o sustituye a las personas elegidas o designadas por ella."
+          ]
+        },
+        {
+          "text": [
+            "La ley regula el procedimiento para hacer efectivas estas atribuciones."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 113,
+      "del": 1,
+      "text": [
+        "La Asamblea Nacional del Poder Popular para el mejor ejercicio de sus funciones, crea comisiones permanentes y temporales integradas por diputados, conforme a sus principios de organización y funcionamiento previstos en la ley.",
+        "Entre los períodos de sesiones de la Asamblea Nacional del Poder Popular, el Consejo de Estado coordina el trabajo de las comisiones de aquella y garantiza las condiciones necesarias para su funcionamiento."
+      ]
+    },
+    {
+      "numero": 132,
+      "text": [
+        "Corresponde al Consejo de Ministros:"
+      ],
+      "incisos": [
+        {
+          "inciso": "a",
+          "text": [
+            "a) cumplir y velar por el respeto a la Constitución y las leyes;"
+          ]
+        },
+        {
+          "inciso": "b",
+          "text": [
+            "b) organizar y dirigir la ejecución de las actividades políticas, económicas, culturales, científicas, sociales y de la defensa acordadas por la Asamblea Nacional del Poder Popular;"
+          ]
+        },
+        {
+          "inciso": "c",
+          "text": [
+            "c) proponer los objetivos generales y metas para la elaboración de los planes anuales y los de desarrollo económico-social del Estado, a mediano y largo plazos y, una vez aprobados por la Asamblea Nacional del Poder Popular, organizar, dirigir y controlar su ejecución;"
+          ]
+        },
+        {
+          "inciso": "d",
+          "text": [
+            "d) aprobar y someter a la decisión del Consejo de Estado los tratados internacionales;"
+          ]
+        },
+        {
+          "inciso": "e",
+          "text": [
+            "e) dirigir y controlar el comercio exterior y la inversión extranjera;"
+          ]
+        },
+        {
+          "inciso": "f",
+          "text": [
+            "f) elaborar el proyecto de presupuesto del Estado y, una vez aprobado por la Asamblea Nacional del Poder Popular, velar por su ejecución;"
+          ]
+        },
+        {
+          "inciso": "g",
+          "text": [
+            "g) implementar y exigir el cumplimiento de los objetivos aprobados para fortalecer los sistemas monetario, financiero y fiscal;"
+          ]
+        },
+        {
+          "inciso": "h",
+          "text": [
+            "h) elaborar proyectos legislativos y someterlos a la consideración de la Asamblea Nacional del Poder Popular o del Consejo de Estado, según proceda;"
+          ]
+        },
+        {
+          "inciso": "i",
+          "text": [
+            "i) proveer a la defensa nacional, al mantenimiento de la seguridad y orden interior, y a la protección de los derechos ciudadanos, así como a la salvaguarda de vidas y bienes en caso de desastres naturales;"
+          ]
+        },
+        {
+          "inciso": "j",
+          "text": [
+            "j) dirigir la administración del Estado, así como unificar, coordinar y fiscalizar la actividad de los organismos de la Administración Central del Estado, de las entidades nacionales y de las administraciones locales;"
+          ]
+        },
+        {
+          "inciso": "k",
+          "text": [
+            "k) conocer, evaluar y tomar decisiones sobre los informes de rendición de cuenta que le presenten los gobernadores provinciales;"
+          ]
+        },
+        {
+          "inciso": "l",
+          "del": 0,
+          "text": [
+            "l) autorizar la creación de delegaciones territoriales y otras entidades de los organismos de la Administración Central del Estado, así como organizaciones superiores de dirección empresarial;"
+          ]
+        },
+        {
+          "inciso": "m",
+          "text": [
+            "m) crear, modificar o extinguir entidades subordinadas o adscriptas al Consejo de Ministros o a los organismos de la Administración Central del Estado;"
+          ]
+        },
+        {
+          "inciso": "n",
+          "text": [
+            "n) orientar y controlar la gestión de los gobernadores provinciales;"
+          ]
+        },
+        {
+          "inciso": "ñ",
+          "del": 0,
+          "text": [
+            "ñ) designar o sustituir, a propuesta de los gobernadores, a los vicegobernadores provinciales;"
+          ]
+        },
+        {
+          "inciso": "o",
+          "text": [
+            "o) aprobar o autorizar las modalidades de inversión extranjera que le correspondan;"
+          ]
+        },
+        {
+          "inciso": "p",
+          "text": [
+            "p) ejecutar las leyes y acuerdos de la Asamblea Nacional del Poder Popular, así como los decretos-leyes y disposiciones del Consejo de Estado, los decretos presidenciales y, en caso necesario, dictar los reglamentos correspondientes;"
+          ]
+        },
+        {
+          "inciso": "q",
+          "text": [
+            "q) dictar decretos y acuerdos sobre la base y en cumplimiento de las leyes vigentes y controlar su ejecución;"
+          ]
+        },
+        {
+          "inciso": "r",
+          "text": [
+            "r) proponer al Consejo de Estado la suspensión de los acuerdos de las asambleas municipales del Poder Popular que contravengan las leyes y demás disposiciones vigentes, o que afecten los intereses de otras comunidades o los generales del país;"
+          ]
+        },
+        {
+          "inciso": "s",
+          "text": [
+            "s) suspender los acuerdos y demás disposiciones de los consejos provinciales y de los consejos de la administración municipal que no se ajusten a la Constitución, las leyes, decretos-leyes, decretos presidenciales, decretos y demás disposiciones de los órganos superiores, o cuando afecten los intereses de otras localidades o los generales del país, dando cuenta al Consejo de Estado o a la Asamblea Municipal del Poder Popular, a los efectos que proceda según corresponda;"
+          ]
+        },
+        {
+          "inciso": "t",
+          "text": [
+            "t) revocar total o parcialmente las disposiciones que emitan los gobernadores provinciales, cuando contravengan la Constitución, las leyes, los decretos-leyes, decretos presidenciales, decretos y demás disposiciones dictadas por un órgano de superior jerarquía, o los que afecten los intereses de otras localidades o los generales del país;"
+          ]
+        },
+        {
+          "inciso": "u",
+          "text": [
+            "u) revocar total o parcialmente las disposiciones de los jefes de organismos de la Administración Central del Estado, cuando contravengan las normas superiores que les sean de obligatorio cumplimiento;"
+          ]
+        },
+        {
+          "inciso": "v",
+          "text": [
+            "v) crear las comisiones que estime necesarias para facilitar el cumplimiento de las tareas que le están asignadas;"
+          ]
+        },
+        {
+          "inciso": "w",
+          "text": [
+            "w) designar o sustituir a los directivos y funcionarios de acuerdo con las facultades que le confiere la ley;"
+          ]
+        },
+        {
+          "inciso": "x",
+          "text": [
+            "x) someter a la aprobación de la Asamblea Nacional del Poder Popular o del Consejo de Estado su reglamento, y"
+          ]
+        },
+        {
+          "inciso": "y",
+          "text": [
+            "y) las demás atribuciones que le confieran las leyes o le encomiende la Asamblea Nacional del Poder Popular o el Consejo de Estado."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 174,
+      "text": [
+        "Corresponde al Gobernador Provincial:"
+      ],
+      "incisos": [
+        {
+          "inciso": "a",
+          "text": [
+            "a) cumplir y hacer cumplir, en lo que le concierne, la Constitución y las leyes adoptadas por los órganos competentes del Estado;"
+          ]
+        },
+        {
+          "inciso": "b",
+          "text": [
+            "b) convocar y presidir las reuniones del Consejo Provincial;"
+          ]
+        },
+        {
+          "inciso": "c",
+          "text": [
+            "c) dirigir, coordinar y controlar la labor de las estructuras organizativas de la Administración Provincial y, en el marco de su competencia, dictar disposiciones y adoptar las decisiones que correspondan;"
+          ]
+        },
+        {
+          "inciso": "d",
+          "text": [
+            "d) exigir y controlar el cumplimiento del plan de la economía y la ejecución del presupuesto de la provincia, conforme a la política acordada por los órganos nacionales competentes;"
+          ]
+        },
+        {
+          "inciso": "e",
+          "text": [
+            "e) exigir y controlar el cumplimiento de los planes de desarrollo y de ordenamiento territorial y urbano;"
+          ]
+        },
+        {
+          "inciso": "f",
+          "del": 0,
+          "text": [
+            "f) proponer al Consejo de Ministros la designación del Vicegobernador Provincial;"
+          ]
+        },
+        {
+          "inciso": "g",
+          "text": [
+            "g) designar y sustituir a los directivos y funcionarios de la Administración Provincial, y someter a la ratificación del Consejo Provincial aquellos casos previstos por la ley;"
+          ]
+        },
+        {
+          "inciso": "h",
+          "text": [
+            "h) presentar al Consejo de Ministros, previa consulta con el Consejo Provincial, las propuestas de políticas que contribuyan al desarrollo integral de la provincia;"
+          ]
+        },
+        {
+          "inciso": "i",
+          "text": [
+            "i) poner en conocimiento del Consejo de Ministros, previa consulta con el Consejo Provincial, aquellas decisiones de los órganos de superior jerarquía que afecten los intereses de la comunidad o considere extralimitan las facultades de quien las adoptó;"
+          ]
+        },
+        {
+          "inciso": "j",
+          "text": [
+            "j) suspender los acuerdos y disposiciones de los consejos de la administración municipal, que no se ajusten a la Constitución, las leyes, decretos-leyes, decretos presidenciales, decretos y demás disposiciones de los órganos del Estado, o cuando afecten los intereses de otras localidades o los generales del país, dando cuenta a la respectiva Asamblea Municipal del Poder Popular en la primera sesión que celebre después de acordada dicha suspensión;"
+          ]
+        },
+        {
+          "inciso": "k",
+          "text": [
+            "k) revocar o modificar las disposiciones que sean adoptadas por las autoridades administrativas provinciales a él subordinadas, que contravengan la Constitución, las leyes y demás disposiciones vigentes, o que afecten los intereses de otras comunidades o los generales del país;"
+          ]
+        },
+        {
+          "inciso": "l",
+          "text": [
+            "l) crear comisiones o grupos temporales de trabajo;"
+          ]
+        },
+        {
+          "inciso": "m",
+          "text": [
+            "m) disponer la publicación de los acuerdos del Consejo Provincial de interés general y controlar su ejecución; y"
+          ]
+        },
+        {
+          "inciso": "n",
+          "text": [
+            "n) las demás atribuciones que por esta Constitución o las leyes se le asignen."
+          ]
+        }
+      ]
+    }
+  ]
+}
