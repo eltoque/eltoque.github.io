@@ -24,7 +24,7 @@
                 <div class="row justify-content-center">
 
                     <button v-scroll-to="sizings" type="button" v-ripple
-                    class="btn btn-info type-button" v-if="section == 1"
+                    class="btn btn-info type-button"
                     @click="changeVisible('del')">
                     Eliminado<br/><span :class="{marks:del}">+</span></button>
                     <button v-scroll-to="sizings" type="button" v-ripple
@@ -103,7 +103,33 @@
                 </div>
                 <div id="article-listing">
 
-                    <div v-if="del" v-for="(dels, indey) in eliminados.primera">
+                    <div v-if="del && section==2" v-for="(dels) in eliminados.segunda">
+                        <h1 class="titulo">{{dels.text}}</h1>
+                        <template v-for="(arrrt, indey) in dels.articulos">
+                        <h4 :key="indey" @click="showInsideDel(indey)"
+                            class="articulo"> + {{arrrt.numero}}</h4>
+
+                            <div v-for="(texto, iiin) in arrrt.texto" class="text-article container-fluid"  :style="backStyle" v-show="checkIfVisibleDel(indey)">
+                                <div class="row">
+                                    <div class="col"><p :class="{'black-color': !texto.exist }">{{(texto.exist)?texto.texto:texto}}</p></div>
+                                    <div class="w-100"></div>
+                                </div>
+                                <div v-for="(texto2) in arrrt.incisos" class="text-article container-fluid"  :style="backStyle">
+                                    <div class="row">
+                                        <div class="col"><p >{{texto2.inciso}})</p>
+                                            <p v-for="(incis) in texto2.texto"  :class="{'black-color': !incis.exist }">{{(incis.exist)?incis.texto:incis}}</p>
+                                        </div>
+                                        <div class="w-100"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </template>
+
+                    </div>
+
+
+                    <div v-if="del && section==1" v-for="(dels, indey) in eliminados.primera">
                         <h4 v-if="dels.numero" :key="indey" @click="showInsideDel(indey)"
                             class="articulo"> + Articulo {{dels.numero}}</h4>
                         <div v-for="(texto, ins) in dels.text">

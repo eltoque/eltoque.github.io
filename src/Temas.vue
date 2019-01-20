@@ -38,11 +38,11 @@
                         </div>
                     </div>
                 </div>
-                <!--<div class="myBtn" v-scroll-to="'#article-lis'">-->
-                    <!--<font-awesome-icon style="color: white;" size="lg" icon="chevron-up">-->
-                    <!--</font-awesome-icon>-->
-                    <!--<br>-->
-                <!--</div>-->
+                <div class="myBtn hidden-sm-and-up" v-show="active"  v-scroll-to="'#article-lis'">
+                    <font-awesome-icon style="color: white;" size="lg" icon="chevron-up">
+                    </font-awesome-icon>
+                    <br>
+                </div>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12">
@@ -81,6 +81,7 @@
 
     export default {
         name: "Temas",
+        props: ["active"],
         components: {Affix, FontAwesomeIcon},
         created() {
             window.addEventListener('resize', this.handleResize)

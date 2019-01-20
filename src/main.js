@@ -102,6 +102,7 @@ new Vue({
             this.offsetSect2 = this.$el.querySelector("#question2").getBoundingClientRect().top - 60
             this.offsetSect3 = this.$el.querySelector("#question3").getBoundingClientRect().top - 60
             this.offsetSect4 = this.$el.querySelector("#question4").getBoundingClientRect().top - 60
+            this.offsetArt = this.$el.querySelector("#phase2sect3").getBoundingClientRect().top -400 >  0 && this.$el.querySelector("#phase2sect2").getBoundingClientRect().top + 60< 0
         },
         openmeth: function () {
 
@@ -138,6 +139,7 @@ new Vue({
             offsetSect2: 0,
             offsetSect3: 0,
             offsetSect4: 0,
+            offsetArt: false,
             activeSect: 0,
         }
     }
