@@ -39,7 +39,7 @@
     "den": "Bienestar animal",
     "weight": 8,
     "clasif": 0,
-    "nota": "Esta es la formulación más cercana al tema que se logró tras el debate. Este fue de los temas más polémicos."
+    "nota": "Esta es la formulación más cercana al asunto que se logró tras el debate. Fue de los temas más polémicos en los medios alternativos."
   },
   {
     "word": "Círculos infantiles",
@@ -67,7 +67,7 @@
     "den": "Concentración de la riqueza",
     "weight": 16,
     "clasif": 0,
-    "nota": "Este fue uno de los temas más debatidos entre los diputados que aprobaron el texto constitucional."
+    "nota": "Fue uno de los temas más debatidos entre los diputados que aprobaron el texto constitucional."
   },
   {
     "word": "Confiscación",
@@ -165,7 +165,7 @@
     "den": "Defensa derechos constitucionales",
     "weight": 9,
     "clasif": 1,
-    "nota": "Al reconocer explícitamente el derecho de amparo en texto avanza con respecto al tema."
+    "nota": "Al reconocer explícitamente el derecho de amparo en texto se avanza con respecto al tema."
   },
   {
     "word": "Defensor del Pueblo",
@@ -200,14 +200,14 @@
     "den": "Derecho de huelga",
     "weight": 9,
     "clasif": 0,
-    "nota": "Sobre este tema se debatió; pero no se incluyó nada en el texto constitucional."
+    "nota": "Este tema se debatió, pero no se incluyó nada en el texto constitucional."
   },
   {
     "word": "Cubanos no residentes ",
     "den": "Derechos cubanos residentes extranjero",
     "weight": 20,
     "clasif": 0,
-    "nota": "Este tema se debatió pero no se hace ninguna referncia en el texto constitucional."
+    "nota": "Este tema se debatió, pero no se hace ninguna referencia en el texto constitucional."
   },
   {
     "word": "Derechos diputados",
@@ -228,7 +228,7 @@
     "den": "Discriminación",
     "weight": 10,
     "clasif": 3,
-    "nota": "Amplía su formuación, pero deja fuera otros elementos relevantes como la no discriminación política."
+    "nota": "Amplía su formulación, pero deja fuera otros elementos relevantes como la no discriminación política."
   },
   {
     "word": "Racismo",
@@ -284,7 +284,7 @@
     "den": "Eliminar exigencia pasaporte",
     "weight": 1,
     "clasif": 0,
-    "nota": "Aunque estuvo en el debate, obre este tema no se hace referencia en el texto constitucional."
+    "nota": "Aunque se debatió, sobre este tema no se hace referencia en el texto constitucional."
   },
   {
     "word": "Empresa estatal",
@@ -312,14 +312,14 @@
     "den": "Exclusión del término comunismo y otros",
     "weight": 25,
     "clasif": 3,
-    "nota": "Con respecto a este tema retoma la formulación de la Constitución de 1976."
+    "nota": "Con respecto a este tema se retoma la formulación de la Constitución de 1976."
   },
   {
     "word": "Feminicidio",
     "den": "Feminicidio",
     "weight": 2,
     "clasif": 0,
-    "nota": "Aunque este término no se utiliza en el texto, si hace referncia en varias ocaciones a la protección contra la violencia a las mujeres.,"
+    "nota": "Aunque este término no se utiliza en el texto, si hace referencia en varias ocaciones a la protección contra la violencia a las mujeres.,"
   },
   {
     "word": "Reformas constitucionales",
@@ -347,14 +347,14 @@
     "den": "Funcionamiento de la ANPP",
     "weight": 30,
     "clasif": 1,
-    "nota": "A penas tuvo cambios despúes del debate."
+    "nota": "Apenas tuvo cambios despúes del debate."
   },
   {
     "word": "Presidente",
     "den": "Funciones del presidente",
     "weight": 7,
     "clasif": 1,
-    "nota": "A pesar de ser uno de los temas más debatidos y que más propuestas generó. En este tema el único cambio que hubo fue la forma de elegir al gobernador, que es parte de las atribuciones del Presidente."
+    "nota": "A pesar de ser uno de los temas más debatidos y que más propuestas generó. El único cambio que hubo fue la forma de elegir al gobernador, que es parte de las atribuciones del Presidente."
   },
   {
     "word": "1º Ministro",
@@ -368,7 +368,7 @@
     "den": "Gobernador",
     "weight": 35,
     "clasif": 1,
-    "nota": "Despúes del debate, se redujo el alcance de su función, dejándolo solo en la responsabilidad ejecutivo administrativa y cambió su forma de elección: ahora es elegido por los delegados municipales a propuesta del Presidente de la República."
+    "nota": "Después del debate, se redujo el alcance de su función, dejándolo solo en la responsabilidad ejecutivo administrativa y cambió su forma de elección: ahora es elegido por los delegados municipales a propuesta del Presidente de la República."
   },
   {
     "word": "Habeas data",
@@ -452,7 +452,7 @@
     "den": "Límite edad presidente",
     "weight": 20,
     "clasif": 3,
-    "nota": "Sobre este tema se dieron 24 365 opiniones según datos oficiales; pero el texto no sufrió nnguna modificación."
+    "nota": "Sobre este tema se dieron 24 365 opiniones según datos oficiales; pero el texto no sufrió ninguna modificación."
   },
   {
     "word": "Laicismo",
@@ -501,14 +501,14 @@
     "den": "Matrimonio",
     "weight": 99,
     "clasif": 3,
-    "nota": " Desató la principal polémica del texto, con 192 408 opiniones en las asambleas y mucho debate en los medios de comunicación. Si bien su redacción final avanza sobre la Constitución vigente, es más amplia y tiene una mirada detalla al tema familia; con respecto al proyecto anteriormente presentado da un paso atrás y saca el asunto del matrimonio igualitaria fuera de Constitución."
+    "nota": "Desató la principal polémica del texto, con 192 408 opiniones en las asambleas y mucho debate en los medios de comunicación. Si bien su redacción final avanza sobre la Constitución vigente, es más amplia y tiene una mirada detallada al tema familia; con respecto al proyecto anteriormente presentado saca el asunto del matrimonio igualitaria fuera de Constitución."
   },
   {
     "word": "Medios de Comunicación",
     "den": "Medios de Comunicación",
     "weight": 16,
     "clasif": 1,
-    "nota": "En este asunto se limita la propiedad de medios fundamentales."
+    "nota": "Se limita la propiedad de medios fundamentales."
   },
   {
     "word": "Fuerzas Armadas",
@@ -536,7 +536,7 @@
     "den": "Objeción de conciencia",
     "weight": 2,
     "clasif": 2,
-    "nota": "No varió su formulación. Su redacción está desde cuando no se puede invocar, pero no explícita cuando sí."
+    "nota": "No varió su formulación. Su redacción aclara cuando no se puede invocar, pero no explícita cuando sí."
   },
   {
     "word": "Organizaciones sociales",
@@ -564,7 +564,7 @@
     "den": "Prohibición de pena de muerte",
     "weight": 8,
     "clasif": 0,
-    "nota": "Este tema se debatió y aunque la Constitución reconoce el derecho a la vida; no se incluyó nada en explícito en el texto."
+    "nota": "Este tema se debatió, y aunque la Constitución reconoce el derecho a la vida, no se incluyó nada explícito en el texto."
   },
   {
     "word": "Privación de libertad",
@@ -578,7 +578,7 @@
     "den": "Pobreza",
     "weight": 9,
     "clasif": 0,
-    "nota": "Sobre este tema se debatió; pero no se incluyó nada en el texto constitucional."
+    "nota": "Sobre este tema se debatió, pero no se incluyó nada en el texto constitucional."
   },
   {
     "word": "Proceso judicial",
@@ -767,14 +767,14 @@
     "den": "Traición a la Patria",
     "weight": 8,
     "clasif": 1,
-    "nota": "Este fue un tema muy debatido y su redacción quedó tal como estaba."
+    "nota": "Este fue un tema muy debatido y su redacción quedó como estaba."
   },
   {
     "word": "Tribunal Constitucional",
     "den": "Tribunal Constitucional",
     "weight": 26,
     "clasif": 0,
-    "nota": "Sobre este tema se debatió, peo no se incluyó en el texto constitucional."
+    "nota": "Sobre este tema se debatió, pero no se incluyó en el texto constitucional."
   },
   {
     "word": "Tribunales",
@@ -802,7 +802,7 @@
     "den": "Derecho al aborto",
     "weight": 7,
     "clasif": 0,
-    "nota": "Aunque no se reconoce explícitamente el tema, que se incororen los derechos sexuales y reproductivos es un avance."
+    "nota": "Aunque no se reconoce explícitamente el tema, que se incorporen los derechos sexuales y reproductivos es un avance."
   },
   {
     "word": "Exilio",
