@@ -91,6 +91,10 @@ new Vue({
                 this.activeSect = 0
                 this.actualphase = ""
             }
+            if (this.$el.querySelector("#phase3").getBoundingClientRect().top - 60 < 0) {
+                this.actualphase = "III"
+                this.activeSect = 5
+            }
             if (this.$el.querySelector("#phase2").getBoundingClientRect().top - 60 < 0) {
                 this.actualphase = "II"
                 this.activeSect = 5
