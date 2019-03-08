@@ -31,6 +31,7 @@ import Toast from 'buefy/dist/components/toast'
 import VueWow from 'vue-wow'
 import VueAnalytics from 'vue-analytics'
 import Borrador from './Borrador.vue'
+import SunBurst from './SunBurst.vue'
 import BorradorTemp from './BorradorTemp.vue'
 
 var VueScrollTo = require('vue-scrollto');
@@ -83,7 +84,8 @@ new Vue({
         IndexRights,
         Borrador,
         BorradorTemp,
-        Temas
+        Temas,
+        SunBurst
     },
     methods: {
         onScroll(e) {
