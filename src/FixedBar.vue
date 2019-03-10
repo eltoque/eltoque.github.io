@@ -114,7 +114,7 @@
         margin: 0px auto;
         padding-top: 5px;
         text-align: center;
-        font-size: 19px;
+        font-size: 17px;
         letter-spacing: 3px;
     }
 
