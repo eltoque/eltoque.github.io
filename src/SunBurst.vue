@@ -1,21 +1,15 @@
 <template>
     <div class="container-fluid indrig">
         <div class="row">
-            <div class="col col-md-4">
-                <ul class="data-elm">
-                    <v-divider></v-divider>
-                    <template v-for="(item, index) in prov">
-                        <li v-ripple v-scroll-to="sizings" class="data-itemm " @click="clickProv(index)">
-                            <div class="circle"></div>
-                            {{item}}
-                        </li>
-                        <v-divider v-if="index + 1 < prov.length"
-                                   :key="`divider-${index}`"></v-divider>
-                    </template>
-                </ul>
-            </div>
-            <div class="col-md-8">
-                <div id="grafico">{{prov[selectedItem]}}</div>
+            <div class="col col-md-12" style="text-align: center">
+                <b-select placeholder="Seleccione una provincia" v-model="selectedItem" class="grafico">
+                    <option
+                            v-for="(option, index) in prov"
+                            :value="index"
+                            :key="index">
+                        {{ option}}
+                    </option>
+                </b-select>
                 <div class="grafic">
                     <sunburst-chart :data='sunburstChartData' :config="chartConfig"></sunburst-chart>
                 </div>
@@ -32,22 +26,16 @@
         faChevronDown
     } from '@fortawesome/free-solid-svg-icons'
     import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
-
+    import BSelect from "buefy/src/components/select";
     library.add(faChevronDown)
     export default {
         name: "SunBurst",
-        created() {
-            window.addEventListener('resize', this.handleResize)
-            this.handleResize();
-        },
-        destroyed() {
-            window.removeEventListener('resize', this.handleResize)
-        },
         components: {
             'sunburst-chart': ChartSunburst
         },
         data: () => ({
-            datas: [{
+            datas: [
+                {
                 novoto: 857380,
                 votono: 706400,
                 votosi: 6816169,
@@ -243,7 +231,7 @@
             },],
             selectedItem: 0,
             prov: [
-                'Todos',
+                'Todas',
                 'Pinar del Río',
                 'Artemisa',
                 'La Habana',
@@ -276,11 +264,6 @@
             }
         },
         computed: {
-            sizings: function () {
-                if (this.widths < 468)
-                    return "#grafico"
-                return false
-            },
             sunburstChartData: function () {
                 return {
                     "label": "Electores",
@@ -375,9 +358,9 @@
 
     }
 
-    #grafico {
-     text-align: center;
+    .grafico {
         font-family: TradeGothicLTStd-Bold;
+        max-width: 300px;
         text-transform: uppercase;
         color: #33ccb2;
         font-size: 18px;
