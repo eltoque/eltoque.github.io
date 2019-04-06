@@ -51,9 +51,11 @@
     .credits {
         height: 1200px !important;
     }
+
     .dark {
         height: 1000px !important;
     }
+
     .credits-button {
         width: 100% !important;
     }
@@ -62,17 +64,28 @@
         font-size: 30px !important;
         text-align-last: center !important;
     }
-    h2.text-section-title-up{
-       padding-top: 10px !important;
+
+    h2.text-section-title-up {
+        padding-top: 10px !important;
     }
 
 
     .others h2.text-section-title {
         font-size: 17px !important;
     }
+
     .yt-video {
         width: 320px !important;
         height: 180px !important;
+    }
+
+    h2 div.icon-title {
+        display: table !important;
+        margin: 10px auto !important;
+    }
+
+    h2.text-section-title, h2.text-section-title-up {
+        padding-top: 10px !important;
     }
 
 }
@@ -156,7 +169,8 @@ body * {
     color: #ffffff;
     margin: 20px;
 }
-a.credits-button:hover{
+
+a.credits-button:hover {
     text-decoration: none;
     color: #ffffff;
 }
@@ -168,7 +182,8 @@ a.credits-button:hover{
     z-index: 2;
     position: absolute;
 }
-.phase-button{
+
+.phase-button {
     max-width: 200px;
     height: 35px;
     cursor: pointer;
@@ -181,7 +196,7 @@ a.credits-button:hover{
     line-height: normal;
     letter-spacing: 4px;
     text-align: center;
-    background-color:  rgb(0, 0, 100);
+    background-color: rgb(0, 0, 100);
     color: #ffffff;
     margin: 8px;
 }
@@ -217,7 +232,8 @@ a.credits-button:hover{
 .credits-text {
     z-index: 3;
 }
-.note{
+
+.note {
     text-align: center;
     font-size: 13px;
     font-style: italic;
@@ -351,7 +367,7 @@ a.credits-button:hover{
     letter-spacing: 8px;
 }
 
-.text-credits , .text-credits a{
+.text-credits, .text-credits a {
     font-family: TradeGothicLTStd-Bold;
     font-size: 20px;
     margin: 0px auto;
@@ -397,6 +413,7 @@ a.credits-button:hover{
     width: 560px;
     height: 315px;
 }
+
 .yt-list {
     margin: 20px auto;
 }
@@ -494,7 +511,6 @@ div.text-section-title {
 }
 
 
-
 .list-recomended .box-recomend {
     background-size: 100% 100%, 100% auto !important;
     background-position: center center !important;
@@ -583,31 +599,34 @@ div.text-section-title {
     margin-top: 20px;
 }
 
-.proyect-all{
+.proyect-all {
     max-width: 800px;
     margin: 20px auto;
 }
-.proyect-all .titulo{
+
+.proyect-all .titulo {
     font-size: 26px;
     text-transform: uppercase;
 }
-.proyect-all .capitulo{
+
+.proyect-all .capitulo {
     font-size: 22px;
     text-transform: uppercase;
 }
 
-.proyect-all .articulo{
+.proyect-all .articulo {
     font-size: 1.2em;
     text-align: justify;
     padding-bottom: 10px;
 }
+
 .proyect-all .articulo-titulo {
     font-size: 19px;
     font-weight: bold;
 }
 
-.read-tool{
-display: inline-block;
+.read-tool {
+    display: inline-block;
     width: auto;
     position: fixed;
     top: 50px;
@@ -618,30 +637,30 @@ display: inline-block;
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .6));
 
 }
-.read-tool div{
+
+.read-tool div {
     float: left;
     height: 100%;
     margin: 0px 10px;
     vertical-align: middle;
 }
 
-.down-icon{
+.down-icon {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-a .down-icon{
+a .down-icon {
     color: #212529;
 }
 
-.title-const{
+.title-const {
     margin: 5px auto;
     text-align: center;
 }
-@media print
-{
-.no-print, .no-print *
-{
-    display: none !important;
-}
+
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
 }

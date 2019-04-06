@@ -13204,16 +13204,16 @@
                 visble[i] = false;
             }
 
-            let delEx = "Aquí puedes ver todo el contenido de la Constitución de 1976 que no se incluyó —de ninguna manera— en el proyecto constitucional. Siempre verás el artículo completo y en color negro está el fragmento eliminado."
+            let delEx = "Puedes ver todo el contenido de la Constitución de 1976 que no se incluyó —de ninguna manera— en el proyecto constitucional. Siempre verás el artículo completo y en color negro aparecerá el fragmento eliminado."
             return {
                 selected: "mark",
                 explicative: delEx,
                 delEx: delEx,
                 widths: 0,
                 open: false,
-                equEx: "Aquí puedes ver todo el contenido que estaba en la Constitución de 1976 y que se mantiene en el proyecto. Siempre verás el artículo completo y en color negro está el fragmento igual.",
-                addEx: "Aquí puedes ver todo el contenido que no está en la Constitución de 1976 y que aparece por primera vez en el proyecto constitucional. Siempre verás el artículo completo y en color negro está el fragmento nuevo.",
-                modEx: "Aquí puedes ver todo el contenido de la Constitución de 1976 que en el proyecto se transformó. Puede ser por adición, eliminación o cambio de posición de alguna de sus partes. Siempre verás a la izquierda el texto del proyecto y a la derecha el de la Constitución de 1976. Aparece tachado en rojo lo que se eliminó y en color amarillo lo que se agregó.",
+                equEx: "Puedes ver todo el contenido que estaba en la Constitución de 1976 y que se mantiene en el proyecto. Siempre verás el artículo completo y en color negro aparecerá el fragmento que se mantiene igual.",
+                addEx: "Puedes ver todo el contenido que no está en la Constitución de 1976 y que aparece por primera vez en el proyecto constitucional. Siempre verás el artículo completo y en color negro aparecerá el fragmento nuevo.",
+                modEx: "Puedes ver todo el contenido de la Constitución de 1976 que en el proyecto se transformó. Puede ser por adición, eliminación o cambio de posición de alguna de sus partes. Siempre verás a la izquierda el texto del proyecto y a la derecha el de la Constitución de 1976. Aparece tachado en rojo lo que se eliminó y en color amarillo lo que se agregó.",
                 value1: 42.2,
                 value2: 45.8,
                 value3: 12,

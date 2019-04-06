@@ -54,8 +54,8 @@
         name: "Rights",
         components: {FontAwesomeIcon},
         data() {
-            let initial = ["El reconocimiento a los Derechos Humanos en el proyecto constitucional es señalado como un gran progreso. Entre los elementos más destacados del documento que se ha puesto a consideración resalta la inclusión de nuevos derechos y libertades, aunque también llaman la atención la aparición de límites a algunos derechos ya conquistados en nuevas formulaciones y las pocas garantías para el cumplimiento de todos.",
-                "Al tocar sobre cada derecho puedes ver el artículo donde se reconoce y el sujeto al que beneficia."]
+            let initial = ["El reconocimiento a los Derechos Humanos en el proyecto constitucional es señalado como un gran progreso. Entre los elementos más destacados del documento que se han puesto a consideración resalta la inclusión de nuevos derechos y libertades, aunque también llaman la atención la aparición de límites a algunos derechos ya conquistados en nuevas formulaciones y las pocas garantías para el cumplimiento de todos.",
+                "Al seleccionar cada uno de los derechos, podrás ver el artículo en el cual se reconoce y el sujeto al que beneficia."]
             return {
                 article: "",
                 initial: initial,

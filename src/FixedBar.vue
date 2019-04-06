@@ -6,7 +6,7 @@
                     <div class="col-md-3 text-sm-center text-xs-center">
                         <img src="/src/assets/logo.png" class="top-bar-logo"/></div>
                     <div :class="(hideNumbers)?'col-md-3 text-center':'col-md-6 text-center'">
-                        <div class="menu-phase"><span v-scroll-to="'#phase3'" :class="{actives: phase=='III'}">Fase III</span>-<span v-scroll-to="'#phase2'" :class="{actives: phase=='II'}">Fase II</span>-<span v-scroll-to="'#phase1'" :class="{actives: phase=='I'}">Fase I</span></div>
+                        <div :class="{grow: !hideNumbers}" class="menu-phase"><span v-scroll-to="'#phase3'" :class="{actives: phase=='III'}">Fase III</span> - <span v-scroll-to="'#phase2'" :class="{actives: phase=='II'}">Fase II</span> - <span v-scroll-to="'#phase1'" :class="{actives: phase=='I'}">Fase I</span></div>
                     </div>
                     <div class="col-md-3 text-center" v-show="hideNumbers">
                             <a href="#question1" v-scroll-to="'#question1'" :class="{active: isActive(1)}" class="icon-title">1</a>
@@ -174,6 +174,9 @@
         filter: drop-shadow(0 1px 10px rgba(0, 0, 0, .8));
         transition: 0.5s;
 
+    }
+    .grow {
+        margin-bottom: 25px;
     }
 
 

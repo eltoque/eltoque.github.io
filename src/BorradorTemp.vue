@@ -24,9 +24,9 @@
                 <div class="row justify-content-center">
 
                     <button v-scroll-to="sizings" type="button" v-ripple
-                    class="btn btn-info type-button"
-                    @click="changeVisible('del')">
-                    Eliminado<br/><span :class="{marks:del}">+</span></button>
+                            class="btn btn-info type-button"
+                            @click="changeVisible('del')">
+                        Eliminado<br/><span :class="{marks:del}">+</span></button>
                     <button v-scroll-to="sizings" type="button" v-ripple
                             style="background-color: rgb(2,166,141)"
                             class="btn btn-info type-button"
@@ -47,48 +47,48 @@
                 <div class="container-fluid">
                     <transition name="bounce" type="transition" mode="in-out" appear>
                         <div v-if="del && section == 1" class="explicative-type">
-                            Aquí puedes ver todo el contenido del proyecto de Constitución sometido a debate popular que
-                            no se incluyó —de ninguna manera— en el texto constitucional que se votará. Siempre verás el
-                            artículo completo y en color negro está el elemento eliminado.
+                            Puedes ver todo el contenido que no está en proyecto de Constitución y que aparece por
+                            primera vez en el texto constitucional que se votará. Siempre verás el artículo completo y
+                            en color negro aparecerá el elemento nuevo.
                         </div>
                         <div v-if="equ && section == 1" class="explicative-type">
-                            Aquí puedes ver todo el contenido que estaba en proyecto de Constitución que se debatió
+                            Puedes ver todo el contenido que estaba en el proyecto de Constitución que se debatió
                             popularmente y que se mantiene en el texto constitucional que se votará. Siempre verás el
-                            artículo completo y en color negro está el elemento igual.
+                            artículo completo y en color negro aparecerá el elemento que se mantiene sin cambio.
                         </div>
                         <div v-if="comp && section == 1" class="explicative-type">
-                            Aquí puedes ver todo el contenido del proyecto de Constitución sometido a debate popular que
-                            en el texto constitucional que se votará se transformó. Puede ser por adición, eliminación o
+                            Puedes ver todo el contenido del proyecto de Constitución sometido a debate popular que en
+                            el texto constitucional que se votará se transformó. Puede ser por adición, eliminación o
                             cambio de posición de alguna de sus partes. Siempre verás a la izquierda el nuevo texto
                             constitucional y a la derecha el proyecto que se debatió. Aparece tachado en rojo lo que se
                             eliminó y en color amarillo lo que se agregó.
                         </div>
                         <div v-if="nu && section == 1" class="explicative-type">
-                            Aquí puedes ver todo el contenido que no está en proyecto de Constitución y que aparece por
+                            Puedes ver todo el contenido que no está en el proyecto de Constitución y que aparece por
                             primera vez en el texto constitucional que se votará. Siempre verás el artículo completo y
                             en color negro está el elemento nuevo.
                         </div>
                         <div v-if="del && section == 2" class="explicative-type">
-                            Aquí puedes ver todo el contenido de la Constitución de 1976 que no se incluyó —de ninguna
+                            Puedes ver todo el contenido de la Constitución de 1976 que no se incluyó —de ninguna
                             manera— en el texto constitucional que se votará. Siempre verás el artículo completo y en
-                            color negro está el elemento eliminado.
+                            color negro aparecerá el elemento eliminado.
                         </div>
                         <div v-if="equ && section == 2" class="explicative-type">
-                            Aquí puedes ver todo el contenido que estaba en la Constitución de 1976 y que se mantiene en
-                            el texto constitucional que se votará. Siempre verás el artículo completo y en color negro
-                            está el elemento igual.
+                            Puedes ver todo el contenido que estaba en la Constitución de 1976 y que se mantiene en el
+                            texto constitucional que se votará. Siempre verás el artículo completo y en color negro
+                            aparecerá el elemento que se mantiene sin cambio.
                         </div>
                         <div v-if="comp && section == 2" class="explicative-type">
-                            Aquí puedes ver todo el contenido de la Constitución de 1976 que en el texto que se votará
-                            se transformó. Puede ser por adición, eliminación o cambio de posición de alguna de sus
-                            partes. Siempre verás a la izquierda el texto del proyecto que se votará y a la derecha el
-                            de la Constitución de 1976. Aparece tachado en rojo lo que se eliminó y en color amarillo lo
-                            que se agregó.
+                            Puedes ver todo el contenido de la Constitución de 1976 que en el texto que se votará fue
+                            transformado. Ya sea por adición, eliminación o cambio de posición de alguna de sus partes.
+                            Siempre verás a la izquierda el texto del proyecto que se votará y a la derecha el de la
+                            Constitución de 1976. Aparece tachado en rojo lo que se eliminó y en color amarillo lo que
+                            se agregó.
                         </div>
                         <div v-if="nu && section == 2" class="explicative-type">
                             Aquí puedes ver todo el contenido que no está en la Constitución de 1976 y que aparece por
                             primera vez en el texto constitucional que se votará. Siempre verás el artículo completo y
-                            en color negro está el elemento nuevo.
+                            en color negro aparecerá el elemento nuevo.
                         </div>
                     </transition>
                     <affix relative-element-selector="#article-listing" class="sidebar-men"
@@ -106,18 +106,22 @@
                     <div v-if="del && section==2" v-for="(dels) in eliminados.segunda">
                         <h1 class="titulo">{{dels.text}}</h1>
                         <template v-for="(arrrt, indey) in dels.articulos">
-                        <h4 :key="indey" @click="showInsideDel(indey)"
-                            class="articulo"> + {{arrrt.numero}}</h4>
+                            <h4 :key="indey" @click="showInsideDel(indey)"
+                                class="articulo"> + {{arrrt.numero}}</h4>
 
-                            <div v-for="(texto, iiin) in arrrt.texto" class="text-article container-fluid"  :style="backStyle" v-show="checkIfVisibleDel(indey)">
+                            <div v-for="(texto, iiin) in arrrt.texto" class="text-article container-fluid"
+                                 :style="backStyle" v-show="checkIfVisibleDel(indey)">
                                 <div class="row">
-                                    <div class="col"><p :class="{'black-color': !texto.exist }">{{(texto.exist)?texto.texto:texto}}</p></div>
+                                    <div class="col"><p :class="{'black-color': !texto.exist }">
+                                        {{(texto.exist)?texto.texto:texto}}</p></div>
                                     <div class="w-100"></div>
                                 </div>
-                                <div v-for="(texto2) in arrrt.incisos" class="text-article container-fluid"  :style="backStyle">
+                                <div v-for="(texto2) in arrrt.incisos" class="text-article container-fluid"
+                                     :style="backStyle">
                                     <div class="row">
-                                        <div class="col"><p >{{texto2.inciso}})</p>
-                                            <p v-for="(incis) in texto2.texto"  :class="{'black-color': !incis.exist }">{{(incis.exist)?incis.texto:incis}}</p>
+                                        <div class="col"><p>{{texto2.inciso}})</p>
+                                            <p v-for="(incis) in texto2.texto" :class="{'black-color': !incis.exist }">
+                                                {{(incis.exist)?incis.texto:incis}}</p>
                                         </div>
                                         <div class="w-100"></div>
                                     </div>
@@ -133,7 +137,8 @@
                         <h4 v-if="dels.numero" :key="indey" @click="showInsideDel(indey)"
                             class="articulo"> + Articulo {{dels.numero}}</h4>
                         <div v-for="(texto, ins) in dels.text">
-                            <div class="text-article container-fluid" v-show="checkIfVisibleDel(indey)" :style="backStyle">
+                            <div class="text-article container-fluid" v-show="checkIfVisibleDel(indey)"
+                                 :style="backStyle">
                                 <div class="row">
                                     <div class="col"><p :class="{'black-color': dels.del==ins }">{{texto}}</p></div>
                                     <div class="w-100"></div>
@@ -141,9 +146,11 @@
                             </div>
                         </div>
                         <div v-if="dels.incisos" v-for="(texto) in dels.incisos">
-                            <div class="text-article container-fluid" v-show="checkIfVisibleDel(indey)" :style="backStyle">
+                            <div class="text-article container-fluid" v-show="checkIfVisibleDel(indey)"
+                                 :style="backStyle">
                                 <div class="row">
-                                    <div class="col"><p :class="{'black-color': texto.del==0 }">{{texto.text[0]}}</p></div>
+                                    <div class="col"><p :class="{'black-color': texto.del==0 }">{{texto.text[0]}}</p>
+                                    </div>
                                     <div class="w-100"></div>
                                 </div>
                             </div>
@@ -299,7 +306,7 @@
             }
         },
         methods: {
-            checkIfVisibleDel(index){
+            checkIfVisibleDel(index) {
                 this.listDelvisble[index] = (this.listDelvisble[index] == undefined || this.listDelvisble[index] == false) ? false : true
                 return this.listDelvisble[index]
             },
