@@ -22,213 +22,150 @@
 <script>
     import {ChartSunburst} from 'vue-d2b'
     import {library} from '@fortawesome/fontawesome-svg-core'
-    import {
-        faChevronDown
-    } from '@fortawesome/free-solid-svg-icons'
-    import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
-    import BSelect from "buefy/src/components/select";
+    import {faChevronDown} from '@fortawesome/free-solid-svg-icons'
+
     library.add(faChevronDown)
     export default {
         name: "SunBurst",
         components: {
             'sunburst-chart': ChartSunburst
         },
+        mounted() {
+            setTimeout(
+                function () {
+                    const el = document.querySelector(".d2b-breadcrumbs-frame")
+                    el.style.display = 'block'
+                }, 10000
+            )
+        },
         data: () => ({
             datas: [
                 {
-                novoto: 857380,
-                votono: 706400,
-                votosi: 6816169,
-                blanco: 198674,
-                anuladas: 127100
-            }, {
-                novoto: 29627
-                ,
-                votono: 23784
-                ,
-                votosi: 380326
-                ,
-                blanco: 14204
-                ,
-                anuladas: 5379
+                    novoto: 857380,
+                    votono: 706400,
+                    votosi: 6816169,
+                    blanco: 198674,
+                    anuladas: 127100
+                }, {
+                    novoto: 29627,
+                    votono: 23784,
+                    votosi: 380326,
+                    blanco: 14204,
+                    anuladas: 5379
 
-            }, {
-                novoto: 28524
-                ,
-                votono: 31099
-                ,
-                votosi: 314356
-                ,
-                blanco: 12349
-                ,
-                anuladas: 10144
+                }, {
+                    novoto: 28524,
+                    votono: 31099,
+                    votosi: 314356,
+                    blanco: 12349,
+                    anuladas: 10144
 
-            }, {
-                novoto: 237978
-                ,
-                votono: 147380
-                ,
-                votosi: 1235178
-                ,
-                blanco: 36772
-                ,
-                anuladas: 30438
+                }, {
+                    novoto: 237978,
+                    votono: 147380,
+                    votosi: 1235178,
+                    blanco: 36772,
+                    anuladas: 30438
 
-            }, {
-                novoto: 22776
-                ,
-                votono: 29151
-                ,
-                votosi: 228856
-                ,
-                blanco: 7947
-                ,
-                anuladas: 8187
+                }, {
+                    novoto: 22776,
+                    votono: 29151,
+                    votosi: 228856,
+                    blanco: 7947,
+                    anuladas: 8187
 
-            }, {
-                novoto: 52538
-                ,
-                votono: 35888
-                ,
-                votosi: 456967
-                ,
-                blanco: 9887
-                ,
-                anuladas: 8945
+                }, {
+                    novoto: 52538,
+                    votono: 35888,
+                    votosi: 456967,
+                    blanco: 9887,
+                    anuladas: 8945
 
-            }, {
-                novoto: 50070
-                ,
-                votono: 41794
-                ,
-                votosi: 497482
-                ,
-                blanco: 14694
-                ,
-                anuladas: 8136
+                }, {
+                    novoto: 50070,
+                    votono: 41794,
+                    votosi: 497482,
+                    blanco: 14694,
+                    anuladas: 8136
 
-            }, {
-                novoto: 32207
-                ,
-                votono: 20964
-                ,
-                votosi: 248007
-                ,
-                blanco: 7775
-                ,
-                anuladas: 5147
+                }, {
+                    novoto: 32207,
+                    votono: 20964,
+                    votosi: 248007,
+                    blanco: 7775,
+                    anuladas: 5147
 
-            }, {
-                novoto: 26556
-                ,
-                votono: 20651
-                ,
-                votosi: 310212
-                ,
-                blanco: 6862
-                ,
-                anuladas: 4279
+                }, {
+                    novoto: 26556,
+                    votono: 20651,
+                    votosi: 310212,
+                    blanco: 6862,
+                    anuladas: 4279
 
-            }, {
-                novoto: 27097
-                ,
-                votono: 19108
-                ,
-                votosi: 283004
-                ,
-                blanco: 6361
-                ,
-                anuladas: 3901
+                }, {
+                    novoto: 27097,
+                    votono: 19108,
+                    votosi: 283004,
+                    blanco: 6361,
+                    anuladas: 3901
 
-            }, {
-                novoto: 62022
-                ,
-                votono: 42955
-                ,
-                votosi: 473335
-                ,
-                blanco: 11356
-                ,
-                anuladas: 7772
+                }, {
+                    novoto: 62022,
+                    votono: 42955,
+                    votosi: 473335,
+                    blanco: 11356,
+                    anuladas: 7772
 
-            }, {
-                novoto: 37251
-                ,
-                votono: 39313
-                ,
-                votosi: 316983
-                ,
-                blanco: 9093
-                ,
-                anuladas: 5292
+                }, {
+                    novoto: 37251,
+                    votono: 39313,
+                    votosi: 316983,
+                    blanco: 9093,
+                    anuladas: 5292
 
-            }, {
-                novoto: 80479
-                ,
-                votono: 102161
-                ,
-                votosi: 567837
-                ,
-                blanco: 26068
-                ,
-                anuladas: 12518
+                }, {
+                    novoto: 80479,
+                    votono: 102161,
+                    votosi: 567837,
+                    blanco: 26068,
+                    anuladas: 12518
 
-            }, {
-                novoto: 55587
-                ,
-                votono: 44585
-                ,
-                votosi: 507351
-                ,
-                blanco: 13187
-                ,
-                anuladas: 6126
+                }, {
+                    novoto: 55587,
+                    votono: 44585,
+                    votosi: 507351,
+                    blanco: 13187,
+                    anuladas: 6126
 
-            }, {
-                novoto: 71378
-                ,
-                votono: 55878
-                ,
-                votosi: 635901
-                ,
-                blanco: 14572
-                ,
-                anuladas: 6549
+                }, {
+                    novoto: 71378,
+                    votono: 55878,
+                    votosi: 635901,
+                    blanco: 14572,
+                    anuladas: 6549
 
-            }, {
-                novoto: 34410
-                ,
-                votono: 46970
-                ,
-                votosi: 278851
-                ,
-                blanco: 5994
-                ,
-                anuladas: 3823
+                }, {
+                    novoto: 34410,
+                    votono: 46970,
+                    votosi: 278851,
+                    blanco: 5994,
+                    anuladas: 3823
 
-            }, {
-                novoto: 6126
-                ,
-                votono: 4321
-                ,
-                votosi: 51171
-                ,
-                blanco: 1480
-                ,
-                anuladas: 445
+                }, {
+                    novoto: 6126,
+                    votono: 4321,
+                    votosi: 51171,
+                    blanco: 1480,
+                    anuladas: 445
 
-            }, {
-                novoto: 2754
-                ,
-                votono: 398
-                ,
-                votosi: 30352
-                ,
-                blanco: 73
-                ,
-                anuladas: 19
+                }, {
+                    novoto: 2754,
+                    votono: 398,
+                    votosi: 30352,
+                    blanco: 73,
+                    anuladas: 19
 
-            },],
+                }],
             selectedItem: 0,
             prov: [
                 'Todas',
@@ -319,7 +256,7 @@
     @media screen and (max-width: 500px) {
         .d2b-breadcrumbs-frame {
             display: none;
-            width: 0px !important;
+            width: 0px;
         }
     }
 
@@ -352,7 +289,7 @@
         @media screen and (max-width: 500px) {
             .d2b-breadcrumbs-frame {
                 display: none;
-                width: 0px !important;
+                width: 0px;
             }
         }
 
