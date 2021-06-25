@@ -58,14 +58,14 @@
             FluxParallax, FontAwesomeIcon
         },
         created() {
-            axios.get(`https://eltoque.com/wp-json/wp/v2/posts/?_embed=1&tags=${this.tag}`)
+            axios.get(`https://api.eltoque.com/posts?tags=${this.tag}&_sort=publish_date:ASC&_limit=10`)
                 .then(response => {
                     // JSON responses are automatically parsed.
                     for (let item of response.data) {
                         this.items.push({
-                            link: item.link,
-                            title: item.title.rendered,
-                            photo: item._embedded["wp:featuredmedia"][0].source_url
+                            link: `https://eltoque.com/${item.slug}`,
+                            title: item.title,
+                            photo: `https://eltoque.com/${item.feature_image.url}`
                         })
                     }
                 })
